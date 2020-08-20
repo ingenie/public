@@ -1,0 +1,68 @@
+language: node_js
+
+node_js:
+  - 11.12.0
+
+branches:
+    only:
+        - master
+
+env:
+    global:
+        - IG_DIR=$SHIPPABLE_REPO_DIR
+        - THEME_DIR=$SHIPPABLE_REPO_DIR/wp-content/themes/ingenie2020
+
+integrations:
+    notifications:
+      - integrationName: slack ig-wordpress
+        type: slack
+        recipients:
+            - "#ig-wordpress"
+        on_success: always #change, always, never available
+        on_failure: always #change, always, never available
+        on_cancel: never #change, always, never available
+        on_start: always #just always and never
+        on_pull_request: always #just always and never
+    
+notifications:
+  email: false
+
+build:
+  ci:
+    # Go to theme dir and install dependencies
+    # Remove any local builds and run prod build
+    - cd $THEME_DIR
+    - shippable_retry sudo npm install
+    - echo 'Remove a local build if there is one...'
+    - if test -d build/; then rm -r build/; else echo 'No local build dir to delete. Yay!'; fi
+    - npm run prod
+ 
+    # Linting
+    # - ng lint
+
+    # Remove unwanted file
+    - cd $IG_DIR && ls
+    - rm README.md
+    - rm shippable.yml
+    - rm .gitignore
+    - rm -r shippable/
+
+    # Add asset build to git
+    - git add wp-content/themes/ingenie2020/build/
+    - git commit -m "Shippable build for prod"
+
+    # Sing like no ones watching and add version.txt for identification
+    - echo $BUILD_URL / "Message:${COMMIT_MESSAGE}"
+    - echo $BRANCH / "Build No.${BUILD_NUMBER}" / $IS_GIT_TAG / $GIT_TAG_NAME
+    - echo -e "BUILD_NUMBER:${BUILD_NUMBER} / REVISION:${COMMIT}" > $IG_DIR/version.txt
+    
+  cache: false
+
+  # TODO: Add staging later and set master to include if pull request only!!
+  on_success:
+    - if [ "$BRANCH" == "master" ]; then git push -f shippable@ingenie.pagelydev.com:/data/git/git/ingeniecom-insurance.git $BRANCH:master; fi
+    - echo "SUCCESS"
+
+  on_failure:
+    - echo "FAIL"
+
