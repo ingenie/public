@@ -13,7 +13,7 @@
 		// no context-specific functionality – the simply render data handed to them as follows:
 		\ingenie2020Theme\View::render( 'ExampleView', [
 			'title' => 'Hello - I am Elton - Browser Syncing working?',
-			'text' => 'My name is Phil Kurth and I build themes and plugins for WordPress. You can learn more about me at <a href="https://philkurth.com.au/" target="_blank">philkurth.com.au</a>',
+			'text' => 'I build themes and plugins for WordPress. You can learn more about me at ',
 		] ); ?>
 
     </div>

@@ -1,17 +1,14 @@
-A boilerplate for WordPress theme development using [TailwindCSS](https://tailwindcss.com/) and [Laravel Mix](https://laravel.com/docs/5.8/mix).
+## ingenie Insurance Wordpress Theme
+
+ingenie WordPress theme using [TailwindCSS](https://tailwindcss.com/) and [Laravel Mix](https://laravel.com/docs/5.8/mix).
 
 ## Getting started:
 
-1. Clone into an empty theme directory
-1. `cd` into your new theme directory
+1. `cd` into ingenie2020 theme directory
 1. Run `npm install`
-1. Duplicate the `local-example.json` file to `local.json`, then replace the `proxy` value with your local 
-development hostname
+1. Duplicate the `local-example.json` file to `local.json`, then replace the `proxy` value with your local development hostname
    - This will allow you to use live reload/injection while working on your CSS/JS
-1. Run a search & replace across the theme to replace all instances of 'ingenie2020Theme' with a PHP 
-namespace specific to your theme/project
-1. Change the theme information in `style.css`
-1. Activate your theme
+1. Once theme is dropped into your local development site just activate the theme
 1. Run `npm run dev` and start coding
    
 ## Commands
@@ -28,14 +25,14 @@ Runs the development build
 
 Runs the product build which includes asset file versioning and Purge CSS 
 
-## Versioned Assets
+## Versioned Assets (production)
 
 Versioned assets will appear in a `build` directory alongside a manifest file which is used while 
 [enqueuing scripts and styles](https://github.com/mishterk/wp-laravel-mix-theme-boilerplate/blob/master/includes/scripts-and-styles.php).
 This saves you the need to adjust version parameters on your assets and makes it possible to remove parameters on 
-asset URLs without losing the ability to force those assets to update in browsers.
+asset URLs without losing the ability to force those assets to update in browsers. 😁👍
 
-## Purge CSS
+## Purge CSS (production)
 
 Purge CSS is pretty darn excellent and is used to strip out any CSS that isn't being used during the production build. 
 
@@ -61,3 +58,7 @@ h3 {
 /* purgecss end ignore */
 ```
 
+## Deployment
+
+Work in progress but currently if checked into github a shippable build starts and runs the #### `npm run prod` script. It is then deplyed to the master branch on the new ingenie website we are building out.
+Work in progress...
