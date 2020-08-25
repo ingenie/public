@@ -611,6 +611,19 @@ html {
   }
 }
 
+body {
+  background: green;
+}
+
+h1 {
+  font-size: 1rem;
+}
+
+h2,
+h3 {
+  font-size: 2rem;
+}
+
 .animation-buzz-out {
   -webkit-animation-name: buzz-out;
           animation-name: buzz-out;
@@ -20697,19 +20710,6 @@ h1 .WysiwygAnchors a, h1 .Wysiwyg a, h1 .WysiwygAnchors a:visited, h2 .WysiwygAn
 
 .hm-trim > :last-child {
   margin-right: 0;
-}
-
-body {
-  background: green;
-}
-
-h1 {
-  font-size: 1rem;
-}
-
-h2,
-h3 {
-  font-size: 2rem;
 }
 
 @media (min-width: 640px) {
