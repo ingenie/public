@@ -1,4 +1,4 @@
-<div class="Example bg-blue-100 fixed flex inset-0 items-center justify-center">
+<div class="Example bg-blue-100 inset-0 items-center justify-center">
     <div class="Example__inner bg-white max-w-2xl p-12 rounded-lg shadow-lg text-center">
 
         <h1 class="Example__title">WP Ingenie Theme using Tailwind CSS</h1>
