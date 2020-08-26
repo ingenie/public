@@ -21,4 +21,34 @@ $loader->addNamespace( 'ingenie2020Theme', get_stylesheet_directory() . '/app' )
 
 View::$view_dir = get_stylesheet_directory() . '/templates/views';
 
+// Load Javascript and Styles
 require get_stylesheet_directory() . '/includes/scripts-and-styles.php';
+
+// Theme Options
+add_theme_support('menus');
+add_theme_support('post-thumbnails');
+
+// Menus
+register_nav_menus(
+    array(
+
+        'main-menu' => 'Main Menu Location',
+        'side-menu' => 'Side Menu Location',
+    )
+);
+
+// Adding classes to the menu to use tailwind
+function add_additional_class_on_li($classes, $item, $args) {
+    if(isset($args->add_li_class)) {
+        $classes[] = $args->add_li_class;
+    }
+    return $classes;
+}
+add_filter('nav_menu_css_class', 'add_additional_class_on_li', 1, 3);
+
+// Custom image sizes
+add_image_size( 'blog-large', 800, 400, true);
+add_image_size( 'blog-small', 300, 200, true);
+
+
+// Custom post type
