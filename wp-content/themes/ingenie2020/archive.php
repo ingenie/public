@@ -1,4 +1,4 @@
-<?php get_header(); ?>
+<?php get_header('ydg'); ?>
 Ima 'Archive core'
 <div class="container">
 

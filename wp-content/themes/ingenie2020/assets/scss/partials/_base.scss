@@ -13,17 +13,24 @@ html {
   }
 }
 
-
-// TEmp
-body {
-  background: green;
-}
-
 h1 {
-  font-size: 1rem;
+  @apply text-3xl;
 }
 
-h2,
-h3 {
-  font-size: 2rem;
+h2 {
+  @apply text-2xl;
 }
+
+h3 {
+  @apply text-xl;
+}
+
+.ig-break {
+  border-bottom: dashed 2px;
+  @apply border-gray-300
+}
+
+
+// .cheese {
+//   background: transparent linear-gradient(14deg, #0FD1AD 0%, #0FD1AD 62%, #008E73 100%) 0% 0% no-repeat padding-box;
+// }

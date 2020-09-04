@@ -7,7 +7,7 @@
 </div> -->
 
 
-<nav class="flex flex-wrap items-center justify-between p-3 bg-white">
+<nav class="flex flex-wrap items-center justify-between py-5 px-2 bg-white">
 
     <div class="flex-1">
         <?php 

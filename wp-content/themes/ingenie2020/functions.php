@@ -21,14 +21,28 @@ $loader->addNamespace( 'ingenie2020Theme', get_stylesheet_directory() . '/app' )
 
 View::$view_dir = get_stylesheet_directory() . '/templates/views';
 
-// Load Javascript and Styles
+/* 
+    =================================
+    Load Javascript and Styles
+    =================================
+*/
 require get_stylesheet_directory() . '/includes/scripts-and-styles.php';
 
-// Theme Options
+
+/* 
+    =================================
+    Theme Options
+    =================================
+*/
 add_theme_support('menus');
 add_theme_support('post-thumbnails');
 
-// Menus
+
+/* 
+    =================================
+    Menus
+    =================================
+*/
 register_nav_menus(
     array(
 
@@ -46,9 +60,198 @@ function add_additional_class_on_li($classes, $item, $args) {
 }
 add_filter('nav_menu_css_class', 'add_additional_class_on_li', 1, 3);
 
-// Custom image sizes
+
+/* 
+    =================================
+    Custom Image Sizes
+    =================================
+*/
 add_image_size( 'blog-large', 800, 400, true);
 add_image_size( 'blog-small', 300, 200, true);
 
 
-// Custom post type
+/* 
+    =================================
+    Custom Post Types
+    =================================
+*/
+ 
+function custom_post_type() {
+
+    $faqLabels = array(
+        'name'                => _x( 'FAQs', 'Post Type General Name'),
+        'singular_name'       => _x( 'FAQ', 'Post Type Singular Name'),
+        'menu_name'           => __( 'FAQs'),
+        'parent_item_colon'   => __( 'Parent FAQ'),
+        'all_items'           => __( 'View all FAQs'),
+        'view_item'           => __( 'View FAQ'),
+        'add_new_item'        => __( 'Add New FAQ'),
+        'add_new'             => __( 'Add New FAQ'),
+        'edit_item'           => __( 'Edit FAQ'),
+        'update_item'         => __( 'Update FAQ'),
+        'search_items'        => __( 'Search FAQ'),
+        'not_found'           => __( 'Not Found'),
+        'not_found_in_trash'  => __( 'Not found in Trash'),
+    );
+        
+    $faqArgs = array(
+        'label'               => __( 'faqs'),
+        'description'         => __( 'FAQs for ingenie Insurance'),
+        'labels'              => $faqLabels,
+        // Features this CPT supports in Post Editor
+        'supports'            => array( 'title', 'editor', 'excerpt', 'author', 'thumbnail', 'revisions', 'custom-fields', ),
+        // You can associate this CPT with a taxonomy or custom taxonomy. 
+        'taxonomies'          => array( 'sections' ),
+        /* A hierarchical CPT is like Pages and can have
+        * Parent and child items. A non-hierarchical CPT
+        * is like Posts.
+        */ 
+        'hierarchical'        => false,
+        'public'              => true,
+        'show_ui'             => true,
+        'show_in_menu'        => true,
+        'show_in_nav_menus'   => true,
+        'show_in_admin_bar'   => true,
+        'menu_position'       => 6,
+        'can_export'          => true,
+        'has_archive'         => true,
+        'exclude_from_search' => false,
+        'publicly_queryable'  => true,
+        'capability_type'     => 'post',
+        'show_in_rest' => true,
+    
+    );
+
+    $ydgLabels = array(
+        'name'                => _x( 'YDG Posts', 'Post Type General Name'),
+        'singular_name'       => _x( 'YDG Post', 'Post Type Singular Name'),
+        'menu_name'           => __( 'YDG Posts'),
+        'parent_item_colon'   => __( 'Parent YDG Post'),
+        'all_items'           => __( 'View all YDG Posts'),
+        'view_item'           => __( 'View YDG Post'),
+        'add_new_item'        => __( 'Add New YDG Post'),
+        'add_new'             => __( 'Add New YDG Post'),
+        'edit_item'           => __( 'Edit YDG Post'),
+        'update_item'         => __( 'Update YDG Post'),
+        'search_items'        => __( 'Search YDG Post'),
+        'not_found'           => __( 'Not Found'),
+        'not_found_in_trash'  => __( 'Not found in Trash'),
+    );
+
+    $ydgArgs = array(
+        'label'               => __( 'young-drivers-guides'),
+        'description'         => __( 'YDG blog for ingenie Insurance'),
+        'labels'              => $ydgLabels,
+        // Features this CPT supports in Post Editor
+        'supports'            => array( 'title', 'editor', 'excerpt', 'author', 'thumbnail', 'revisions', 'custom-fields', ),
+        // You can associate this CPT with a taxonomy or custom taxonomy. 
+        'taxonomies'          => array( 'topics' ),
+        /* A hierarchical CPT is like Pages and can have
+        * Parent and child items. A non-hierarchical CPT
+        * is like Posts.
+        */ 
+        'hierarchical'        => false,
+        'public'              => true,
+        'show_ui'             => true,
+        'show_in_menu'        => true,
+        'show_in_nav_menus'   => true,
+        'show_in_admin_bar'   => true,
+        'menu_position'       => 5,
+        'can_export'          => true,
+        'has_archive'         => true,
+        'exclude_from_search' => false,
+        'publicly_queryable'  => true,
+        'capability_type'     => 'post',
+        'show_in_rest' => true,
+    
+    );
+        
+    register_post_type( 'faqs', $faqArgs );
+    register_post_type( 'young-drivers-guides', $ydgArgs );
+
+}
+    
+add_action( 'init', 'custom_post_type', 0 );
+
+
+/* 
+    =================================
+    Custom Taxonomies
+    =================================
+*/
+
+function create_custom_hierarchical_taxonomy() {
+ 
+// Add new taxonomy, make it hierarchical or like tags [false]
+ 
+  $faqTaxlabels = array(
+    'name' => _x( 'Sections', 'taxonomy general name' ),
+    'singular_name' => _x( 'Section', 'taxonomy singular name' ),
+    'search_items' =>  __( 'Search Sections' ),
+    'all_items' => __( 'All Sections' ),
+    'parent_item' => __( 'Parent Section' ),
+    'parent_item_colon' => __( 'Parent Section:' ),
+    'edit_item' => __( 'Edit Section' ), 
+    'update_item' => __( 'Update Section' ),
+    'add_new_item' => __( 'Add New Section' ),
+    'new_item_name' => __( 'New Section Name' ),
+    'menu_name' => __( 'FAQs Sections' ),
+  );    
+ 
+  register_taxonomy('sections', array('faqs'), array(
+    'hierarchical' => true,
+    'labels' => $faqTaxlabels,
+    'show_ui' => true,
+    'show_admin_column' => true,
+    'query_var' => true,
+    'rewrite' => array( 'slug' => 'section' ),
+  ));
+
+  $ydgTaxlabels = array(
+    'name' => _x( 'Topics', 'taxonomy general name' ),
+    'singular_name' => _x( 'Topic', 'taxonomy singular name' ),
+    'search_items' =>  __( 'Search Topics' ),
+    'all_items' => __( 'All Topics' ),
+    'parent_item' => __( 'Parent Topic' ),
+    'parent_item_colon' => __( 'Parent Topic:' ),
+    'edit_item' => __( 'Edit Topic' ), 
+    'update_item' => __( 'Update Topic' ),
+    'add_new_item' => __( 'Add New Topic' ),
+    'new_item_name' => __( 'New Topic Name' ),
+    'menu_name' => __( 'YDG Topics' ),
+  );    
+ 
+  register_taxonomy('topics', array('young-drivers-guides') , array(
+    'hierarchical' => true,
+    'labels' => $ydgTaxlabels,
+    'show_ui' => true,
+    'show_admin_column' => true,
+    'query_var' => true,
+    'rewrite' => array( 'slug' => 'young-drivers-guide/topics', 'with_front' => false),
+  ));
+ 
+}
+
+//hook into the init action and call create_book_taxonomies when it fires
+add_action( 'init', 'create_custom_hierarchical_taxonomy', 0 );
+
+/* 
+    =================================
+    Custom Term Function
+    =================================
+*/
+
+function ig_get_custom_terms( $postID, $term ) {
+
+    $terms_list = wp_get_post_terms( $postID, $term);
+    $output = '';
+
+    $i = 0;
+    foreach($terms_list as $term) { $i++;
+        if( $i > 1 ){ $output .= ', '; }
+        $output .= '<a class="bg-ydg-'. $term->slug .'-500 text-white uppercase font-bold text-sm md:text-xs p-2 md:p-1 pt-1 pb-1 mb-2" href="' . get_term_link( $term ) . '">' . $term->name . '</a>';
+    }
+    
+    return $output;
+                    
+}
