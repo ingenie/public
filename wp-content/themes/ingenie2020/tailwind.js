@@ -7,7 +7,12 @@ module.exports = {
   // ],
   theme: {
     container: {
-      padding: '1.5rem',
+      padding: {
+        default: '0',
+        sm: '.5rem',
+        lg: '4rem',
+        xl: '5rem',
+      },
     },
     extend: {
       colors: {
@@ -36,16 +41,16 @@ module.exports = {
           900: '#47230B',
         },
         'ydg-blue': {
-          50: '#F2FAFF',
-          100: '#E6F5FF',
-          200: '#BFE7FF',
-          300: '#99D8FF',
-          400: '#4DBAFF',
-          500: '#009DFF',
-          600: '#008DE6',
-          700: '#005E99',
-          800: '#004773',
-          900: '#002F4D',
+          50: '#F4F9FC',
+          100: '#EAF2F8',
+          200: '#CADFEE',
+          300: '#A9CCE3',
+          400: '#69A6CE',
+          500: '#2980B9',
+          600: '#2573A7',
+          700: '#194D6F',
+          800: '#123A53',
+          900: '#0C2638',
         },
         'ydg-tips-support': {
           50: '#F8FDF2',
@@ -83,7 +88,7 @@ module.exports = {
           800: '#38206C',
           900: '#251648',
         },
-        'ydg-ig-blog': {
+        'ydg-ingenie-blog': {
           50: '#F2FAFF',
           100: '#E6F5FF',
           200: '#BFE7FF',
@@ -129,6 +134,13 @@ module.exports = {
       },
       lineHeight: {
         tighter: '1.125',
+      },
+      minWidth: {
+        '0': '0',
+        '1/4': '25%',
+        '1/2': '50%',
+        '3/4': '75%',
+        full: '100%',
       },
     }
   },

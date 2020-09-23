@@ -27,10 +27,9 @@ h3 {
 
 .ig-break {
   border-bottom: dashed 2px;
-  @apply border-gray-300
+  @apply border-gray-300;
+
+  @screen md {
+    border-bottom: none;
+  }
 }
-
-
-// .cheese {
-//   background: transparent linear-gradient(14deg, #0FD1AD 0%, #0FD1AD 62%, #008E73 100%) 0% 0% no-repeat padding-box;
-// }

@@ -7,35 +7,42 @@
 
 get_header('ydg'); ?>
 
-<div class="sm:hidden relative">
-    <!-- Featured latest YDG post -->
-    <?php get_template_part( 'templates/partials/section', 'ydg-featured' ); ?>
-</div>
+<div class="lg:container lg:mx-auto">
 
-<!-- YDG Latest posts / excluding first/featured -->
-<?php get_template_part( 'templates/partials/section', 'ydg-latest' ); ?>
+    <div class="relative sm:hidden">
+        <!-- Featured latest YDG post -->
+        <?php get_template_part( 'templates/partials/section', 'ydg-featured' ); ?>
+    </div>
 
-<!-- YDG ingenie blog posts -->
-<?php get_template_part( 'templates/partials/section', 'ydg-blog' ); ?>
+    <!-- YDG Latest posts / excluding first/featured -->
+    <?php get_template_part( 'templates/partials/section', 'ydg-latest' ); ?>
 
-<!-- YDG Car insurance posts -->
-<?php get_template_part( 'templates/partials/section', 'ydg-car-insurance' ); ?>
+    <div class="flex flex-wrap pb-3 mb-3">
 
-<!-- YDG Learning to drive posts -->
-<?php get_template_part( 'templates/partials/section', 'ydg-learning-to-drive' ); ?>
+        <!-- YDG Car insurance posts -->
+        <?php get_template_part( 'templates/partials/section', 'ydg-car-insurance' ); ?>
 
-<!-- YDG On the road posts -->
-<?php get_template_part( 'templates/partials/section', 'ydg-on-the-road' ); ?>
+        <!-- YDG Learning to drive posts -->
+        <?php get_template_part( 'templates/partials/section', 'ydg-learning-to-drive' ); ?>
 
-<!-- YDG Tips and Support posts -->
-<?php get_template_part( 'templates/partials/section', 'ydg-tips-support' ); ?>
+        <!-- YDG On the road posts -->
+        <?php get_template_part( 'templates/partials/section', 'ydg-on-the-road' ); ?>
 
-<!-- YDG Lifestyle posts -->
-<?php get_template_part( 'templates/partials/section', 'ydg-lifestyle' ); ?>
+        <!-- YDG Tips and Support posts -->
+        <?php get_template_part( 'templates/partials/section', 'ydg-tips-support' ); ?>
 
+        <!-- YDG ingenie blog posts -->
+        <?php get_template_part( 'templates/partials/section', 'ydg-blog' ); ?>
 
-<!-- <?php previous_posts_link();?>
+        <!-- YDG Lifestyle posts -->
+        <?php get_template_part( 'templates/partials/section', 'ydg-lifestyle' ); ?>
+
+    </div>
+
+    <!-- <?php previous_posts_link();?>
     <?php next_posts_link();?> -->
+
+</div>
 
 
 

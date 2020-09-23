@@ -28,7 +28,7 @@ foreach($terms as $term){
     $slug_out[] = $term->slug;
 }
 //add class and path from taxonomy -->
-echo '<div class="h-12 bg-left bg-cover md:h-18 '.implode(' ', $slug_out).'"  style="background-image:url('.get_template_directory_uri().'/assets/img/ydg/shapes/'.implode(' ', $slug_out).'.svg)">';
+echo '<div class="block md:hidden h-12 bg-left bg-cover md:h-18 '.implode(' ', $slug_out).'" style="background-image:url('.get_template_directory_uri().'/assets/img/ydg/shapes/'.implode(' ', $slug_out).'.svg)">';
 ?>
 
 <h3 class="p-2 pl-4 font-bold text-white uppercase"><?php the_terms( $post->ID, 'topics', '', ', ', ' ' ); ?>
@@ -38,6 +38,11 @@ echo '<div class="h-12 bg-left bg-cover md:h-18 '.implode(' ', $slug_out).'"  st
 
 <div class="relative p-3 pb-7 mb-3 text-gray-900">
     <h2><?php the_title()?></h2>
+
+    <!-- Could do the same with non heiractical taxonomy for tags if needed -->
+    <span class="hidden md:block">
+        <?php echo ig_get_custom_terms( $post->ID, 'topics' ) ?>
+    </span>
 
     <!-- Add author info -->
     <?php get_template_part( 'templates/partials/section', 'ydg-author-info' ); ?>

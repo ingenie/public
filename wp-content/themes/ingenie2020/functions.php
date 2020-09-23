@@ -113,6 +113,52 @@ function custom_post_type() {
         'show_in_nav_menus'   => true,
         'show_in_admin_bar'   => true,
         'menu_position'       => 6,
+        'menu_icon'           => 'dashicons-megaphone',
+        'can_export'          => true,
+        'has_archive'         => true,
+        'exclude_from_search' => false,
+        'publicly_queryable'  => true,
+        'capability_type'     => 'post',
+        'show_in_rest' => true,
+    
+    );
+
+    $adsLabels = array(
+        'name'                => _x( 'Ingenie Adverts', 'Post Type General Name'),
+        'singular_name'       => _x( 'Ingenie Advert', 'Post Type Singular Name'),
+        'menu_name'           => __( 'IG Advert'),
+        'parent_item_colon'   => __( 'Parent Advert'),
+        'all_items'           => __( 'View all adverts'),
+        'view_item'           => __( 'View advert'),
+        'add_new_item'        => __( 'Add New advert'),
+        'add_new'             => __( 'Add New advert'),
+        'edit_item'           => __( 'Edit advert'),
+        'update_item'         => __( 'Update advert'),
+        'search_items'        => __( 'Search advert'),
+        'not_found'           => __( 'Not Found'),
+        'not_found_in_trash'  => __( 'Not found in Trash'),
+    );
+
+    $adsArgs = array(
+        'label'               => __( 'adverts'),
+        'description'         => __( 'ingenie adverts for site'),
+        'labels'              => $adsLabels,
+        // Features this CPT supports in Post Editor
+        'supports'            => array( 'title', 'editor', 'excerpt', 'author', 'thumbnail', 'revisions', 'custom-fields', ),
+        // You can associate this CPT with a taxonomy or custom taxonomy. 
+        'taxonomies'          => array( 'placement' ),
+        /* A hierarchical CPT is like Pages and can have
+        * Parent and child items. A non-hierarchical CPT
+        * is like Posts.
+        */ 
+        'hierarchical'        => false,
+        'public'              => true,
+        'show_ui'             => true,
+        'show_in_menu'        => true,
+        'show_in_nav_menus'   => true,
+        'show_in_admin_bar'   => true,
+        'menu_position'       => 5,
+        'menu_icon'           => 'dashicons-carrot',
         'can_export'          => true,
         'has_archive'         => true,
         'exclude_from_search' => false,
@@ -156,7 +202,8 @@ function custom_post_type() {
         'show_in_menu'        => true,
         'show_in_nav_menus'   => true,
         'show_in_admin_bar'   => true,
-        'menu_position'       => 5,
+        'menu_position'       => 4,
+        'menu_icon'           => 'dashicons-book',
         'can_export'          => true,
         'has_archive'         => true,
         'exclude_from_search' => false,
@@ -166,8 +213,9 @@ function custom_post_type() {
     
     );
         
-    register_post_type( 'faqs', $faqArgs );
     register_post_type( 'young-drivers-guides', $ydgArgs );
+    register_post_type( 'adverts', $adsArgs );
+    register_post_type( 'faqs', $faqArgs );
 
 }
     
@@ -205,6 +253,29 @@ function create_custom_hierarchical_taxonomy() {
     'show_admin_column' => true,
     'query_var' => true,
     'rewrite' => array( 'slug' => 'section' ),
+  ));
+
+  $adsTaxlabels = array(
+    'name' => _x( 'Placements', 'taxonomy general name' ),
+    'singular_name' => _x( 'Placement', 'taxonomy singular name' ),
+    'search_items' =>  __( 'Search Placements' ),
+    'all_items' => __( 'All Placements' ),
+    'parent_item' => __( 'Parent Placement' ),
+    'parent_item_colon' => __( 'Parent Placement:' ),
+    'edit_item' => __( 'Edit Placement' ), 
+    'update_item' => __( 'Update Placement' ),
+    'add_new_item' => __( 'Add New Placement' ),
+    'new_item_name' => __( 'New Placement Name' ),
+    'menu_name' => __( 'Ad Placements' ),
+  );    
+ 
+  register_taxonomy('placements', array('adverts'), array(
+    'hierarchical' => true,
+    'labels' => $adsTaxlabels,
+    'show_ui' => true,
+    'show_admin_column' => true,
+    'query_var' => true,
+    'rewrite' => array( 'slug' => 'placement' ),
   ));
 
   $ydgTaxlabels = array(
@@ -255,3 +326,16 @@ function ig_get_custom_terms( $postID, $term ) {
     return $output;
                     
 }
+
+/* 
+    =================================
+    Hide Basic Posts to avoid confusion
+    =================================
+*/
+
+function post_remove ()      //creating functions post_remove for removing menu item
+{ 
+   remove_menu_page('edit.php');
+}
+
+add_action('admin_menu', 'post_remove');   //adding action for triggering function call
