@@ -47,6 +47,7 @@ register_nav_menus(
     array(
 
         'main-menu' => 'Main Menu Location',
+        'ydg-menu' => 'Young Drivers Guide Menu Location',
         'side-menu' => 'Side Menu Location',
     )
 );
@@ -66,8 +67,9 @@ add_filter('nav_menu_css_class', 'add_additional_class_on_li', 1, 3);
     Custom Image Sizes
     =================================
 */
-add_image_size( 'blog-large', 800, 400, true);
-add_image_size( 'blog-small', 300, 200, true);
+add_image_size( 'blog-large', 750, 450, true);
+add_image_size( 'blog-small', 400, 200, true);
+add_image_size( 'ingenie-ads', 350, 350, true);
 
 
 /* 
@@ -320,7 +322,7 @@ function ig_get_custom_terms( $postID, $term ) {
     $i = 0;
     foreach($terms_list as $term) { $i++;
         if( $i > 1 ){ $output .= ', '; }
-        $output .= '<a class="bg-ydg-'. $term->slug .'-500 text-white uppercase font-bold text-sm md:text-xs p-2 md:p-1 pt-1 pb-1 mb-2" href="' . get_term_link( $term ) . '">' . $term->name . '</a>';
+        $output .= '<a class="bg-ydg-'. $term->slug .'-500 text-white uppercase font-bold text-sm md:text-xs p-1 px-2 mb-2" href="' . get_term_link( $term ) . '">' . $term->name . '</a>';
     }
     
     return $output;
@@ -339,3 +341,25 @@ function post_remove ()      //creating functions post_remove for removing menu 
 }
 
 add_action('admin_menu', 'post_remove');   //adding action for triggering function call
+
+
+/* 
+    =================================
+    Restrict searches 4 custom post type YDG
+    =================================
+*/
+
+if (!is_admin()) {
+
+ function template_chooser($template)   
+{    
+  global $wp_query;   
+  $post_type = get_query_var('post_type');   
+  if( $wp_query->is_search && $post_type == 'young-drivers-guides' )   
+  {
+    return locate_template('templates/search-ydg-template.php');  //  redirect to archive-search.php
+  }   
+  return $template;   
+}
+add_filter('template_include', 'template_chooser');  
+    }

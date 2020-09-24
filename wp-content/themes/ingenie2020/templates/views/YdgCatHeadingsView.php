@@ -20,7 +20,7 @@ $hiddenSm = isset( $data->hiddenSm ) ? $data->hiddenSm : "";
                 <?php endif; ?>
             </div>
             <?php if ( $text ): ?>
-            <div class="flex-auto self-center text-right">
+            <div class="self-center flex-auto text-right">
                 <a class="pr-2 text-xs underline <?= $txtColor ?>"
                     href="<?php echo get_post_type_archive_link( 'young-drivers-guides' ); ?>"><?= $text ?>
                 </a>

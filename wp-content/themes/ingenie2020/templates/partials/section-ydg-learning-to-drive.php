@@ -21,13 +21,13 @@ YDG Learning to drive posts
     </div>
 
     <!-- Start actual grid -->
-    <div class="w-full grid px-0 md:grid-rows-1 md:grid-cols-2 md:gap-2">
+    <div class="grid w-full px-0 md:grid-rows-1 md:grid-cols-2 md:gap-2">
 
-        <!-- Loop latest post minus featured -->
+        <!-- Loop learning to drive posts -->
         <?php
         $args = array(
         'post_type' => 'young-drivers-guides',
-        'posts_per_page' => 2,
+        'posts_per_page' => 1,
         "orderby"=>"date",
         "order"=>"DESC",
         'tax_query' => array(
@@ -41,7 +41,7 @@ YDG Learning to drive posts
         $featured_query = new WP_Query( $args );
         if( $featured_query->have_posts() ): while( $featured_query->have_posts() ): $featured_query->the_post();?>
 
-        <div class="md:pb-6 relative mb-5 md:mb-0 justify-center text-center md:row-span-1 md:col-span-1 bg-gray-200">
+        <div class="relative justify-center mb-5 text-center bg-gray-200 md:pb-6 md:mb-0 md:row-span-1 md:col-span-1">
 
             <!-- md:flex-col md:h-full -->
             <div class="flex md:flex-wrap md:mb-0">
@@ -52,7 +52,7 @@ YDG Learning to drive posts
                     <?php endif;?>
                 </div>
                 <div class="flex-auto p-2 pl-4 text-left bg-gray-200 md:pl-2">
-                    <h3 class="mb-2 text-sm font-bold leading-tight text-gray-900 uppercase md:text-xs">
+                    <h3 class="md:h-8 mb-2 text-sm font-bold leading-tight text-gray-900 uppercase md:text-xs">
                         <?php 
                         echo wp_trim_words( get_the_title(), 6, '...' );
                     ?>
@@ -88,7 +88,7 @@ YDG Learning to drive posts
                     <?php echo
         '<span class="text-ydg-'.implode(' ', $slug_out).'-500 right-0 bottom-0 pb-1 pr-2 absolute">'; ?>
                     <a href="<?php the_permalink()?>">
-                        <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                        <svg class="w-4 h-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
                             <path fill-rule="evenodd"
                                 d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
                                 clip-rule="evenodd" />
@@ -97,10 +97,18 @@ YDG Learning to drive posts
                     </span>
                 </div>
             </div>
-
         </div>
         <?php endwhile; else: endif;?>
         <?php wp_reset_postdata(); ?>
+
+
+        <!-- Advert view -->
+        <?php
+		\ingenie2020Theme\View::render( 'YdgAdvertView', [
+            'location' => 'learning-to-drive',
+            'gridClasses' => 'md:row-span-1 md:col-span-1',
+		] ); ?>
+
 
     </div>
 </div>

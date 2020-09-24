@@ -4,7 +4,7 @@ YDG Latest posts 3/4??
 ============================= 
 -->
 
-<div class="ig-break mb-3 pb-3">
+<div class="pb-3 mb-3 ig-break">
 
     <!-- Latest bar show on md up -->
     <div class="hidden py-0 mx-1 md:block">
@@ -17,9 +17,14 @@ YDG Latest posts 3/4??
                             Latest
                         </h2>
                     </div>
-                    <div class="flex-auto self-center text-right">
-                        <a class="pr-2 text-xs underline text-ydg-blue-800 hover:text-ydg-blue-600"
-                            href="<?php echo get_post_type_archive_link( 'young-drivers-guides' ); ?>">View more ></a>
+                    <div class="self-center flex-auto text-right">
+                        <!-- <a class="pr-2 text-xs underline text-ydg-blue-800 hover:text-ydg-blue-600"
+                            href="<?php echo get_post_type_archive_link( 'young-drivers-guides' ); ?>">View more ></a> -->
+
+
+                    </div>
+                    <div class="relative flex-initial w-1/4">
+                        <?php get_template_part( 'templates/partials/search/search-form', 'ydg' ); ?>
                     </div>
                 </div>
 
@@ -31,7 +36,7 @@ YDG Latest posts 3/4??
     <div class="grid px-1 md:grid-rows-4 md:grid-cols-8 md:gap-2">
 
         <!-- Featured latest YDG post -->
-        <div class="md:row-span-4 md:col-start-1 md:col-end-5">
+        <div class="relative bg-gray-200 md:row-span-4 md:col-start-1 md:col-end-5">
             <div class="hidden sm:block">
 
                 <?php get_template_part( 'templates/partials/section', 'ydg-featured' ); ?>
@@ -54,14 +59,14 @@ YDG Latest posts 3/4??
         $args = array(
             'post_type' => 'young-drivers-guides',
             'offset' => 1,
-            'posts_per_page' => 3,
+            'posts_per_page' => 1,
             "orderby"=>"date",
             "order"=>"DESC"
         );
         $featured_query = new WP_Query( $args );
         if( $featured_query->have_posts() ): while( $featured_query->have_posts() ): $featured_query->the_post();?>
 
-        <div class="pb-6 relative mb-5 md:mb-0 justify-center text-center md:row-span-2 md:col-span-2 bg-gray-200">
+        <div class="relative justify-center mb-5 text-center bg-gray-200 md:pb-6 md:mb-0 md:row-span-2 md:col-span-2">
 
             <!-- md:flex-col md:h-full -->
             <div class="flex md:flex-wrap md:mb-0">
@@ -94,7 +99,7 @@ YDG Latest posts 3/4??
                     <?php echo
                 '<span class="text-ydg-'.implode(' ', $slug_out).'-500 right-0 bottom-0 pb-1 pr-2 absolute">'; ?>
                     <a href="<?php the_permalink()?>">
-                        <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                        <svg class="w-4 h-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
                             <path fill-rule="evenodd"
                                 d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
                                 clip-rule="evenodd" />
@@ -108,25 +113,28 @@ YDG Latest posts 3/4??
         <?php endwhile; else: endif;?>
         <?php wp_reset_postdata(); ?>
 
-        <!-- Loop adverrts for latest placement ad -->
+
+        <!-- Advert view -->
+        <?php
+		\ingenie2020Theme\View::render( 'YdgAdvertView', [
+            'location' => 'latest',
+            'gridClasses' => 'md:row-span-2 md:col-span-2',
+		] ); ?>
+
+
+        <!-- Loop latest post minus featured -->
         <?php
         $args = array(
-            'post_type' => 'adverts',
-            'posts_per_page' => 1,
+            'post_type' => 'young-drivers-guides',
+            'offset' => 2,
+            'posts_per_page' => 2,
             "orderby"=>"date",
-            "order"=>"DESC",
-            'tax_query' => array(
-                array (
-                    'taxonomy' => 'placements',
-                    'field' => 'slug',
-                    'terms' => 'latest',
-                )
-            ),
+            "order"=>"DESC"
         );
         $featured_query = new WP_Query( $args );
         if( $featured_query->have_posts() ): while( $featured_query->have_posts() ): $featured_query->the_post();?>
 
-        <div class="relative mb-5 md:mb-0 justify-center text-center md:row-span-2 md:col-span-2 bg-gray-200">
+        <div class="relative justify-center mb-5 text-center bg-gray-200 md:pb-6 md:mb-0 md:row-span-2 md:col-span-2">
 
             <!-- md:flex-col md:h-full -->
             <div class="flex md:flex-wrap md:mb-0">
@@ -139,14 +147,40 @@ YDG Latest posts 3/4??
                 <div class="flex-auto p-2 pl-4 text-left bg-gray-200 md:pl-2">
                     <h3 class="mb-2 text-sm font-bold text-gray-900 uppercase md:text-xs"><?php the_title()?></h3>
 
-                    <p><?php the_excerpt()?></p>
+                    <!-- Could do the same with non heiractical taxonomy for tags if needed -->
+                    <?php echo ig_get_custom_terms( $post->ID, 'topics' ) ?>
 
+                    <!-- Add author info -->
+                    <div class="absolute bottom-0">
+                        <?php get_template_part( 'templates/partials/section', 'ydg-author-info' ); ?>
+                    </div>
+
+                    <!-- <p><?php the_excerpt()?></p> -->
+
+                    <?php
+                $terms = get_the_terms($post->ID, 'topics');
+                $slug_out = array();
+                foreach($terms as $term){
+                    $slug_out[] = $term->slug;
+                } ?>
+
+                    <?php echo
+                '<span class="text-ydg-'.implode(' ', $slug_out).'-500 right-0 bottom-0 pb-1 pr-2 absolute">'; ?>
+                    <a href="<?php the_permalink()?>">
+                        <svg class="w-4 h-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                            <path fill-rule="evenodd"
+                                d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
+                                clip-rule="evenodd" />
+                        </svg>
+                    </a>
+                    </span>
                 </div>
             </div>
 
         </div>
         <?php endwhile; else: endif;?>
         <?php wp_reset_postdata(); ?>
+
     </div>
 
 </div>

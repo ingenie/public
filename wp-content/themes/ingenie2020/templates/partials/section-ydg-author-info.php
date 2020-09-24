@@ -10,7 +10,7 @@ foreach($terms as $term){
     $slug_out[] = $term->slug;
 } ?>
 
-<small class="pb-2 block pt-2 text-sm md:text-xxs"><span class="italic">by</span>
+<small class="pb-1 block pt-2 text-sm md:text-xxs"><span class="italic">by</span>
     <!-- add class from taxonomy -->
     <?php 
         $author_id = get_the_author_meta( 'ID' );
