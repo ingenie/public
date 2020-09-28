@@ -10,12 +10,17 @@ get_header('ydg'); ?>
 <div class="lg:container lg:mx-auto">
 
     <div class="relative sm:hidden">
-        <!-- Featured latest YDG post -->
+        <!-- Featured latest YDG post NOTE: outside grid only on mobile -->
         <?php get_template_part( 'templates/partials/section', 'ydg-featured' ); ?>
     </div>
 
-    <!-- YDG Latest posts / excluding first/featured -->
+    <!-- Latest YDG posts NOTE: includes featured inside the grid -->
     <?php get_template_part( 'templates/partials/section', 'ydg-latest' ); ?>
+
+    <div class="hidden md:inline-block">
+        <!-- YDG Parent guide posts NOTE: Not currently on mobile? -->
+        <?php get_template_part( 'templates/partials/section', 'ydg-parents-guide' ); ?>
+    </div>
 
     <div class="flex flex-wrap pb-3 mb-3">
 
