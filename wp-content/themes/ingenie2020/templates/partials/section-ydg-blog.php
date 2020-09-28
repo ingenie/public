@@ -11,7 +11,8 @@ YDG ingenie blog posts
         <!-- Topic headings view -->
         <?php
 		\ingenie2020Theme\View::render( 'YdgCatHeadingsView', [
-			'heading' => 'ingenie Blog',
+            'heading' => 'ingenie Blog',
+            'termUrlPath' => '/young-drivers-guide/topics/ingenie-blog',
             'text' => 'View more >',
             'class' => 'w-auto',
             'bgColor' => 'from-ydg-ingenie-blog-500 via-ydg-ingenie-blog-600 to-ydg-ingenie-blog-700',

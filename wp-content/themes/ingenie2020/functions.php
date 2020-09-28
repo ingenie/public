@@ -331,6 +331,27 @@ function ig_get_custom_terms( $postID, $term ) {
 
 /* 
     =================================
+    Custom Term Url Function
+    =================================
+*/
+
+function ig_get_custom_terms_url( $postID, $term ) {
+
+    $terms_list = wp_get_post_terms( $postID, $term);
+    $output = '';
+
+    $i = 0;
+    foreach($terms_list as $term) { $i++;
+        if( $i > 1 ){ $output .= ', '; }
+        $output .= get_term_link( $term );
+    }
+    
+    return $output;
+                    
+}
+
+/* 
+    =================================
     Hide Basic Posts to avoid confusion
     =================================
 */

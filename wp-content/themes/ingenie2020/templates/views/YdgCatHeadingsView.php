@@ -4,6 +4,7 @@ $class = isset( $data->class ) ? $data->class : '';
 $text = isset( $data->text ) ? $data->text : "";
 $heading = isset( $data->heading ) ? $data->heading : "";
 $bgColor = isset( $data->bgColor ) ? $data->bgColor : "";
+$termUrlPath = isset( $data->termUrlPath ) ? $data->termUrlPath : "";
 $txtColor = isset( $data->txtColor ) ? $data->txtColor : "";
 $hiddenSm = isset( $data->hiddenSm ) ? $data->hiddenSm : "";
 ?>
@@ -20,9 +21,8 @@ $hiddenSm = isset( $data->hiddenSm ) ? $data->hiddenSm : "";
                 <?php endif; ?>
             </div>
             <?php if ( $text ): ?>
-            <div class="self-center flex-auto text-right">
-                <a class="pr-2 text-xs underline <?= $txtColor ?>"
-                    href="<?php echo get_post_type_archive_link( 'young-drivers-guides' ); ?>"><?= $text ?>
+            <div class="flex-auto self-center text-right">
+                <a class="pr-2 text-xs underline <?= $txtColor ?>" href="<?= $termUrlPath ?>"><?= $text ?>
                 </a>
             </div>
             <?php endif; ?>

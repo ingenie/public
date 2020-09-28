@@ -11,7 +11,8 @@ YDG Learning to drive posts
         <!-- Topic headings view -->
         <?php
 		\ingenie2020Theme\View::render( 'YdgCatHeadingsView', [
-			'heading' => 'Learning to drive',
+            'heading' => 'Learning to drive',
+            'termUrlPath' => '/young-drivers-guide/topics/learning-to-drive',
             'text' => 'View more >',
             'class' => 'w-auto',
             'bgColor' => 'from-ydg-learning-to-drive-500 via-ydg-learning-to-drive-600 to-ydg-learning-to-drive-700',

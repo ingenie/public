@@ -12,7 +12,8 @@ YDG Lifestyle posts
         <!-- Topic headings view -->
         <?php
 		\ingenie2020Theme\View::render( 'YdgCatHeadingsView', [
-			'heading' => 'Lifestyle',
+            'heading' => 'Lifestyle',
+            'termUrlPath' => '/young-drivers-guide/topics/lifestyle',
             'text' => 'View more >',
             'class' => 'w-auto',
             'bgColor' => 'from-ydg-lifestyle-500 via-ydg-lifestyle-600 to-ydg-lifestyle-700',

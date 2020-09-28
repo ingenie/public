@@ -11,7 +11,8 @@ YDG Car insurance posts
         <!-- Topic headings view -->
         <?php
 		\ingenie2020Theme\View::render( 'YdgCatHeadingsView', [
-			'heading' => 'Car Insurance',
+            'heading' => 'Car Insurance',
+            'termUrlPath' => '/young-drivers-guide/topics/car-insurance',
             'text' => 'View more >',
             'class' => 'w-auto',
             'bgColor' => 'from-ydg-car-insurance-500 via-ydg-car-insurance-600 to-ydg-car-insurance-700',

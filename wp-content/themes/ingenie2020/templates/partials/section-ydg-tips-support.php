@@ -11,7 +11,8 @@ YDG Tips and Support posts
         <!-- Topic headings view -->
         <?php
 		\ingenie2020Theme\View::render( 'YdgCatHeadingsView', [
-			'heading' => 'Tips & Support',
+            'heading' => 'Tips & Support',
+            'termUrlPath' => '/young-drivers-guide/topics/tips-support',
             'text' => 'View more >',
             'class' => 'w-auto',
             'bgColor' => 'from-ydg-tips-support-500 via-ydg-tips-support-600 to-ydg-tips-support-700',

@@ -12,7 +12,8 @@ YDG On the road posts
         <!-- Topic headings view -->
         <?php
 		\ingenie2020Theme\View::render( 'YdgCatHeadingsView', [
-			'heading' => 'On the road',
+            'heading' => 'On the road',
+            'termUrlPath' => '/young-drivers-guide/topics/on-the-road',
             'text' => 'View more >',
             'class' => 'w-auto',
             'bgColor' => 'from-ydg-on-the-road-500 via-ydg-on-the-road-600 to-ydg-on-the-road-700',
