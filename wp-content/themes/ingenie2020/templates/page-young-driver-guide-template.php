@@ -17,7 +17,7 @@ get_header('ydg'); ?>
     <!-- Latest YDG posts NOTE: includes featured inside the grid -->
     <?php get_template_part( 'templates/partials/section', 'ydg-latest' ); ?>
 
-    <div class="hidden md:inline-block">
+    <div class="hidden md:block">
         <!-- YDG Parent guide posts NOTE: Not currently on mobile? -->
         <?php get_template_part( 'templates/partials/section', 'ydg-parents-guide' ); ?>
     </div>
