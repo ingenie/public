@@ -107,7 +107,7 @@ YDG Learning to drive posts
         <?php
 		\ingenie2020Theme\View::render( 'YdgAdvertView', [
             'location' => 'learning-to-drive',
-            'gridClasses' => 'md:row-span-1 md:col-span-1',
+            'gridClasses' => 'md:row-span-1 md:col-span-1 hidden md:block',
 		] ); ?>
 
 

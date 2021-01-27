@@ -1,11 +1,13 @@
-!YOUNG DRIVER GUIDE TEMPLATE!
 <?php
-/*
- * Template Name: Young Driver Guide Home Template
- * Template Post Type: page
- */
 
-get_header('ydg'); ?>
+/*
+* Template Name: Young Driver Guide Home Template
+* Template Post Type: page
+*/
+
+ get_header('ydg'); 
+ 
+ ?>
 
 <div class="lg:container lg:mx-auto">
 
@@ -51,4 +53,4 @@ get_header('ydg'); ?>
 
 
 
-<?php get_footer('ydg'); ?>
+<?php get_footer('ydg');

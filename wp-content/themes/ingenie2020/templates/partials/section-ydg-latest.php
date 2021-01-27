@@ -4,7 +4,7 @@ YDG Latest posts 3/4??
 ============================= 
 -->
 
-<div class="pb-3 mb-3 ig-break">
+<div class="pb-2 mb-1 ig-break">
 
     <!-- Latest bar show on md up -->
     <div class="hidden py-0 mx-1 md:block">
@@ -23,7 +23,7 @@ YDG Latest posts 3/4??
 
 
                     </div>
-                    <div class="relative flex-initial w-1/4">
+                    <div class="flex-initial">
                         <?php get_template_part( 'templates/partials/search/search-form', 'ydg' ); ?>
                     </div>
                 </div>
@@ -118,7 +118,7 @@ YDG Latest posts 3/4??
         <?php
 		\ingenie2020Theme\View::render( 'YdgAdvertView', [
             'location' => 'latest',
-            'gridClasses' => 'md:row-span-2 md:col-span-2',
+            'gridClasses' => 'md:row-span-2 md:col-span-2 hidden md:block',
 		] ); ?>
 
 

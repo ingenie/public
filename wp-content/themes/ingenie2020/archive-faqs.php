@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-Ima 'Archive core'
+Ima 'Archive faq'
 <div class="container">
 
 

@@ -33,7 +33,7 @@ YDG parents guide posts desktop only
                         'hiddenSm' => '' // false show heading only hidden in some partials
                     ] ); ?>
                 </div>
-                <div class="grid grid-cols-2 gap-4">
+                <div class="grid grid-cols-2 gap-0">
 
                     <?php if(has_post_thumbnail()):?>
                     <!-- IE11 support if needed -->
@@ -46,9 +46,9 @@ YDG parents guide posts desktop only
                     <?php endif;?>
 
 
-                    <div class="relative p-3">
+                    <div class="relative p-3 bg-gray-200">
                         <h3 class="leading-tight pb-2"><?php the_title()?></h3>
-                        <!-- Could do the same with non heiractical taxonomy for tags if needed -->
+                        <!-- Could do the same with non heiractical/tags taxonomy for tags if needed -->
                         <span class="hidden md:inline-block">
                             <?php echo ig_get_custom_terms( $post->ID, 'topics' ) ?>
                         </span>
@@ -61,7 +61,6 @@ YDG parents guide posts desktop only
                         <p class="pt-2 pr-6">
                             <?php
                                 $excerpt = get_the_excerpt();
-                                
                                 $excerpt = substr($excerpt, 0, 100);
                                 $result = substr($excerpt, 0, strrpos($excerpt, ' '));
                                 echo "$result...";
@@ -86,9 +85,6 @@ YDG parents guide posts desktop only
                             </svg>
                         </a>
                         </span>
-
-
-
                     </div>
 
                 </div>

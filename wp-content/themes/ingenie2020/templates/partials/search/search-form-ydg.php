@@ -1,4 +1,4 @@
-<form action="/" method="get" class="max-w-sm mb-0">
+<form action="/" method="get" class="border border-ig-blue-400 relative max-w-sm mb-1">
     <svg class="absolute inline-block w-4 h-4 m-1 fill-current text-ig-blue-200" xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 20 20">
         <path fill-rule="evenodd"
@@ -6,17 +6,15 @@
             clip-rule="evenodd" />
     </svg>
     <input
-        class="w-full py-1 pl-5 pr-8 leading-snug uppercase border rounded-md shadow appearance-none text-ig-blue-200 text-xxs focus:outline-none"
+        class="h-full w-full py-1 pl-5 pr-8 leading-snug uppercase shadow appearance-none text-ig-blue-200 text-xs focus:outline-none"
         type="text" placeholder="Search" aria-label="search YDG" name="s" placeholder="Search" id="search"
         value="<?php the_search_query();?>" required>
     <input type="hidden" name="post_type" value="young-drivers-guides" />
     <!-- // hidden 'young-drivers-guides' value -->
 
-    <button class="absolute right-0 inline-block px-2 py-1 text-white bg-ig-blue-400 rounded-r-sm text-xxs"
-        type="submit">
+    <button class="absolute h-full right-0 top-1 inline-block px-2 text-white bg-ig-blue-400 text-xs" type="submit">
         GO
     </button>
-
 
 </form>
 
