@@ -60,7 +60,7 @@ build:
 
   # TODO: Add staging later and set master to include if pull request only!!
   on_success:
-    # - if [ "$BRANCH" == "master" ]; then git push -f shippable@ingenie.pagelydev.com:/data/git/git/ingeniecom-insurance.git $BRANCH:master; fi
+    - if [ "$BRANCH" == "master" ]; then git push -f shippable@ingenie.pagelydev.com:/data/git/git/ingeniecom-insurance.git $BRANCH:master; fi
     - echo "SUCCESS"
 
   on_failure:
