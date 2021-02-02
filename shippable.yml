@@ -46,9 +46,10 @@ build:
     - rm shippable.yml
     - rm .gitignore
     - rm -r shippable/
+    - ls
 
     # Add asset build to git
-    - git add wp-content/themes/ingenie2020/build/
+    - git add wp-content/themes/ingenie2020/build/*
     - git commit -m "Shippable build assets for prod"
 
     # Sing like no ones watching and add version.txt for identification
