@@ -49,7 +49,7 @@ build:
 
     # Add asset build to git
     - git add wp-content/themes/ingenie2020/build/
-    - git commit -m "Shippable build for prod"
+    - git commit -m "Shippable build assets for prod"
 
     # Sing like no ones watching and add version.txt for identification
     - echo $BUILD_URL / "Message:${COMMIT_MESSAGE}"
@@ -60,7 +60,7 @@ build:
 
   # TODO: Add staging later and set master to include if pull request only!!
   on_success:
-    - if [ "$BRANCH" == "master" ]; then git push -f shippable@ingenie.pagelydev.com:/data/git/git/ingeniecom-insurance.git $BRANCH:master; fi
+    # - if [ "$BRANCH" == "master" ]; then git push -f shippable@ingenie.pagelydev.com:/data/git/git/ingeniecom-insurance.git $BRANCH:master; fi
     - echo "SUCCESS"
 
   on_failure:
