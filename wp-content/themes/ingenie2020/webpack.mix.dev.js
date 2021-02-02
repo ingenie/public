@@ -1,6 +1,7 @@
 const mix = require('laravel-mix');
 const glob = require('glob-all');
 const local = require('./local');
+
 require('laravel-mix-versionhash');
 require('laravel-mix-tailwind');
 require('laravel-mix-purgecss');

@@ -1,10 +1,5 @@
 module.exports = {
-  // error from tailwind abut purge without below TODO
-  // purge: [
-  //   "*.php",
-  //   "templates/**/*.php",
-  //   "build/js/**/*.js",
-  // ],
+  purge: false,
   theme: {
     container: {
       padding: {

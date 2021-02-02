@@ -53,7 +53,7 @@ YDG Learning to drive posts
                     <?php endif;?>
                 </div>
                 <div class="flex-auto p-2 pl-4 text-left bg-gray-200 md:pl-2">
-                    <h3 class="md:h-10 mb-2 text-sm font-bold leading-tight text-gray-900 uppercase md:text-xs">
+                    <h3 class="mb-2 text-sm font-bold leading-tight text-gray-900 uppercase md:h-10 md:text-xs">
                         <?php 
                         echo wp_trim_words( get_the_title(), 6, '...' );
                     ?>

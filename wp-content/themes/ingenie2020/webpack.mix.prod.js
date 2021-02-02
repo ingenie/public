@@ -45,6 +45,12 @@ mix.purgeCss({
     path.join(__dirname, 'templates/**/*.php'),
     path.join(__dirname, 'build/js/**/*.js'),
   ]),
+  whitelistPatterns: [
+    // TODO: Might be able to tighten this up later
+    /bg-ydg[-][a-z-]*[-]500$/,
+    /text-ydg[-][a-z-]*[-]500$/,
+  ]
+
 });
 
 if (mix.inProduction()) {
