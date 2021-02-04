@@ -15,8 +15,8 @@ wp-content/*
 # ignore specific files/folders within the theme
 wp-content/themes/ingenie2020/.idea
 wp-content/themes/ingenie2020/.vscode
-wp-content/themes/ingenie2020/build/mix-manifest.json
-wp-content/themes/ingenie2020/build
+#wp-content/themes/ingenie2020/build/mix-manifest.json
+#wp-content/themes/ingenie2020/build
 wp-content/themes/ingenie2020/local.json
 
 # ignore specific files/folders misc
