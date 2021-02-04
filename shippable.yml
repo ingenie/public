@@ -50,7 +50,6 @@ build:
     - ls
     - cd wp-content && ls
     - git status
-    - 
 
     # Add asset build to git
     - git add wp-content/themes/ingenie2020/build/
