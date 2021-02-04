@@ -48,7 +48,9 @@ build:
     - rm .gitignore
     - rm -r shippable/
     - ls
-    - cd wp-content && ls
+    - cd wp-content/themes/ingenie2020/build/css && ls
+    - cd $IG_DIR
+    - ls
     - git status
 
     # Add asset build to git
