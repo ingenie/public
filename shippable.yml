@@ -32,6 +32,7 @@ build:
     # Go to theme dir and install dependencies
     # Remove any local builds and run prod build
     - cd $THEME_DIR
+    - ls
     - shippable_retry sudo npm install
     - echo 'Remove a local build if there is one...'
     - if test -d build/; then rm -r build/; else echo 'No local build dir to delete. Yay!'; fi
@@ -47,10 +48,12 @@ build:
     - rm .gitignore
     - rm -r shippable/
     - ls
+    - cd wp-content && ls
     - git status
+    - 
 
     # Add asset build to git
-    - git add wp-content/themes/ingenie2020/build/*
+    - git add wp-content/themes/ingenie2020/build/
     - git status
     - git commit -m "Shippable build assets for prod"
 
