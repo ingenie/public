@@ -12,6 +12,12 @@ wp-content/*
 !wp-content/mu-plugins/
 !wp-content/plugins/
 !wp-content/themes/
+# pagely advice 
+wp-content/advanced-cache.php
+wp-content/wp-cache-config.php
+wp-content/cache/
+wp-content/backups/
+wp-content/mu-plugins/pagely*
 
 # ignore specific files/folders within the theme
 wp-content/themes/ingenie2020/.idea
@@ -28,6 +34,7 @@ readme.html
 sitemap.xml
 db-config.php
 sitemap.xml.gz
+wp-config.php
 wp-config-hosting.php
 .htaccess
 .DS_Store
