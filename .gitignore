@@ -1,4 +1,4 @@
-# testing deploy ****
+# Check readme.md did not deploy. >>>****
 # ignore everything in the root except the "wp-content" directory.
 # !wp-content/
 /wp-admin
