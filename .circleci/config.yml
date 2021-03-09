@@ -1,0 +1,295 @@
+# Use the latest 2.1 version of CircleCI pipeline process engine. See: https://circleci.com/docs/2.0/configuration-reference
+version: 2.1
+
+# Orbs
+orbs:
+  slack: circleci/slack@4.3.0
+  pagely-deploy: pagely/orb-deploy@1.0.0
+  node: circleci/node@4.2.0
+
+# Executors
+executors:
+  machine-executor:
+    machine:
+      image: ubuntu-2004:202010-01
+
+# Jobs
+jobs:
+  build:
+    executor: machine-executor
+    working_directory: ~/repo
+    steps:
+      - checkout
+
+      # Download and restore cache
+      - restore_cache:
+          keys:
+            - v1-dependencies-{{ checksum "wp-content/themes/ingenie2020/package.json"}}
+            # Fallback to using latest cache if no exact match is found
+            - v1-dependencies-
+      - run:
+          name: Move to ingenie theme and npm i
+          command: |
+            pwd
+            cd wp-content/themes/ingenie2020
+            npm install
+            pwd
+            ls
+
+      - save_cache:
+          paths:
+            - node_modules
+          key: v1-dependencies-{{ checksum "wp-content/themes/ingenie2020/package.json"}}
+
+      - slack/notify:
+          channel: ig-wordpress
+          custom: |
+            {
+              "blocks": [
+                {
+                  "type": "divider"
+                },
+                {
+                  "type": "header",
+                  "text": {
+                    "type": "plain_text",
+                    "text": "Build Started - $CIRCLE_BRANCH (branch) :hourglass_flowing_sand:",
+                    "emoji": true
+                  }
+                },
+                {
+                  "type": "section",
+                  "text": {
+                    "type": "mrkdwn",
+                    "text": "*Build No.*: $CIRCLE_BUILD_NUM <$CIRCLE_BUILD_URL|(View)> \n *Job:* $CIRCLE_JOB \n *Author:* $CIRCLE_USERNAME \n *Project:* $CIRCLE_PROJECT_REPONAME <https://circleci.com/gh/ingenie/ingenie-wordpress/|(View)>"
+                  },
+                  "accessory": {
+                    "type": "image",
+                    "image_url": "https://marketingblobstorage.blob.core.windows.net/ucas-emails/logos/ig-logo-inverted.png",
+                    "alt_text": "alt text for image"
+                  }
+                },
+                {
+                  "type": "divider"
+                }
+              ]
+            }
+          event: always
+
+      - run:
+          name: Run prod build - purge/assets versioning
+          command: |
+            ls
+            pwd
+            cd wp-content/themes/ingenie2020
+            npm run prod
+            pwd
+            ls
+
+      - run:
+          name: Remove node_modules and others
+          command: |
+            pwd
+            cd wp-content/themes/ingenie2020
+            rm -rf node_modules
+            rm readme.md
+            rm package.json
+            rm package-lock.json
+            rm local-example.json
+            rm tailwind*.js
+            rm webpack.*.js
+            pwd
+            ls
+
+      - store_artifacts:
+          path: /home/circleci/repo/wp-content/themes/ingenie2020
+          destination: /
+
+      - persist_to_workspace:
+          root: /home/circleci/repo/wp-content/themes/ingenie2020
+          paths:
+            - .
+
+  test:
+    executor: machine-executor
+    working_directory: ~/repo
+    steps:
+      - run: echo Add workspace and validate
+      - attach_workspace:
+          at: ~/repo/workspace
+      - run: ls ~/repo/workspace/screenshot.png
+      - slack/notify:
+          channel: ig-wordpress
+          custom: |
+            {
+              "blocks": [
+                {
+                  "type": "divider"
+                },
+                {
+                  "type": "header",
+                  "text": {
+                    "type": "plain_text",
+                    "text": "Test/Build Successful - $CIRCLE_BRANCH (branch) :test_tube: :white_check_mark:",
+                    "emoji": true
+                  }
+                },
+                {
+                  "type": "section",
+                  "text": {
+                    "type": "mrkdwn",
+                    "text": "*Build No.*: $CIRCLE_BUILD_NUM <$CIRCLE_BUILD_URL|(View)> \n *Job:* $CIRCLE_JOB \n *Author:* $CIRCLE_USERNAME \n *Project:* $CIRCLE_PROJECT_REPONAME <https://circleci.com/gh/ingenie/ingenie-wordpress/|(View)>"
+                  },
+                  "accessory": {
+                    "type": "image",
+                    "image_url": "https://marketingblobstorage.blob.core.windows.net/ucas-emails/logos/ig-logo-inverted.png",
+                    "alt_text": "alt text for image"
+                  }
+                },
+                {
+                  "type": "divider"
+                }
+              ]
+            }
+          event: pass
+      - slack/notify:
+          channel: ig-wordpress
+          custom: |
+            {
+              "blocks": [
+                {
+                  "type": "divider"
+                },
+                {
+                  "type": "header",
+                  "text": {
+                    "type": "plain_text",
+                    "text": "Tests Failed - $CIRCLE_BRANCH (branch) :red_circle:",
+                    "emoji": true
+                  }
+                },
+                {
+                  "type": "section",
+                  "text": {
+                    "type": "mrkdwn",
+                    "text": "*Build No.*: $CIRCLE_BUILD_NUM <$CIRCLE_BUILD_URL|(View)> \n *Job:* $CIRCLE_JOB \n *Author:* $CIRCLE_USERNAME \n *Project:* $CIRCLE_PROJECT_REPONAME <https://circleci.com/gh/ingenie/ingenie-wordpress/|(View)>"
+                  },
+                  "accessory": {
+                    "type": "image",
+                    "image_url": "https://marketingblobstorage.blob.core.windows.net/ucas-emails/logos/ig-logo-inverted.png",
+                    "alt_text": "alt text for image"
+                  }
+                },
+                {
+                  "type": "divider"
+                }
+              ]
+            }
+          event: fail
+  deploy:
+    executor: machine-executor
+    working_directory: ~/repo
+    steps:
+      - attach_workspace:
+          at: ~/repo/workspace
+      - run: ls ~/repo/workspace/screenshot.png
+      - run: 
+          name: Pre-Deploy check
+          command: |
+            cd ~/repo/workspace
+            ls
+  nofity-deploy-state:
+    executor: machine-executor
+    steps:
+      - slack/notify:
+          channel: ig-wordpress
+          custom: |
+            {
+              "blocks": [
+                {
+                  "type": "divider"
+                },
+                {
+                  "type": "header",
+                  "text": {
+                    "type": "plain_text",
+                    "text": "Deployed to Staging - $CIRCLE_BRANCH (branch) :tada:",
+                    "emoji": true
+                  }
+                },
+                {
+                  "type": "section",
+                  "text": {
+                    "type": "mrkdwn",
+                    "text": "*Build No.*: $CIRCLE_BUILD_NUM <$CIRCLE_BUILD_URL|(View)> \n *Job:* $CIRCLE_JOB \n *Author:* $CIRCLE_USERNAME \n *Project:* $CIRCLE_PROJECT_REPONAME <https://circleci.com/gh/ingenie/ingenie-wordpress/|(View)>"
+                  },
+                  "accessory": {
+                    "type": "image",
+                    "image_url": "https://marketingblobstorage.blob.core.windows.net/ucas-emails/logos/ig-logo-inverted.png",
+                    "alt_text": "alt text for image"
+                  }
+                },
+                {
+                  "type": "divider"
+                }
+              ]
+            }
+          event: pass
+      - slack/notify:
+          channel: ig-wordpress
+          event: fail
+          template: basic_fail_1
+
+# Workflows
+workflows:
+  build-and-deploy-prod:
+    jobs:
+      - build:
+          filters: &filters-prod-only # yaml anchor is setting these values to "filters-prod-only"
+            branches:
+              only: master
+      - test:
+          requires:
+            - build
+          filters:
+            <<: *filters-prod-only # calling yaml anchor
+      - deploy:
+          requires:
+            - test
+          filters:
+            <<: *filters-prod-only
+      - pagely-deploy/deploy:
+          app_id: '34827'
+          deploy_dest: /httpdocs/wp-content/themes/ingenie2020
+          working_dir: $CIRCLE_WORKING_DIRECTORY/
+          requires:
+            - test
+          filters:
+            <<: *filters-prod-only
+
+  build-and-deploy-staging:
+    jobs:
+      - build
+      - test:
+          requires:
+            - build
+      - deploy:
+          requires:
+            - test
+      - pagely-deploy/deploy:
+          app_id: '34827'
+          deploy_dest: /httpdocs/wp-content/themes/ingenie2020
+          working_dir: $CIRCLE_WORKING_DIRECTORY/
+          requires:
+            - test
+          filters:
+            branches:
+              only: 
+               - staging
+      - nofity-deploy-state:
+          requires:
+            - pagely-deploy/deploy
+      
+
+
+ 

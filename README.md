@@ -1,3 +1,7 @@
+Staging (BRANCH)| Production (BRANCH) 
+------------ | -------------
+[![CircleCI](https://circleci.com/gh/ingenie/ingenie-wordpress/tree/staging.svg?style=shield&circle-token=bc31724a30305edbae333ad9126ff277962138ab)](https://circleci.com/gh/ingenie/ingenie-wordpress/tree/staging) | [![CircleCI](https://circleci.com/gh/ingenie/ingenie-wordpress/tree/master.svg?style=shield&circle-token=bc31724a30305edbae333ad9126ff277962138ab)](https://circleci.com/gh/ingenie/ingenie-wordpress/tree/master)
+
 ## ingenie Insurance Wordpress Theme
 
 ingenie WordPress theme using [TailwindCSS](https://tailwindcss.com/) and [Laravel Mix](https://laravel.com/docs/5.8/mix).
