@@ -242,42 +242,53 @@ jobs:
 
 # Workflows
 workflows:
-  build-and-deploy-prod:
+  build-and-deploy-preprod:
     jobs:
       - build:
-          filters: &filters-prod-only # yaml anchor is setting these values to "filters-prod-only"
+          filters: &filters-preprod-only # yaml anchor is setting these values to "filters-prod-only"
             branches:
-              only: master
+              only: preprod
       - test:
           requires:
             - build
           filters:
-            <<: *filters-prod-only # calling yaml anchor
+            <<: *filters-preprod-only # calling yaml anchor
       - deploy:
           requires:
             - test
           filters:
-            <<: *filters-prod-only
+            <<: *filters-preprod-only
       - pagely-deploy/deploy:
-          app_id: '34827'
+          app_id: '37383'
           deploy_dest: /httpdocs/wp-content/themes/ingenie2020
           working_dir: $CIRCLE_WORKING_DIRECTORY/
           requires:
             - test
           filters:
-            <<: *filters-prod-only
+            <<: *filters-preprod-only
+      - nofity-deploy-state:
+          requires:
+            - pagely-deploy/deploy
 
-  build-and-deploy-staging:
+  build-and-deploy-development:
     jobs:
       - build
       - test:
           requires:
             - build
+          filters:
+            branches:
+              only: 
+               - development
       - deploy:
           requires:
             - test
+          filters:
+            branches:
+              only: 
+               - development
       - pagely-deploy/deploy:
-          app_id: '34827'
+          app_id: '37391'
           deploy_dest: /httpdocs/wp-content/themes/ingenie2020
           working_dir: $CIRCLE_WORKING_DIRECTORY/
           requires:
@@ -285,7 +296,7 @@ workflows:
           filters:
             branches:
               only: 
-               - staging
+               - development
       - nofity-deploy-state:
           requires:
             - pagely-deploy/deploy
