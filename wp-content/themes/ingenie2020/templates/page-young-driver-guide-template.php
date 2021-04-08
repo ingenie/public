@@ -53,4 +53,4 @@
 
 
 
-<?php get_footer('ydg');
+<?php get_footer('ydg');?>

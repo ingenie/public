@@ -33,22 +33,14 @@
 
         </div>
 
-        <div class="flex">
-            <p class="text-white p-8 text-xs">ingenie Services Limited is registered in England &amp;
-                Wales
-                (No.07465078) and authorised and regulated by the Financial Conduct Authority (FRN 568113). The
-                Financial Conduct Authority's Register can be accessed through the <a
-                    href="https://www.fca.org.uk/firms/financial-services-register" target="_blank">fca.org.uk
-                    site</a>. Ingenie Services Limited offers general insurance policies from a limited number of
-                insurers.</p>
-        </div>
+        <?php get_template_part( 'templates/partials/copyright' ); ?>
 
         <?php get_template_part( 'templates/partials/social/footer', 'icons' ); ?>
     </div>
 
 </footer>
 
-<!-- !! TrustBox script TEMP until GTM implemented -->
+<!-- TODO: TrustBox script TEMP until GTM implemented -->
 <script type="text/javascript" src="//widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js" async></script>
 <!-- End TrustBox script -->
 

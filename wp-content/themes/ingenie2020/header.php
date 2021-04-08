@@ -27,7 +27,7 @@
     <div class="flex-1 text-right">
         <a href="#"
             class="inline-block text-sm px-4 py-2 leading-none border rounded text-white border-ig-orange-500 hover:border-transparent hover:text-white bg-ig-orange-500 hover:bg-ig-orange-600 mt-4 md:mt-0">Get
-            a quote NOW!</a>
+            a quote!!</a>
     </div>
 
 </header>
