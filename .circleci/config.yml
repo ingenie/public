@@ -36,6 +36,10 @@ jobs:
             pwd
             ls
 
+      - run:
+          name: "Setup custom environment variables"
+          command: echo 'export COMMIT_MESSAGE=$(git log -1 --pretty=format:"%s")' >> $BASH_ENV
+
       - save_cache:
           paths:
             - node_modules
@@ -45,15 +49,13 @@ jobs:
           channel: ig-wordpress
           custom: |
             {
+              "text": "$CIRCLE_BRANCH / started :hourglass_flowing_sand:",
               "blocks": [
-                {
-                  "type": "divider"
-                },
                 {
                   "type": "header",
                   "text": {
                     "type": "plain_text",
-                    "text": "Build Started - $CIRCLE_BRANCH (branch) :hourglass_flowing_sand:",
+                    "text": "Build Started - $CIRCLE_BRANCH :hourglass_flowing_sand:",
                     "emoji": true
                   }
                 },
@@ -61,7 +63,7 @@ jobs:
                   "type": "section",
                   "text": {
                     "type": "mrkdwn",
-                    "text": "*Build No.*: $CIRCLE_BUILD_NUM <$CIRCLE_BUILD_URL|(View)> \n *Job:* $CIRCLE_JOB \n *Author:* $CIRCLE_USERNAME \n *Project:* $CIRCLE_PROJECT_REPONAME <https://circleci.com/gh/ingenie/ingenie-wordpress/|(View)>"
+                    "text": "Build No.: *$CIRCLE_BUILD_NUM* *$CIRCLE_JOB* <$CIRCLE_BUILD_URL|(View)> \n Commit Message: *$COMMIT_MESSAGE* \n Author: *$CIRCLE_USERNAME* \n Project: *$CIRCLE_PROJECT_REPONAME* <https://circleci.com/gh/ingenie/wordpress/|(View)>"
                   },
                   "accessory": {
                     "type": "image",
@@ -118,27 +120,28 @@ jobs:
       - attach_workspace:
           at: ~/repo/workspace
       - run: ls ~/repo/workspace/screenshot.png
+      - run:
+          name: "Setup custom environment variables"
+          command: echo 'export COMMIT_MESSAGE=$(git log -1 --pretty=format:"%s")' >> $BASH_ENV
       - slack/notify:
           channel: ig-wordpress
           custom: |
             {
+              "text": "BRANCH: $CIRCLE_BRANCH / Successful build :white_check_mark:",
               "blocks": [
-                {
-                  "type": "divider"
-                },
                 {
                   "type": "header",
                   "text": {
                     "type": "plain_text",
-                    "text": "Test/Build Successful - $CIRCLE_BRANCH (branch) :test_tube: :white_check_mark:",
+                    "text": "Test/Build Successful - $CIRCLE_BRANCH :test_tube: :white_check_mark:",
                     "emoji": true
                   }
                 },
-                {
+                 {
                   "type": "section",
                   "text": {
                     "type": "mrkdwn",
-                    "text": "*Build No.*: $CIRCLE_BUILD_NUM <$CIRCLE_BUILD_URL|(View)> \n *Job:* $CIRCLE_JOB \n *Author:* $CIRCLE_USERNAME \n *Project:* $CIRCLE_PROJECT_REPONAME <https://circleci.com/gh/ingenie/ingenie-wordpress/|(View)>"
+                    "text": "Build No.: *$CIRCLE_BUILD_NUM* *$CIRCLE_JOB* <$CIRCLE_BUILD_URL|(View)> \n Author: *$CIRCLE_USERNAME* \n Project: *$CIRCLE_PROJECT_REPONAME* <https://circleci.com/gh/ingenie/wordpress/|(View)>"
                   },
                   "accessory": {
                     "type": "image",
@@ -156,15 +159,13 @@ jobs:
           channel: ig-wordpress
           custom: |
             {
+              "text": "BRANCH: $CIRCLE_BRANCH / Failed build :red_circle:",
               "blocks": [
-                {
-                  "type": "divider"
-                },
                 {
                   "type": "header",
                   "text": {
                     "type": "plain_text",
-                    "text": "Tests Failed - $CIRCLE_BRANCH (branch) :red_circle:",
+                    "text": "Tests Failed - $CIRCLE_BRANCH :red_circle:",
                     "emoji": true
                   }
                 },
@@ -172,7 +173,7 @@ jobs:
                   "type": "section",
                   "text": {
                     "type": "mrkdwn",
-                    "text": "*Build No.*: $CIRCLE_BUILD_NUM <$CIRCLE_BUILD_URL|(View)> \n *Job:* $CIRCLE_JOB \n *Author:* $CIRCLE_USERNAME \n *Project:* $CIRCLE_PROJECT_REPONAME <https://circleci.com/gh/ingenie/ingenie-wordpress/|(View)>"
+                    "text": "Build No.: *$CIRCLE_BUILD_NUM* *$CIRCLE_JOB* <$CIRCLE_BUILD_URL|(View)> \n Author: *$CIRCLE_USERNAME* \n Project: *$CIRCLE_PROJECT_REPONAME* <https://circleci.com/gh/ingenie/wordpress/|(View)>"
                   },
                   "accessory": {
                     "type": "image",
@@ -201,27 +202,28 @@ jobs:
   nofity-deploy-state:
     executor: machine-executor
     steps:
+      - run:
+          name: "Setup custom environment variables"
+          command: echo 'export COMMIT_MESSAGE=$(git log -1 --pretty=format:"%s")' >> $BASH_ENV
       - slack/notify:
           channel: ig-wordpress
           custom: |
             {
+              "text": "BRANCH: $CIRCLE_BRANCH / Successfully deployed :white_check_mark:",
               "blocks": [
-                {
-                  "type": "divider"
-                },
                 {
                   "type": "header",
                   "text": {
                     "type": "plain_text",
-                    "text": "Deployed to Staging - $CIRCLE_BRANCH (branch) :tada:",
+                    "text": "Deployed to - $CIRCLE_BRANCH :tada:",
                     "emoji": true
                   }
                 },
-                {
+               {
                   "type": "section",
                   "text": {
                     "type": "mrkdwn",
-                    "text": "*Build No.*: $CIRCLE_BUILD_NUM <$CIRCLE_BUILD_URL|(View)> \n *Job:* $CIRCLE_JOB \n *Author:* $CIRCLE_USERNAME \n *Project:* $CIRCLE_PROJECT_REPONAME <https://circleci.com/gh/ingenie/ingenie-wordpress/|(View)>"
+                    "text": "Build No.: *$CIRCLE_BUILD_NUM* *$CIRCLE_JOB* <$CIRCLE_BUILD_URL|(View)> \n Author: *$CIRCLE_USERNAME* \n Project: *$CIRCLE_PROJECT_REPONAME* <https://circleci.com/gh/ingenie/wordpress/|(View)>"
                   },
                   "accessory": {
                     "type": "image",
@@ -272,7 +274,11 @@ workflows:
 
   build-and-deploy-development:
     jobs:
-      - build
+      - build:
+          filters:
+            branches:
+              only: 
+               - development
       - test:
           requires:
             - build
