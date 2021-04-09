@@ -1,0 +1,134 @@
+/*
+Burger Navigaton
+*/
+
+.navburger-main {
+  z-index: 999;
+  @apply bg-ig-blue-700;
+  font-size: 1.3rem;
+  height: 100vh;
+  padding: 6.5rem 0;
+  text-align: right;
+  overflow: scroll;
+  width: 250px;
+  position: absolute;
+  top: 0;
+  left: -250px;
+
+  >ul {
+    padding: 20px 0 0 0;
+  }
+
+  li {
+    margin-bottom: .2rem;
+    list-style: none;
+    transition: background-color 0.2s ease;
+    background-color: #002f5f;
+
+    &:hover {
+      @apply bg-ig-blue-700;
+    }
+
+    a {
+      width: 100%;
+      box-sizing: border-box;
+      padding: 15px;
+      display: inline-block;
+      text-decoration: none;
+
+      span {
+        display: inline-block;
+        vertical-align: middle;
+      }
+    }
+
+    ul.sub-menu {
+      display: none;
+      margin: 0;
+      padding: 0;
+      background-color: #002f5f;
+
+      li {
+        transition: background-color 0.2s ease;
+        background: transparent;
+        margin-bottom: 0;
+
+        &:hover {
+          @apply bg-ig-blue-700;
+        }
+
+        a {
+          padding: 8px 15px;
+        }
+      }
+    }
+  }
+}
+
+/*
+   * Toggle
+   */
+#menuToggle {
+  outline: none;
+  border: none;
+  background-color: transparent;
+  z-index: 1000;
+  position: relative;
+  top: 0;
+  left: 0;
+  display: block;
+  cursor: pointer;
+  height: 35px;
+  width: 45px;
+  margin: 8px 0 0;
+}
+
+#menuToggle span {
+  padding: 0;
+  display: block;
+  width: 33px;
+  height: 3px;
+  margin-bottom: 5px;
+  position: relative;
+  @apply bg-ig-blue-700;
+  border-radius: 3px;
+
+  transform-origin: 4px 0px;
+  transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0),
+    background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0),
+    opacity 0.55s ease;
+}
+
+#menuToggle span:first-child {
+  transform-origin: 0% 0%;
+}
+
+#menuToggle span:nth-child(2) {
+  transform-origin: 0% 100%;
+}
+
+/*
+* Transform all the slices of hamburger
+*/
+#menuToggle.open span {
+  opacity: 1;
+  transform: rotate(45deg) translate(-3px, -3px);
+  background: white;
+}
+
+#menuToggle.open span:nth-child(2) {
+  opacity: 0;
+  transform: rotate(0deg) scale(0.2, 0.2);
+}
+
+#menuToggle.open span:nth-child(3) {
+  transform: rotate(-45deg) translate(-3px, -3px);
+}
+
+/*
+* Prevent background scroll when menu open
+*/
+
+.no-scroll {
+  overflow: hidden;
+}

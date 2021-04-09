@@ -1,0 +1,75 @@
+/*
+Main Navigaton
+*/
+
+.navbar-main {
+  z-index: 997;
+  position: relative;
+
+  >ul {
+    padding: 20px 0 0 0;
+  }
+
+  li {
+    margin-bottom: .2rem;
+    list-style: none;
+    transition: background-color 0.2s ease;
+
+    &:hover,
+    &:active {
+      @apply bg-ig-blue-600;
+      @apply text-white;
+    }
+
+    a {
+      @apply px-3 py-3;
+      width: 100%;
+      box-sizing: border-box;
+      display: inline-block;
+      text-decoration: none;
+
+      span {
+        display: inline-block;
+        vertical-align: middle;
+      }
+    }
+
+    ul.sub-menu {
+      z-index: 998;
+      display: none;
+      // margin: 0 auto 0;
+      // max-width: 100%;
+      padding: 2rem 5rem;
+      position: absolute;
+      top: 50px;
+      left: 0;
+      right: 0;
+      @apply bg-ig-blue-500;
+      @apply text-white;
+
+      li {
+        // transition: background-color 0.2s ease;
+        background: transparent;
+        width: 40%;
+        display: inline-block;
+        text-align: left;
+        padding: 0;
+        margin: 0 1rem;
+        @apply text-xs;
+        border: none;
+
+        &:hover {
+          @apply bg-ig-blue-600;
+        }
+
+        a {
+          padding: 8px;
+        }
+      }
+    }
+  }
+}
+
+.no-scroll {
+  overflow: hidden;
+}

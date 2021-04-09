@@ -7,6 +7,7 @@
 // full power of TailwindCSS in areas of the site that are not dynamically generated markup.
 
 $module: '.Wysiwyg';
+
 #{$module} {
   @extend .WysiwygAnchors;
   @extend .WysiwygHeadings;
@@ -15,9 +16,12 @@ $module: '.Wysiwyg';
 }
 
 $module: '.WysiwygAnchors';
+
 #{$module} {
   a {
-    &, &:visited {
+
+    &,
+    &:visited {
       @apply text-link;
       transition: all 0.24s ease;
 
@@ -26,12 +30,17 @@ $module: '.WysiwygAnchors';
         @apply text-link-hover;
       }
 
-      &:active {
-      }
+      &:active {}
 
       // If an anchor exists inside a heading, inherit the headings color
       $this: &;
-      @at-root h1, h2, h3, h4, h5, h6 {
+
+      @at-root h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
         #{$this} {
           color: inherit;
         }
@@ -41,8 +50,15 @@ $module: '.WysiwygAnchors';
 }
 
 $module: '.WysiwygHeadings';
+
 #{$module} {
-  h1, h2, h3, h4, h5, h6 {
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
     @apply font-sans font-semibold text-black leading-tight;
   }
 
@@ -54,12 +70,15 @@ $module: '.WysiwygHeadings';
     @apply text-xl;
   }
 
-  h3, h4, h5 {
+  h3,
+  h4,
+  h5 {
     @apply text-lg;
   }
 }
 
 $module: '.WysiwygCode';
+
 #{$module} {
   code {
     @apply font-mono inline-block px-1 rounded-sm text-sm align-baseline bg-pink-100 text-pink-600;
@@ -67,8 +86,13 @@ $module: '.WysiwygCode';
 }
 
 $module: '.WysiwygSpacing';
+
 #{$module} {
-  p, ul, ol, .wp-block-embed {
+
+  p,
+  ul,
+  ol,
+  .wp-block-embed {
     @apply my-8;
   }
 }

@@ -96,10 +96,14 @@
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_ExampleComponent1__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./components/ExampleComponent1 */ "./assets/js/components/ExampleComponent1.js");
-/* harmony import */ var _components_ReplaceObfuscatedEmailAddresses__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./components/ReplaceObfuscatedEmailAddresses */ "./assets/js/components/ReplaceObfuscatedEmailAddresses.js");
-/* harmony import */ var _components_AnimateOnPageLinks__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./components/AnimateOnPageLinks */ "./assets/js/components/AnimateOnPageLinks.js");
+/* harmony import */ var _components_MobileHamburgerMenu__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./components/MobileHamburgerMenu */ "./assets/js/components/MobileHamburgerMenu.js");
+/* harmony import */ var _components_MainMenu__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./components/MainMenu */ "./assets/js/components/MainMenu.js");
+/* harmony import */ var _components_ReplaceObfuscatedEmailAddresses__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./components/ReplaceObfuscatedEmailAddresses */ "./assets/js/components/ReplaceObfuscatedEmailAddresses.js");
+/* harmony import */ var _components_AnimateOnPageLinks__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./components/AnimateOnPageLinks */ "./assets/js/components/AnimateOnPageLinks.js");
 // you can import modules from the theme lib or even from
 // NPM packages if they support it…
+
+
  // you can also require modules if they support it…
 
 var ExampleModule2 = __webpack_require__(/*! ./components/example-2 */ "./assets/js/components/example-2.js"); // Some convenient tools to get you started…
@@ -107,12 +111,15 @@ var ExampleModule2 = __webpack_require__(/*! ./components/example-2 */ "./assets
 
 
  // Initialise our components on jQuery.ready…
-// jQuery(function ($) {
-//     ExampleComponent1.init();
-//     ExampleModule2.init();
-//     ReplaceObfuscatedEmailAddresses.init();
-//     AnimateOnPageLinks.init();
-// });
+
+jQuery(function ($) {
+  // ExampleComponent1.init();
+  // ExampleModule2.init();
+  // ReplaceObfuscatedEmailAddresses.init();
+  // AnimateOnPageLinks.init();
+  _components_MobileHamburgerMenu__WEBPACK_IMPORTED_MODULE_1__["default"].init();
+  _components_MainMenu__WEBPACK_IMPORTED_MODULE_2__["default"].init();
+});
 
 /***/ }),
 
@@ -211,6 +218,119 @@ var ExampleComponent1 = {
   }
 };
 /* harmony default export */ __webpack_exports__["default"] = (ExampleComponent1);
+
+/***/ }),
+
+/***/ "./assets/js/components/MainMenu.js":
+/*!******************************************!*\
+  !*** ./assets/js/components/MainMenu.js ***!
+  \******************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+var $ = window.jQuery;
+var $window = window.$window || $(window);
+var MainMenu = {
+  init: function init() {
+    // Controls the main nested menu behaviour
+    var primaryLink = $('.navbar-main ul li a');
+    var subMenu = $('.navbar-main ul li ul.sub-menu');
+    $(primaryLink).click(function (e) {
+      e.stopPropagation();
+      $(primaryLink).not(this).each(function () {
+        $(this).next().slideUp(300);
+      });
+      $(this).next().slideToggle(300);
+    });
+    $('html').click(function () {
+      subMenu.slideUp(300);
+    });
+  }
+};
+/* harmony default export */ __webpack_exports__["default"] = (MainMenu);
+
+/***/ }),
+
+/***/ "./assets/js/components/MobileHamburgerMenu.js":
+/*!*****************************************************!*\
+  !*** ./assets/js/components/MobileHamburgerMenu.js ***!
+  \*****************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+var $ = window.jQuery;
+var $window = window.$window || $(window);
+var MobileHamburgerMenu = {
+  init: function init() {
+    var mobileNav = $('.navburger-main');
+    var navToggle = $('#menuToggle');
+    var cssWidth = $(mobileNav).css('width');
+    var bkgScroll = $('body');
+    var isOpen = 0;
+    var menuWidthInverse = '-' + cssWidth;
+    $('html').click(function () {
+      if (isOpen == 1) {
+        $(mobileNav).animate({
+          'left': menuWidthInverse
+        }, 300);
+        navToggle.removeClass('open');
+        isOpen--;
+        subMenu.hide();
+        bkgScroll.removeClass('no-scroll');
+      }
+
+      return;
+    });
+    $(navToggle).click(function (e) {
+      e.stopPropagation();
+
+      if (isOpen == 0) {
+        $(mobileNav).animate({
+          'left': 0
+        }, 300);
+        navToggle.addClass('open');
+        isOpen++;
+        bkgScroll.addClass('no-scroll');
+      } else {
+        $(mobileNav).animate({
+          'left': menuWidthInverse
+        }, 300);
+        navToggle.removeClass('open');
+        isOpen--;
+        subMenu.hide();
+        bkgScroll.removeClass('no-scroll');
+      }
+    }); // Controls the nested menu behaviour
+
+    var primaryLink = $('.navburger-main ul li a');
+    var subMenu = $('.navburger-main ul li ul.sub-menu');
+    $(primaryLink).click(function (e) {
+      e.stopPropagation();
+      $(primaryLink).not(this).each(function () {
+        $(this).next().slideUp(300);
+      });
+      $(this).next().slideToggle(300);
+    }); //window resize
+    // var $windowWidth = $(window).width();
+    // console.log('window width on load >>>>', $windowWidth);
+    //   $(window).resize(function() {
+    //     if($(window).width() <= 599) {
+    //        $(mobileNav).css({
+    //          "width": "80%",
+    //          "min-width": "250"
+    //        });
+    //     } else if($(window).width() >= 600) {
+    //       $(mobileNav).css(
+    //         "width", "250");
+    //     }
+    // });
+  }
+};
+/* harmony default export */ __webpack_exports__["default"] = (MobileHamburgerMenu);
 
 /***/ }),
 
