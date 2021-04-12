@@ -2,10 +2,12 @@
 
  <div class="container">
 
-     <h1><?php the_title(); ?></h1>
+     <!-- <h1><?php the_title(); ?></h1> -->
+     <div>
+         <?php the_content(); ?>
+     </div>
      <!-- <?php get_template_part( 'templates/partials/section', 'content' ); ?> -->
 
  </div>
-
 
  <?php get_footer(); ?>

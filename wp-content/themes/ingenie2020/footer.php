@@ -9,9 +9,9 @@
 
             <div class="sm:flex-1/4 p-0 text-sm sm:p-1 text-center">
                 <ul>
-                    <li><a href="//ingenie.com/about">About ingenie</a></li>
-                    <li><a href="//ingenie.com/contact-us">Contact us</a></li>
-                    <li><a href="//ingenie.com/careers">Careers</a></li>
+                    <li><a href="/about">About ingenie</a></li>
+                    <li><a href="/contact-us">Contact us</a></li>
+                    <li><a href="/careers">Careers</a></li>
                 </ul>
             </div>
 
@@ -19,15 +19,15 @@
                 <ul>
                     <li><a href="//ingeniebusiness.com" target="_blank" rel="noopener noreferrer">ingenieBusiness</a>
                     </li>
-                    <li><a href="//ingenie.com/sitemap">Sitemap</a></li>
-                    <li><a href="//ingenie.com/press-centre">Press</a></li>
+                    <li><a href="/sitemap">Sitemap</a></li>
+                    <li><a href="/press-centre">Press</a></li>
                 </ul>
             </div>
 
             <div class="sm:flex-1/4 p-0 text-sm sm:p-1 text-center">
                 <ul>
-                    <li><a class="footer__link" href="//ingenie.com/privacy-policy">Privacy &amp; cookie policy</a></li>
-                    <li><a class="footer__link" href="//ingenie.com/terms-and-conditions">Terms &amp; conditions</a>
+                    <li><a class="footer__link" href="/privacy-policy">Privacy &amp; cookie policy</a></li>
+                    <li><a class="footer__link" href="/terms-and-conditions">Terms &amp; conditions</a>
                     </li>
                 </ul>
             </div>

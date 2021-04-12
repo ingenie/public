@@ -42,6 +42,7 @@ const MobileHamburgerMenu = {
     });
 
     // Controls the nested menu behaviour
+    // var primaryLink = $('.navbar-main ul li a[href^="#"]');
     var primaryLink = $('.navburger-main ul li a');
     var subMenu = $('.navburger-main ul li ul.sub-menu');
 

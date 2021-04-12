@@ -1,4 +1,4 @@
-<nav class="navbar-main flex justify-evenly">
+<nav class="navbar-main hidden lg:flex justify-evenly">
     <?php 
 wp_nav_menu(
     array (

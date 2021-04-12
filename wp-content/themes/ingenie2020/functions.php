@@ -47,6 +47,7 @@ register_nav_menus(
     array(
 
         'main-menu' => 'Main Menu Location',
+        'burger-menu' => 'Mobile Menu Location',
         'ydg-menu' => 'Young Drivers Guide Menu Location',
         'side-menu' => 'Side Menu Location',
     )

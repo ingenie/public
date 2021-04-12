@@ -5,16 +5,16 @@ const MainMenu = {
 
   init() {
     // Controls the main nested menu behaviour
-    var primaryLink = $('.navbar-main ul li a');
+    var primaryLink = $('.navbar-main ul li a[href^="#"]');
     var subMenu = $('.navbar-main ul li ul.sub-menu');
 
     $(primaryLink).click(function (e) {
       e.stopPropagation();
+      e.preventDefault();
       $(primaryLink).not(this).each(function () {
-        $(this).next().slideUp(300);
+        $(this).next().hide();
       });
-      $(this).next().slideToggle(300);
-
+      $(this).next().slideToggle(400);
     });
 
     $('html').click(function () {
