@@ -11,26 +11,6 @@
     document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/, 'js');
     </script>
     <?php wp_head() ?>
-    <link rel="stylesheet"
-        href="<?php echo get_site_url(); ?>/wp-content/themes/ingenie2020/build/flexslider/flexslider.css"
-        type="text/css">
-    <script src="<?php echo get_site_url(); ?>/wp-content/themes/ingenie2020/build/flexslider/jquery.flexslider-min.js">
-    </script>
-    <script type="text/javascript">
-    (function($) {
-        $(window).load(function() {
-            $('#slider .flexslider').flexslider({
-                animation: 'slide',
-                slideshowSpeed: 9000,
-                animationSpeed: 900,
-                pauseOnAction: true,
-                pauseOnHover: true,
-                controlNav: true,
-                directionNav: true,
-                controlsContainer: ".flexslider",
-            });
-        });
-    })(jQuery)
     </script>
 </head>
 

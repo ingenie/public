@@ -3,6 +3,8 @@
 import ExampleComponent1 from "./components/ExampleComponent1";
 import MobileHamburgerMenu from "./components/MobileHamburgerMenu";
 import MainMenu from "./components/MainMenu";
+import FlexSlider from "./components/jquery.flexslider-min";
+import FlexSliderSetUp from "./components/FlexSliderSetUp";
 
 // you can also require modules if they support it…
 const ExampleModule2 = require('./components/example-2');
@@ -18,6 +20,8 @@ jQuery(function ($) {
   // ExampleModule2.init();
   // ReplaceObfuscatedEmailAddresses.init();
   // AnimateOnPageLinks.init();
+  FlexSlider.init();
+  FlexSliderSetUp.init();
   MobileHamburgerMenu.init();
   MainMenu.init();
 });

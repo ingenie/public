@@ -30,6 +30,8 @@ mix.tailwind();
 
 mix.js('assets/js/app.js', 'js');
 mix.sass('assets/scss/app.scss', 'css');
+// Copy fonts over to buld
+mix.copyDirectory('assets/font/vendor', 'build/css/fonts');
 
 // The package internally limits running to production builds so we don't need
 // to wrap this up with a condition.
