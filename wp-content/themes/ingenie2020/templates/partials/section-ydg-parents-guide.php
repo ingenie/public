@@ -3,7 +3,7 @@
 YDG parents guide posts desktop only
 ============================= 
 -->
-<section id="slider">
+<section id="slider-ydg">
     <div class="flexslider">
         <ul class="slides">
             <?php  $feat_args = array(

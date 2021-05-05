@@ -1,5 +1,5 @@
 <!-- Site footer markup goes here -->
-<footer class="md:mb-4 bg-ig-blue-500 py-8">
+<footer class="bg-ig-blue-500 py-8">
     <div class="lg:container lg:mx-auto">
         <div class="flex flex-col sm:flex-row flex-wrap items-center sm:items-start justify-between p-4 text-white">
 

@@ -1,13 +1,11 @@
  <?php get_header(); ?>
 
- <div class="container">
+ <!-- No title thanks  -->
+ <!-- <?php the_title(); ?> -->
 
-     <!-- <h1><?php the_title(); ?></h1> -->
-     <div>
-         <?php the_content(); ?>
-     </div>
-     <!-- <?php get_template_part( 'templates/partials/section', 'content' ); ?> -->
+ <?php the_content(); ?>
 
- </div>
+ <!-- No loop thanks -->
+ <!-- <?php get_template_part( 'templates/partials/section', 'content' ); ?> -->
 
  <?php get_footer(); ?>

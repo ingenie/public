@@ -7,6 +7,7 @@ html {
   @apply antialiased;
   font-size: 15px;
   text-rendering: optimizeLegibility;
+  @apply text-ig-blue-500;
 
   @screen md {
     font-size: 18px;

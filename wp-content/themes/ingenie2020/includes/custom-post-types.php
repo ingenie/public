@@ -52,10 +52,55 @@ function custom_post_type() {
     
     );
 
-    $adsLabels = array(
-        'name'                => _x( 'Ingenie Adverts', 'Post Type General Name'),
-        'singular_name'       => _x( 'Ingenie Advert', 'Post Type Singular Name'),
-        'menu_name'           => __( 'IG Advert'),
+    $quoteLabels = array(
+        'name'                => _x( 'Quotes', 'Post Type General Name'),
+        'singular_name'       => _x( 'Quote', 'Post Type Singular Name'),
+        'menu_name'           => __( 'IG Quotes'),
+        'parent_item_colon'   => __( 'Parent Quote'),
+        'all_items'           => __( 'View all Quotes'),
+        'view_item'           => __( 'View Quote'),
+        'add_new_item'        => __( 'Add New Quote'),
+        'add_new'             => __( 'Add New Quote'),
+        'edit_item'           => __( 'Edit Quote'),
+        'update_item'         => __( 'Update Quote'),
+        'search_items'        => __( 'Search Quote'),
+        'not_found'           => __( 'Not Found'),
+        'not_found_in_trash'  => __( 'Not found in Trash'),
+    );
+        
+    $quoteArgs = array(
+        'label'               => __( 'quotes'),
+        'description'         => __( 'ingenie Insurance customer Quotes'),
+        'labels'              => $quoteLabels,
+        // Features this CPT supports in Post Editor
+        'supports'            => array( 'title', 'editor', 'author', 'thumbnail', 'custom-fields' ),
+        // You can associate this CPT with a taxonomy or custom taxonomy. 
+        'taxonomies'          => array( '' ),
+        /* A hierarchical CPT is like Pages and can have
+        * Parent and child items. A non-hierarchical CPT
+        * is like Posts.
+        */ 
+        'hierarchical'        => false,
+        'public'              => true,
+        'show_ui'             => true,
+        'show_in_menu'        => true,
+        'show_in_nav_menus'   => true,
+        'show_in_admin_bar'   => true,
+        'menu_position'       => 7,
+        'menu_icon'           => 'dashicons-format-quote',
+        'can_export'          => true,
+        'has_archive'         => true,
+        'exclude_from_search' => false,
+        'publicly_queryable'  => true,
+        'capability_type'     => 'post',
+        'show_in_rest' => true,
+    
+    );
+
+    $ydgAdsLabels = array(
+        'name'                => _x( 'YDG Adverts', 'Post Type General Name'),
+        'singular_name'       => _x( 'YDG Advert', 'Post Type Singular Name'),
+        'menu_name'           => __( 'YDG Advert'),
         'parent_item_colon'   => __( 'Parent Advert'),
         'all_items'           => __( 'View all adverts'),
         'view_item'           => __( 'View advert'),
@@ -68,10 +113,10 @@ function custom_post_type() {
         'not_found_in_trash'  => __( 'Not found in Trash'),
     );
 
-    $adsArgs = array(
+    $ydgAdsArgs = array(
         'label'               => __( 'adverts'),
         'description'         => __( 'ingenie adverts for site'),
-        'labels'              => $adsLabels,
+        'labels'              => $ydgAdsLabels,
         // Features this CPT supports in Post Editor
         'supports'            => array( 'title', 'editor', 'excerpt', 'author', 'thumbnail', 'revisions', 'custom-fields', ),
         // You can associate this CPT with a taxonomy or custom taxonomy. 
@@ -143,8 +188,9 @@ function custom_post_type() {
     );
         
     register_post_type( 'young-drivers-guides', $ydgArgs );
-    register_post_type( 'adverts', $adsArgs );
+    register_post_type( 'adverts', $ydgAdsArgs );
     register_post_type( 'faqs', $faqArgs );
+    register_post_type( 'quotes', $quoteArgs );
 
 }
     

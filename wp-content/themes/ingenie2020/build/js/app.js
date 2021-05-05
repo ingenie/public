@@ -100,7 +100,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_MainMenu__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./components/MainMenu */ "./assets/js/components/MainMenu.js");
 /* harmony import */ var _components_jquery_flexslider_min__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./components/jquery.flexslider-min */ "./assets/js/components/jquery.flexslider-min.js");
 /* harmony import */ var _components_jquery_flexslider_min__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_components_jquery_flexslider_min__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var _components_FlexSliderSetUp__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./components/FlexSliderSetUp */ "./assets/js/components/FlexSliderSetUp.js");
+/* harmony import */ var _components_FlexSliderInit__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./components/FlexSliderInit */ "./assets/js/components/FlexSliderInit.js");
 /* harmony import */ var _components_ReplaceObfuscatedEmailAddresses__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./components/ReplaceObfuscatedEmailAddresses */ "./assets/js/components/ReplaceObfuscatedEmailAddresses.js");
 /* harmony import */ var _components_AnimateOnPageLinks__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./components/AnimateOnPageLinks */ "./assets/js/components/AnimateOnPageLinks.js");
 // you can import modules from the theme lib or even from
@@ -123,7 +123,7 @@ jQuery(function ($) {
   // ReplaceObfuscatedEmailAddresses.init();
   // AnimateOnPageLinks.init();
   _components_jquery_flexslider_min__WEBPACK_IMPORTED_MODULE_3___default.a.init();
-  _components_FlexSliderSetUp__WEBPACK_IMPORTED_MODULE_4__["default"].init();
+  _components_FlexSliderInit__WEBPACK_IMPORTED_MODULE_4__["default"].init();
   _components_MobileHamburgerMenu__WEBPACK_IMPORTED_MODULE_1__["default"].init();
   _components_MainMenu__WEBPACK_IMPORTED_MODULE_2__["default"].init();
 });
@@ -228,21 +228,25 @@ var ExampleComponent1 = {
 
 /***/ }),
 
-/***/ "./assets/js/components/FlexSliderSetUp.js":
-/*!*************************************************!*\
-  !*** ./assets/js/components/FlexSliderSetUp.js ***!
-  \*************************************************/
+/***/ "./assets/js/components/FlexSliderInit.js":
+/*!************************************************!*\
+  !*** ./assets/js/components/FlexSliderInit.js ***!
+  \************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+//
+// Options and docs
+// https://github.com/woocommerce/FlexSlider/wiki/FlexSlider-Properties
+//
 var $ = window.jQuery;
 var $window = window.$window || $(window);
 var FlexSliderSetUp = {
   init: function init() {
     $(window).load(function () {
-      $('#slider .flexslider').flexslider({
+      $('#slider-ydg .flexslider').flexslider({
         animation: 'slide',
         slideshowSpeed: 9000,
         animationSpeed: 900,
@@ -251,6 +255,25 @@ var FlexSliderSetUp = {
         controlNav: true,
         directionNav: true,
         controlsContainer: ".flexslider"
+      });
+      $('#slider-quotes .flexslider').flexslider({
+        initDelay: 3000,
+        animation: 'slide',
+        slideshowSpeed: 5000,
+        animationSpeed: 750,
+        easing: "swing",
+        startAt: 0,
+        pauseOnAction: true,
+        pauseOnHover: true,
+        controlNav: false,
+        directionNav: true,
+        controlsContainer: ".flexslider",
+        itemWidth: 320,
+        itemMargin: 10,
+        minItems: 1,
+        maxItems: 3,
+        reverse: false,
+        animationLoop: true
       });
     });
   }

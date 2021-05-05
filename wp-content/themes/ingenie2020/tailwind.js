@@ -23,6 +23,18 @@ module.exports = {
           800: '#00152B',
           900: '#000E1D',
         },
+        'ig-li-blue': {
+          50: '#fefeff',
+          100: '#fdfefe',
+          200: '#fafcfd',
+          300: '#f7fafc',
+          400: '#f0f6fa',
+          500: '#eaf2f8',
+          600: '#d3dadf',
+          700: '#b0b6ba',
+          800: '#8c9195',
+          900: '#73777a'
+        },
         'ig-orange': {
           50: '#FEF8F4',
           100: '#FDF1E9',
@@ -131,6 +143,58 @@ module.exports = {
           800: '#091F20',
           900: '#061415',
         },
+        'info': {
+          DEFAULT: '#BDE5F8',
+          '50': '#FFFFFF',
+          '100': '#FFFFFF',
+          '200': '#FFFFFF',
+          '300': '#FFFFFF',
+          '400': '#EBF7FD',
+          '500': '#BDE5F8',
+          '600': '#8FD3F3',
+          '700': '#61C1EE',
+          '800': '#33AFE9',
+          '900': '#1696D3'
+        },
+        'success': {
+          DEFAULT: '#DFF2BF',
+          '50': '#FFFFFF',
+          '100': '#FFFFFF',
+          '200': '#FFFFFF',
+          '300': '#FFFFFF',
+          '400': '#F4FBE9',
+          '500': '#DFF2BF',
+          '600': '#CAE995',
+          '700': '#B5E16A',
+          '800': '#9FD840',
+          '900': '#86BE27'
+        },
+        'warning': {
+          DEFAULT: '#FEEFB3',
+          '50': '#FFFFFF',
+          '100': '#FFFFFF',
+          '200': '#FFFFFF',
+          '300': '#FFFFFF',
+          '400': '#FFFAE5',
+          '500': '#FEEFB3',
+          '600': '#FDE481',
+          '700': '#FDDA4E',
+          '800': '#FCCF1C',
+          '900': '#E2B503'
+        },
+        'alert': {
+          DEFAULT: '#FF7070',
+          '50': '#FFFFFF',
+          '100': '#FFFFFF',
+          '200': '#FFFFFF',
+          '300': '#FFD6D6',
+          '400': '#FFA3A3',
+          '500': '#FF7070',
+          '600': '#FF3D3D',
+          '700': '#FF0A0A',
+          '800': '#D60000',
+          '900': '#A30000'
+        },
         link: {
           'default': '#3182ce',
           'hover': '#63b3ed',
@@ -148,6 +212,10 @@ module.exports = {
         '1/2': '50%',
         '3/4': '75%',
         full: '100%',
+      },
+      backgroundImage: {
+        'home-hero-sm': "url('https://staging.ingenie.com/resources/images/maskhead/isometric-road-home-mob.svg')",
+        'home-hero-md': "url('https://staging.ingenie.com/resources/images/maskhead/isometric-road-home-desktop.svg')",
       },
     }
   },

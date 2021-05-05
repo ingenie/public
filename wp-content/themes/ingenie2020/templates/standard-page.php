@@ -8,7 +8,7 @@ get_header();
 
 ?>
 
-<div class="container">
+<div class="container mx-auto">
 
     <!-- <h1><?php the_title(); ?></h1> -->
     <div>

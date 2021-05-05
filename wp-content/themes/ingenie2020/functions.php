@@ -42,13 +42,18 @@ Custom Image Sizes
 add_image_size( 'blog-large', 750, 450, true);
 add_image_size( 'blog-small', 400, 200, true);
 add_image_size( 'ingenie-ads', 350, 350, true);
+add_image_size( 'quote_thumbnails', 120, 120, true);
 
 
 require_once( __DIR__ . '/includes/register-and-add-classes-on-nav-menu.php');
 require_once( __DIR__ . '/includes/custom-post-types.php');
+require_once( __DIR__ . '/includes/custom-post-restrict-search.php');
 require_once( __DIR__ . '/includes/custom-taxonomies.php');
 require_once( __DIR__ . '/includes/custom-term-functions.php');
-require_once( __DIR__ . '/includes/custom-post-restrict-search.php');
+require_once( __DIR__ . '/includes/custom-post-titles.php');
+require_once( __DIR__ . '/includes/shortcodes-sliders.php');
+require_once( __DIR__ . '/includes/shortcodes-notifications.php');
+require_once( __DIR__ . '/includes/shortcodes-trust-pilot.php');
 
 /* 
 =================================
