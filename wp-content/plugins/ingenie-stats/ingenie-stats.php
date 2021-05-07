@@ -33,7 +33,7 @@ die;
 }
 
 function learner_get_a_quote_url($atts) {
-$learner_get_a_quote_url = "//learner.ingenie.com/?Brand=DEFAULT&referrer=ingenie";
+$learner_get_a_quote_url = "https://learner.ingenie.com/?Brand=DEFAULT&referrer=ingenie";
 return $learner_get_a_quote_url;
 }
 function learner_quotes_start_from_txt($atts) {
@@ -54,7 +54,7 @@ return $learner_sp_dates_discount_txt;
 //
 // ------------------------
 function yd_get_a_quote_url($atts) {
-$yd_get_a_quote_url = "//myquote.ingenie.com/?Brand=DEFAULT&referrer=ingenie";
+$yd_get_a_quote_url = "https://myquote.ingenie.com/?Brand=DEFAULT&referrer=ingenie";
 return $yd_get_a_quote_url;
 }
 function yd_up_front_txt($atts) {
