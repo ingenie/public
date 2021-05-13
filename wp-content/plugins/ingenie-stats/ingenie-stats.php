@@ -58,7 +58,7 @@ $yd_get_a_quote_url = "https://myquote.ingenie.com/?Brand=DEFAULT&referrer=ingen
 return $yd_get_a_quote_url;
 }
 function yd_up_front_txt($atts) {
-$yd_up_front_txt = "£400";
+$yd_up_front_txt = "£260";
 return $yd_up_front_txt;
 }
 function yd_drive_safe_discount_txt($atts) {
@@ -66,24 +66,24 @@ $yd_drive_safe_discount_txt = "21%";
 return $yd_drive_safe_discount_txt;
 }
 function yd_renewal_discount_txt($atts) {
-$yd_renewal_discount_txt = "£563";
+$yd_renewal_discount_txt = "£401";
 return $yd_renewal_discount_txt;
 }
 function yd_renewal_percentage_txt($atts) {
-$yd_renewal_percentage_txt = "37%";
+$yd_renewal_percentage_txt = "33%";
 return $yd_renewal_percentage_txt;
 }
 function yd_frac_cus_discount_txt($atts) {
 $yd_frac_cus_discount_txt = "7";
 return $yd_frac_cus_discount_txt;
 }
-function yd_sp_dates_discount_txt($atts) {
-$yd_sp_dates_discount_txt = "July 2017 to June 2018";
-return $yd_sp_dates_discount_txt;
+function yd_sp_dates_up_front_txt($atts) {
+$yd_sp_dates_up_front_txt = "Aug 2020 - April 2021";
+return $yd_sp_dates_up_front_txt;
 }
-function yd_sp_dates_discount_txt_2($atts) {
-$yd_sp_dates_discount_txt_2 = "Based on all ingenie customers between July 2018 to June 2019.";
-return $yd_sp_dates_discount_txt_2;
+function yd_sp_dates_renewals_txt($atts) {
+$yd_sp_dates_renewals_txt = "Based on all ingenie renewals at end of first year, May 2020 - April 2021.";
+return $yd_sp_dates_renewals_txt;
 }
 function yd_sp_premium_increases_txt($atts) {
 $yd_sp_premium_increases_txt = "Premium increases could apply for poor driving.";
@@ -134,8 +134,8 @@ add_shortcode('yd_renewal_discount_txt', 'yd_renewal_discount_txt');
 add_shortcode('yd_renewal_percentage_txt', 'yd_renewal_percentage_txt');
 add_shortcode('yd_frac_cus_discount_txt', 'yd_frac_cus_discount_txt');
 add_shortcode('yd_get_a_quote_url', 'yd_get_a_quote_url');
-add_shortcode('yd_sp_dates_discount_txt', 'yd_sp_dates_discount_txt');
-add_shortcode('yd_sp_dates_discount_txt_2', 'yd_sp_dates_discount_txt_2');
+add_shortcode('yd_sp_dates_up_front_txt', 'yd_sp_dates_up_front_txt');
+add_shortcode('yd_sp_dates_renewals_txt', 'yd_sp_dates_renewals_txt');
 add_shortcode('yd_sp_premium_increases_txt', 'yd_sp_premium_increases_txt');
 
 add_shortcode('obd_help_number', 'obd_help_number');
