@@ -55119,3 +55119,3591 @@ Content-Encoding: gzip
 					FROM `wp_spectrom_sync`
 					WHERE `source_content_id`=442 AND `target_site_key`='16a5809b6fd943c2'  AND `content_type`='post'  returned NULL
 2021-05-06 17:42:57#29 - SyncAdmin::get_content_details():459 data has not been previously sync'd
+2021-05-07 12:09:00#50 - SyncSettings::settings_api_init():157 action=current_screen
+2021-05-07 12:09:00#50 - SyncSettings::_init_general_settings() tab=general action=current_screen
+2021-05-07 12:09:00#50 - SyncAdmin::admin_enqueue_scripts():118 syncdata=array (
+  'site_key' => '40e68d70bb03c5f701e01c30ca5054cc',
+)
+2021-05-07 12:09:04#34 - SyncSettings::settings_api_init():157 action=current_screen
+2021-05-07 12:09:04#34 - SyncSettings::_init_general_settings() tab=general action=current_screen
+2021-05-07 12:09:04#34 - SyncAdmin::admin_enqueue_scripts():118 syncdata=array (
+  'site_key' => '40e68d70bb03c5f701e01c30ca5054cc',
+)
+2021-05-07 12:09:04#44 - SyncSettings::settings_api_init():157 action=current_screen
+2021-05-07 12:09:04#44 - SyncSettings::_init_general_settings() tab=general action=current_screen
+2021-05-07 12:09:05#44 - SyncAdmin::admin_enqueue_scripts():118 syncdata=array (
+  'site_key' => '40e68d70bb03c5f701e01c30ca5054cc',
+)
+2021-05-12 11:00:52#11 - SyncSettings::settings_api_init():157 action=current_screen
+2021-05-12 11:00:52#11 - SyncSettings::_init_general_settings() tab=general action=current_screen
+2021-05-12 11:00:52#11 - SyncAdmin::admin_enqueue_scripts():118 syncdata=array (
+  'site_key' => '40e68d70bb03c5f701e01c30ca5054cc',
+)
+2021-05-12 11:00:57#23 - SyncSettings::settings_api_init():157 action=current_screen
+2021-05-12 11:00:57#23 - SyncSettings::_init_general_settings() tab=general action=current_screen
+2021-05-12 11:00:58#23 - SyncAdmin::admin_enqueue_scripts():118 syncdata=array (
+  'site_key' => '40e68d70bb03c5f701e01c30ca5054cc',
+)
+2021-05-12 11:01:00#74 - SyncSettings::settings_api_init():157 action=current_screen
+2021-05-12 11:01:00#74 - SyncSettings::_init_general_settings() tab=general action=current_screen
+2021-05-12 11:01:00#74 - SyncAdmin::admin_enqueue_scripts():118 syncdata=array (
+  'site_key' => '40e68d70bb03c5f701e01c30ca5054cc',
+)
+2021-05-12 11:01:01#74 - SyncAdmin::get_content_details() post id=785
+2021-05-12 11:01:01#74 - SyncModel::get_sync_target_post() sql=SELECT *
+					FROM `wp_spectrom_sync`
+					WHERE `source_content_id`=785 AND `target_site_key`='16a5809b6fd943c2'  AND `content_type`='post'  returned NULL
+2021-05-12 11:01:01#74 - SyncAdmin::get_content_details():459 data has not been previously sync'd
+2021-05-12 11:02:46#57 - SyncSettings::settings_api_init():157 action=current_screen
+2021-05-12 11:02:46#57 - SyncSettings::_init_general_settings() tab=general action=current_screen
+2021-05-12 11:02:46#47 - SyncSettings::settings_api_init():157 action=current_screen
+2021-05-12 11:02:46#47 - SyncSettings::_init_general_settings() tab=general action=current_screen
+2021-05-12 11:02:46#47 - SyncAdmin::admin_enqueue_scripts():118 syncdata=array (
+  'site_key' => '40e68d70bb03c5f701e01c30ca5054cc',
+)
+2021-05-12 11:02:46#47 - SyncAdmin::get_content_details() post id=785
+2021-05-12 11:02:46#47 - SyncModel::get_sync_target_post() sql=SELECT *
+					FROM `wp_spectrom_sync`
+					WHERE `source_content_id`=785 AND `target_site_key`='16a5809b6fd943c2'  AND `content_type`='post'  returned NULL
+2021-05-12 11:02:46#47 - SyncAdmin::get_content_details():459 data has not been previously sync'd
+2021-05-12 11:06:47#72 - SyncSettings::settings_api_init():157 action=current_screen
+2021-05-12 11:06:47#72 - SyncSettings::_init_general_settings() tab=general action=current_screen
+2021-05-12 11:06:48#72 - SyncAdmin::admin_enqueue_scripts():118 syncdata=array (
+  'site_key' => '40e68d70bb03c5f701e01c30ca5054cc',
+)
+2021-05-12 11:06:48#72 - SyncAdmin::get_content_details() post id=787
+2021-05-12 11:06:48#72 - SyncModel::get_sync_target_post() sql=SELECT *
+					FROM `wp_spectrom_sync`
+					WHERE `source_content_id`=787 AND `target_site_key`='16a5809b6fd943c2'  AND `content_type`='post'  returned NULL
+2021-05-12 11:06:48#72 - SyncAdmin::get_content_details():459 data has not been previously sync'd
+2021-05-12 11:06:52#70 - SyncSettings::settings_api_init():157 action=current_screen
+2021-05-12 11:06:52#70 - SyncSettings::_init_general_settings() tab=general action=current_screen
+2021-05-12 11:06:52#70 - SyncAdmin::admin_enqueue_scripts():118 syncdata=array (
+  'site_key' => '40e68d70bb03c5f701e01c30ca5054cc',
+)
+2021-05-12 11:06:55#98 - SyncSettings::settings_api_init():157 action=current_screen
+2021-05-12 11:06:55#98 - SyncSettings::_init_general_settings() tab=general action=current_screen
+2021-05-12 11:06:55#98 - SyncAdmin::admin_enqueue_scripts():118 syncdata=array (
+  'site_key' => '40e68d70bb03c5f701e01c30ca5054cc',
+)
+2021-05-12 11:06:55#98 - SyncAdmin::get_content_details() post id=788
+2021-05-12 11:06:55#98 - SyncModel::get_sync_target_post() sql=SELECT *
+					FROM `wp_spectrom_sync`
+					WHERE `source_content_id`=788 AND `target_site_key`='16a5809b6fd943c2'  AND `content_type`='post'  returned NULL
+2021-05-12 11:06:55#98 - SyncAdmin::get_content_details():459 data has not been previously sync'd
+2021-05-12 11:07:28#23 - SyncSettings::settings_api_init():157 action=current_screen
+2021-05-12 11:07:28#23 - SyncSettings::_init_general_settings() tab=general action=current_screen
+2021-05-12 11:07:28#23 - SyncAdmin::admin_enqueue_scripts():118 syncdata=array (
+  'site_key' => '40e68d70bb03c5f701e01c30ca5054cc',
+)
+2021-05-12 11:07:42#46 - SyncSettings::settings_api_init():157 action=current_screen
+2021-05-12 11:07:42#46 - SyncSettings::_init_general_settings() tab=general action=current_screen
+2021-05-12 11:07:42#46 - SyncAdmin::admin_enqueue_scripts():118 syncdata=array (
+  'site_key' => '40e68d70bb03c5f701e01c30ca5054cc',
+)
+2021-05-12 11:07:42#46 - SyncAdmin::get_content_details() post id=788
+2021-05-12 11:07:42#46 - SyncModel::get_sync_target_post() sql=SELECT *
+					FROM `wp_spectrom_sync`
+					WHERE `source_content_id`=788 AND `target_site_key`='16a5809b6fd943c2'  AND `content_type`='post'  returned NULL
+2021-05-12 11:07:42#46 - SyncAdmin::get_content_details():459 data has not been previously sync'd
+2021-05-12 11:08:02#88 - SyncSettings::settings_api_init():157 action=current_screen
+2021-05-12 11:08:02#88 - SyncSettings::_init_general_settings() tab=general action=current_screen
+2021-05-12 11:08:02#17 - SyncSettings::settings_api_init():157 action=current_screen
+2021-05-12 11:08:02#17 - SyncSettings::_init_general_settings() tab=general action=current_screen
+2021-05-12 11:08:02#17 - SyncAdmin::admin_enqueue_scripts():118 syncdata=array (
+  'site_key' => '40e68d70bb03c5f701e01c30ca5054cc',
+)
+2021-05-12 11:08:02#17 - SyncAdmin::get_content_details() post id=785
+2021-05-12 11:08:02#17 - SyncModel::get_sync_target_post() sql=SELECT *
+					FROM `wp_spectrom_sync`
+					WHERE `source_content_id`=785 AND `target_site_key`='16a5809b6fd943c2'  AND `content_type`='post'  returned NULL
+2021-05-12 11:08:02#17 - SyncAdmin::get_content_details():459 data has not been previously sync'd
+2021-05-12 11:08:36#53 - SyncSettings::settings_api_init():157 action=current_screen
+2021-05-12 11:08:36#53 - SyncSettings::_init_general_settings() tab=general action=current_screen
+2021-05-12 11:08:36#88 - SyncSettings::settings_api_init():157 action=current_screen
+2021-05-12 11:08:36#88 - SyncSettings::_init_general_settings() tab=general action=current_screen
+2021-05-12 11:08:36#88 - SyncAdmin::admin_enqueue_scripts():118 syncdata=array (
+  'site_key' => '40e68d70bb03c5f701e01c30ca5054cc',
+)
+2021-05-12 11:08:36#88 - SyncAdmin::get_content_details() post id=788
+2021-05-12 11:08:36#88 - SyncModel::get_sync_target_post() sql=SELECT *
+					FROM `wp_spectrom_sync`
+					WHERE `source_content_id`=788 AND `target_site_key`='16a5809b6fd943c2'  AND `content_type`='post'  returned NULL
+2021-05-12 11:08:36#88 - SyncAdmin::get_content_details():459 data has not been previously sync'd
+2021-05-12 11:10:16#75 - SyncSettings::settings_api_init():157 action=current_screen
+2021-05-12 11:10:16#75 - SyncSettings::_init_general_settings() tab=general action=current_screen
+2021-05-12 11:10:16#63 - SyncSettings::settings_api_init():157 action=current_screen
+2021-05-12 11:10:16#63 - SyncSettings::_init_general_settings() tab=general action=current_screen
+2021-05-12 11:10:16#63 - SyncAdmin::admin_enqueue_scripts():118 syncdata=array (
+  'site_key' => '40e68d70bb03c5f701e01c30ca5054cc',
+)
+2021-05-12 11:41:28#36 - SyncSettings::settings_api_init():157 action=current_screen
+2021-05-12 11:41:28#36 - SyncSettings::_init_general_settings() tab=general action=current_screen
+2021-05-12 11:41:28#36 - SyncAdmin::admin_enqueue_scripts():118 syncdata=array (
+  'site_key' => '40e68d70bb03c5f701e01c30ca5054cc',
+)
+2021-05-12 11:41:31#79 - SyncSettings::settings_api_init():157 action=current_screen
+2021-05-12 11:41:31#79 - SyncSettings::_init_general_settings() tab=general action=current_screen
+2021-05-12 11:41:32#79 - SyncAdmin::admin_enqueue_scripts():118 syncdata=array (
+  'site_key' => '40e68d70bb03c5f701e01c30ca5054cc',
+)
+2021-05-12 11:41:39#10 - SyncSettings::settings_api_init():157 action=current_screen
+2021-05-12 11:41:39#10 - SyncSettings::_init_general_settings() tab=general action=current_screen
+2021-05-12 11:44:26#83 - SyncSettings::settings_api_init():157 action=current_screen
+2021-05-12 11:44:26#83 - SyncSettings::_init_general_settings() tab=general action=current_screen
+2021-05-12 11:44:44#16 - SyncSettings::settings_api_init():157 action=current_screen
+2021-05-12 11:44:45#16 - SyncAdmin::admin_enqueue_scripts():118 syncdata=array (
+  'site_key' => '40e68d70bb03c5f701e01c30ca5054cc',
+)
+2021-05-12 11:45:06#18 - SyncSettings::settings_api_init():157 action=current_screen
+2021-05-12 11:45:06#18 - SyncAdmin::admin_enqueue_scripts():118 syncdata=array (
+  'site_key' => '40e68d70bb03c5f701e01c30ca5054cc',
+)
+2021-05-12 11:45:57#99 - SyncSettings::settings_api_init():157 action=current_screen
+2021-05-12 11:45:58#99 - SyncAdmin::admin_enqueue_scripts():118 syncdata=array (
+  'site_key' => '40e68d70bb03c5f701e01c30ca5054cc',
+)
+2021-05-13 13:57:16#82 - SyncSettings::settings_api_init():157 action=current_screen
+2021-05-13 13:57:16#82 - SyncSettings::_init_general_settings() tab=general action=current_screen
+2021-05-13 13:57:16#82 - SyncAdmin::admin_enqueue_scripts():118 syncdata=array (
+  'site_key' => '40e68d70bb03c5f701e01c30ca5054cc',
+)
+2021-05-13 13:57:16#82 - SyncAdmin::get_content_details() post id=442
+2021-05-13 13:57:16#82 - SyncModel::get_sync_target_post() sql=SELECT *
+					FROM `wp_spectrom_sync`
+					WHERE `source_content_id`=442 AND `target_site_key`='16a5809b6fd943c2'  AND `content_type`='post'  returned NULL
+2021-05-13 13:57:16#82 - SyncAdmin::get_content_details():459 data has not been previously sync'd
+2021-05-13 13:58:28#22 - SyncSettings::settings_api_init():157 action=current_screen
+2021-05-13 13:58:28#22 - SyncSettings::_init_general_settings() tab=general action=current_screen
+2021-05-13 13:58:28#22 - SyncModel::remove_all_sync_data() sql=DELETE FROM `wp_spectrom_sync`
+			WHERE (`source_content_id`=773 AND `site_key`='01e01c30ca5054cc') OR
+				(`target_content_id`=773 AND `target_site_key`='01e01c30ca5054cc')
+2021-05-13 13:58:29#53 - SyncSettings::settings_api_init():157 action=current_screen
+2021-05-13 13:58:29#53 - SyncSettings::_init_general_settings() tab=general action=current_screen
+2021-05-13 13:58:29#53 - SyncAdmin::admin_enqueue_scripts():118 syncdata=array (
+  'site_key' => '40e68d70bb03c5f701e01c30ca5054cc',
+)
+2021-05-13 13:58:29#53 - SyncAdmin::get_content_details() post id=442
+2021-05-13 13:58:29#53 - SyncModel::get_sync_target_post() sql=SELECT *
+					FROM `wp_spectrom_sync`
+					WHERE `source_content_id`=442 AND `target_site_key`='16a5809b6fd943c2'  AND `content_type`='post'  returned NULL
+2021-05-13 13:58:29#53 - SyncAdmin::get_content_details():459 data has not been previously sync'd
+2021-05-13 13:59:22#60 - SyncSettings::settings_api_init():157 action=current_screen
+2021-05-13 13:59:22#60 - SyncSettings::_init_general_settings() tab=general action=current_screen
+2021-05-13 13:59:23#70 - SyncSettings::settings_api_init():157 action=current_screen
+2021-05-13 13:59:23#70 - SyncSettings::_init_general_settings() tab=general action=current_screen
+2021-05-13 13:59:23#70 - SyncAdmin::admin_enqueue_scripts():118 syncdata=array (
+  'site_key' => '40e68d70bb03c5f701e01c30ca5054cc',
+)
+2021-05-13 13:59:23#70 - SyncAdmin::get_content_details() post id=442
+2021-05-13 13:59:23#70 - SyncModel::get_sync_target_post() sql=SELECT *
+					FROM `wp_spectrom_sync`
+					WHERE `source_content_id`=442 AND `target_site_key`='16a5809b6fd943c2'  AND `content_type`='post'  returned NULL
+2021-05-13 13:59:23#70 - SyncAdmin::get_content_details():459 data has not been previously sync'd
+2021-05-13 14:00:30#94 - SyncSettings::settings_api_init():157 action=current_screen
+2021-05-13 14:00:30#94 - SyncSettings::_init_general_settings() tab=general action=current_screen
+2021-05-13 14:00:30#94 - SyncModel::remove_all_sync_data() sql=DELETE FROM `wp_spectrom_sync`
+			WHERE (`source_content_id`=782 AND `site_key`='01e01c30ca5054cc') OR
+				(`target_content_id`=782 AND `target_site_key`='01e01c30ca5054cc')
+2021-05-13 14:00:30#71 - SyncSettings::settings_api_init():157 action=current_screen
+2021-05-13 14:00:30#71 - SyncSettings::_init_general_settings() tab=general action=current_screen
+2021-05-13 14:00:30#71 - SyncAdmin::admin_enqueue_scripts():118 syncdata=array (
+  'site_key' => '40e68d70bb03c5f701e01c30ca5054cc',
+)
+2021-05-13 14:00:30#71 - SyncAdmin::get_content_details() post id=442
+2021-05-13 14:00:30#71 - SyncModel::get_sync_target_post() sql=SELECT *
+					FROM `wp_spectrom_sync`
+					WHERE `source_content_id`=442 AND `target_site_key`='16a5809b6fd943c2'  AND `content_type`='post'  returned NULL
+2021-05-13 14:00:30#71 - SyncAdmin::get_content_details():459 data has not been previously sync'd
+2021-05-13 14:01:50#90 - SyncSettings::settings_api_init():157 action=current_screen
+2021-05-13 14:01:50#90 - SyncSettings::_init_general_settings() tab=general action=current_screen
+2021-05-13 14:01:50#90 - SyncModel::remove_all_sync_data() sql=DELETE FROM `wp_spectrom_sync`
+			WHERE (`source_content_id`=783 AND `site_key`='01e01c30ca5054cc') OR
+				(`target_content_id`=783 AND `target_site_key`='01e01c30ca5054cc')
+2021-05-13 14:01:50#90 - SyncModel::remove_all_sync_data() sql=DELETE FROM `wp_spectrom_sync`
+			WHERE (`source_content_id`=784 AND `site_key`='01e01c30ca5054cc') OR
+				(`target_content_id`=784 AND `target_site_key`='01e01c30ca5054cc')
+2021-05-13 14:01:50#81 - SyncSettings::settings_api_init():157 action=current_screen
+2021-05-13 14:01:50#81 - SyncSettings::_init_general_settings() tab=general action=current_screen
+2021-05-13 14:01:50#81 - SyncAdmin::admin_enqueue_scripts():118 syncdata=array (
+  'site_key' => '40e68d70bb03c5f701e01c30ca5054cc',
+)
+2021-05-13 14:01:50#81 - SyncAdmin::get_content_details() post id=442
+2021-05-13 14:01:50#81 - SyncModel::get_sync_target_post() sql=SELECT *
+					FROM `wp_spectrom_sync`
+					WHERE `source_content_id`=442 AND `target_site_key`='16a5809b6fd943c2'  AND `content_type`='post'  returned NULL
+2021-05-13 14:01:50#81 - SyncAdmin::get_content_details():459 data has not been previously sync'd
+2021-05-13 14:03:15#93 - SyncSettings::settings_api_init():157 action=current_screen
+2021-05-13 14:03:15#93 - SyncSettings::_init_general_settings() tab=general action=current_screen
+2021-05-13 14:03:15#93 - SyncModel::remove_all_sync_data() sql=DELETE FROM `wp_spectrom_sync`
+			WHERE (`source_content_id`=791 AND `site_key`='01e01c30ca5054cc') OR
+				(`target_content_id`=791 AND `target_site_key`='01e01c30ca5054cc')
+2021-05-13 14:03:16#56 - SyncSettings::settings_api_init():157 action=current_screen
+2021-05-13 14:03:16#56 - SyncSettings::_init_general_settings() tab=general action=current_screen
+2021-05-13 14:03:16#56 - SyncAdmin::admin_enqueue_scripts():118 syncdata=array (
+  'site_key' => '40e68d70bb03c5f701e01c30ca5054cc',
+)
+2021-05-13 14:03:16#56 - SyncAdmin::get_content_details() post id=442
+2021-05-13 14:03:16#56 - SyncModel::get_sync_target_post() sql=SELECT *
+					FROM `wp_spectrom_sync`
+					WHERE `source_content_id`=442 AND `target_site_key`='16a5809b6fd943c2'  AND `content_type`='post'  returned NULL
+2021-05-13 14:03:16#56 - SyncAdmin::get_content_details():459 data has not been previously sync'd
+2021-05-13 14:07:34#48 - SyncSettings::settings_api_init():157 action=current_screen
+2021-05-13 14:07:34#48 - SyncSettings::_init_general_settings() tab=general action=current_screen
+2021-05-13 14:07:34#48 - SyncAdmin::admin_enqueue_scripts():118 syncdata=array (
+  'site_key' => '40e68d70bb03c5f701e01c30ca5054cc',
+)
+2021-05-13 14:07:35#48 - SyncAdmin::get_content_details() post id=34
+2021-05-13 14:07:35#48 - SyncModel::get_sync_target_post() sql=SELECT *
+					FROM `wp_spectrom_sync`
+					WHERE `source_content_id`=34 AND `target_site_key`='16a5809b6fd943c2'  AND `content_type`='post'  returned array (
+  'sync_id' => '1',
+  'site_key' => '01e01c30ca5054cc',
+  'source_content_id' => '34',
+  'target_content_id' => '34',
+  'target_site_key' => '16a5809b6fd943c2',
+  'content_type' => 'post',
+  'last_update' => '2021-05-05 16:04:37',
+  'wp_version' => '5.7.1',
+  'sync_version' => '1.7',
+)
+2021-05-13 14:07:35#48 - SyncAdmin::get_content_details():471 - retrieving Target post ID 34
+2021-05-13 14:07:35#48 - SyncApiRequest::api() action="getinfo"
+2021-05-13 14:07:35#48 - SyncApiResponse::__construct():40 req id=NULL
+2021-05-13 14:07:35#48 - SyncApiRequest::api():117 current auth data: array (
+  'post_id' => '34',
+  'post_name' => 'car-insurance-for-learner-and-young-drivers',
+  'username' => 'target-user',
+  'token' => 'xxx',
+  'host' => 'http://s37391.p257.sites.pressdns.com',
+  'auth' => 
+  array (
+    'cookie' => '9116pwpadmin|1620230428|xxx|xxx',
+    'nonce' => 'xxx',
+    'site_key' => '01e01c30ca5054cc',
+  ),
+)
+2021-05-13 14:07:35#48 - SyncApiRequest::api():121 checking action="getinfo"
+2021-05-13 14:07:35#48 - SyncApiRequest::api():151 action="getinfo" data=array (
+  'post_id' => '34',
+  'post_name' => 'car-insurance-for-learner-and-young-drivers',
+  'username' => 'target-user',
+  'token' => 'xxx',
+  'host' => 'http://s37391.p257.sites.pressdns.com',
+  'auth' => 
+  array (
+    'cookie' => '9116pwpadmin|1620230428|xxx|xxx',
+    'nonce' => 'xxx',
+    'site_key' => '01e01c30ca5054cc',
+  ),
+)
+2021-05-13 14:07:35#48 - SyncApiRequest::api():194 sending API request to http://s37391.p257.sites.pressdns.com?pagename=wpsitesync_api&action=getinfo
+    #1: SyncApiRequest->api() - plugins/wpsitesynccontent/classes/admin.php:473
+    #2: SyncAdmin->get_content_details() - plugins/wpsitesynccontent/classes/admin.php:311
+    #3: SyncAdmin->render_sync_metabox() - wp-admin/includes/template.php:1389
+    #4: do_meta_boxes() - wp-admin/edit-form-advanced.php:681
+    #5: require() - wp-admin/post.php:206
+2021-05-13 14:07:35#48 - SyncApiRequest::api():198 req id=01e01c30ca5054cc-132.130735-239
+2021-05-13 14:07:35#48 - SyncApiRequest::api():212 api result from action="getinfo": array (
+  'headers' => 
+  Requests_Utility_CaseInsensitiveDictionary::__set_state(array(
+     'data' => 
+    array (
+      'date' => 'Thu, 13 May 2021 13:07:36 GMT',
+      'content-type' => 'application/json',
+      'link' => '<http://s37391.p257.sites.pressdns.com/wp-json/>; rel="https://api.w.org/"',
+      'x-sync-version' => '1.7',
+      'x-wp-version' => '5.7.1',
+      'spectrom-sync-api-request' => '01e01c30ca5054cc-132.130735-239',
+      'server' => 'Pagely Gateway/1.5.1',
+      'x-user-agent' => 'standard',
+      'x-cache-config' => '0 1',
+      'vary' => 'Accept-Encoding, User-Agent',
+      'content-encoding' => 'gzip',
+    ),
+  )),
+  'body' => '{"error_code":0,"session_timeout":1,"has_errors":0,"success":1,"data":{"access_nonce":"8f2c129d76","auth_cookie":"9116pwpadmin|1620914856|tNJ7OSUoUrAGyyiWsOZ79rioIPCAqjGONoTUbJ4Yklj|43e6ea3c36c4986a3993a921e31a3de751438679ae84e02400c3fe0a615d2744","user_id":1,"site_key":"16a5809b6fd943c2","target_post_id":34,"post_title":"Car insurance for learner and young drivers","post_author":"9116pwpadmin","modified":"2021-05-05 15:08:45","content":"[get-message color=\\"info\\" message=\\"Latest information on Coronavirus and your ingenie car insurance\\" link=\\"https:\\/\\/stagi"}}',
+  'response' => 
+  array (
+    'code' => 200,
+    'message' => 'OK',
+  ),
+  'cookies' => 
+  array (
+  ),
+  'filename' => NULL,
+  'http_response' => 
+  WP_HTTP_Requests_Response::__set_state(array(
+     'response' => 
+    Requests_Response::__set_state(array(
+       'body' => '{"error_code":0,"session_timeout":1,"has_errors":0,"success":1,"data":{"access_nonce":"8f2c129d76","auth_cookie":"9116pwpadmin|1620914856|tNJ7OSUoUrAGyyiWsOZ79rioIPCAqjGONoTUbJ4Yklj|43e6ea3c36c4986a3993a921e31a3de751438679ae84e02400c3fe0a615d2744","user_id":1,"site_key":"16a5809b6fd943c2","target_post_id":34,"post_title":"Car insurance for learner and young drivers","post_author":"9116pwpadmin","modified":"2021-05-05 15:08:45","content":"[get-message color=\\"info\\" message=\\"Latest information on Coronavirus and your ingenie car insurance\\" link=\\"https:\\/\\/stagi"}}',
+       'raw' => 'HTTP/1.1 200 OK
+Date: Thu, 13 May 2021 13:07:36 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: close
+Link: <http://s37391.p257.sites.pressdns.com/wp-json/>; rel="https://api.w.org/"
+x-sync-version: 1.7
+x-wp-version: 5.7.1
+spectrom-sync-api-request: 01e01c30ca5054cc-132.130735-239
+Server: Pagely Gateway/1.5.1
+X-User-Agent: standard
+X-Cache-Config: 0 1  
+Vary: Accept-Encoding, User-Agent
+Content-Encoding: gzip
+
+{"error_code":0,"session_timeout":1,"has_errors":0,"success":1,"data":{"access_nonce":"8f2c129d76","auth_cookie":"9116pwpadmin|1620914856|tNJ7OSUoUrAGyyiWsOZ79rioIPCAqjGONoTUbJ4Yklj|43e6ea3c36c4986a3993a921e31a3de751438679ae84e02400c3fe0a615d2744","user_id":1,"site_key":"16a5809b6fd943c2","target_post_id":34,"post_title":"Car insurance for learner and young drivers","post_author":"9116pwpadmin","modified":"2021-05-05 15:08:45","content":"[get-message color=\\"info\\" message=\\"Latest information on Coronavirus and your ingenie car insurance\\" link=\\"https:\\/\\/stagi"}}',
+       'headers' => 
+      Requests_Response_Headers::__set_state(array(
+         'data' => 
+        array (
+          'date' => 
+          array (
+            0 => 'Thu, 13 May 2021 13:07:36 GMT',
+          ),
+          'content-type' => 
+          array (
+            0 => 'application/json',
+          ),
+          'link' => 
+          array (
+            0 => '<http://s37391.p257.sites.pressdns.com/wp-json/>; rel="https://api.w.org/"',
+          ),
+          'x-sync-version' => 
+          array (
+            0 => '1.7',
+          ),
+          'x-wp-version' => 
+          array (
+            0 => '5.7.1',
+          ),
+          'spectrom-sync-api-request' => 
+          array (
+            0 => '01e01c30ca5054cc-132.130735-239',
+          ),
+          'server' => 
+          array (
+            0 => 'Pagely Gateway/1.5.1',
+          ),
+          'x-user-agent' => 
+          array (
+            0 => 'standard',
+          ),
+          'x-cache-config' => 
+          array (
+            0 => '0 1',
+          ),
+          'vary' => 
+          array (
+            0 => 'Accept-Encoding, User-Agent',
+          ),
+          'content-encoding' => 
+          array (
+            0 => 'gzip',
+          ),
+        ),
+      )),
+       'status_code' => 200,
+       'protocol_version' => 1.1000000000000001,
+       'success' => true,
+       'redirects' => 0,
+       'url' => 'http://s37391.p257.sites.pressdns.com/?pagename=wpsitesync_api&action=getinfo',
+       'history' => 
+      array (
+      ),
+       'cookies' => 
+      Requests_Cookie_Jar::__set_state(array(
+         'cookies' => 
+        array (
+        ),
+      )),
+    )),
+     'filename' => NULL,
+     'data' => NULL,
+     'headers' => NULL,
+     'status' => NULL,
+  )),
+)
+2021-05-13 14:07:35#48 - SyncApiRequest::api():255 response body: '{"error_code":0,"session_timeout":1,"has_errors":0,"success":1,"data":{"access_nonce":"8f2c129d76","auth_cookie":"9116pwpadmin|1620914856|tNJ7OSUoUrAGyyiWsOZ79rioIPCAqjGONoTUbJ4Yklj|43e6ea3c36c4986a3993a921e31a3de751438679ae84e02400c3fe0a615d2744","user_id":1,"site_key":"16a5809b6fd943c2","target_post_id":34,"post_title":"Car insurance for learner and young drivers","post_author":"9116pwpadmin","modified":"2021-05-05 15:08:45","content":"[get-message color=\\"info\\" message=\\"Latest information on Coronavirus and your ingenie car insurance\\" link=\\"https:\\/\\/stagi"}}'
+2021-05-13 14:07:35#48 - SyncApiRequest::api():259 received response from Target for action="getinfo":
+2021-05-13 14:07:35#48 - SyncApiRequest::api():294 response: array (
+  'session_timeout' => false,
+  'focus' => NULL,
+  'errors' => 
+  array (
+  ),
+  'error_code' => 0,
+  'error_data' => NULL,
+  'notices' => 
+  array (
+  ),
+  'notice_codes' => 
+  array (
+  ),
+  'notice_data' => NULL,
+  'result_codes' => 
+  array (
+  ),
+  'success' => 0,
+  'form' => NULL,
+  'validation' => 
+  array (
+  ),
+  'result' => 
+  array (
+    'headers' => 
+    Requests_Utility_CaseInsensitiveDictionary::__set_state(array(
+       'data' => 
+      array (
+        'date' => 'Thu, 13 May 2021 13:07:36 GMT',
+        'content-type' => 'application/json',
+        'link' => '<http://s37391.p257.sites.pressdns.com/wp-json/>; rel="https://api.w.org/"',
+        'x-sync-version' => '1.7',
+        'x-wp-version' => '5.7.1',
+        'spectrom-sync-api-request' => '01e01c30ca5054cc-132.130735-239',
+        'server' => 'Pagely Gateway/1.5.1',
+        'x-user-agent' => 'standard',
+        'x-cache-config' => '0 1',
+        'vary' => 'Accept-Encoding, User-Agent',
+        'content-encoding' => 'gzip',
+      ),
+    )),
+    'body' => '{"error_code":0,"session_timeout":1,"has_errors":0,"success":1,"data":{"access_nonce":"8f2c129d76","auth_cookie":"9116pwpadmin|1620914856|tNJ7OSUoUrAGyyiWsOZ79rioIPCAqjGONoTUbJ4Yklj|43e6ea3c36c4986a3993a921e31a3de751438679ae84e02400c3fe0a615d2744","user_id":1,"site_key":"16a5809b6fd943c2","target_post_id":34,"post_title":"Car insurance for learner and young drivers","post_author":"9116pwpadmin","modified":"2021-05-05 15:08:45","content":"[get-message color=\\"info\\" message=\\"Latest information on Coronavirus and your ingenie car insurance\\" link=\\"https:\\/\\/stagi"}}',
+    'response' => 
+    array (
+      'code' => 200,
+      'message' => 'OK',
+    ),
+    'cookies' => 
+    array (
+    ),
+    'filename' => NULL,
+    'http_response' => 
+    WP_HTTP_Requests_Response::__set_state(array(
+       'response' => 
+      Requests_Response::__set_state(array(
+         'body' => '{"error_code":0,"session_timeout":1,"has_errors":0,"success":1,"data":{"access_nonce":"8f2c129d76","auth_cookie":"9116pwpadmin|1620914856|tNJ7OSUoUrAGyyiWsOZ79rioIPCAqjGONoTUbJ4Yklj|43e6ea3c36c4986a3993a921e31a3de751438679ae84e02400c3fe0a615d2744","user_id":1,"site_key":"16a5809b6fd943c2","target_post_id":34,"post_title":"Car insurance for learner and young drivers","post_author":"9116pwpadmin","modified":"2021-05-05 15:08:45","content":"[get-message color=\\"info\\" message=\\"Latest information on Coronavirus and your ingenie car insurance\\" link=\\"https:\\/\\/stagi"}}',
+         'raw' => 'HTTP/1.1 200 OK
+Date: Thu, 13 May 2021 13:07:36 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: close
+Link: <http://s37391.p257.sites.pressdns.com/wp-json/>; rel="https://api.w.org/"
+x-sync-version: 1.7
+x-wp-version: 5.7.1
+spectrom-sync-api-request: 01e01c30ca5054cc-132.130735-239
+Server: Pagely Gateway/1.5.1
+X-User-Agent: standard
+X-Cache-Config: 0 1  
+Vary: Accept-Encoding, User-Agent
+Content-Encoding: gzip
+
+{"error_code":0,"session_timeout":1,"has_errors":0,"success":1,"data":{"access_nonce":"8f2c129d76","auth_cookie":"9116pwpadmin|1620914856|tNJ7OSUoUrAGyyiWsOZ79rioIPCAqjGONoTUbJ4Yklj|43e6ea3c36c4986a3993a921e31a3de751438679ae84e02400c3fe0a615d2744","user_id":1,"site_key":"16a5809b6fd943c2","target_post_id":34,"post_title":"Car insurance for learner and young drivers","post_author":"9116pwpadmin","modified":"2021-05-05 15:08:45","content":"[get-message color=\\"info\\" message=\\"Latest information on Coronavirus and your ingenie car insurance\\" link=\\"https:\\/\\/stagi"}}',
+         'headers' => 
+        Requests_Response_Headers::__set_state(array(
+           'data' => 
+          array (
+            'date' => 
+            array (
+              0 => 'Thu, 13 May 2021 13:07:36 GMT',
+            ),
+            'content-type' => 
+            array (
+              0 => 'application/json',
+            ),
+            'link' => 
+            array (
+              0 => '<http://s37391.p257.sites.pressdns.com/wp-json/>; rel="https://api.w.org/"',
+            ),
+            'x-sync-version' => 
+            array (
+              0 => '1.7',
+            ),
+            'x-wp-version' => 
+            array (
+              0 => '5.7.1',
+            ),
+            'spectrom-sync-api-request' => 
+            array (
+              0 => '01e01c30ca5054cc-132.130735-239',
+            ),
+            'server' => 
+            array (
+              0 => 'Pagely Gateway/1.5.1',
+            ),
+            'x-user-agent' => 
+            array (
+              0 => 'standard',
+            ),
+            'x-cache-config' => 
+            array (
+              0 => '0 1',
+            ),
+            'vary' => 
+            array (
+              0 => 'Accept-Encoding, User-Agent',
+            ),
+            'content-encoding' => 
+            array (
+              0 => 'gzip',
+            ),
+          ),
+        )),
+         'status_code' => 200,
+         'protocol_version' => 1.1000000000000001,
+         'success' => true,
+         'redirects' => 0,
+         'url' => 'http://s37391.p257.sites.pressdns.com/?pagename=wpsitesync_api&action=getinfo',
+         'history' => 
+        array (
+        ),
+         'cookies' => 
+        Requests_Cookie_Jar::__set_state(array(
+           'cookies' => 
+          array (
+          ),
+        )),
+      )),
+       'filename' => NULL,
+       'data' => NULL,
+       'headers' => NULL,
+       'status' => NULL,
+    )),
+  ),
+  'response' => 
+  (object) array(
+     'error_code' => 0,
+     'session_timeout' => 1,
+     'has_errors' => 0,
+     'success' => 1,
+     'data' => 
+    (object) array(
+       'access_nonce' => '8f2c129d76',
+       'auth_cookie' => '9116pwpadmin|1620914856|tNJ7OSUoUrAGyyiWsOZ79rioIPCAqjGONoTUbJ4Yklj|43e6ea3c36c4986a3993a921e31a3de751438679ae84e02400c3fe0a615d2744',
+       'user_id' => 1,
+       'site_key' => '16a5809b6fd943c2',
+       'target_post_id' => 34,
+       'post_title' => 'Car insurance for learner and young drivers',
+       'post_author' => '9116pwpadmin',
+       'modified' => '2021-05-05 15:08:45',
+       'content' => '[get-message color="info" message="Latest information on Coronavirus and your ingenie car insurance" link="https://stagi',
+    ),
+  ),
+  'nosend' => false,
+  'request_id' => NULL,
+  'data' => 
+  array (
+  ),
+)
+2021-05-13 14:07:35#48 - SyncApiRequest::api():302 perform after action logging action="getinfo"
+2021-05-13 14:07:35#48 - SyncApiRequest::api():366 - triggering "spectrom_sync_action_success" on action="getinfo" data=array (
+  'post_id' => '34',
+  'post_name' => 'car-insurance-for-learner-and-young-drivers',
+  'username' => 'target-user',
+  'token' => 'xxx',
+  'host' => 'http://s37391.p257.sites.pressdns.com',
+  'auth' => 
+  array (
+    'cookie' => '9116pwpadmin|1620230428|xxx|xxx',
+    'nonce' => 'xxx',
+    'site_key' => '01e01c30ca5054cc',
+  ),
+)
+2021-05-13 14:07:35#48 - SyncApiRequest::api():376 starting queue processing
+2021-05-13 14:07:35#48 - SyncApiRequest::_process_queue()
+2021-05-13 14:07:35#48 - SyncApiRequest::_process_queue():428 queue has 0 entries
+2021-05-13 14:07:35#48 - SyncApiRequest::_process_queue():443 queue processing complete
+2021-05-13 14:07:35#48 - SyncApiRequest::api():378 done processing queue
+2021-05-13 14:07:35#48 - SyncAdmin::get_content_details():474 - returned object: array (
+  'session_timeout' => false,
+  'focus' => NULL,
+  'errors' => 
+  array (
+  ),
+  'error_code' => 0,
+  'error_data' => NULL,
+  'notices' => 
+  array (
+  ),
+  'notice_codes' => 
+  array (
+  ),
+  'notice_data' => NULL,
+  'result_codes' => 
+  array (
+  ),
+  'success' => 1,
+  'form' => NULL,
+  'validation' => 
+  array (
+  ),
+  'result' => 
+  array (
+    'headers' => 
+    Requests_Utility_CaseInsensitiveDictionary::__set_state(array(
+       'data' => 
+      array (
+        'date' => 'Thu, 13 May 2021 13:07:36 GMT',
+        'content-type' => 'application/json',
+        'link' => '<http://s37391.p257.sites.pressdns.com/wp-json/>; rel="https://api.w.org/"',
+        'x-sync-version' => '1.7',
+        'x-wp-version' => '5.7.1',
+        'spectrom-sync-api-request' => '01e01c30ca5054cc-132.130735-239',
+        'server' => 'Pagely Gateway/1.5.1',
+        'x-user-agent' => 'standard',
+        'x-cache-config' => '0 1',
+        'vary' => 'Accept-Encoding, User-Agent',
+        'content-encoding' => 'gzip',
+      ),
+    )),
+    'body' => '{"error_code":0,"session_timeout":1,"has_errors":0,"success":1,"data":{"access_nonce":"8f2c129d76","auth_cookie":"9116pwpadmin|1620914856|tNJ7OSUoUrAGyyiWsOZ79rioIPCAqjGONoTUbJ4Yklj|43e6ea3c36c4986a3993a921e31a3de751438679ae84e02400c3fe0a615d2744","user_id":1,"site_key":"16a5809b6fd943c2","target_post_id":34,"post_title":"Car insurance for learner and young drivers","post_author":"9116pwpadmin","modified":"2021-05-05 15:08:45","content":"[get-message color=\\"info\\" message=\\"Latest information on Coronavirus and your ingenie car insurance\\" link=\\"https:\\/\\/stagi"}}',
+    'response' => 
+    array (
+      'code' => 200,
+      'message' => 'OK',
+    ),
+    'cookies' => 
+    array (
+    ),
+    'filename' => NULL,
+    'http_response' => 
+    WP_HTTP_Requests_Response::__set_state(array(
+       'response' => 
+      Requests_Response::__set_state(array(
+         'body' => '{"error_code":0,"session_timeout":1,"has_errors":0,"success":1,"data":{"access_nonce":"8f2c129d76","auth_cookie":"9116pwpadmin|1620914856|tNJ7OSUoUrAGyyiWsOZ79rioIPCAqjGONoTUbJ4Yklj|43e6ea3c36c4986a3993a921e31a3de751438679ae84e02400c3fe0a615d2744","user_id":1,"site_key":"16a5809b6fd943c2","target_post_id":34,"post_title":"Car insurance for learner and young drivers","post_author":"9116pwpadmin","modified":"2021-05-05 15:08:45","content":"[get-message color=\\"info\\" message=\\"Latest information on Coronavirus and your ingenie car insurance\\" link=\\"https:\\/\\/stagi"}}',
+         'raw' => 'HTTP/1.1 200 OK
+Date: Thu, 13 May 2021 13:07:36 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: close
+Link: <http://s37391.p257.sites.pressdns.com/wp-json/>; rel="https://api.w.org/"
+x-sync-version: 1.7
+x-wp-version: 5.7.1
+spectrom-sync-api-request: 01e01c30ca5054cc-132.130735-239
+Server: Pagely Gateway/1.5.1
+X-User-Agent: standard
+X-Cache-Config: 0 1  
+Vary: Accept-Encoding, User-Agent
+Content-Encoding: gzip
+
+{"error_code":0,"session_timeout":1,"has_errors":0,"success":1,"data":{"access_nonce":"8f2c129d76","auth_cookie":"9116pwpadmin|1620914856|tNJ7OSUoUrAGyyiWsOZ79rioIPCAqjGONoTUbJ4Yklj|43e6ea3c36c4986a3993a921e31a3de751438679ae84e02400c3fe0a615d2744","user_id":1,"site_key":"16a5809b6fd943c2","target_post_id":34,"post_title":"Car insurance for learner and young drivers","post_author":"9116pwpadmin","modified":"2021-05-05 15:08:45","content":"[get-message color=\\"info\\" message=\\"Latest information on Coronavirus and your ingenie car insurance\\" link=\\"https:\\/\\/stagi"}}',
+         'headers' => 
+        Requests_Response_Headers::__set_state(array(
+           'data' => 
+          array (
+            'date' => 
+            array (
+              0 => 'Thu, 13 May 2021 13:07:36 GMT',
+            ),
+            'content-type' => 
+            array (
+              0 => 'application/json',
+            ),
+            'link' => 
+            array (
+              0 => '<http://s37391.p257.sites.pressdns.com/wp-json/>; rel="https://api.w.org/"',
+            ),
+            'x-sync-version' => 
+            array (
+              0 => '1.7',
+            ),
+            'x-wp-version' => 
+            array (
+              0 => '5.7.1',
+            ),
+            'spectrom-sync-api-request' => 
+            array (
+              0 => '01e01c30ca5054cc-132.130735-239',
+            ),
+            'server' => 
+            array (
+              0 => 'Pagely Gateway/1.5.1',
+            ),
+            'x-user-agent' => 
+            array (
+              0 => 'standard',
+            ),
+            'x-cache-config' => 
+            array (
+              0 => '0 1',
+            ),
+            'vary' => 
+            array (
+              0 => 'Accept-Encoding, User-Agent',
+            ),
+            'content-encoding' => 
+            array (
+              0 => 'gzip',
+            ),
+          ),
+        )),
+         'status_code' => 200,
+         'protocol_version' => 1.1000000000000001,
+         'success' => true,
+         'redirects' => 0,
+         'url' => 'http://s37391.p257.sites.pressdns.com/?pagename=wpsitesync_api&action=getinfo',
+         'history' => 
+        array (
+        ),
+         'cookies' => 
+        Requests_Cookie_Jar::__set_state(array(
+           'cookies' => 
+          array (
+          ),
+        )),
+      )),
+       'filename' => NULL,
+       'data' => NULL,
+       'headers' => NULL,
+       'status' => NULL,
+    )),
+  ),
+  'response' => 
+  (object) array(
+     'error_code' => 0,
+     'session_timeout' => 1,
+     'has_errors' => 0,
+     'success' => 1,
+     'data' => 
+    (object) array(
+       'access_nonce' => '8f2c129d76',
+       'auth_cookie' => '9116pwpadmin|1620914856|tNJ7OSUoUrAGyyiWsOZ79rioIPCAqjGONoTUbJ4Yklj|43e6ea3c36c4986a3993a921e31a3de751438679ae84e02400c3fe0a615d2744',
+       'user_id' => 1,
+       'site_key' => '16a5809b6fd943c2',
+       'target_post_id' => 34,
+       'post_title' => 'Car insurance for learner and young drivers',
+       'post_author' => '9116pwpadmin',
+       'modified' => '2021-05-05 15:08:45',
+       'content' => '[get-message color="info" message="Latest information on Coronavirus and your ingenie car insurance" link="https://stagi',
+    ),
+  ),
+  'nosend' => false,
+  'request_id' => NULL,
+  'data' => 
+  array (
+  ),
+)
+2021-05-13 14:07:35#48 - SyncAdmin::get_content_details():493 - response data: array (
+  'access_nonce' => '8f2c129d76',
+  'auth_cookie' => '9116pwpadmin|1620914856|tNJ7OSUoUrAGyyiWsOZ79rioIPCAqjGONoTUbJ4Yklj|43e6ea3c36c4986a3993a921e31a3de751438679ae84e02400c3fe0a615d2744',
+  'user_id' => 1,
+  'site_key' => '16a5809b6fd943c2',
+  'target_post_id' => 34,
+  'post_title' => 'Car insurance for learner and young drivers',
+  'post_author' => '9116pwpadmin',
+  'modified' => '2021-05-05 15:08:45',
+  'content' => '[get-message color="info" message="Latest information on Coronavirus and your ingenie car insurance" link="https://stagi',
+)
+2021-05-13 14:21:14#40 - SyncSettings::settings_api_init():157 action=current_screen
+2021-05-13 14:21:14#40 - SyncSettings::_init_general_settings() tab=general action=current_screen
+2021-05-13 14:21:14#40 - SyncModel::remove_all_sync_data() sql=DELETE FROM `wp_spectrom_sync`
+			WHERE (`source_content_id`=777 AND `site_key`='01e01c30ca5054cc') OR
+				(`target_content_id`=777 AND `target_site_key`='01e01c30ca5054cc')
+2021-05-13 14:21:14#40 - SyncModel::remove_all_sync_data() sql=DELETE FROM `wp_spectrom_sync`
+			WHERE (`source_content_id`=778 AND `site_key`='01e01c30ca5054cc') OR
+				(`target_content_id`=778 AND `target_site_key`='01e01c30ca5054cc')
+2021-05-13 14:21:15#82 - SyncSettings::settings_api_init():157 action=current_screen
+2021-05-13 14:21:15#82 - SyncSettings::_init_general_settings() tab=general action=current_screen
+2021-05-13 14:21:15#82 - SyncAdmin::admin_enqueue_scripts():118 syncdata=array (
+  'site_key' => '40e68d70bb03c5f701e01c30ca5054cc',
+)
+2021-05-13 14:21:15#82 - SyncAdmin::get_content_details() post id=34
+2021-05-13 14:21:15#82 - SyncModel::get_sync_target_post() sql=SELECT *
+					FROM `wp_spectrom_sync`
+					WHERE `source_content_id`=34 AND `target_site_key`='16a5809b6fd943c2'  AND `content_type`='post'  returned array (
+  'sync_id' => '1',
+  'site_key' => '01e01c30ca5054cc',
+  'source_content_id' => '34',
+  'target_content_id' => '34',
+  'target_site_key' => '16a5809b6fd943c2',
+  'content_type' => 'post',
+  'last_update' => '2021-05-05 16:04:37',
+  'wp_version' => '5.7.1',
+  'sync_version' => '1.7',
+)
+2021-05-13 14:21:15#82 - SyncAdmin::get_content_details():471 - retrieving Target post ID 34
+2021-05-13 14:21:15#82 - SyncApiRequest::api() action="getinfo"
+2021-05-13 14:21:15#82 - SyncApiResponse::__construct():40 req id=NULL
+2021-05-13 14:21:15#82 - SyncApiRequest::api():117 current auth data: array (
+  'post_id' => '34',
+  'post_name' => 'car-insurance-for-learner-and-young-drivers',
+  'username' => 'target-user',
+  'token' => 'xxx',
+  'host' => 'http://s37391.p257.sites.pressdns.com',
+  'auth' => 
+  array (
+    'cookie' => '9116pwpadmin|1620230428|xxx|xxx',
+    'nonce' => 'xxx',
+    'site_key' => '01e01c30ca5054cc',
+  ),
+)
+2021-05-13 14:21:15#82 - SyncApiRequest::api():121 checking action="getinfo"
+2021-05-13 14:21:15#82 - SyncApiRequest::api():151 action="getinfo" data=array (
+  'post_id' => '34',
+  'post_name' => 'car-insurance-for-learner-and-young-drivers',
+  'username' => 'target-user',
+  'token' => 'xxx',
+  'host' => 'http://s37391.p257.sites.pressdns.com',
+  'auth' => 
+  array (
+    'cookie' => '9116pwpadmin|1620230428|xxx|xxx',
+    'nonce' => 'xxx',
+    'site_key' => '01e01c30ca5054cc',
+  ),
+)
+2021-05-13 14:21:15#82 - SyncApiRequest::api():194 sending API request to http://s37391.p257.sites.pressdns.com?pagename=wpsitesync_api&action=getinfo
+    #1: SyncApiRequest->api() - plugins/wpsitesynccontent/classes/admin.php:473
+    #2: SyncAdmin->get_content_details() - plugins/wpsitesynccontent/classes/admin.php:311
+    #3: SyncAdmin->render_sync_metabox() - wp-admin/includes/template.php:1389
+    #4: do_meta_boxes() - wp-admin/edit-form-advanced.php:681
+    #5: require() - wp-admin/post.php:206
+2021-05-13 14:21:15#82 - SyncApiRequest::api():198 req id=01e01c30ca5054cc-132.132115-419
+2021-05-13 14:21:15#82 - SyncApiRequest::api():212 api result from action="getinfo": array (
+  'headers' => 
+  Requests_Utility_CaseInsensitiveDictionary::__set_state(array(
+     'data' => 
+    array (
+      'date' => 'Thu, 13 May 2021 13:21:15 GMT',
+      'content-type' => 'application/json',
+      'link' => '<http://s37391.p257.sites.pressdns.com/wp-json/>; rel="https://api.w.org/"',
+      'x-sync-version' => '1.7',
+      'x-wp-version' => '5.7.1',
+      'spectrom-sync-api-request' => '01e01c30ca5054cc-132.132115-419',
+      'server' => 'Pagely Gateway/1.5.1',
+      'x-user-agent' => 'standard',
+      'x-cache-config' => '0 1',
+      'vary' => 'Accept-Encoding, User-Agent',
+      'content-encoding' => 'gzip',
+    ),
+  )),
+  'body' => '{"error_code":0,"session_timeout":1,"has_errors":0,"success":1,"data":{"access_nonce":"8f2c129d76","auth_cookie":"9116pwpadmin|1620915675|2YJ35KaXwakpbZ5jse4nS31SDXKTGoUR1HK6BaDv163|21888c43a9bdbd026a926b7a4fab55621083a34a2a2012880f8198663a1ccfad","user_id":1,"site_key":"16a5809b6fd943c2","target_post_id":34,"post_title":"Car insurance for learner and young drivers","post_author":"9116pwpadmin","modified":"2021-05-05 15:08:45","content":"[get-message color=\\"info\\" message=\\"Latest information on Coronavirus and your ingenie car insurance\\" link=\\"https:\\/\\/stagi"}}',
+  'response' => 
+  array (
+    'code' => 200,
+    'message' => 'OK',
+  ),
+  'cookies' => 
+  array (
+  ),
+  'filename' => NULL,
+  'http_response' => 
+  WP_HTTP_Requests_Response::__set_state(array(
+     'response' => 
+    Requests_Response::__set_state(array(
+       'body' => '{"error_code":0,"session_timeout":1,"has_errors":0,"success":1,"data":{"access_nonce":"8f2c129d76","auth_cookie":"9116pwpadmin|1620915675|2YJ35KaXwakpbZ5jse4nS31SDXKTGoUR1HK6BaDv163|21888c43a9bdbd026a926b7a4fab55621083a34a2a2012880f8198663a1ccfad","user_id":1,"site_key":"16a5809b6fd943c2","target_post_id":34,"post_title":"Car insurance for learner and young drivers","post_author":"9116pwpadmin","modified":"2021-05-05 15:08:45","content":"[get-message color=\\"info\\" message=\\"Latest information on Coronavirus and your ingenie car insurance\\" link=\\"https:\\/\\/stagi"}}',
+       'raw' => 'HTTP/1.1 200 OK
+Date: Thu, 13 May 2021 13:21:15 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: close
+Link: <http://s37391.p257.sites.pressdns.com/wp-json/>; rel="https://api.w.org/"
+x-sync-version: 1.7
+x-wp-version: 5.7.1
+spectrom-sync-api-request: 01e01c30ca5054cc-132.132115-419
+Server: Pagely Gateway/1.5.1
+X-User-Agent: standard
+X-Cache-Config: 0 1  
+Vary: Accept-Encoding, User-Agent
+Content-Encoding: gzip
+
+{"error_code":0,"session_timeout":1,"has_errors":0,"success":1,"data":{"access_nonce":"8f2c129d76","auth_cookie":"9116pwpadmin|1620915675|2YJ35KaXwakpbZ5jse4nS31SDXKTGoUR1HK6BaDv163|21888c43a9bdbd026a926b7a4fab55621083a34a2a2012880f8198663a1ccfad","user_id":1,"site_key":"16a5809b6fd943c2","target_post_id":34,"post_title":"Car insurance for learner and young drivers","post_author":"9116pwpadmin","modified":"2021-05-05 15:08:45","content":"[get-message color=\\"info\\" message=\\"Latest information on Coronavirus and your ingenie car insurance\\" link=\\"https:\\/\\/stagi"}}',
+       'headers' => 
+      Requests_Response_Headers::__set_state(array(
+         'data' => 
+        array (
+          'date' => 
+          array (
+            0 => 'Thu, 13 May 2021 13:21:15 GMT',
+          ),
+          'content-type' => 
+          array (
+            0 => 'application/json',
+          ),
+          'link' => 
+          array (
+            0 => '<http://s37391.p257.sites.pressdns.com/wp-json/>; rel="https://api.w.org/"',
+          ),
+          'x-sync-version' => 
+          array (
+            0 => '1.7',
+          ),
+          'x-wp-version' => 
+          array (
+            0 => '5.7.1',
+          ),
+          'spectrom-sync-api-request' => 
+          array (
+            0 => '01e01c30ca5054cc-132.132115-419',
+          ),
+          'server' => 
+          array (
+            0 => 'Pagely Gateway/1.5.1',
+          ),
+          'x-user-agent' => 
+          array (
+            0 => 'standard',
+          ),
+          'x-cache-config' => 
+          array (
+            0 => '0 1',
+          ),
+          'vary' => 
+          array (
+            0 => 'Accept-Encoding, User-Agent',
+          ),
+          'content-encoding' => 
+          array (
+            0 => 'gzip',
+          ),
+        ),
+      )),
+       'status_code' => 200,
+       'protocol_version' => 1.1000000000000001,
+       'success' => true,
+       'redirects' => 0,
+       'url' => 'http://s37391.p257.sites.pressdns.com/?pagename=wpsitesync_api&action=getinfo',
+       'history' => 
+      array (
+      ),
+       'cookies' => 
+      Requests_Cookie_Jar::__set_state(array(
+         'cookies' => 
+        array (
+        ),
+      )),
+    )),
+     'filename' => NULL,
+     'data' => NULL,
+     'headers' => NULL,
+     'status' => NULL,
+  )),
+)
+2021-05-13 14:21:15#82 - SyncApiRequest::api():255 response body: '{"error_code":0,"session_timeout":1,"has_errors":0,"success":1,"data":{"access_nonce":"8f2c129d76","auth_cookie":"9116pwpadmin|1620915675|2YJ35KaXwakpbZ5jse4nS31SDXKTGoUR1HK6BaDv163|21888c43a9bdbd026a926b7a4fab55621083a34a2a2012880f8198663a1ccfad","user_id":1,"site_key":"16a5809b6fd943c2","target_post_id":34,"post_title":"Car insurance for learner and young drivers","post_author":"9116pwpadmin","modified":"2021-05-05 15:08:45","content":"[get-message color=\\"info\\" message=\\"Latest information on Coronavirus and your ingenie car insurance\\" link=\\"https:\\/\\/stagi"}}'
+2021-05-13 14:21:15#82 - SyncApiRequest::api():259 received response from Target for action="getinfo":
+2021-05-13 14:21:15#82 - SyncApiRequest::api():294 response: array (
+  'session_timeout' => false,
+  'focus' => NULL,
+  'errors' => 
+  array (
+  ),
+  'error_code' => 0,
+  'error_data' => NULL,
+  'notices' => 
+  array (
+  ),
+  'notice_codes' => 
+  array (
+  ),
+  'notice_data' => NULL,
+  'result_codes' => 
+  array (
+  ),
+  'success' => 0,
+  'form' => NULL,
+  'validation' => 
+  array (
+  ),
+  'result' => 
+  array (
+    'headers' => 
+    Requests_Utility_CaseInsensitiveDictionary::__set_state(array(
+       'data' => 
+      array (
+        'date' => 'Thu, 13 May 2021 13:21:15 GMT',
+        'content-type' => 'application/json',
+        'link' => '<http://s37391.p257.sites.pressdns.com/wp-json/>; rel="https://api.w.org/"',
+        'x-sync-version' => '1.7',
+        'x-wp-version' => '5.7.1',
+        'spectrom-sync-api-request' => '01e01c30ca5054cc-132.132115-419',
+        'server' => 'Pagely Gateway/1.5.1',
+        'x-user-agent' => 'standard',
+        'x-cache-config' => '0 1',
+        'vary' => 'Accept-Encoding, User-Agent',
+        'content-encoding' => 'gzip',
+      ),
+    )),
+    'body' => '{"error_code":0,"session_timeout":1,"has_errors":0,"success":1,"data":{"access_nonce":"8f2c129d76","auth_cookie":"9116pwpadmin|1620915675|2YJ35KaXwakpbZ5jse4nS31SDXKTGoUR1HK6BaDv163|21888c43a9bdbd026a926b7a4fab55621083a34a2a2012880f8198663a1ccfad","user_id":1,"site_key":"16a5809b6fd943c2","target_post_id":34,"post_title":"Car insurance for learner and young drivers","post_author":"9116pwpadmin","modified":"2021-05-05 15:08:45","content":"[get-message color=\\"info\\" message=\\"Latest information on Coronavirus and your ingenie car insurance\\" link=\\"https:\\/\\/stagi"}}',
+    'response' => 
+    array (
+      'code' => 200,
+      'message' => 'OK',
+    ),
+    'cookies' => 
+    array (
+    ),
+    'filename' => NULL,
+    'http_response' => 
+    WP_HTTP_Requests_Response::__set_state(array(
+       'response' => 
+      Requests_Response::__set_state(array(
+         'body' => '{"error_code":0,"session_timeout":1,"has_errors":0,"success":1,"data":{"access_nonce":"8f2c129d76","auth_cookie":"9116pwpadmin|1620915675|2YJ35KaXwakpbZ5jse4nS31SDXKTGoUR1HK6BaDv163|21888c43a9bdbd026a926b7a4fab55621083a34a2a2012880f8198663a1ccfad","user_id":1,"site_key":"16a5809b6fd943c2","target_post_id":34,"post_title":"Car insurance for learner and young drivers","post_author":"9116pwpadmin","modified":"2021-05-05 15:08:45","content":"[get-message color=\\"info\\" message=\\"Latest information on Coronavirus and your ingenie car insurance\\" link=\\"https:\\/\\/stagi"}}',
+         'raw' => 'HTTP/1.1 200 OK
+Date: Thu, 13 May 2021 13:21:15 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: close
+Link: <http://s37391.p257.sites.pressdns.com/wp-json/>; rel="https://api.w.org/"
+x-sync-version: 1.7
+x-wp-version: 5.7.1
+spectrom-sync-api-request: 01e01c30ca5054cc-132.132115-419
+Server: Pagely Gateway/1.5.1
+X-User-Agent: standard
+X-Cache-Config: 0 1  
+Vary: Accept-Encoding, User-Agent
+Content-Encoding: gzip
+
+{"error_code":0,"session_timeout":1,"has_errors":0,"success":1,"data":{"access_nonce":"8f2c129d76","auth_cookie":"9116pwpadmin|1620915675|2YJ35KaXwakpbZ5jse4nS31SDXKTGoUR1HK6BaDv163|21888c43a9bdbd026a926b7a4fab55621083a34a2a2012880f8198663a1ccfad","user_id":1,"site_key":"16a5809b6fd943c2","target_post_id":34,"post_title":"Car insurance for learner and young drivers","post_author":"9116pwpadmin","modified":"2021-05-05 15:08:45","content":"[get-message color=\\"info\\" message=\\"Latest information on Coronavirus and your ingenie car insurance\\" link=\\"https:\\/\\/stagi"}}',
+         'headers' => 
+        Requests_Response_Headers::__set_state(array(
+           'data' => 
+          array (
+            'date' => 
+            array (
+              0 => 'Thu, 13 May 2021 13:21:15 GMT',
+            ),
+            'content-type' => 
+            array (
+              0 => 'application/json',
+            ),
+            'link' => 
+            array (
+              0 => '<http://s37391.p257.sites.pressdns.com/wp-json/>; rel="https://api.w.org/"',
+            ),
+            'x-sync-version' => 
+            array (
+              0 => '1.7',
+            ),
+            'x-wp-version' => 
+            array (
+              0 => '5.7.1',
+            ),
+            'spectrom-sync-api-request' => 
+            array (
+              0 => '01e01c30ca5054cc-132.132115-419',
+            ),
+            'server' => 
+            array (
+              0 => 'Pagely Gateway/1.5.1',
+            ),
+            'x-user-agent' => 
+            array (
+              0 => 'standard',
+            ),
+            'x-cache-config' => 
+            array (
+              0 => '0 1',
+            ),
+            'vary' => 
+            array (
+              0 => 'Accept-Encoding, User-Agent',
+            ),
+            'content-encoding' => 
+            array (
+              0 => 'gzip',
+            ),
+          ),
+        )),
+         'status_code' => 200,
+         'protocol_version' => 1.1000000000000001,
+         'success' => true,
+         'redirects' => 0,
+         'url' => 'http://s37391.p257.sites.pressdns.com/?pagename=wpsitesync_api&action=getinfo',
+         'history' => 
+        array (
+        ),
+         'cookies' => 
+        Requests_Cookie_Jar::__set_state(array(
+           'cookies' => 
+          array (
+          ),
+        )),
+      )),
+       'filename' => NULL,
+       'data' => NULL,
+       'headers' => NULL,
+       'status' => NULL,
+    )),
+  ),
+  'response' => 
+  (object) array(
+     'error_code' => 0,
+     'session_timeout' => 1,
+     'has_errors' => 0,
+     'success' => 1,
+     'data' => 
+    (object) array(
+       'access_nonce' => '8f2c129d76',
+       'auth_cookie' => '9116pwpadmin|1620915675|2YJ35KaXwakpbZ5jse4nS31SDXKTGoUR1HK6BaDv163|21888c43a9bdbd026a926b7a4fab55621083a34a2a2012880f8198663a1ccfad',
+       'user_id' => 1,
+       'site_key' => '16a5809b6fd943c2',
+       'target_post_id' => 34,
+       'post_title' => 'Car insurance for learner and young drivers',
+       'post_author' => '9116pwpadmin',
+       'modified' => '2021-05-05 15:08:45',
+       'content' => '[get-message color="info" message="Latest information on Coronavirus and your ingenie car insurance" link="https://stagi',
+    ),
+  ),
+  'nosend' => false,
+  'request_id' => NULL,
+  'data' => 
+  array (
+  ),
+)
+2021-05-13 14:21:15#82 - SyncApiRequest::api():302 perform after action logging action="getinfo"
+2021-05-13 14:21:15#82 - SyncApiRequest::api():366 - triggering "spectrom_sync_action_success" on action="getinfo" data=array (
+  'post_id' => '34',
+  'post_name' => 'car-insurance-for-learner-and-young-drivers',
+  'username' => 'target-user',
+  'token' => 'xxx',
+  'host' => 'http://s37391.p257.sites.pressdns.com',
+  'auth' => 
+  array (
+    'cookie' => '9116pwpadmin|1620230428|xxx|xxx',
+    'nonce' => 'xxx',
+    'site_key' => '01e01c30ca5054cc',
+  ),
+)
+2021-05-13 14:21:15#82 - SyncApiRequest::api():376 starting queue processing
+2021-05-13 14:21:15#82 - SyncApiRequest::_process_queue()
+2021-05-13 14:21:15#82 - SyncApiRequest::_process_queue():428 queue has 0 entries
+2021-05-13 14:21:15#82 - SyncApiRequest::_process_queue():443 queue processing complete
+2021-05-13 14:21:15#82 - SyncApiRequest::api():378 done processing queue
+2021-05-13 14:21:15#82 - SyncAdmin::get_content_details():474 - returned object: array (
+  'session_timeout' => false,
+  'focus' => NULL,
+  'errors' => 
+  array (
+  ),
+  'error_code' => 0,
+  'error_data' => NULL,
+  'notices' => 
+  array (
+  ),
+  'notice_codes' => 
+  array (
+  ),
+  'notice_data' => NULL,
+  'result_codes' => 
+  array (
+  ),
+  'success' => 1,
+  'form' => NULL,
+  'validation' => 
+  array (
+  ),
+  'result' => 
+  array (
+    'headers' => 
+    Requests_Utility_CaseInsensitiveDictionary::__set_state(array(
+       'data' => 
+      array (
+        'date' => 'Thu, 13 May 2021 13:21:15 GMT',
+        'content-type' => 'application/json',
+        'link' => '<http://s37391.p257.sites.pressdns.com/wp-json/>; rel="https://api.w.org/"',
+        'x-sync-version' => '1.7',
+        'x-wp-version' => '5.7.1',
+        'spectrom-sync-api-request' => '01e01c30ca5054cc-132.132115-419',
+        'server' => 'Pagely Gateway/1.5.1',
+        'x-user-agent' => 'standard',
+        'x-cache-config' => '0 1',
+        'vary' => 'Accept-Encoding, User-Agent',
+        'content-encoding' => 'gzip',
+      ),
+    )),
+    'body' => '{"error_code":0,"session_timeout":1,"has_errors":0,"success":1,"data":{"access_nonce":"8f2c129d76","auth_cookie":"9116pwpadmin|1620915675|2YJ35KaXwakpbZ5jse4nS31SDXKTGoUR1HK6BaDv163|21888c43a9bdbd026a926b7a4fab55621083a34a2a2012880f8198663a1ccfad","user_id":1,"site_key":"16a5809b6fd943c2","target_post_id":34,"post_title":"Car insurance for learner and young drivers","post_author":"9116pwpadmin","modified":"2021-05-05 15:08:45","content":"[get-message color=\\"info\\" message=\\"Latest information on Coronavirus and your ingenie car insurance\\" link=\\"https:\\/\\/stagi"}}',
+    'response' => 
+    array (
+      'code' => 200,
+      'message' => 'OK',
+    ),
+    'cookies' => 
+    array (
+    ),
+    'filename' => NULL,
+    'http_response' => 
+    WP_HTTP_Requests_Response::__set_state(array(
+       'response' => 
+      Requests_Response::__set_state(array(
+         'body' => '{"error_code":0,"session_timeout":1,"has_errors":0,"success":1,"data":{"access_nonce":"8f2c129d76","auth_cookie":"9116pwpadmin|1620915675|2YJ35KaXwakpbZ5jse4nS31SDXKTGoUR1HK6BaDv163|21888c43a9bdbd026a926b7a4fab55621083a34a2a2012880f8198663a1ccfad","user_id":1,"site_key":"16a5809b6fd943c2","target_post_id":34,"post_title":"Car insurance for learner and young drivers","post_author":"9116pwpadmin","modified":"2021-05-05 15:08:45","content":"[get-message color=\\"info\\" message=\\"Latest information on Coronavirus and your ingenie car insurance\\" link=\\"https:\\/\\/stagi"}}',
+         'raw' => 'HTTP/1.1 200 OK
+Date: Thu, 13 May 2021 13:21:15 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: close
+Link: <http://s37391.p257.sites.pressdns.com/wp-json/>; rel="https://api.w.org/"
+x-sync-version: 1.7
+x-wp-version: 5.7.1
+spectrom-sync-api-request: 01e01c30ca5054cc-132.132115-419
+Server: Pagely Gateway/1.5.1
+X-User-Agent: standard
+X-Cache-Config: 0 1  
+Vary: Accept-Encoding, User-Agent
+Content-Encoding: gzip
+
+{"error_code":0,"session_timeout":1,"has_errors":0,"success":1,"data":{"access_nonce":"8f2c129d76","auth_cookie":"9116pwpadmin|1620915675|2YJ35KaXwakpbZ5jse4nS31SDXKTGoUR1HK6BaDv163|21888c43a9bdbd026a926b7a4fab55621083a34a2a2012880f8198663a1ccfad","user_id":1,"site_key":"16a5809b6fd943c2","target_post_id":34,"post_title":"Car insurance for learner and young drivers","post_author":"9116pwpadmin","modified":"2021-05-05 15:08:45","content":"[get-message color=\\"info\\" message=\\"Latest information on Coronavirus and your ingenie car insurance\\" link=\\"https:\\/\\/stagi"}}',
+         'headers' => 
+        Requests_Response_Headers::__set_state(array(
+           'data' => 
+          array (
+            'date' => 
+            array (
+              0 => 'Thu, 13 May 2021 13:21:15 GMT',
+            ),
+            'content-type' => 
+            array (
+              0 => 'application/json',
+            ),
+            'link' => 
+            array (
+              0 => '<http://s37391.p257.sites.pressdns.com/wp-json/>; rel="https://api.w.org/"',
+            ),
+            'x-sync-version' => 
+            array (
+              0 => '1.7',
+            ),
+            'x-wp-version' => 
+            array (
+              0 => '5.7.1',
+            ),
+            'spectrom-sync-api-request' => 
+            array (
+              0 => '01e01c30ca5054cc-132.132115-419',
+            ),
+            'server' => 
+            array (
+              0 => 'Pagely Gateway/1.5.1',
+            ),
+            'x-user-agent' => 
+            array (
+              0 => 'standard',
+            ),
+            'x-cache-config' => 
+            array (
+              0 => '0 1',
+            ),
+            'vary' => 
+            array (
+              0 => 'Accept-Encoding, User-Agent',
+            ),
+            'content-encoding' => 
+            array (
+              0 => 'gzip',
+            ),
+          ),
+        )),
+         'status_code' => 200,
+         'protocol_version' => 1.1000000000000001,
+         'success' => true,
+         'redirects' => 0,
+         'url' => 'http://s37391.p257.sites.pressdns.com/?pagename=wpsitesync_api&action=getinfo',
+         'history' => 
+        array (
+        ),
+         'cookies' => 
+        Requests_Cookie_Jar::__set_state(array(
+           'cookies' => 
+          array (
+          ),
+        )),
+      )),
+       'filename' => NULL,
+       'data' => NULL,
+       'headers' => NULL,
+       'status' => NULL,
+    )),
+  ),
+  'response' => 
+  (object) array(
+     'error_code' => 0,
+     'session_timeout' => 1,
+     'has_errors' => 0,
+     'success' => 1,
+     'data' => 
+    (object) array(
+       'access_nonce' => '8f2c129d76',
+       'auth_cookie' => '9116pwpadmin|1620915675|2YJ35KaXwakpbZ5jse4nS31SDXKTGoUR1HK6BaDv163|21888c43a9bdbd026a926b7a4fab55621083a34a2a2012880f8198663a1ccfad',
+       'user_id' => 1,
+       'site_key' => '16a5809b6fd943c2',
+       'target_post_id' => 34,
+       'post_title' => 'Car insurance for learner and young drivers',
+       'post_author' => '9116pwpadmin',
+       'modified' => '2021-05-05 15:08:45',
+       'content' => '[get-message color="info" message="Latest information on Coronavirus and your ingenie car insurance" link="https://stagi',
+    ),
+  ),
+  'nosend' => false,
+  'request_id' => NULL,
+  'data' => 
+  array (
+  ),
+)
+2021-05-13 14:21:15#82 - SyncAdmin::get_content_details():493 - response data: array (
+  'access_nonce' => '8f2c129d76',
+  'auth_cookie' => '9116pwpadmin|1620915675|2YJ35KaXwakpbZ5jse4nS31SDXKTGoUR1HK6BaDv163|21888c43a9bdbd026a926b7a4fab55621083a34a2a2012880f8198663a1ccfad',
+  'user_id' => 1,
+  'site_key' => '16a5809b6fd943c2',
+  'target_post_id' => 34,
+  'post_title' => 'Car insurance for learner and young drivers',
+  'post_author' => '9116pwpadmin',
+  'modified' => '2021-05-05 15:08:45',
+  'content' => '[get-message color="info" message="Latest information on Coronavirus and your ingenie car insurance" link="https://stagi',
+)
+2021-05-13 14:23:03#80 - SyncSettings::settings_api_init():157 action=current_screen
+2021-05-13 14:23:03#80 - SyncSettings::_init_general_settings() tab=general action=current_screen
+2021-05-13 14:23:03#80 - SyncModel::remove_all_sync_data() sql=DELETE FROM `wp_spectrom_sync`
+			WHERE (`source_content_id`=779 AND `site_key`='01e01c30ca5054cc') OR
+				(`target_content_id`=779 AND `target_site_key`='01e01c30ca5054cc')
+2021-05-13 14:23:04#79 - SyncSettings::settings_api_init():157 action=current_screen
+2021-05-13 14:23:04#79 - SyncSettings::_init_general_settings() tab=general action=current_screen
+2021-05-13 14:23:04#79 - SyncAdmin::admin_enqueue_scripts():118 syncdata=array (
+  'site_key' => '40e68d70bb03c5f701e01c30ca5054cc',
+)
+2021-05-13 14:23:04#79 - SyncAdmin::get_content_details() post id=34
+2021-05-13 14:23:04#79 - SyncModel::get_sync_target_post() sql=SELECT *
+					FROM `wp_spectrom_sync`
+					WHERE `source_content_id`=34 AND `target_site_key`='16a5809b6fd943c2'  AND `content_type`='post'  returned array (
+  'sync_id' => '1',
+  'site_key' => '01e01c30ca5054cc',
+  'source_content_id' => '34',
+  'target_content_id' => '34',
+  'target_site_key' => '16a5809b6fd943c2',
+  'content_type' => 'post',
+  'last_update' => '2021-05-05 16:04:37',
+  'wp_version' => '5.7.1',
+  'sync_version' => '1.7',
+)
+2021-05-13 14:23:04#79 - SyncAdmin::get_content_details():471 - retrieving Target post ID 34
+2021-05-13 14:23:04#79 - SyncApiRequest::api() action="getinfo"
+2021-05-13 14:23:04#79 - SyncApiResponse::__construct():40 req id=NULL
+2021-05-13 14:23:04#79 - SyncApiRequest::api():117 current auth data: array (
+  'post_id' => '34',
+  'post_name' => 'car-insurance-for-learner-and-young-drivers',
+  'username' => 'target-user',
+  'token' => 'xxx',
+  'host' => 'http://s37391.p257.sites.pressdns.com',
+  'auth' => 
+  array (
+    'cookie' => '9116pwpadmin|1620230428|xxx|xxx',
+    'nonce' => 'xxx',
+    'site_key' => '01e01c30ca5054cc',
+  ),
+)
+2021-05-13 14:23:04#79 - SyncApiRequest::api():121 checking action="getinfo"
+2021-05-13 14:23:04#79 - SyncApiRequest::api():151 action="getinfo" data=array (
+  'post_id' => '34',
+  'post_name' => 'car-insurance-for-learner-and-young-drivers',
+  'username' => 'target-user',
+  'token' => 'xxx',
+  'host' => 'http://s37391.p257.sites.pressdns.com',
+  'auth' => 
+  array (
+    'cookie' => '9116pwpadmin|1620230428|xxx|xxx',
+    'nonce' => 'xxx',
+    'site_key' => '01e01c30ca5054cc',
+  ),
+)
+2021-05-13 14:23:04#79 - SyncApiRequest::api():194 sending API request to http://s37391.p257.sites.pressdns.com?pagename=wpsitesync_api&action=getinfo
+    #1: SyncApiRequest->api() - plugins/wpsitesynccontent/classes/admin.php:473
+    #2: SyncAdmin->get_content_details() - plugins/wpsitesynccontent/classes/admin.php:311
+    #3: SyncAdmin->render_sync_metabox() - wp-admin/includes/template.php:1389
+    #4: do_meta_boxes() - wp-admin/edit-form-advanced.php:681
+    #5: require() - wp-admin/post.php:206
+2021-05-13 14:23:04#79 - SyncApiRequest::api():198 req id=01e01c30ca5054cc-132.132304-441
+2021-05-13 14:23:04#79 - SyncApiRequest::api():212 api result from action="getinfo": array (
+  'headers' => 
+  Requests_Utility_CaseInsensitiveDictionary::__set_state(array(
+     'data' => 
+    array (
+      'date' => 'Thu, 13 May 2021 13:23:05 GMT',
+      'content-type' => 'application/json',
+      'link' => '<http://s37391.p257.sites.pressdns.com/wp-json/>; rel="https://api.w.org/"',
+      'x-sync-version' => '1.7',
+      'x-wp-version' => '5.7.1',
+      'spectrom-sync-api-request' => '01e01c30ca5054cc-132.132304-441',
+      'server' => 'Pagely Gateway/1.5.1',
+      'x-user-agent' => 'standard',
+      'x-cache-config' => '0 1',
+      'vary' => 'Accept-Encoding, User-Agent',
+      'content-encoding' => 'gzip',
+    ),
+  )),
+  'body' => '{"error_code":0,"session_timeout":1,"has_errors":0,"success":1,"data":{"access_nonce":"8f2c129d76","auth_cookie":"9116pwpadmin|1620915785|dNZg2UGNRzLZS1o6iayRfHBNEsZmkUfMr2S6PhjD795|611bcafc8e3a2b7090c7b9c96dfc3382974a7628d517b13d6cc30a61a5b49249","user_id":1,"site_key":"16a5809b6fd943c2","target_post_id":34,"post_title":"Car insurance for learner and young drivers","post_author":"9116pwpadmin","modified":"2021-05-05 15:08:45","content":"[get-message color=\\"info\\" message=\\"Latest information on Coronavirus and your ingenie car insurance\\" link=\\"https:\\/\\/stagi"}}',
+  'response' => 
+  array (
+    'code' => 200,
+    'message' => 'OK',
+  ),
+  'cookies' => 
+  array (
+  ),
+  'filename' => NULL,
+  'http_response' => 
+  WP_HTTP_Requests_Response::__set_state(array(
+     'response' => 
+    Requests_Response::__set_state(array(
+       'body' => '{"error_code":0,"session_timeout":1,"has_errors":0,"success":1,"data":{"access_nonce":"8f2c129d76","auth_cookie":"9116pwpadmin|1620915785|dNZg2UGNRzLZS1o6iayRfHBNEsZmkUfMr2S6PhjD795|611bcafc8e3a2b7090c7b9c96dfc3382974a7628d517b13d6cc30a61a5b49249","user_id":1,"site_key":"16a5809b6fd943c2","target_post_id":34,"post_title":"Car insurance for learner and young drivers","post_author":"9116pwpadmin","modified":"2021-05-05 15:08:45","content":"[get-message color=\\"info\\" message=\\"Latest information on Coronavirus and your ingenie car insurance\\" link=\\"https:\\/\\/stagi"}}',
+       'raw' => 'HTTP/1.1 200 OK
+Date: Thu, 13 May 2021 13:23:05 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: close
+Link: <http://s37391.p257.sites.pressdns.com/wp-json/>; rel="https://api.w.org/"
+x-sync-version: 1.7
+x-wp-version: 5.7.1
+spectrom-sync-api-request: 01e01c30ca5054cc-132.132304-441
+Server: Pagely Gateway/1.5.1
+X-User-Agent: standard
+X-Cache-Config: 0 1  
+Vary: Accept-Encoding, User-Agent
+Content-Encoding: gzip
+
+{"error_code":0,"session_timeout":1,"has_errors":0,"success":1,"data":{"access_nonce":"8f2c129d76","auth_cookie":"9116pwpadmin|1620915785|dNZg2UGNRzLZS1o6iayRfHBNEsZmkUfMr2S6PhjD795|611bcafc8e3a2b7090c7b9c96dfc3382974a7628d517b13d6cc30a61a5b49249","user_id":1,"site_key":"16a5809b6fd943c2","target_post_id":34,"post_title":"Car insurance for learner and young drivers","post_author":"9116pwpadmin","modified":"2021-05-05 15:08:45","content":"[get-message color=\\"info\\" message=\\"Latest information on Coronavirus and your ingenie car insurance\\" link=\\"https:\\/\\/stagi"}}',
+       'headers' => 
+      Requests_Response_Headers::__set_state(array(
+         'data' => 
+        array (
+          'date' => 
+          array (
+            0 => 'Thu, 13 May 2021 13:23:05 GMT',
+          ),
+          'content-type' => 
+          array (
+            0 => 'application/json',
+          ),
+          'link' => 
+          array (
+            0 => '<http://s37391.p257.sites.pressdns.com/wp-json/>; rel="https://api.w.org/"',
+          ),
+          'x-sync-version' => 
+          array (
+            0 => '1.7',
+          ),
+          'x-wp-version' => 
+          array (
+            0 => '5.7.1',
+          ),
+          'spectrom-sync-api-request' => 
+          array (
+            0 => '01e01c30ca5054cc-132.132304-441',
+          ),
+          'server' => 
+          array (
+            0 => 'Pagely Gateway/1.5.1',
+          ),
+          'x-user-agent' => 
+          array (
+            0 => 'standard',
+          ),
+          'x-cache-config' => 
+          array (
+            0 => '0 1',
+          ),
+          'vary' => 
+          array (
+            0 => 'Accept-Encoding, User-Agent',
+          ),
+          'content-encoding' => 
+          array (
+            0 => 'gzip',
+          ),
+        ),
+      )),
+       'status_code' => 200,
+       'protocol_version' => 1.1000000000000001,
+       'success' => true,
+       'redirects' => 0,
+       'url' => 'http://s37391.p257.sites.pressdns.com/?pagename=wpsitesync_api&action=getinfo',
+       'history' => 
+      array (
+      ),
+       'cookies' => 
+      Requests_Cookie_Jar::__set_state(array(
+         'cookies' => 
+        array (
+        ),
+      )),
+    )),
+     'filename' => NULL,
+     'data' => NULL,
+     'headers' => NULL,
+     'status' => NULL,
+  )),
+)
+2021-05-13 14:23:04#79 - SyncApiRequest::api():255 response body: '{"error_code":0,"session_timeout":1,"has_errors":0,"success":1,"data":{"access_nonce":"8f2c129d76","auth_cookie":"9116pwpadmin|1620915785|dNZg2UGNRzLZS1o6iayRfHBNEsZmkUfMr2S6PhjD795|611bcafc8e3a2b7090c7b9c96dfc3382974a7628d517b13d6cc30a61a5b49249","user_id":1,"site_key":"16a5809b6fd943c2","target_post_id":34,"post_title":"Car insurance for learner and young drivers","post_author":"9116pwpadmin","modified":"2021-05-05 15:08:45","content":"[get-message color=\\"info\\" message=\\"Latest information on Coronavirus and your ingenie car insurance\\" link=\\"https:\\/\\/stagi"}}'
+2021-05-13 14:23:04#79 - SyncApiRequest::api():259 received response from Target for action="getinfo":
+2021-05-13 14:23:04#79 - SyncApiRequest::api():294 response: array (
+  'session_timeout' => false,
+  'focus' => NULL,
+  'errors' => 
+  array (
+  ),
+  'error_code' => 0,
+  'error_data' => NULL,
+  'notices' => 
+  array (
+  ),
+  'notice_codes' => 
+  array (
+  ),
+  'notice_data' => NULL,
+  'result_codes' => 
+  array (
+  ),
+  'success' => 0,
+  'form' => NULL,
+  'validation' => 
+  array (
+  ),
+  'result' => 
+  array (
+    'headers' => 
+    Requests_Utility_CaseInsensitiveDictionary::__set_state(array(
+       'data' => 
+      array (
+        'date' => 'Thu, 13 May 2021 13:23:05 GMT',
+        'content-type' => 'application/json',
+        'link' => '<http://s37391.p257.sites.pressdns.com/wp-json/>; rel="https://api.w.org/"',
+        'x-sync-version' => '1.7',
+        'x-wp-version' => '5.7.1',
+        'spectrom-sync-api-request' => '01e01c30ca5054cc-132.132304-441',
+        'server' => 'Pagely Gateway/1.5.1',
+        'x-user-agent' => 'standard',
+        'x-cache-config' => '0 1',
+        'vary' => 'Accept-Encoding, User-Agent',
+        'content-encoding' => 'gzip',
+      ),
+    )),
+    'body' => '{"error_code":0,"session_timeout":1,"has_errors":0,"success":1,"data":{"access_nonce":"8f2c129d76","auth_cookie":"9116pwpadmin|1620915785|dNZg2UGNRzLZS1o6iayRfHBNEsZmkUfMr2S6PhjD795|611bcafc8e3a2b7090c7b9c96dfc3382974a7628d517b13d6cc30a61a5b49249","user_id":1,"site_key":"16a5809b6fd943c2","target_post_id":34,"post_title":"Car insurance for learner and young drivers","post_author":"9116pwpadmin","modified":"2021-05-05 15:08:45","content":"[get-message color=\\"info\\" message=\\"Latest information on Coronavirus and your ingenie car insurance\\" link=\\"https:\\/\\/stagi"}}',
+    'response' => 
+    array (
+      'code' => 200,
+      'message' => 'OK',
+    ),
+    'cookies' => 
+    array (
+    ),
+    'filename' => NULL,
+    'http_response' => 
+    WP_HTTP_Requests_Response::__set_state(array(
+       'response' => 
+      Requests_Response::__set_state(array(
+         'body' => '{"error_code":0,"session_timeout":1,"has_errors":0,"success":1,"data":{"access_nonce":"8f2c129d76","auth_cookie":"9116pwpadmin|1620915785|dNZg2UGNRzLZS1o6iayRfHBNEsZmkUfMr2S6PhjD795|611bcafc8e3a2b7090c7b9c96dfc3382974a7628d517b13d6cc30a61a5b49249","user_id":1,"site_key":"16a5809b6fd943c2","target_post_id":34,"post_title":"Car insurance for learner and young drivers","post_author":"9116pwpadmin","modified":"2021-05-05 15:08:45","content":"[get-message color=\\"info\\" message=\\"Latest information on Coronavirus and your ingenie car insurance\\" link=\\"https:\\/\\/stagi"}}',
+         'raw' => 'HTTP/1.1 200 OK
+Date: Thu, 13 May 2021 13:23:05 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: close
+Link: <http://s37391.p257.sites.pressdns.com/wp-json/>; rel="https://api.w.org/"
+x-sync-version: 1.7
+x-wp-version: 5.7.1
+spectrom-sync-api-request: 01e01c30ca5054cc-132.132304-441
+Server: Pagely Gateway/1.5.1
+X-User-Agent: standard
+X-Cache-Config: 0 1  
+Vary: Accept-Encoding, User-Agent
+Content-Encoding: gzip
+
+{"error_code":0,"session_timeout":1,"has_errors":0,"success":1,"data":{"access_nonce":"8f2c129d76","auth_cookie":"9116pwpadmin|1620915785|dNZg2UGNRzLZS1o6iayRfHBNEsZmkUfMr2S6PhjD795|611bcafc8e3a2b7090c7b9c96dfc3382974a7628d517b13d6cc30a61a5b49249","user_id":1,"site_key":"16a5809b6fd943c2","target_post_id":34,"post_title":"Car insurance for learner and young drivers","post_author":"9116pwpadmin","modified":"2021-05-05 15:08:45","content":"[get-message color=\\"info\\" message=\\"Latest information on Coronavirus and your ingenie car insurance\\" link=\\"https:\\/\\/stagi"}}',
+         'headers' => 
+        Requests_Response_Headers::__set_state(array(
+           'data' => 
+          array (
+            'date' => 
+            array (
+              0 => 'Thu, 13 May 2021 13:23:05 GMT',
+            ),
+            'content-type' => 
+            array (
+              0 => 'application/json',
+            ),
+            'link' => 
+            array (
+              0 => '<http://s37391.p257.sites.pressdns.com/wp-json/>; rel="https://api.w.org/"',
+            ),
+            'x-sync-version' => 
+            array (
+              0 => '1.7',
+            ),
+            'x-wp-version' => 
+            array (
+              0 => '5.7.1',
+            ),
+            'spectrom-sync-api-request' => 
+            array (
+              0 => '01e01c30ca5054cc-132.132304-441',
+            ),
+            'server' => 
+            array (
+              0 => 'Pagely Gateway/1.5.1',
+            ),
+            'x-user-agent' => 
+            array (
+              0 => 'standard',
+            ),
+            'x-cache-config' => 
+            array (
+              0 => '0 1',
+            ),
+            'vary' => 
+            array (
+              0 => 'Accept-Encoding, User-Agent',
+            ),
+            'content-encoding' => 
+            array (
+              0 => 'gzip',
+            ),
+          ),
+        )),
+         'status_code' => 200,
+         'protocol_version' => 1.1000000000000001,
+         'success' => true,
+         'redirects' => 0,
+         'url' => 'http://s37391.p257.sites.pressdns.com/?pagename=wpsitesync_api&action=getinfo',
+         'history' => 
+        array (
+        ),
+         'cookies' => 
+        Requests_Cookie_Jar::__set_state(array(
+           'cookies' => 
+          array (
+          ),
+        )),
+      )),
+       'filename' => NULL,
+       'data' => NULL,
+       'headers' => NULL,
+       'status' => NULL,
+    )),
+  ),
+  'response' => 
+  (object) array(
+     'error_code' => 0,
+     'session_timeout' => 1,
+     'has_errors' => 0,
+     'success' => 1,
+     'data' => 
+    (object) array(
+       'access_nonce' => '8f2c129d76',
+       'auth_cookie' => '9116pwpadmin|1620915785|dNZg2UGNRzLZS1o6iayRfHBNEsZmkUfMr2S6PhjD795|611bcafc8e3a2b7090c7b9c96dfc3382974a7628d517b13d6cc30a61a5b49249',
+       'user_id' => 1,
+       'site_key' => '16a5809b6fd943c2',
+       'target_post_id' => 34,
+       'post_title' => 'Car insurance for learner and young drivers',
+       'post_author' => '9116pwpadmin',
+       'modified' => '2021-05-05 15:08:45',
+       'content' => '[get-message color="info" message="Latest information on Coronavirus and your ingenie car insurance" link="https://stagi',
+    ),
+  ),
+  'nosend' => false,
+  'request_id' => NULL,
+  'data' => 
+  array (
+  ),
+)
+2021-05-13 14:23:04#79 - SyncApiRequest::api():302 perform after action logging action="getinfo"
+2021-05-13 14:23:04#79 - SyncApiRequest::api():366 - triggering "spectrom_sync_action_success" on action="getinfo" data=array (
+  'post_id' => '34',
+  'post_name' => 'car-insurance-for-learner-and-young-drivers',
+  'username' => 'target-user',
+  'token' => 'xxx',
+  'host' => 'http://s37391.p257.sites.pressdns.com',
+  'auth' => 
+  array (
+    'cookie' => '9116pwpadmin|1620230428|xxx|xxx',
+    'nonce' => 'xxx',
+    'site_key' => '01e01c30ca5054cc',
+  ),
+)
+2021-05-13 14:23:04#79 - SyncApiRequest::api():376 starting queue processing
+2021-05-13 14:23:04#79 - SyncApiRequest::_process_queue()
+2021-05-13 14:23:04#79 - SyncApiRequest::_process_queue():428 queue has 0 entries
+2021-05-13 14:23:04#79 - SyncApiRequest::_process_queue():443 queue processing complete
+2021-05-13 14:23:04#79 - SyncApiRequest::api():378 done processing queue
+2021-05-13 14:23:04#79 - SyncAdmin::get_content_details():474 - returned object: array (
+  'session_timeout' => false,
+  'focus' => NULL,
+  'errors' => 
+  array (
+  ),
+  'error_code' => 0,
+  'error_data' => NULL,
+  'notices' => 
+  array (
+  ),
+  'notice_codes' => 
+  array (
+  ),
+  'notice_data' => NULL,
+  'result_codes' => 
+  array (
+  ),
+  'success' => 1,
+  'form' => NULL,
+  'validation' => 
+  array (
+  ),
+  'result' => 
+  array (
+    'headers' => 
+    Requests_Utility_CaseInsensitiveDictionary::__set_state(array(
+       'data' => 
+      array (
+        'date' => 'Thu, 13 May 2021 13:23:05 GMT',
+        'content-type' => 'application/json',
+        'link' => '<http://s37391.p257.sites.pressdns.com/wp-json/>; rel="https://api.w.org/"',
+        'x-sync-version' => '1.7',
+        'x-wp-version' => '5.7.1',
+        'spectrom-sync-api-request' => '01e01c30ca5054cc-132.132304-441',
+        'server' => 'Pagely Gateway/1.5.1',
+        'x-user-agent' => 'standard',
+        'x-cache-config' => '0 1',
+        'vary' => 'Accept-Encoding, User-Agent',
+        'content-encoding' => 'gzip',
+      ),
+    )),
+    'body' => '{"error_code":0,"session_timeout":1,"has_errors":0,"success":1,"data":{"access_nonce":"8f2c129d76","auth_cookie":"9116pwpadmin|1620915785|dNZg2UGNRzLZS1o6iayRfHBNEsZmkUfMr2S6PhjD795|611bcafc8e3a2b7090c7b9c96dfc3382974a7628d517b13d6cc30a61a5b49249","user_id":1,"site_key":"16a5809b6fd943c2","target_post_id":34,"post_title":"Car insurance for learner and young drivers","post_author":"9116pwpadmin","modified":"2021-05-05 15:08:45","content":"[get-message color=\\"info\\" message=\\"Latest information on Coronavirus and your ingenie car insurance\\" link=\\"https:\\/\\/stagi"}}',
+    'response' => 
+    array (
+      'code' => 200,
+      'message' => 'OK',
+    ),
+    'cookies' => 
+    array (
+    ),
+    'filename' => NULL,
+    'http_response' => 
+    WP_HTTP_Requests_Response::__set_state(array(
+       'response' => 
+      Requests_Response::__set_state(array(
+         'body' => '{"error_code":0,"session_timeout":1,"has_errors":0,"success":1,"data":{"access_nonce":"8f2c129d76","auth_cookie":"9116pwpadmin|1620915785|dNZg2UGNRzLZS1o6iayRfHBNEsZmkUfMr2S6PhjD795|611bcafc8e3a2b7090c7b9c96dfc3382974a7628d517b13d6cc30a61a5b49249","user_id":1,"site_key":"16a5809b6fd943c2","target_post_id":34,"post_title":"Car insurance for learner and young drivers","post_author":"9116pwpadmin","modified":"2021-05-05 15:08:45","content":"[get-message color=\\"info\\" message=\\"Latest information on Coronavirus and your ingenie car insurance\\" link=\\"https:\\/\\/stagi"}}',
+         'raw' => 'HTTP/1.1 200 OK
+Date: Thu, 13 May 2021 13:23:05 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: close
+Link: <http://s37391.p257.sites.pressdns.com/wp-json/>; rel="https://api.w.org/"
+x-sync-version: 1.7
+x-wp-version: 5.7.1
+spectrom-sync-api-request: 01e01c30ca5054cc-132.132304-441
+Server: Pagely Gateway/1.5.1
+X-User-Agent: standard
+X-Cache-Config: 0 1  
+Vary: Accept-Encoding, User-Agent
+Content-Encoding: gzip
+
+{"error_code":0,"session_timeout":1,"has_errors":0,"success":1,"data":{"access_nonce":"8f2c129d76","auth_cookie":"9116pwpadmin|1620915785|dNZg2UGNRzLZS1o6iayRfHBNEsZmkUfMr2S6PhjD795|611bcafc8e3a2b7090c7b9c96dfc3382974a7628d517b13d6cc30a61a5b49249","user_id":1,"site_key":"16a5809b6fd943c2","target_post_id":34,"post_title":"Car insurance for learner and young drivers","post_author":"9116pwpadmin","modified":"2021-05-05 15:08:45","content":"[get-message color=\\"info\\" message=\\"Latest information on Coronavirus and your ingenie car insurance\\" link=\\"https:\\/\\/stagi"}}',
+         'headers' => 
+        Requests_Response_Headers::__set_state(array(
+           'data' => 
+          array (
+            'date' => 
+            array (
+              0 => 'Thu, 13 May 2021 13:23:05 GMT',
+            ),
+            'content-type' => 
+            array (
+              0 => 'application/json',
+            ),
+            'link' => 
+            array (
+              0 => '<http://s37391.p257.sites.pressdns.com/wp-json/>; rel="https://api.w.org/"',
+            ),
+            'x-sync-version' => 
+            array (
+              0 => '1.7',
+            ),
+            'x-wp-version' => 
+            array (
+              0 => '5.7.1',
+            ),
+            'spectrom-sync-api-request' => 
+            array (
+              0 => '01e01c30ca5054cc-132.132304-441',
+            ),
+            'server' => 
+            array (
+              0 => 'Pagely Gateway/1.5.1',
+            ),
+            'x-user-agent' => 
+            array (
+              0 => 'standard',
+            ),
+            'x-cache-config' => 
+            array (
+              0 => '0 1',
+            ),
+            'vary' => 
+            array (
+              0 => 'Accept-Encoding, User-Agent',
+            ),
+            'content-encoding' => 
+            array (
+              0 => 'gzip',
+            ),
+          ),
+        )),
+         'status_code' => 200,
+         'protocol_version' => 1.1000000000000001,
+         'success' => true,
+         'redirects' => 0,
+         'url' => 'http://s37391.p257.sites.pressdns.com/?pagename=wpsitesync_api&action=getinfo',
+         'history' => 
+        array (
+        ),
+         'cookies' => 
+        Requests_Cookie_Jar::__set_state(array(
+           'cookies' => 
+          array (
+          ),
+        )),
+      )),
+       'filename' => NULL,
+       'data' => NULL,
+       'headers' => NULL,
+       'status' => NULL,
+    )),
+  ),
+  'response' => 
+  (object) array(
+     'error_code' => 0,
+     'session_timeout' => 1,
+     'has_errors' => 0,
+     'success' => 1,
+     'data' => 
+    (object) array(
+       'access_nonce' => '8f2c129d76',
+       'auth_cookie' => '9116pwpadmin|1620915785|dNZg2UGNRzLZS1o6iayRfHBNEsZmkUfMr2S6PhjD795|611bcafc8e3a2b7090c7b9c96dfc3382974a7628d517b13d6cc30a61a5b49249',
+       'user_id' => 1,
+       'site_key' => '16a5809b6fd943c2',
+       'target_post_id' => 34,
+       'post_title' => 'Car insurance for learner and young drivers',
+       'post_author' => '9116pwpadmin',
+       'modified' => '2021-05-05 15:08:45',
+       'content' => '[get-message color="info" message="Latest information on Coronavirus and your ingenie car insurance" link="https://stagi',
+    ),
+  ),
+  'nosend' => false,
+  'request_id' => NULL,
+  'data' => 
+  array (
+  ),
+)
+2021-05-13 14:23:04#79 - SyncAdmin::get_content_details():493 - response data: array (
+  'access_nonce' => '8f2c129d76',
+  'auth_cookie' => '9116pwpadmin|1620915785|dNZg2UGNRzLZS1o6iayRfHBNEsZmkUfMr2S6PhjD795|611bcafc8e3a2b7090c7b9c96dfc3382974a7628d517b13d6cc30a61a5b49249',
+  'user_id' => 1,
+  'site_key' => '16a5809b6fd943c2',
+  'target_post_id' => 34,
+  'post_title' => 'Car insurance for learner and young drivers',
+  'post_author' => '9116pwpadmin',
+  'modified' => '2021-05-05 15:08:45',
+  'content' => '[get-message color="info" message="Latest information on Coronavirus and your ingenie car insurance" link="https://stagi',
+)
+2021-05-13 14:23:16#61 - SyncSettings::settings_api_init():157 action=current_screen
+2021-05-13 14:23:16#61 - SyncSettings::_init_general_settings() tab=general action=current_screen
+2021-05-13 14:23:16#61 - SyncAdmin::admin_enqueue_scripts():118 syncdata=array (
+  'site_key' => '40e68d70bb03c5f701e01c30ca5054cc',
+)
+2021-05-13 14:23:16#61 - SyncAdmin::get_content_details() post id=34
+2021-05-13 14:23:16#61 - SyncModel::get_sync_target_post() sql=SELECT *
+					FROM `wp_spectrom_sync`
+					WHERE `source_content_id`=34 AND `target_site_key`='16a5809b6fd943c2'  AND `content_type`='post'  returned array (
+  'sync_id' => '1',
+  'site_key' => '01e01c30ca5054cc',
+  'source_content_id' => '34',
+  'target_content_id' => '34',
+  'target_site_key' => '16a5809b6fd943c2',
+  'content_type' => 'post',
+  'last_update' => '2021-05-05 16:04:37',
+  'wp_version' => '5.7.1',
+  'sync_version' => '1.7',
+)
+2021-05-13 14:23:16#61 - SyncAdmin::get_content_details():471 - retrieving Target post ID 34
+2021-05-13 14:23:16#61 - SyncApiRequest::api() action="getinfo"
+2021-05-13 14:23:16#61 - SyncApiResponse::__construct():40 req id=NULL
+2021-05-13 14:23:16#61 - SyncApiRequest::api():117 current auth data: array (
+  'post_id' => '34',
+  'post_name' => 'car-insurance-for-learner-and-young-drivers',
+  'username' => 'target-user',
+  'token' => 'xxx',
+  'host' => 'http://s37391.p257.sites.pressdns.com',
+  'auth' => 
+  array (
+    'cookie' => '9116pwpadmin|1620230428|xxx|xxx',
+    'nonce' => 'xxx',
+    'site_key' => '01e01c30ca5054cc',
+  ),
+)
+2021-05-13 14:23:16#61 - SyncApiRequest::api():121 checking action="getinfo"
+2021-05-13 14:23:16#61 - SyncApiRequest::api():151 action="getinfo" data=array (
+  'post_id' => '34',
+  'post_name' => 'car-insurance-for-learner-and-young-drivers',
+  'username' => 'target-user',
+  'token' => 'xxx',
+  'host' => 'http://s37391.p257.sites.pressdns.com',
+  'auth' => 
+  array (
+    'cookie' => '9116pwpadmin|1620230428|xxx|xxx',
+    'nonce' => 'xxx',
+    'site_key' => '01e01c30ca5054cc',
+  ),
+)
+2021-05-13 14:23:16#61 - SyncApiRequest::api():194 sending API request to http://s37391.p257.sites.pressdns.com?pagename=wpsitesync_api&action=getinfo
+    #1: SyncApiRequest->api() - plugins/wpsitesynccontent/classes/admin.php:473
+    #2: SyncAdmin->get_content_details() - plugins/wpsitesynccontent/classes/admin.php:311
+    #3: SyncAdmin->render_sync_metabox() - wp-admin/includes/template.php:1389
+    #4: do_meta_boxes() - wp-admin/edit-form-advanced.php:681
+    #5: require() - wp-admin/post.php:206
+2021-05-13 14:23:16#61 - SyncApiRequest::api():198 req id=01e01c30ca5054cc-132.132316-307
+2021-05-13 14:23:17#61 - SyncApiRequest::api():212 api result from action="getinfo": array (
+  'headers' => 
+  Requests_Utility_CaseInsensitiveDictionary::__set_state(array(
+     'data' => 
+    array (
+      'date' => 'Thu, 13 May 2021 13:23:17 GMT',
+      'content-type' => 'application/json',
+      'link' => '<http://s37391.p257.sites.pressdns.com/wp-json/>; rel="https://api.w.org/"',
+      'x-sync-version' => '1.7',
+      'x-wp-version' => '5.7.1',
+      'spectrom-sync-api-request' => '01e01c30ca5054cc-132.132316-307',
+      'server' => 'Pagely Gateway/1.5.1',
+      'x-user-agent' => 'standard',
+      'x-cache-config' => '0 1',
+      'vary' => 'Accept-Encoding, User-Agent',
+      'content-encoding' => 'gzip',
+    ),
+  )),
+  'body' => '{"error_code":0,"session_timeout":1,"has_errors":0,"success":1,"data":{"access_nonce":"8f2c129d76","auth_cookie":"9116pwpadmin|1620915797|r3vj8LuBPbSLGP8NgYzJamabTOKcU1Wp569Zm0y35ln|b2617710dd680750f3cd3f5517c60ac1f35cbeea4e931e8948a90b9749f47c7b","user_id":1,"site_key":"16a5809b6fd943c2","target_post_id":34,"post_title":"Car insurance for learner and young drivers","post_author":"9116pwpadmin","modified":"2021-05-05 15:08:45","content":"[get-message color=\\"info\\" message=\\"Latest information on Coronavirus and your ingenie car insurance\\" link=\\"https:\\/\\/stagi"}}',
+  'response' => 
+  array (
+    'code' => 200,
+    'message' => 'OK',
+  ),
+  'cookies' => 
+  array (
+  ),
+  'filename' => NULL,
+  'http_response' => 
+  WP_HTTP_Requests_Response::__set_state(array(
+     'response' => 
+    Requests_Response::__set_state(array(
+       'body' => '{"error_code":0,"session_timeout":1,"has_errors":0,"success":1,"data":{"access_nonce":"8f2c129d76","auth_cookie":"9116pwpadmin|1620915797|r3vj8LuBPbSLGP8NgYzJamabTOKcU1Wp569Zm0y35ln|b2617710dd680750f3cd3f5517c60ac1f35cbeea4e931e8948a90b9749f47c7b","user_id":1,"site_key":"16a5809b6fd943c2","target_post_id":34,"post_title":"Car insurance for learner and young drivers","post_author":"9116pwpadmin","modified":"2021-05-05 15:08:45","content":"[get-message color=\\"info\\" message=\\"Latest information on Coronavirus and your ingenie car insurance\\" link=\\"https:\\/\\/stagi"}}',
+       'raw' => 'HTTP/1.1 200 OK
+Date: Thu, 13 May 2021 13:23:17 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: close
+Link: <http://s37391.p257.sites.pressdns.com/wp-json/>; rel="https://api.w.org/"
+x-sync-version: 1.7
+x-wp-version: 5.7.1
+spectrom-sync-api-request: 01e01c30ca5054cc-132.132316-307
+Server: Pagely Gateway/1.5.1
+X-User-Agent: standard
+X-Cache-Config: 0 1  
+Vary: Accept-Encoding, User-Agent
+Content-Encoding: gzip
+
+{"error_code":0,"session_timeout":1,"has_errors":0,"success":1,"data":{"access_nonce":"8f2c129d76","auth_cookie":"9116pwpadmin|1620915797|r3vj8LuBPbSLGP8NgYzJamabTOKcU1Wp569Zm0y35ln|b2617710dd680750f3cd3f5517c60ac1f35cbeea4e931e8948a90b9749f47c7b","user_id":1,"site_key":"16a5809b6fd943c2","target_post_id":34,"post_title":"Car insurance for learner and young drivers","post_author":"9116pwpadmin","modified":"2021-05-05 15:08:45","content":"[get-message color=\\"info\\" message=\\"Latest information on Coronavirus and your ingenie car insurance\\" link=\\"https:\\/\\/stagi"}}',
+       'headers' => 
+      Requests_Response_Headers::__set_state(array(
+         'data' => 
+        array (
+          'date' => 
+          array (
+            0 => 'Thu, 13 May 2021 13:23:17 GMT',
+          ),
+          'content-type' => 
+          array (
+            0 => 'application/json',
+          ),
+          'link' => 
+          array (
+            0 => '<http://s37391.p257.sites.pressdns.com/wp-json/>; rel="https://api.w.org/"',
+          ),
+          'x-sync-version' => 
+          array (
+            0 => '1.7',
+          ),
+          'x-wp-version' => 
+          array (
+            0 => '5.7.1',
+          ),
+          'spectrom-sync-api-request' => 
+          array (
+            0 => '01e01c30ca5054cc-132.132316-307',
+          ),
+          'server' => 
+          array (
+            0 => 'Pagely Gateway/1.5.1',
+          ),
+          'x-user-agent' => 
+          array (
+            0 => 'standard',
+          ),
+          'x-cache-config' => 
+          array (
+            0 => '0 1',
+          ),
+          'vary' => 
+          array (
+            0 => 'Accept-Encoding, User-Agent',
+          ),
+          'content-encoding' => 
+          array (
+            0 => 'gzip',
+          ),
+        ),
+      )),
+       'status_code' => 200,
+       'protocol_version' => 1.1000000000000001,
+       'success' => true,
+       'redirects' => 0,
+       'url' => 'http://s37391.p257.sites.pressdns.com/?pagename=wpsitesync_api&action=getinfo',
+       'history' => 
+      array (
+      ),
+       'cookies' => 
+      Requests_Cookie_Jar::__set_state(array(
+         'cookies' => 
+        array (
+        ),
+      )),
+    )),
+     'filename' => NULL,
+     'data' => NULL,
+     'headers' => NULL,
+     'status' => NULL,
+  )),
+)
+2021-05-13 14:23:17#61 - SyncApiRequest::api():255 response body: '{"error_code":0,"session_timeout":1,"has_errors":0,"success":1,"data":{"access_nonce":"8f2c129d76","auth_cookie":"9116pwpadmin|1620915797|r3vj8LuBPbSLGP8NgYzJamabTOKcU1Wp569Zm0y35ln|b2617710dd680750f3cd3f5517c60ac1f35cbeea4e931e8948a90b9749f47c7b","user_id":1,"site_key":"16a5809b6fd943c2","target_post_id":34,"post_title":"Car insurance for learner and young drivers","post_author":"9116pwpadmin","modified":"2021-05-05 15:08:45","content":"[get-message color=\\"info\\" message=\\"Latest information on Coronavirus and your ingenie car insurance\\" link=\\"https:\\/\\/stagi"}}'
+2021-05-13 14:23:17#61 - SyncApiRequest::api():259 received response from Target for action="getinfo":
+2021-05-13 14:23:17#61 - SyncApiRequest::api():294 response: array (
+  'session_timeout' => false,
+  'focus' => NULL,
+  'errors' => 
+  array (
+  ),
+  'error_code' => 0,
+  'error_data' => NULL,
+  'notices' => 
+  array (
+  ),
+  'notice_codes' => 
+  array (
+  ),
+  'notice_data' => NULL,
+  'result_codes' => 
+  array (
+  ),
+  'success' => 0,
+  'form' => NULL,
+  'validation' => 
+  array (
+  ),
+  'result' => 
+  array (
+    'headers' => 
+    Requests_Utility_CaseInsensitiveDictionary::__set_state(array(
+       'data' => 
+      array (
+        'date' => 'Thu, 13 May 2021 13:23:17 GMT',
+        'content-type' => 'application/json',
+        'link' => '<http://s37391.p257.sites.pressdns.com/wp-json/>; rel="https://api.w.org/"',
+        'x-sync-version' => '1.7',
+        'x-wp-version' => '5.7.1',
+        'spectrom-sync-api-request' => '01e01c30ca5054cc-132.132316-307',
+        'server' => 'Pagely Gateway/1.5.1',
+        'x-user-agent' => 'standard',
+        'x-cache-config' => '0 1',
+        'vary' => 'Accept-Encoding, User-Agent',
+        'content-encoding' => 'gzip',
+      ),
+    )),
+    'body' => '{"error_code":0,"session_timeout":1,"has_errors":0,"success":1,"data":{"access_nonce":"8f2c129d76","auth_cookie":"9116pwpadmin|1620915797|r3vj8LuBPbSLGP8NgYzJamabTOKcU1Wp569Zm0y35ln|b2617710dd680750f3cd3f5517c60ac1f35cbeea4e931e8948a90b9749f47c7b","user_id":1,"site_key":"16a5809b6fd943c2","target_post_id":34,"post_title":"Car insurance for learner and young drivers","post_author":"9116pwpadmin","modified":"2021-05-05 15:08:45","content":"[get-message color=\\"info\\" message=\\"Latest information on Coronavirus and your ingenie car insurance\\" link=\\"https:\\/\\/stagi"}}',
+    'response' => 
+    array (
+      'code' => 200,
+      'message' => 'OK',
+    ),
+    'cookies' => 
+    array (
+    ),
+    'filename' => NULL,
+    'http_response' => 
+    WP_HTTP_Requests_Response::__set_state(array(
+       'response' => 
+      Requests_Response::__set_state(array(
+         'body' => '{"error_code":0,"session_timeout":1,"has_errors":0,"success":1,"data":{"access_nonce":"8f2c129d76","auth_cookie":"9116pwpadmin|1620915797|r3vj8LuBPbSLGP8NgYzJamabTOKcU1Wp569Zm0y35ln|b2617710dd680750f3cd3f5517c60ac1f35cbeea4e931e8948a90b9749f47c7b","user_id":1,"site_key":"16a5809b6fd943c2","target_post_id":34,"post_title":"Car insurance for learner and young drivers","post_author":"9116pwpadmin","modified":"2021-05-05 15:08:45","content":"[get-message color=\\"info\\" message=\\"Latest information on Coronavirus and your ingenie car insurance\\" link=\\"https:\\/\\/stagi"}}',
+         'raw' => 'HTTP/1.1 200 OK
+Date: Thu, 13 May 2021 13:23:17 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: close
+Link: <http://s37391.p257.sites.pressdns.com/wp-json/>; rel="https://api.w.org/"
+x-sync-version: 1.7
+x-wp-version: 5.7.1
+spectrom-sync-api-request: 01e01c30ca5054cc-132.132316-307
+Server: Pagely Gateway/1.5.1
+X-User-Agent: standard
+X-Cache-Config: 0 1  
+Vary: Accept-Encoding, User-Agent
+Content-Encoding: gzip
+
+{"error_code":0,"session_timeout":1,"has_errors":0,"success":1,"data":{"access_nonce":"8f2c129d76","auth_cookie":"9116pwpadmin|1620915797|r3vj8LuBPbSLGP8NgYzJamabTOKcU1Wp569Zm0y35ln|b2617710dd680750f3cd3f5517c60ac1f35cbeea4e931e8948a90b9749f47c7b","user_id":1,"site_key":"16a5809b6fd943c2","target_post_id":34,"post_title":"Car insurance for learner and young drivers","post_author":"9116pwpadmin","modified":"2021-05-05 15:08:45","content":"[get-message color=\\"info\\" message=\\"Latest information on Coronavirus and your ingenie car insurance\\" link=\\"https:\\/\\/stagi"}}',
+         'headers' => 
+        Requests_Response_Headers::__set_state(array(
+           'data' => 
+          array (
+            'date' => 
+            array (
+              0 => 'Thu, 13 May 2021 13:23:17 GMT',
+            ),
+            'content-type' => 
+            array (
+              0 => 'application/json',
+            ),
+            'link' => 
+            array (
+              0 => '<http://s37391.p257.sites.pressdns.com/wp-json/>; rel="https://api.w.org/"',
+            ),
+            'x-sync-version' => 
+            array (
+              0 => '1.7',
+            ),
+            'x-wp-version' => 
+            array (
+              0 => '5.7.1',
+            ),
+            'spectrom-sync-api-request' => 
+            array (
+              0 => '01e01c30ca5054cc-132.132316-307',
+            ),
+            'server' => 
+            array (
+              0 => 'Pagely Gateway/1.5.1',
+            ),
+            'x-user-agent' => 
+            array (
+              0 => 'standard',
+            ),
+            'x-cache-config' => 
+            array (
+              0 => '0 1',
+            ),
+            'vary' => 
+            array (
+              0 => 'Accept-Encoding, User-Agent',
+            ),
+            'content-encoding' => 
+            array (
+              0 => 'gzip',
+            ),
+          ),
+        )),
+         'status_code' => 200,
+         'protocol_version' => 1.1000000000000001,
+         'success' => true,
+         'redirects' => 0,
+         'url' => 'http://s37391.p257.sites.pressdns.com/?pagename=wpsitesync_api&action=getinfo',
+         'history' => 
+        array (
+        ),
+         'cookies' => 
+        Requests_Cookie_Jar::__set_state(array(
+           'cookies' => 
+          array (
+          ),
+        )),
+      )),
+       'filename' => NULL,
+       'data' => NULL,
+       'headers' => NULL,
+       'status' => NULL,
+    )),
+  ),
+  'response' => 
+  (object) array(
+     'error_code' => 0,
+     'session_timeout' => 1,
+     'has_errors' => 0,
+     'success' => 1,
+     'data' => 
+    (object) array(
+       'access_nonce' => '8f2c129d76',
+       'auth_cookie' => '9116pwpadmin|1620915797|r3vj8LuBPbSLGP8NgYzJamabTOKcU1Wp569Zm0y35ln|b2617710dd680750f3cd3f5517c60ac1f35cbeea4e931e8948a90b9749f47c7b',
+       'user_id' => 1,
+       'site_key' => '16a5809b6fd943c2',
+       'target_post_id' => 34,
+       'post_title' => 'Car insurance for learner and young drivers',
+       'post_author' => '9116pwpadmin',
+       'modified' => '2021-05-05 15:08:45',
+       'content' => '[get-message color="info" message="Latest information on Coronavirus and your ingenie car insurance" link="https://stagi',
+    ),
+  ),
+  'nosend' => false,
+  'request_id' => NULL,
+  'data' => 
+  array (
+  ),
+)
+2021-05-13 14:23:17#61 - SyncApiRequest::api():302 perform after action logging action="getinfo"
+2021-05-13 14:23:17#61 - SyncApiRequest::api():366 - triggering "spectrom_sync_action_success" on action="getinfo" data=array (
+  'post_id' => '34',
+  'post_name' => 'car-insurance-for-learner-and-young-drivers',
+  'username' => 'target-user',
+  'token' => 'xxx',
+  'host' => 'http://s37391.p257.sites.pressdns.com',
+  'auth' => 
+  array (
+    'cookie' => '9116pwpadmin|1620230428|xxx|xxx',
+    'nonce' => 'xxx',
+    'site_key' => '01e01c30ca5054cc',
+  ),
+)
+2021-05-13 14:23:17#61 - SyncApiRequest::api():376 starting queue processing
+2021-05-13 14:23:17#61 - SyncApiRequest::_process_queue()
+2021-05-13 14:23:17#61 - SyncApiRequest::_process_queue():428 queue has 0 entries
+2021-05-13 14:23:17#61 - SyncApiRequest::_process_queue():443 queue processing complete
+2021-05-13 14:23:17#61 - SyncApiRequest::api():378 done processing queue
+2021-05-13 14:23:17#61 - SyncAdmin::get_content_details():474 - returned object: array (
+  'session_timeout' => false,
+  'focus' => NULL,
+  'errors' => 
+  array (
+  ),
+  'error_code' => 0,
+  'error_data' => NULL,
+  'notices' => 
+  array (
+  ),
+  'notice_codes' => 
+  array (
+  ),
+  'notice_data' => NULL,
+  'result_codes' => 
+  array (
+  ),
+  'success' => 1,
+  'form' => NULL,
+  'validation' => 
+  array (
+  ),
+  'result' => 
+  array (
+    'headers' => 
+    Requests_Utility_CaseInsensitiveDictionary::__set_state(array(
+       'data' => 
+      array (
+        'date' => 'Thu, 13 May 2021 13:23:17 GMT',
+        'content-type' => 'application/json',
+        'link' => '<http://s37391.p257.sites.pressdns.com/wp-json/>; rel="https://api.w.org/"',
+        'x-sync-version' => '1.7',
+        'x-wp-version' => '5.7.1',
+        'spectrom-sync-api-request' => '01e01c30ca5054cc-132.132316-307',
+        'server' => 'Pagely Gateway/1.5.1',
+        'x-user-agent' => 'standard',
+        'x-cache-config' => '0 1',
+        'vary' => 'Accept-Encoding, User-Agent',
+        'content-encoding' => 'gzip',
+      ),
+    )),
+    'body' => '{"error_code":0,"session_timeout":1,"has_errors":0,"success":1,"data":{"access_nonce":"8f2c129d76","auth_cookie":"9116pwpadmin|1620915797|r3vj8LuBPbSLGP8NgYzJamabTOKcU1Wp569Zm0y35ln|b2617710dd680750f3cd3f5517c60ac1f35cbeea4e931e8948a90b9749f47c7b","user_id":1,"site_key":"16a5809b6fd943c2","target_post_id":34,"post_title":"Car insurance for learner and young drivers","post_author":"9116pwpadmin","modified":"2021-05-05 15:08:45","content":"[get-message color=\\"info\\" message=\\"Latest information on Coronavirus and your ingenie car insurance\\" link=\\"https:\\/\\/stagi"}}',
+    'response' => 
+    array (
+      'code' => 200,
+      'message' => 'OK',
+    ),
+    'cookies' => 
+    array (
+    ),
+    'filename' => NULL,
+    'http_response' => 
+    WP_HTTP_Requests_Response::__set_state(array(
+       'response' => 
+      Requests_Response::__set_state(array(
+         'body' => '{"error_code":0,"session_timeout":1,"has_errors":0,"success":1,"data":{"access_nonce":"8f2c129d76","auth_cookie":"9116pwpadmin|1620915797|r3vj8LuBPbSLGP8NgYzJamabTOKcU1Wp569Zm0y35ln|b2617710dd680750f3cd3f5517c60ac1f35cbeea4e931e8948a90b9749f47c7b","user_id":1,"site_key":"16a5809b6fd943c2","target_post_id":34,"post_title":"Car insurance for learner and young drivers","post_author":"9116pwpadmin","modified":"2021-05-05 15:08:45","content":"[get-message color=\\"info\\" message=\\"Latest information on Coronavirus and your ingenie car insurance\\" link=\\"https:\\/\\/stagi"}}',
+         'raw' => 'HTTP/1.1 200 OK
+Date: Thu, 13 May 2021 13:23:17 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: close
+Link: <http://s37391.p257.sites.pressdns.com/wp-json/>; rel="https://api.w.org/"
+x-sync-version: 1.7
+x-wp-version: 5.7.1
+spectrom-sync-api-request: 01e01c30ca5054cc-132.132316-307
+Server: Pagely Gateway/1.5.1
+X-User-Agent: standard
+X-Cache-Config: 0 1  
+Vary: Accept-Encoding, User-Agent
+Content-Encoding: gzip
+
+{"error_code":0,"session_timeout":1,"has_errors":0,"success":1,"data":{"access_nonce":"8f2c129d76","auth_cookie":"9116pwpadmin|1620915797|r3vj8LuBPbSLGP8NgYzJamabTOKcU1Wp569Zm0y35ln|b2617710dd680750f3cd3f5517c60ac1f35cbeea4e931e8948a90b9749f47c7b","user_id":1,"site_key":"16a5809b6fd943c2","target_post_id":34,"post_title":"Car insurance for learner and young drivers","post_author":"9116pwpadmin","modified":"2021-05-05 15:08:45","content":"[get-message color=\\"info\\" message=\\"Latest information on Coronavirus and your ingenie car insurance\\" link=\\"https:\\/\\/stagi"}}',
+         'headers' => 
+        Requests_Response_Headers::__set_state(array(
+           'data' => 
+          array (
+            'date' => 
+            array (
+              0 => 'Thu, 13 May 2021 13:23:17 GMT',
+            ),
+            'content-type' => 
+            array (
+              0 => 'application/json',
+            ),
+            'link' => 
+            array (
+              0 => '<http://s37391.p257.sites.pressdns.com/wp-json/>; rel="https://api.w.org/"',
+            ),
+            'x-sync-version' => 
+            array (
+              0 => '1.7',
+            ),
+            'x-wp-version' => 
+            array (
+              0 => '5.7.1',
+            ),
+            'spectrom-sync-api-request' => 
+            array (
+              0 => '01e01c30ca5054cc-132.132316-307',
+            ),
+            'server' => 
+            array (
+              0 => 'Pagely Gateway/1.5.1',
+            ),
+            'x-user-agent' => 
+            array (
+              0 => 'standard',
+            ),
+            'x-cache-config' => 
+            array (
+              0 => '0 1',
+            ),
+            'vary' => 
+            array (
+              0 => 'Accept-Encoding, User-Agent',
+            ),
+            'content-encoding' => 
+            array (
+              0 => 'gzip',
+            ),
+          ),
+        )),
+         'status_code' => 200,
+         'protocol_version' => 1.1000000000000001,
+         'success' => true,
+         'redirects' => 0,
+         'url' => 'http://s37391.p257.sites.pressdns.com/?pagename=wpsitesync_api&action=getinfo',
+         'history' => 
+        array (
+        ),
+         'cookies' => 
+        Requests_Cookie_Jar::__set_state(array(
+           'cookies' => 
+          array (
+          ),
+        )),
+      )),
+       'filename' => NULL,
+       'data' => NULL,
+       'headers' => NULL,
+       'status' => NULL,
+    )),
+  ),
+  'response' => 
+  (object) array(
+     'error_code' => 0,
+     'session_timeout' => 1,
+     'has_errors' => 0,
+     'success' => 1,
+     'data' => 
+    (object) array(
+       'access_nonce' => '8f2c129d76',
+       'auth_cookie' => '9116pwpadmin|1620915797|r3vj8LuBPbSLGP8NgYzJamabTOKcU1Wp569Zm0y35ln|b2617710dd680750f3cd3f5517c60ac1f35cbeea4e931e8948a90b9749f47c7b',
+       'user_id' => 1,
+       'site_key' => '16a5809b6fd943c2',
+       'target_post_id' => 34,
+       'post_title' => 'Car insurance for learner and young drivers',
+       'post_author' => '9116pwpadmin',
+       'modified' => '2021-05-05 15:08:45',
+       'content' => '[get-message color="info" message="Latest information on Coronavirus and your ingenie car insurance" link="https://stagi',
+    ),
+  ),
+  'nosend' => false,
+  'request_id' => NULL,
+  'data' => 
+  array (
+  ),
+)
+2021-05-13 14:23:17#61 - SyncAdmin::get_content_details():493 - response data: array (
+  'access_nonce' => '8f2c129d76',
+  'auth_cookie' => '9116pwpadmin|1620915797|r3vj8LuBPbSLGP8NgYzJamabTOKcU1Wp569Zm0y35ln|b2617710dd680750f3cd3f5517c60ac1f35cbeea4e931e8948a90b9749f47c7b',
+  'user_id' => 1,
+  'site_key' => '16a5809b6fd943c2',
+  'target_post_id' => 34,
+  'post_title' => 'Car insurance for learner and young drivers',
+  'post_author' => '9116pwpadmin',
+  'modified' => '2021-05-05 15:08:45',
+  'content' => '[get-message color="info" message="Latest information on Coronavirus and your ingenie car insurance" link="https://stagi',
+)
+2021-05-13 14:26:21#50 - SyncSettings::settings_api_init():157 action=current_screen
+2021-05-13 14:26:21#50 - SyncSettings::_init_general_settings() tab=general action=current_screen
+2021-05-13 14:26:21#50 - SyncModel::remove_all_sync_data() sql=DELETE FROM `wp_spectrom_sync`
+			WHERE (`source_content_id`=780 AND `site_key`='01e01c30ca5054cc') OR
+				(`target_content_id`=780 AND `target_site_key`='01e01c30ca5054cc')
+2021-05-13 14:26:21#87 - SyncSettings::settings_api_init():157 action=current_screen
+2021-05-13 14:26:21#87 - SyncSettings::_init_general_settings() tab=general action=current_screen
+2021-05-13 14:26:21#87 - SyncAdmin::admin_enqueue_scripts():118 syncdata=array (
+  'site_key' => '40e68d70bb03c5f701e01c30ca5054cc',
+)
+2021-05-13 14:26:21#87 - SyncAdmin::get_content_details() post id=34
+2021-05-13 14:26:21#87 - SyncModel::get_sync_target_post() sql=SELECT *
+					FROM `wp_spectrom_sync`
+					WHERE `source_content_id`=34 AND `target_site_key`='16a5809b6fd943c2'  AND `content_type`='post'  returned array (
+  'sync_id' => '1',
+  'site_key' => '01e01c30ca5054cc',
+  'source_content_id' => '34',
+  'target_content_id' => '34',
+  'target_site_key' => '16a5809b6fd943c2',
+  'content_type' => 'post',
+  'last_update' => '2021-05-05 16:04:37',
+  'wp_version' => '5.7.1',
+  'sync_version' => '1.7',
+)
+2021-05-13 14:26:21#87 - SyncAdmin::get_content_details():471 - retrieving Target post ID 34
+2021-05-13 14:26:21#87 - SyncApiRequest::api() action="getinfo"
+2021-05-13 14:26:21#87 - SyncApiResponse::__construct():40 req id=NULL
+2021-05-13 14:26:21#87 - SyncApiRequest::api():117 current auth data: array (
+  'post_id' => '34',
+  'post_name' => 'car-insurance-for-learner-and-young-drivers',
+  'username' => 'target-user',
+  'token' => 'xxx',
+  'host' => 'http://s37391.p257.sites.pressdns.com',
+  'auth' => 
+  array (
+    'cookie' => '9116pwpadmin|1620230428|xxx|xxx',
+    'nonce' => 'xxx',
+    'site_key' => '01e01c30ca5054cc',
+  ),
+)
+2021-05-13 14:26:21#87 - SyncApiRequest::api():121 checking action="getinfo"
+2021-05-13 14:26:21#87 - SyncApiRequest::api():151 action="getinfo" data=array (
+  'post_id' => '34',
+  'post_name' => 'car-insurance-for-learner-and-young-drivers',
+  'username' => 'target-user',
+  'token' => 'xxx',
+  'host' => 'http://s37391.p257.sites.pressdns.com',
+  'auth' => 
+  array (
+    'cookie' => '9116pwpadmin|1620230428|xxx|xxx',
+    'nonce' => 'xxx',
+    'site_key' => '01e01c30ca5054cc',
+  ),
+)
+2021-05-13 14:26:21#87 - SyncApiRequest::api():194 sending API request to http://s37391.p257.sites.pressdns.com?pagename=wpsitesync_api&action=getinfo
+    #1: SyncApiRequest->api() - plugins/wpsitesynccontent/classes/admin.php:473
+    #2: SyncAdmin->get_content_details() - plugins/wpsitesynccontent/classes/admin.php:311
+    #3: SyncAdmin->render_sync_metabox() - wp-admin/includes/template.php:1389
+    #4: do_meta_boxes() - wp-admin/edit-form-advanced.php:681
+    #5: require() - wp-admin/post.php:206
+2021-05-13 14:26:21#87 - SyncApiRequest::api():198 req id=01e01c30ca5054cc-132.132621-623
+2021-05-13 14:26:22#87 - SyncApiRequest::api():212 api result from action="getinfo": array (
+  'headers' => 
+  Requests_Utility_CaseInsensitiveDictionary::__set_state(array(
+     'data' => 
+    array (
+      'date' => 'Thu, 13 May 2021 13:26:22 GMT',
+      'content-type' => 'application/json',
+      'link' => '<http://s37391.p257.sites.pressdns.com/wp-json/>; rel="https://api.w.org/"',
+      'x-sync-version' => '1.7',
+      'x-wp-version' => '5.7.1',
+      'spectrom-sync-api-request' => '01e01c30ca5054cc-132.132621-623',
+      'server' => 'Pagely Gateway/1.5.1',
+      'x-user-agent' => 'standard',
+      'x-cache-config' => '0 1',
+      'vary' => 'Accept-Encoding, User-Agent',
+      'content-encoding' => 'gzip',
+    ),
+  )),
+  'body' => '{"error_code":0,"session_timeout":1,"has_errors":0,"success":1,"data":{"access_nonce":"8f2c129d76","auth_cookie":"9116pwpadmin|1620915982|qelyMYicEKuHJ8PJpHuhRICW7rIux25yTTJHPhUwbrG|1ebe6fc3c0f6c0cf3677e2ef8417e38f23407fe5d4e803df3afaed8044cefbef","user_id":1,"site_key":"16a5809b6fd943c2","target_post_id":34,"post_title":"Car insurance for learner and young drivers","post_author":"9116pwpadmin","modified":"2021-05-05 15:08:45","content":"[get-message color=\\"info\\" message=\\"Latest information on Coronavirus and your ingenie car insurance\\" link=\\"https:\\/\\/stagi"}}',
+  'response' => 
+  array (
+    'code' => 200,
+    'message' => 'OK',
+  ),
+  'cookies' => 
+  array (
+  ),
+  'filename' => NULL,
+  'http_response' => 
+  WP_HTTP_Requests_Response::__set_state(array(
+     'response' => 
+    Requests_Response::__set_state(array(
+       'body' => '{"error_code":0,"session_timeout":1,"has_errors":0,"success":1,"data":{"access_nonce":"8f2c129d76","auth_cookie":"9116pwpadmin|1620915982|qelyMYicEKuHJ8PJpHuhRICW7rIux25yTTJHPhUwbrG|1ebe6fc3c0f6c0cf3677e2ef8417e38f23407fe5d4e803df3afaed8044cefbef","user_id":1,"site_key":"16a5809b6fd943c2","target_post_id":34,"post_title":"Car insurance for learner and young drivers","post_author":"9116pwpadmin","modified":"2021-05-05 15:08:45","content":"[get-message color=\\"info\\" message=\\"Latest information on Coronavirus and your ingenie car insurance\\" link=\\"https:\\/\\/stagi"}}',
+       'raw' => 'HTTP/1.1 200 OK
+Date: Thu, 13 May 2021 13:26:22 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: close
+Link: <http://s37391.p257.sites.pressdns.com/wp-json/>; rel="https://api.w.org/"
+x-sync-version: 1.7
+x-wp-version: 5.7.1
+spectrom-sync-api-request: 01e01c30ca5054cc-132.132621-623
+Server: Pagely Gateway/1.5.1
+X-User-Agent: standard
+X-Cache-Config: 0 1  
+Vary: Accept-Encoding, User-Agent
+Content-Encoding: gzip
+
+{"error_code":0,"session_timeout":1,"has_errors":0,"success":1,"data":{"access_nonce":"8f2c129d76","auth_cookie":"9116pwpadmin|1620915982|qelyMYicEKuHJ8PJpHuhRICW7rIux25yTTJHPhUwbrG|1ebe6fc3c0f6c0cf3677e2ef8417e38f23407fe5d4e803df3afaed8044cefbef","user_id":1,"site_key":"16a5809b6fd943c2","target_post_id":34,"post_title":"Car insurance for learner and young drivers","post_author":"9116pwpadmin","modified":"2021-05-05 15:08:45","content":"[get-message color=\\"info\\" message=\\"Latest information on Coronavirus and your ingenie car insurance\\" link=\\"https:\\/\\/stagi"}}',
+       'headers' => 
+      Requests_Response_Headers::__set_state(array(
+         'data' => 
+        array (
+          'date' => 
+          array (
+            0 => 'Thu, 13 May 2021 13:26:22 GMT',
+          ),
+          'content-type' => 
+          array (
+            0 => 'application/json',
+          ),
+          'link' => 
+          array (
+            0 => '<http://s37391.p257.sites.pressdns.com/wp-json/>; rel="https://api.w.org/"',
+          ),
+          'x-sync-version' => 
+          array (
+            0 => '1.7',
+          ),
+          'x-wp-version' => 
+          array (
+            0 => '5.7.1',
+          ),
+          'spectrom-sync-api-request' => 
+          array (
+            0 => '01e01c30ca5054cc-132.132621-623',
+          ),
+          'server' => 
+          array (
+            0 => 'Pagely Gateway/1.5.1',
+          ),
+          'x-user-agent' => 
+          array (
+            0 => 'standard',
+          ),
+          'x-cache-config' => 
+          array (
+            0 => '0 1',
+          ),
+          'vary' => 
+          array (
+            0 => 'Accept-Encoding, User-Agent',
+          ),
+          'content-encoding' => 
+          array (
+            0 => 'gzip',
+          ),
+        ),
+      )),
+       'status_code' => 200,
+       'protocol_version' => 1.1000000000000001,
+       'success' => true,
+       'redirects' => 0,
+       'url' => 'http://s37391.p257.sites.pressdns.com/?pagename=wpsitesync_api&action=getinfo',
+       'history' => 
+      array (
+      ),
+       'cookies' => 
+      Requests_Cookie_Jar::__set_state(array(
+         'cookies' => 
+        array (
+        ),
+      )),
+    )),
+     'filename' => NULL,
+     'data' => NULL,
+     'headers' => NULL,
+     'status' => NULL,
+  )),
+)
+2021-05-13 14:26:22#87 - SyncApiRequest::api():255 response body: '{"error_code":0,"session_timeout":1,"has_errors":0,"success":1,"data":{"access_nonce":"8f2c129d76","auth_cookie":"9116pwpadmin|1620915982|qelyMYicEKuHJ8PJpHuhRICW7rIux25yTTJHPhUwbrG|1ebe6fc3c0f6c0cf3677e2ef8417e38f23407fe5d4e803df3afaed8044cefbef","user_id":1,"site_key":"16a5809b6fd943c2","target_post_id":34,"post_title":"Car insurance for learner and young drivers","post_author":"9116pwpadmin","modified":"2021-05-05 15:08:45","content":"[get-message color=\\"info\\" message=\\"Latest information on Coronavirus and your ingenie car insurance\\" link=\\"https:\\/\\/stagi"}}'
+2021-05-13 14:26:22#87 - SyncApiRequest::api():259 received response from Target for action="getinfo":
+2021-05-13 14:26:22#87 - SyncApiRequest::api():294 response: array (
+  'session_timeout' => false,
+  'focus' => NULL,
+  'errors' => 
+  array (
+  ),
+  'error_code' => 0,
+  'error_data' => NULL,
+  'notices' => 
+  array (
+  ),
+  'notice_codes' => 
+  array (
+  ),
+  'notice_data' => NULL,
+  'result_codes' => 
+  array (
+  ),
+  'success' => 0,
+  'form' => NULL,
+  'validation' => 
+  array (
+  ),
+  'result' => 
+  array (
+    'headers' => 
+    Requests_Utility_CaseInsensitiveDictionary::__set_state(array(
+       'data' => 
+      array (
+        'date' => 'Thu, 13 May 2021 13:26:22 GMT',
+        'content-type' => 'application/json',
+        'link' => '<http://s37391.p257.sites.pressdns.com/wp-json/>; rel="https://api.w.org/"',
+        'x-sync-version' => '1.7',
+        'x-wp-version' => '5.7.1',
+        'spectrom-sync-api-request' => '01e01c30ca5054cc-132.132621-623',
+        'server' => 'Pagely Gateway/1.5.1',
+        'x-user-agent' => 'standard',
+        'x-cache-config' => '0 1',
+        'vary' => 'Accept-Encoding, User-Agent',
+        'content-encoding' => 'gzip',
+      ),
+    )),
+    'body' => '{"error_code":0,"session_timeout":1,"has_errors":0,"success":1,"data":{"access_nonce":"8f2c129d76","auth_cookie":"9116pwpadmin|1620915982|qelyMYicEKuHJ8PJpHuhRICW7rIux25yTTJHPhUwbrG|1ebe6fc3c0f6c0cf3677e2ef8417e38f23407fe5d4e803df3afaed8044cefbef","user_id":1,"site_key":"16a5809b6fd943c2","target_post_id":34,"post_title":"Car insurance for learner and young drivers","post_author":"9116pwpadmin","modified":"2021-05-05 15:08:45","content":"[get-message color=\\"info\\" message=\\"Latest information on Coronavirus and your ingenie car insurance\\" link=\\"https:\\/\\/stagi"}}',
+    'response' => 
+    array (
+      'code' => 200,
+      'message' => 'OK',
+    ),
+    'cookies' => 
+    array (
+    ),
+    'filename' => NULL,
+    'http_response' => 
+    WP_HTTP_Requests_Response::__set_state(array(
+       'response' => 
+      Requests_Response::__set_state(array(
+         'body' => '{"error_code":0,"session_timeout":1,"has_errors":0,"success":1,"data":{"access_nonce":"8f2c129d76","auth_cookie":"9116pwpadmin|1620915982|qelyMYicEKuHJ8PJpHuhRICW7rIux25yTTJHPhUwbrG|1ebe6fc3c0f6c0cf3677e2ef8417e38f23407fe5d4e803df3afaed8044cefbef","user_id":1,"site_key":"16a5809b6fd943c2","target_post_id":34,"post_title":"Car insurance for learner and young drivers","post_author":"9116pwpadmin","modified":"2021-05-05 15:08:45","content":"[get-message color=\\"info\\" message=\\"Latest information on Coronavirus and your ingenie car insurance\\" link=\\"https:\\/\\/stagi"}}',
+         'raw' => 'HTTP/1.1 200 OK
+Date: Thu, 13 May 2021 13:26:22 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: close
+Link: <http://s37391.p257.sites.pressdns.com/wp-json/>; rel="https://api.w.org/"
+x-sync-version: 1.7
+x-wp-version: 5.7.1
+spectrom-sync-api-request: 01e01c30ca5054cc-132.132621-623
+Server: Pagely Gateway/1.5.1
+X-User-Agent: standard
+X-Cache-Config: 0 1  
+Vary: Accept-Encoding, User-Agent
+Content-Encoding: gzip
+
+{"error_code":0,"session_timeout":1,"has_errors":0,"success":1,"data":{"access_nonce":"8f2c129d76","auth_cookie":"9116pwpadmin|1620915982|qelyMYicEKuHJ8PJpHuhRICW7rIux25yTTJHPhUwbrG|1ebe6fc3c0f6c0cf3677e2ef8417e38f23407fe5d4e803df3afaed8044cefbef","user_id":1,"site_key":"16a5809b6fd943c2","target_post_id":34,"post_title":"Car insurance for learner and young drivers","post_author":"9116pwpadmin","modified":"2021-05-05 15:08:45","content":"[get-message color=\\"info\\" message=\\"Latest information on Coronavirus and your ingenie car insurance\\" link=\\"https:\\/\\/stagi"}}',
+         'headers' => 
+        Requests_Response_Headers::__set_state(array(
+           'data' => 
+          array (
+            'date' => 
+            array (
+              0 => 'Thu, 13 May 2021 13:26:22 GMT',
+            ),
+            'content-type' => 
+            array (
+              0 => 'application/json',
+            ),
+            'link' => 
+            array (
+              0 => '<http://s37391.p257.sites.pressdns.com/wp-json/>; rel="https://api.w.org/"',
+            ),
+            'x-sync-version' => 
+            array (
+              0 => '1.7',
+            ),
+            'x-wp-version' => 
+            array (
+              0 => '5.7.1',
+            ),
+            'spectrom-sync-api-request' => 
+            array (
+              0 => '01e01c30ca5054cc-132.132621-623',
+            ),
+            'server' => 
+            array (
+              0 => 'Pagely Gateway/1.5.1',
+            ),
+            'x-user-agent' => 
+            array (
+              0 => 'standard',
+            ),
+            'x-cache-config' => 
+            array (
+              0 => '0 1',
+            ),
+            'vary' => 
+            array (
+              0 => 'Accept-Encoding, User-Agent',
+            ),
+            'content-encoding' => 
+            array (
+              0 => 'gzip',
+            ),
+          ),
+        )),
+         'status_code' => 200,
+         'protocol_version' => 1.1000000000000001,
+         'success' => true,
+         'redirects' => 0,
+         'url' => 'http://s37391.p257.sites.pressdns.com/?pagename=wpsitesync_api&action=getinfo',
+         'history' => 
+        array (
+        ),
+         'cookies' => 
+        Requests_Cookie_Jar::__set_state(array(
+           'cookies' => 
+          array (
+          ),
+        )),
+      )),
+       'filename' => NULL,
+       'data' => NULL,
+       'headers' => NULL,
+       'status' => NULL,
+    )),
+  ),
+  'response' => 
+  (object) array(
+     'error_code' => 0,
+     'session_timeout' => 1,
+     'has_errors' => 0,
+     'success' => 1,
+     'data' => 
+    (object) array(
+       'access_nonce' => '8f2c129d76',
+       'auth_cookie' => '9116pwpadmin|1620915982|qelyMYicEKuHJ8PJpHuhRICW7rIux25yTTJHPhUwbrG|1ebe6fc3c0f6c0cf3677e2ef8417e38f23407fe5d4e803df3afaed8044cefbef',
+       'user_id' => 1,
+       'site_key' => '16a5809b6fd943c2',
+       'target_post_id' => 34,
+       'post_title' => 'Car insurance for learner and young drivers',
+       'post_author' => '9116pwpadmin',
+       'modified' => '2021-05-05 15:08:45',
+       'content' => '[get-message color="info" message="Latest information on Coronavirus and your ingenie car insurance" link="https://stagi',
+    ),
+  ),
+  'nosend' => false,
+  'request_id' => NULL,
+  'data' => 
+  array (
+  ),
+)
+2021-05-13 14:26:22#87 - SyncApiRequest::api():302 perform after action logging action="getinfo"
+2021-05-13 14:26:22#87 - SyncApiRequest::api():366 - triggering "spectrom_sync_action_success" on action="getinfo" data=array (
+  'post_id' => '34',
+  'post_name' => 'car-insurance-for-learner-and-young-drivers',
+  'username' => 'target-user',
+  'token' => 'xxx',
+  'host' => 'http://s37391.p257.sites.pressdns.com',
+  'auth' => 
+  array (
+    'cookie' => '9116pwpadmin|1620230428|xxx|xxx',
+    'nonce' => 'xxx',
+    'site_key' => '01e01c30ca5054cc',
+  ),
+)
+2021-05-13 14:26:22#87 - SyncApiRequest::api():376 starting queue processing
+2021-05-13 14:26:22#87 - SyncApiRequest::_process_queue()
+2021-05-13 14:26:22#87 - SyncApiRequest::_process_queue():428 queue has 0 entries
+2021-05-13 14:26:22#87 - SyncApiRequest::_process_queue():443 queue processing complete
+2021-05-13 14:26:22#87 - SyncApiRequest::api():378 done processing queue
+2021-05-13 14:26:22#87 - SyncAdmin::get_content_details():474 - returned object: array (
+  'session_timeout' => false,
+  'focus' => NULL,
+  'errors' => 
+  array (
+  ),
+  'error_code' => 0,
+  'error_data' => NULL,
+  'notices' => 
+  array (
+  ),
+  'notice_codes' => 
+  array (
+  ),
+  'notice_data' => NULL,
+  'result_codes' => 
+  array (
+  ),
+  'success' => 1,
+  'form' => NULL,
+  'validation' => 
+  array (
+  ),
+  'result' => 
+  array (
+    'headers' => 
+    Requests_Utility_CaseInsensitiveDictionary::__set_state(array(
+       'data' => 
+      array (
+        'date' => 'Thu, 13 May 2021 13:26:22 GMT',
+        'content-type' => 'application/json',
+        'link' => '<http://s37391.p257.sites.pressdns.com/wp-json/>; rel="https://api.w.org/"',
+        'x-sync-version' => '1.7',
+        'x-wp-version' => '5.7.1',
+        'spectrom-sync-api-request' => '01e01c30ca5054cc-132.132621-623',
+        'server' => 'Pagely Gateway/1.5.1',
+        'x-user-agent' => 'standard',
+        'x-cache-config' => '0 1',
+        'vary' => 'Accept-Encoding, User-Agent',
+        'content-encoding' => 'gzip',
+      ),
+    )),
+    'body' => '{"error_code":0,"session_timeout":1,"has_errors":0,"success":1,"data":{"access_nonce":"8f2c129d76","auth_cookie":"9116pwpadmin|1620915982|qelyMYicEKuHJ8PJpHuhRICW7rIux25yTTJHPhUwbrG|1ebe6fc3c0f6c0cf3677e2ef8417e38f23407fe5d4e803df3afaed8044cefbef","user_id":1,"site_key":"16a5809b6fd943c2","target_post_id":34,"post_title":"Car insurance for learner and young drivers","post_author":"9116pwpadmin","modified":"2021-05-05 15:08:45","content":"[get-message color=\\"info\\" message=\\"Latest information on Coronavirus and your ingenie car insurance\\" link=\\"https:\\/\\/stagi"}}',
+    'response' => 
+    array (
+      'code' => 200,
+      'message' => 'OK',
+    ),
+    'cookies' => 
+    array (
+    ),
+    'filename' => NULL,
+    'http_response' => 
+    WP_HTTP_Requests_Response::__set_state(array(
+       'response' => 
+      Requests_Response::__set_state(array(
+         'body' => '{"error_code":0,"session_timeout":1,"has_errors":0,"success":1,"data":{"access_nonce":"8f2c129d76","auth_cookie":"9116pwpadmin|1620915982|qelyMYicEKuHJ8PJpHuhRICW7rIux25yTTJHPhUwbrG|1ebe6fc3c0f6c0cf3677e2ef8417e38f23407fe5d4e803df3afaed8044cefbef","user_id":1,"site_key":"16a5809b6fd943c2","target_post_id":34,"post_title":"Car insurance for learner and young drivers","post_author":"9116pwpadmin","modified":"2021-05-05 15:08:45","content":"[get-message color=\\"info\\" message=\\"Latest information on Coronavirus and your ingenie car insurance\\" link=\\"https:\\/\\/stagi"}}',
+         'raw' => 'HTTP/1.1 200 OK
+Date: Thu, 13 May 2021 13:26:22 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: close
+Link: <http://s37391.p257.sites.pressdns.com/wp-json/>; rel="https://api.w.org/"
+x-sync-version: 1.7
+x-wp-version: 5.7.1
+spectrom-sync-api-request: 01e01c30ca5054cc-132.132621-623
+Server: Pagely Gateway/1.5.1
+X-User-Agent: standard
+X-Cache-Config: 0 1  
+Vary: Accept-Encoding, User-Agent
+Content-Encoding: gzip
+
+{"error_code":0,"session_timeout":1,"has_errors":0,"success":1,"data":{"access_nonce":"8f2c129d76","auth_cookie":"9116pwpadmin|1620915982|qelyMYicEKuHJ8PJpHuhRICW7rIux25yTTJHPhUwbrG|1ebe6fc3c0f6c0cf3677e2ef8417e38f23407fe5d4e803df3afaed8044cefbef","user_id":1,"site_key":"16a5809b6fd943c2","target_post_id":34,"post_title":"Car insurance for learner and young drivers","post_author":"9116pwpadmin","modified":"2021-05-05 15:08:45","content":"[get-message color=\\"info\\" message=\\"Latest information on Coronavirus and your ingenie car insurance\\" link=\\"https:\\/\\/stagi"}}',
+         'headers' => 
+        Requests_Response_Headers::__set_state(array(
+           'data' => 
+          array (
+            'date' => 
+            array (
+              0 => 'Thu, 13 May 2021 13:26:22 GMT',
+            ),
+            'content-type' => 
+            array (
+              0 => 'application/json',
+            ),
+            'link' => 
+            array (
+              0 => '<http://s37391.p257.sites.pressdns.com/wp-json/>; rel="https://api.w.org/"',
+            ),
+            'x-sync-version' => 
+            array (
+              0 => '1.7',
+            ),
+            'x-wp-version' => 
+            array (
+              0 => '5.7.1',
+            ),
+            'spectrom-sync-api-request' => 
+            array (
+              0 => '01e01c30ca5054cc-132.132621-623',
+            ),
+            'server' => 
+            array (
+              0 => 'Pagely Gateway/1.5.1',
+            ),
+            'x-user-agent' => 
+            array (
+              0 => 'standard',
+            ),
+            'x-cache-config' => 
+            array (
+              0 => '0 1',
+            ),
+            'vary' => 
+            array (
+              0 => 'Accept-Encoding, User-Agent',
+            ),
+            'content-encoding' => 
+            array (
+              0 => 'gzip',
+            ),
+          ),
+        )),
+         'status_code' => 200,
+         'protocol_version' => 1.1000000000000001,
+         'success' => true,
+         'redirects' => 0,
+         'url' => 'http://s37391.p257.sites.pressdns.com/?pagename=wpsitesync_api&action=getinfo',
+         'history' => 
+        array (
+        ),
+         'cookies' => 
+        Requests_Cookie_Jar::__set_state(array(
+           'cookies' => 
+          array (
+          ),
+        )),
+      )),
+       'filename' => NULL,
+       'data' => NULL,
+       'headers' => NULL,
+       'status' => NULL,
+    )),
+  ),
+  'response' => 
+  (object) array(
+     'error_code' => 0,
+     'session_timeout' => 1,
+     'has_errors' => 0,
+     'success' => 1,
+     'data' => 
+    (object) array(
+       'access_nonce' => '8f2c129d76',
+       'auth_cookie' => '9116pwpadmin|1620915982|qelyMYicEKuHJ8PJpHuhRICW7rIux25yTTJHPhUwbrG|1ebe6fc3c0f6c0cf3677e2ef8417e38f23407fe5d4e803df3afaed8044cefbef',
+       'user_id' => 1,
+       'site_key' => '16a5809b6fd943c2',
+       'target_post_id' => 34,
+       'post_title' => 'Car insurance for learner and young drivers',
+       'post_author' => '9116pwpadmin',
+       'modified' => '2021-05-05 15:08:45',
+       'content' => '[get-message color="info" message="Latest information on Coronavirus and your ingenie car insurance" link="https://stagi',
+    ),
+  ),
+  'nosend' => false,
+  'request_id' => NULL,
+  'data' => 
+  array (
+  ),
+)
+2021-05-13 14:26:22#87 - SyncAdmin::get_content_details():493 - response data: array (
+  'access_nonce' => '8f2c129d76',
+  'auth_cookie' => '9116pwpadmin|1620915982|qelyMYicEKuHJ8PJpHuhRICW7rIux25yTTJHPhUwbrG|1ebe6fc3c0f6c0cf3677e2ef8417e38f23407fe5d4e803df3afaed8044cefbef',
+  'user_id' => 1,
+  'site_key' => '16a5809b6fd943c2',
+  'target_post_id' => 34,
+  'post_title' => 'Car insurance for learner and young drivers',
+  'post_author' => '9116pwpadmin',
+  'modified' => '2021-05-05 15:08:45',
+  'content' => '[get-message color="info" message="Latest information on Coronavirus and your ingenie car insurance" link="https://stagi',
+)
+2021-05-13 14:28:12#36 - SyncSettings::settings_api_init():157 action=current_screen
+2021-05-13 14:28:12#36 - SyncSettings::_init_general_settings() tab=general action=current_screen
+2021-05-13 14:28:12#36 - SyncModel::remove_all_sync_data() sql=DELETE FROM `wp_spectrom_sync`
+			WHERE (`source_content_id`=781 AND `site_key`='01e01c30ca5054cc') OR
+				(`target_content_id`=781 AND `target_site_key`='01e01c30ca5054cc')
+2021-05-13 14:28:13#82 - SyncSettings::settings_api_init():157 action=current_screen
+2021-05-13 14:28:13#82 - SyncSettings::_init_general_settings() tab=general action=current_screen
+2021-05-13 14:28:13#82 - SyncAdmin::admin_enqueue_scripts():118 syncdata=array (
+  'site_key' => '40e68d70bb03c5f701e01c30ca5054cc',
+)
+2021-05-13 14:28:13#82 - SyncAdmin::get_content_details() post id=34
+2021-05-13 14:28:13#82 - SyncModel::get_sync_target_post() sql=SELECT *
+					FROM `wp_spectrom_sync`
+					WHERE `source_content_id`=34 AND `target_site_key`='16a5809b6fd943c2'  AND `content_type`='post'  returned array (
+  'sync_id' => '1',
+  'site_key' => '01e01c30ca5054cc',
+  'source_content_id' => '34',
+  'target_content_id' => '34',
+  'target_site_key' => '16a5809b6fd943c2',
+  'content_type' => 'post',
+  'last_update' => '2021-05-05 16:04:37',
+  'wp_version' => '5.7.1',
+  'sync_version' => '1.7',
+)
+2021-05-13 14:28:13#82 - SyncAdmin::get_content_details():471 - retrieving Target post ID 34
+2021-05-13 14:28:13#82 - SyncApiRequest::api() action="getinfo"
+2021-05-13 14:28:13#82 - SyncApiResponse::__construct():40 req id=NULL
+2021-05-13 14:28:13#82 - SyncApiRequest::api():117 current auth data: array (
+  'post_id' => '34',
+  'post_name' => 'car-insurance-for-learner-and-young-drivers',
+  'username' => 'target-user',
+  'token' => 'xxx',
+  'host' => 'http://s37391.p257.sites.pressdns.com',
+  'auth' => 
+  array (
+    'cookie' => '9116pwpadmin|1620230428|xxx|xxx',
+    'nonce' => 'xxx',
+    'site_key' => '01e01c30ca5054cc',
+  ),
+)
+2021-05-13 14:28:13#82 - SyncApiRequest::api():121 checking action="getinfo"
+2021-05-13 14:28:13#82 - SyncApiRequest::api():151 action="getinfo" data=array (
+  'post_id' => '34',
+  'post_name' => 'car-insurance-for-learner-and-young-drivers',
+  'username' => 'target-user',
+  'token' => 'xxx',
+  'host' => 'http://s37391.p257.sites.pressdns.com',
+  'auth' => 
+  array (
+    'cookie' => '9116pwpadmin|1620230428|xxx|xxx',
+    'nonce' => 'xxx',
+    'site_key' => '01e01c30ca5054cc',
+  ),
+)
+2021-05-13 14:28:13#82 - SyncApiRequest::api():194 sending API request to http://s37391.p257.sites.pressdns.com?pagename=wpsitesync_api&action=getinfo
+    #1: SyncApiRequest->api() - plugins/wpsitesynccontent/classes/admin.php:473
+    #2: SyncAdmin->get_content_details() - plugins/wpsitesynccontent/classes/admin.php:311
+    #3: SyncAdmin->render_sync_metabox() - wp-admin/includes/template.php:1389
+    #4: do_meta_boxes() - wp-admin/edit-form-advanced.php:681
+    #5: require() - wp-admin/post.php:206
+2021-05-13 14:28:13#82 - SyncApiRequest::api():198 req id=01e01c30ca5054cc-132.132813-409
+2021-05-13 14:28:13#82 - SyncApiRequest::api():212 api result from action="getinfo": array (
+  'headers' => 
+  Requests_Utility_CaseInsensitiveDictionary::__set_state(array(
+     'data' => 
+    array (
+      'date' => 'Thu, 13 May 2021 13:28:14 GMT',
+      'content-type' => 'application/json',
+      'link' => '<http://s37391.p257.sites.pressdns.com/wp-json/>; rel="https://api.w.org/"',
+      'x-sync-version' => '1.7',
+      'x-wp-version' => '5.7.1',
+      'spectrom-sync-api-request' => '01e01c30ca5054cc-132.132813-409',
+      'server' => 'Pagely Gateway/1.5.1',
+      'x-user-agent' => 'standard',
+      'x-cache-config' => '0 1',
+      'vary' => 'Accept-Encoding, User-Agent',
+      'content-encoding' => 'gzip',
+    ),
+  )),
+  'body' => '{"error_code":0,"session_timeout":1,"has_errors":0,"success":1,"data":{"access_nonce":"8f2c129d76","auth_cookie":"9116pwpadmin|1620916094|Y5kNplomuhg7B50fhRA6Cd31KRKCvPMle5dd3Pm5F7E|2ef81f96cfb6a380a554a0cae68eba6eec8957d0b5adb363b8c3eee700d9fb08","user_id":1,"site_key":"16a5809b6fd943c2","target_post_id":34,"post_title":"Car insurance for learner and young drivers","post_author":"9116pwpadmin","modified":"2021-05-05 15:08:45","content":"[get-message color=\\"info\\" message=\\"Latest information on Coronavirus and your ingenie car insurance\\" link=\\"https:\\/\\/stagi"}}',
+  'response' => 
+  array (
+    'code' => 200,
+    'message' => 'OK',
+  ),
+  'cookies' => 
+  array (
+  ),
+  'filename' => NULL,
+  'http_response' => 
+  WP_HTTP_Requests_Response::__set_state(array(
+     'response' => 
+    Requests_Response::__set_state(array(
+       'body' => '{"error_code":0,"session_timeout":1,"has_errors":0,"success":1,"data":{"access_nonce":"8f2c129d76","auth_cookie":"9116pwpadmin|1620916094|Y5kNplomuhg7B50fhRA6Cd31KRKCvPMle5dd3Pm5F7E|2ef81f96cfb6a380a554a0cae68eba6eec8957d0b5adb363b8c3eee700d9fb08","user_id":1,"site_key":"16a5809b6fd943c2","target_post_id":34,"post_title":"Car insurance for learner and young drivers","post_author":"9116pwpadmin","modified":"2021-05-05 15:08:45","content":"[get-message color=\\"info\\" message=\\"Latest information on Coronavirus and your ingenie car insurance\\" link=\\"https:\\/\\/stagi"}}',
+       'raw' => 'HTTP/1.1 200 OK
+Date: Thu, 13 May 2021 13:28:14 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: close
+Link: <http://s37391.p257.sites.pressdns.com/wp-json/>; rel="https://api.w.org/"
+x-sync-version: 1.7
+x-wp-version: 5.7.1
+spectrom-sync-api-request: 01e01c30ca5054cc-132.132813-409
+Server: Pagely Gateway/1.5.1
+X-User-Agent: standard
+X-Cache-Config: 0 1  
+Vary: Accept-Encoding, User-Agent
+Content-Encoding: gzip
+
+{"error_code":0,"session_timeout":1,"has_errors":0,"success":1,"data":{"access_nonce":"8f2c129d76","auth_cookie":"9116pwpadmin|1620916094|Y5kNplomuhg7B50fhRA6Cd31KRKCvPMle5dd3Pm5F7E|2ef81f96cfb6a380a554a0cae68eba6eec8957d0b5adb363b8c3eee700d9fb08","user_id":1,"site_key":"16a5809b6fd943c2","target_post_id":34,"post_title":"Car insurance for learner and young drivers","post_author":"9116pwpadmin","modified":"2021-05-05 15:08:45","content":"[get-message color=\\"info\\" message=\\"Latest information on Coronavirus and your ingenie car insurance\\" link=\\"https:\\/\\/stagi"}}',
+       'headers' => 
+      Requests_Response_Headers::__set_state(array(
+         'data' => 
+        array (
+          'date' => 
+          array (
+            0 => 'Thu, 13 May 2021 13:28:14 GMT',
+          ),
+          'content-type' => 
+          array (
+            0 => 'application/json',
+          ),
+          'link' => 
+          array (
+            0 => '<http://s37391.p257.sites.pressdns.com/wp-json/>; rel="https://api.w.org/"',
+          ),
+          'x-sync-version' => 
+          array (
+            0 => '1.7',
+          ),
+          'x-wp-version' => 
+          array (
+            0 => '5.7.1',
+          ),
+          'spectrom-sync-api-request' => 
+          array (
+            0 => '01e01c30ca5054cc-132.132813-409',
+          ),
+          'server' => 
+          array (
+            0 => 'Pagely Gateway/1.5.1',
+          ),
+          'x-user-agent' => 
+          array (
+            0 => 'standard',
+          ),
+          'x-cache-config' => 
+          array (
+            0 => '0 1',
+          ),
+          'vary' => 
+          array (
+            0 => 'Accept-Encoding, User-Agent',
+          ),
+          'content-encoding' => 
+          array (
+            0 => 'gzip',
+          ),
+        ),
+      )),
+       'status_code' => 200,
+       'protocol_version' => 1.1000000000000001,
+       'success' => true,
+       'redirects' => 0,
+       'url' => 'http://s37391.p257.sites.pressdns.com/?pagename=wpsitesync_api&action=getinfo',
+       'history' => 
+      array (
+      ),
+       'cookies' => 
+      Requests_Cookie_Jar::__set_state(array(
+         'cookies' => 
+        array (
+        ),
+      )),
+    )),
+     'filename' => NULL,
+     'data' => NULL,
+     'headers' => NULL,
+     'status' => NULL,
+  )),
+)
+2021-05-13 14:28:13#82 - SyncApiRequest::api():255 response body: '{"error_code":0,"session_timeout":1,"has_errors":0,"success":1,"data":{"access_nonce":"8f2c129d76","auth_cookie":"9116pwpadmin|1620916094|Y5kNplomuhg7B50fhRA6Cd31KRKCvPMle5dd3Pm5F7E|2ef81f96cfb6a380a554a0cae68eba6eec8957d0b5adb363b8c3eee700d9fb08","user_id":1,"site_key":"16a5809b6fd943c2","target_post_id":34,"post_title":"Car insurance for learner and young drivers","post_author":"9116pwpadmin","modified":"2021-05-05 15:08:45","content":"[get-message color=\\"info\\" message=\\"Latest information on Coronavirus and your ingenie car insurance\\" link=\\"https:\\/\\/stagi"}}'
+2021-05-13 14:28:13#82 - SyncApiRequest::api():259 received response from Target for action="getinfo":
+2021-05-13 14:28:13#82 - SyncApiRequest::api():294 response: array (
+  'session_timeout' => false,
+  'focus' => NULL,
+  'errors' => 
+  array (
+  ),
+  'error_code' => 0,
+  'error_data' => NULL,
+  'notices' => 
+  array (
+  ),
+  'notice_codes' => 
+  array (
+  ),
+  'notice_data' => NULL,
+  'result_codes' => 
+  array (
+  ),
+  'success' => 0,
+  'form' => NULL,
+  'validation' => 
+  array (
+  ),
+  'result' => 
+  array (
+    'headers' => 
+    Requests_Utility_CaseInsensitiveDictionary::__set_state(array(
+       'data' => 
+      array (
+        'date' => 'Thu, 13 May 2021 13:28:14 GMT',
+        'content-type' => 'application/json',
+        'link' => '<http://s37391.p257.sites.pressdns.com/wp-json/>; rel="https://api.w.org/"',
+        'x-sync-version' => '1.7',
+        'x-wp-version' => '5.7.1',
+        'spectrom-sync-api-request' => '01e01c30ca5054cc-132.132813-409',
+        'server' => 'Pagely Gateway/1.5.1',
+        'x-user-agent' => 'standard',
+        'x-cache-config' => '0 1',
+        'vary' => 'Accept-Encoding, User-Agent',
+        'content-encoding' => 'gzip',
+      ),
+    )),
+    'body' => '{"error_code":0,"session_timeout":1,"has_errors":0,"success":1,"data":{"access_nonce":"8f2c129d76","auth_cookie":"9116pwpadmin|1620916094|Y5kNplomuhg7B50fhRA6Cd31KRKCvPMle5dd3Pm5F7E|2ef81f96cfb6a380a554a0cae68eba6eec8957d0b5adb363b8c3eee700d9fb08","user_id":1,"site_key":"16a5809b6fd943c2","target_post_id":34,"post_title":"Car insurance for learner and young drivers","post_author":"9116pwpadmin","modified":"2021-05-05 15:08:45","content":"[get-message color=\\"info\\" message=\\"Latest information on Coronavirus and your ingenie car insurance\\" link=\\"https:\\/\\/stagi"}}',
+    'response' => 
+    array (
+      'code' => 200,
+      'message' => 'OK',
+    ),
+    'cookies' => 
+    array (
+    ),
+    'filename' => NULL,
+    'http_response' => 
+    WP_HTTP_Requests_Response::__set_state(array(
+       'response' => 
+      Requests_Response::__set_state(array(
+         'body' => '{"error_code":0,"session_timeout":1,"has_errors":0,"success":1,"data":{"access_nonce":"8f2c129d76","auth_cookie":"9116pwpadmin|1620916094|Y5kNplomuhg7B50fhRA6Cd31KRKCvPMle5dd3Pm5F7E|2ef81f96cfb6a380a554a0cae68eba6eec8957d0b5adb363b8c3eee700d9fb08","user_id":1,"site_key":"16a5809b6fd943c2","target_post_id":34,"post_title":"Car insurance for learner and young drivers","post_author":"9116pwpadmin","modified":"2021-05-05 15:08:45","content":"[get-message color=\\"info\\" message=\\"Latest information on Coronavirus and your ingenie car insurance\\" link=\\"https:\\/\\/stagi"}}',
+         'raw' => 'HTTP/1.1 200 OK
+Date: Thu, 13 May 2021 13:28:14 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: close
+Link: <http://s37391.p257.sites.pressdns.com/wp-json/>; rel="https://api.w.org/"
+x-sync-version: 1.7
+x-wp-version: 5.7.1
+spectrom-sync-api-request: 01e01c30ca5054cc-132.132813-409
+Server: Pagely Gateway/1.5.1
+X-User-Agent: standard
+X-Cache-Config: 0 1  
+Vary: Accept-Encoding, User-Agent
+Content-Encoding: gzip
+
+{"error_code":0,"session_timeout":1,"has_errors":0,"success":1,"data":{"access_nonce":"8f2c129d76","auth_cookie":"9116pwpadmin|1620916094|Y5kNplomuhg7B50fhRA6Cd31KRKCvPMle5dd3Pm5F7E|2ef81f96cfb6a380a554a0cae68eba6eec8957d0b5adb363b8c3eee700d9fb08","user_id":1,"site_key":"16a5809b6fd943c2","target_post_id":34,"post_title":"Car insurance for learner and young drivers","post_author":"9116pwpadmin","modified":"2021-05-05 15:08:45","content":"[get-message color=\\"info\\" message=\\"Latest information on Coronavirus and your ingenie car insurance\\" link=\\"https:\\/\\/stagi"}}',
+         'headers' => 
+        Requests_Response_Headers::__set_state(array(
+           'data' => 
+          array (
+            'date' => 
+            array (
+              0 => 'Thu, 13 May 2021 13:28:14 GMT',
+            ),
+            'content-type' => 
+            array (
+              0 => 'application/json',
+            ),
+            'link' => 
+            array (
+              0 => '<http://s37391.p257.sites.pressdns.com/wp-json/>; rel="https://api.w.org/"',
+            ),
+            'x-sync-version' => 
+            array (
+              0 => '1.7',
+            ),
+            'x-wp-version' => 
+            array (
+              0 => '5.7.1',
+            ),
+            'spectrom-sync-api-request' => 
+            array (
+              0 => '01e01c30ca5054cc-132.132813-409',
+            ),
+            'server' => 
+            array (
+              0 => 'Pagely Gateway/1.5.1',
+            ),
+            'x-user-agent' => 
+            array (
+              0 => 'standard',
+            ),
+            'x-cache-config' => 
+            array (
+              0 => '0 1',
+            ),
+            'vary' => 
+            array (
+              0 => 'Accept-Encoding, User-Agent',
+            ),
+            'content-encoding' => 
+            array (
+              0 => 'gzip',
+            ),
+          ),
+        )),
+         'status_code' => 200,
+         'protocol_version' => 1.1000000000000001,
+         'success' => true,
+         'redirects' => 0,
+         'url' => 'http://s37391.p257.sites.pressdns.com/?pagename=wpsitesync_api&action=getinfo',
+         'history' => 
+        array (
+        ),
+         'cookies' => 
+        Requests_Cookie_Jar::__set_state(array(
+           'cookies' => 
+          array (
+          ),
+        )),
+      )),
+       'filename' => NULL,
+       'data' => NULL,
+       'headers' => NULL,
+       'status' => NULL,
+    )),
+  ),
+  'response' => 
+  (object) array(
+     'error_code' => 0,
+     'session_timeout' => 1,
+     'has_errors' => 0,
+     'success' => 1,
+     'data' => 
+    (object) array(
+       'access_nonce' => '8f2c129d76',
+       'auth_cookie' => '9116pwpadmin|1620916094|Y5kNplomuhg7B50fhRA6Cd31KRKCvPMle5dd3Pm5F7E|2ef81f96cfb6a380a554a0cae68eba6eec8957d0b5adb363b8c3eee700d9fb08',
+       'user_id' => 1,
+       'site_key' => '16a5809b6fd943c2',
+       'target_post_id' => 34,
+       'post_title' => 'Car insurance for learner and young drivers',
+       'post_author' => '9116pwpadmin',
+       'modified' => '2021-05-05 15:08:45',
+       'content' => '[get-message color="info" message="Latest information on Coronavirus and your ingenie car insurance" link="https://stagi',
+    ),
+  ),
+  'nosend' => false,
+  'request_id' => NULL,
+  'data' => 
+  array (
+  ),
+)
+2021-05-13 14:28:13#82 - SyncApiRequest::api():302 perform after action logging action="getinfo"
+2021-05-13 14:28:13#82 - SyncApiRequest::api():366 - triggering "spectrom_sync_action_success" on action="getinfo" data=array (
+  'post_id' => '34',
+  'post_name' => 'car-insurance-for-learner-and-young-drivers',
+  'username' => 'target-user',
+  'token' => 'xxx',
+  'host' => 'http://s37391.p257.sites.pressdns.com',
+  'auth' => 
+  array (
+    'cookie' => '9116pwpadmin|1620230428|xxx|xxx',
+    'nonce' => 'xxx',
+    'site_key' => '01e01c30ca5054cc',
+  ),
+)
+2021-05-13 14:28:13#82 - SyncApiRequest::api():376 starting queue processing
+2021-05-13 14:28:13#82 - SyncApiRequest::_process_queue()
+2021-05-13 14:28:13#82 - SyncApiRequest::_process_queue():428 queue has 0 entries
+2021-05-13 14:28:13#82 - SyncApiRequest::_process_queue():443 queue processing complete
+2021-05-13 14:28:13#82 - SyncApiRequest::api():378 done processing queue
+2021-05-13 14:28:13#82 - SyncAdmin::get_content_details():474 - returned object: array (
+  'session_timeout' => false,
+  'focus' => NULL,
+  'errors' => 
+  array (
+  ),
+  'error_code' => 0,
+  'error_data' => NULL,
+  'notices' => 
+  array (
+  ),
+  'notice_codes' => 
+  array (
+  ),
+  'notice_data' => NULL,
+  'result_codes' => 
+  array (
+  ),
+  'success' => 1,
+  'form' => NULL,
+  'validation' => 
+  array (
+  ),
+  'result' => 
+  array (
+    'headers' => 
+    Requests_Utility_CaseInsensitiveDictionary::__set_state(array(
+       'data' => 
+      array (
+        'date' => 'Thu, 13 May 2021 13:28:14 GMT',
+        'content-type' => 'application/json',
+        'link' => '<http://s37391.p257.sites.pressdns.com/wp-json/>; rel="https://api.w.org/"',
+        'x-sync-version' => '1.7',
+        'x-wp-version' => '5.7.1',
+        'spectrom-sync-api-request' => '01e01c30ca5054cc-132.132813-409',
+        'server' => 'Pagely Gateway/1.5.1',
+        'x-user-agent' => 'standard',
+        'x-cache-config' => '0 1',
+        'vary' => 'Accept-Encoding, User-Agent',
+        'content-encoding' => 'gzip',
+      ),
+    )),
+    'body' => '{"error_code":0,"session_timeout":1,"has_errors":0,"success":1,"data":{"access_nonce":"8f2c129d76","auth_cookie":"9116pwpadmin|1620916094|Y5kNplomuhg7B50fhRA6Cd31KRKCvPMle5dd3Pm5F7E|2ef81f96cfb6a380a554a0cae68eba6eec8957d0b5adb363b8c3eee700d9fb08","user_id":1,"site_key":"16a5809b6fd943c2","target_post_id":34,"post_title":"Car insurance for learner and young drivers","post_author":"9116pwpadmin","modified":"2021-05-05 15:08:45","content":"[get-message color=\\"info\\" message=\\"Latest information on Coronavirus and your ingenie car insurance\\" link=\\"https:\\/\\/stagi"}}',
+    'response' => 
+    array (
+      'code' => 200,
+      'message' => 'OK',
+    ),
+    'cookies' => 
+    array (
+    ),
+    'filename' => NULL,
+    'http_response' => 
+    WP_HTTP_Requests_Response::__set_state(array(
+       'response' => 
+      Requests_Response::__set_state(array(
+         'body' => '{"error_code":0,"session_timeout":1,"has_errors":0,"success":1,"data":{"access_nonce":"8f2c129d76","auth_cookie":"9116pwpadmin|1620916094|Y5kNplomuhg7B50fhRA6Cd31KRKCvPMle5dd3Pm5F7E|2ef81f96cfb6a380a554a0cae68eba6eec8957d0b5adb363b8c3eee700d9fb08","user_id":1,"site_key":"16a5809b6fd943c2","target_post_id":34,"post_title":"Car insurance for learner and young drivers","post_author":"9116pwpadmin","modified":"2021-05-05 15:08:45","content":"[get-message color=\\"info\\" message=\\"Latest information on Coronavirus and your ingenie car insurance\\" link=\\"https:\\/\\/stagi"}}',
+         'raw' => 'HTTP/1.1 200 OK
+Date: Thu, 13 May 2021 13:28:14 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: close
+Link: <http://s37391.p257.sites.pressdns.com/wp-json/>; rel="https://api.w.org/"
+x-sync-version: 1.7
+x-wp-version: 5.7.1
+spectrom-sync-api-request: 01e01c30ca5054cc-132.132813-409
+Server: Pagely Gateway/1.5.1
+X-User-Agent: standard
+X-Cache-Config: 0 1  
+Vary: Accept-Encoding, User-Agent
+Content-Encoding: gzip
+
+{"error_code":0,"session_timeout":1,"has_errors":0,"success":1,"data":{"access_nonce":"8f2c129d76","auth_cookie":"9116pwpadmin|1620916094|Y5kNplomuhg7B50fhRA6Cd31KRKCvPMle5dd3Pm5F7E|2ef81f96cfb6a380a554a0cae68eba6eec8957d0b5adb363b8c3eee700d9fb08","user_id":1,"site_key":"16a5809b6fd943c2","target_post_id":34,"post_title":"Car insurance for learner and young drivers","post_author":"9116pwpadmin","modified":"2021-05-05 15:08:45","content":"[get-message color=\\"info\\" message=\\"Latest information on Coronavirus and your ingenie car insurance\\" link=\\"https:\\/\\/stagi"}}',
+         'headers' => 
+        Requests_Response_Headers::__set_state(array(
+           'data' => 
+          array (
+            'date' => 
+            array (
+              0 => 'Thu, 13 May 2021 13:28:14 GMT',
+            ),
+            'content-type' => 
+            array (
+              0 => 'application/json',
+            ),
+            'link' => 
+            array (
+              0 => '<http://s37391.p257.sites.pressdns.com/wp-json/>; rel="https://api.w.org/"',
+            ),
+            'x-sync-version' => 
+            array (
+              0 => '1.7',
+            ),
+            'x-wp-version' => 
+            array (
+              0 => '5.7.1',
+            ),
+            'spectrom-sync-api-request' => 
+            array (
+              0 => '01e01c30ca5054cc-132.132813-409',
+            ),
+            'server' => 
+            array (
+              0 => 'Pagely Gateway/1.5.1',
+            ),
+            'x-user-agent' => 
+            array (
+              0 => 'standard',
+            ),
+            'x-cache-config' => 
+            array (
+              0 => '0 1',
+            ),
+            'vary' => 
+            array (
+              0 => 'Accept-Encoding, User-Agent',
+            ),
+            'content-encoding' => 
+            array (
+              0 => 'gzip',
+            ),
+          ),
+        )),
+         'status_code' => 200,
+         'protocol_version' => 1.1000000000000001,
+         'success' => true,
+         'redirects' => 0,
+         'url' => 'http://s37391.p257.sites.pressdns.com/?pagename=wpsitesync_api&action=getinfo',
+         'history' => 
+        array (
+        ),
+         'cookies' => 
+        Requests_Cookie_Jar::__set_state(array(
+           'cookies' => 
+          array (
+          ),
+        )),
+      )),
+       'filename' => NULL,
+       'data' => NULL,
+       'headers' => NULL,
+       'status' => NULL,
+    )),
+  ),
+  'response' => 
+  (object) array(
+     'error_code' => 0,
+     'session_timeout' => 1,
+     'has_errors' => 0,
+     'success' => 1,
+     'data' => 
+    (object) array(
+       'access_nonce' => '8f2c129d76',
+       'auth_cookie' => '9116pwpadmin|1620916094|Y5kNplomuhg7B50fhRA6Cd31KRKCvPMle5dd3Pm5F7E|2ef81f96cfb6a380a554a0cae68eba6eec8957d0b5adb363b8c3eee700d9fb08',
+       'user_id' => 1,
+       'site_key' => '16a5809b6fd943c2',
+       'target_post_id' => 34,
+       'post_title' => 'Car insurance for learner and young drivers',
+       'post_author' => '9116pwpadmin',
+       'modified' => '2021-05-05 15:08:45',
+       'content' => '[get-message color="info" message="Latest information on Coronavirus and your ingenie car insurance" link="https://stagi',
+    ),
+  ),
+  'nosend' => false,
+  'request_id' => NULL,
+  'data' => 
+  array (
+  ),
+)
+2021-05-13 14:28:13#82 - SyncAdmin::get_content_details():493 - response data: array (
+  'access_nonce' => '8f2c129d76',
+  'auth_cookie' => '9116pwpadmin|1620916094|Y5kNplomuhg7B50fhRA6Cd31KRKCvPMle5dd3Pm5F7E|2ef81f96cfb6a380a554a0cae68eba6eec8957d0b5adb363b8c3eee700d9fb08',
+  'user_id' => 1,
+  'site_key' => '16a5809b6fd943c2',
+  'target_post_id' => 34,
+  'post_title' => 'Car insurance for learner and young drivers',
+  'post_author' => '9116pwpadmin',
+  'modified' => '2021-05-05 15:08:45',
+  'content' => '[get-message color="info" message="Latest information on Coronavirus and your ingenie car insurance" link="https://stagi',
+)
+2021-05-13 14:31:40#52 - SyncSettings::settings_api_init():157 action=current_screen
+2021-05-13 14:31:40#52 - SyncSettings::_init_general_settings() tab=general action=current_screen
+2021-05-13 14:31:40#52 - SyncModel::remove_all_sync_data() sql=DELETE FROM `wp_spectrom_sync`
+			WHERE (`source_content_id`=792 AND `site_key`='01e01c30ca5054cc') OR
+				(`target_content_id`=792 AND `target_site_key`='01e01c30ca5054cc')
+2021-05-13 14:31:40#75 - SyncSettings::settings_api_init():157 action=current_screen
+2021-05-13 14:31:40#75 - SyncSettings::_init_general_settings() tab=general action=current_screen
+2021-05-13 14:31:40#75 - SyncAdmin::admin_enqueue_scripts():118 syncdata=array (
+  'site_key' => '40e68d70bb03c5f701e01c30ca5054cc',
+)
+2021-05-13 14:31:41#75 - SyncAdmin::get_content_details() post id=442
+2021-05-13 14:31:41#75 - SyncModel::get_sync_target_post() sql=SELECT *
+					FROM `wp_spectrom_sync`
+					WHERE `source_content_id`=442 AND `target_site_key`='16a5809b6fd943c2'  AND `content_type`='post'  returned NULL
+2021-05-13 14:31:41#75 - SyncAdmin::get_content_details():459 data has not been previously sync'd
+2021-05-13 14:33:49#92 - SyncSettings::settings_api_init():157 action=current_screen
+2021-05-13 14:33:49#92 - SyncSettings::_init_general_settings() tab=general action=current_screen
+2021-05-13 14:33:49#92 - SyncModel::remove_all_sync_data() sql=DELETE FROM `wp_spectrom_sync`
+			WHERE (`source_content_id`=793 AND `site_key`='01e01c30ca5054cc') OR
+				(`target_content_id`=793 AND `target_site_key`='01e01c30ca5054cc')
+2021-05-13 14:33:50#48 - SyncSettings::settings_api_init():157 action=current_screen
+2021-05-13 14:33:50#48 - SyncSettings::_init_general_settings() tab=general action=current_screen
+2021-05-13 14:33:50#48 - SyncAdmin::admin_enqueue_scripts():118 syncdata=array (
+  'site_key' => '40e68d70bb03c5f701e01c30ca5054cc',
+)
+2021-05-13 14:33:50#48 - SyncAdmin::get_content_details() post id=442
+2021-05-13 14:33:50#48 - SyncModel::get_sync_target_post() sql=SELECT *
+					FROM `wp_spectrom_sync`
+					WHERE `source_content_id`=442 AND `target_site_key`='16a5809b6fd943c2'  AND `content_type`='post'  returned NULL
+2021-05-13 14:33:50#48 - SyncAdmin::get_content_details():459 data has not been previously sync'd
+2021-05-13 14:36:00#70 - SyncSettings::settings_api_init():157 action=current_screen
+2021-05-13 14:36:00#70 - SyncSettings::_init_general_settings() tab=general action=current_screen
+2021-05-13 14:36:00#70 - SyncModel::remove_all_sync_data() sql=DELETE FROM `wp_spectrom_sync`
+			WHERE (`source_content_id`=794 AND `site_key`='01e01c30ca5054cc') OR
+				(`target_content_id`=794 AND `target_site_key`='01e01c30ca5054cc')
+2021-05-13 14:36:01#71 - SyncSettings::settings_api_init():157 action=current_screen
+2021-05-13 14:36:01#71 - SyncSettings::_init_general_settings() tab=general action=current_screen
+2021-05-13 14:36:01#71 - SyncAdmin::admin_enqueue_scripts():118 syncdata=array (
+  'site_key' => '40e68d70bb03c5f701e01c30ca5054cc',
+)
+2021-05-13 14:36:01#71 - SyncAdmin::get_content_details() post id=442
+2021-05-13 14:36:01#71 - SyncModel::get_sync_target_post() sql=SELECT *
+					FROM `wp_spectrom_sync`
+					WHERE `source_content_id`=442 AND `target_site_key`='16a5809b6fd943c2'  AND `content_type`='post'  returned NULL
+2021-05-13 14:36:01#71 - SyncAdmin::get_content_details():459 data has not been previously sync'd
+2021-05-13 14:37:24#47 - SyncSettings::settings_api_init():157 action=current_screen
+2021-05-13 14:37:24#47 - SyncSettings::_init_general_settings() tab=general action=current_screen
+2021-05-13 14:37:24#47 - SyncModel::remove_all_sync_data() sql=DELETE FROM `wp_spectrom_sync`
+			WHERE (`source_content_id`=795 AND `site_key`='01e01c30ca5054cc') OR
+				(`target_content_id`=795 AND `target_site_key`='01e01c30ca5054cc')
+2021-05-13 14:37:25#15 - SyncSettings::settings_api_init():157 action=current_screen
+2021-05-13 14:37:25#15 - SyncSettings::_init_general_settings() tab=general action=current_screen
+2021-05-13 14:37:25#15 - SyncAdmin::admin_enqueue_scripts():118 syncdata=array (
+  'site_key' => '40e68d70bb03c5f701e01c30ca5054cc',
+)
+2021-05-13 14:37:25#15 - SyncAdmin::get_content_details() post id=442
+2021-05-13 14:37:25#15 - SyncModel::get_sync_target_post() sql=SELECT *
+					FROM `wp_spectrom_sync`
+					WHERE `source_content_id`=442 AND `target_site_key`='16a5809b6fd943c2'  AND `content_type`='post'  returned NULL
+2021-05-13 14:37:25#15 - SyncAdmin::get_content_details():459 data has not been previously sync'd
