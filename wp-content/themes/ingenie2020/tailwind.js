@@ -216,6 +216,10 @@ module.exports = {
       backgroundImage: {
         'home-hero-sm': "url('https://staging.ingenie.com/resources/images/maskhead/isometric-road-home-mob.svg')",
         'home-hero-md': "url('https://staging.ingenie.com/resources/images/maskhead/isometric-road-home-desktop.svg')",
+        'yd-home-hero-sm': "url('https://staging.ingenie.com/resources/images/maskhead/isometric-road-mobile.svg')",
+        'yd-home-hero-md': "url('https://staging.ingenie.com/resources/images/maskhead/isometric-road.svg')",
+        // 'learner-home-hero-sm': '',
+        // 'learner-home-hero-md': '',
       },
     }
   },

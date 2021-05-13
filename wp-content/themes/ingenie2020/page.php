@@ -1,10 +1,11 @@
-Ima 'Page core'
 <?php get_header(); ?>
 
-<div class="container mx-auto">
-    <h1><?php the_title(); ?></h1>
+<!-- No title thanks  -->
+<!-- <?php the_title(); ?> -->
 
-    <?php get_template_part( 'templates/partials/section', 'content' ); ?>
-</div>
+<?php the_content(); ?>
+
+<!-- No loop thanks -->
+<!-- <?php get_template_part( 'templates/partials/section', 'content' ); ?>-->
 
 <?php get_footer(); ?>

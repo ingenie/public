@@ -1,4 +1,4 @@
-<footer class="md:mb-4 bg-ydg-ingenie-blog-900 py-8">
+<footer class="bg-ydg-ingenie-blog-900 py-8">
     <div class="lg:container lg:mx-auto">
         <div class="flex flex-col sm:flex-row flex-wrap items-center sm:items-start justify-between p-4 text-white">
 

@@ -34,7 +34,7 @@ const FlexSliderSetUp = {
         controlNav: false,
         directionNav: true,
         controlsContainer: ".flexslider",
-        itemWidth: 320,
+        itemWidth: 310,
         itemMargin: 10,
         minItems: 1,
         maxItems: 3,

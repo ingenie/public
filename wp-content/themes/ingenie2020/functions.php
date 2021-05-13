@@ -52,6 +52,7 @@ require_once( __DIR__ . '/includes/custom-taxonomies.php');
 require_once( __DIR__ . '/includes/custom-term-functions.php');
 require_once( __DIR__ . '/includes/custom-post-titles.php');
 require_once( __DIR__ . '/includes/shortcodes-sliders.php');
+require_once( __DIR__ . '/includes/shortcodes-quote-button.php');
 require_once( __DIR__ . '/includes/shortcodes-notifications.php');
 require_once( __DIR__ . '/includes/shortcodes-trust-pilot.php');
 

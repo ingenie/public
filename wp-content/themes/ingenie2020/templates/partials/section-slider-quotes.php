@@ -36,7 +36,7 @@ Customer quotes slider
 
                     <div class="py-3 px-4 mx-4 text-center text-sm">
                         <?php the_content()?>
-                        <h3 class="leading-tight p-2 text-base font-semibold"><?php the_title()?></h3>
+                        <h4 class="heading-4"><?php the_title()?></h4>
                     </div>
 
                 </div>
