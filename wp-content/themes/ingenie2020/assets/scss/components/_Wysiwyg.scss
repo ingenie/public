@@ -6,93 +6,93 @@
 // The main point of this is to keep these out of the global base styles in order to leverage the
 // full power of TailwindCSS in areas of the site that are not dynamically generated markup.
 
-$module: '.Wysiwyg';
+// $module: '.Wysiwyg';
 
-#{$module} {
-  @extend .WysiwygAnchors;
-  @extend .WysiwygHeadings;
-  @extend .WysiwygCode;
-  @extend .WysiwygSpacing;
-}
+// #{$module} {
+//   @extend .WysiwygAnchors;
+//   @extend .WysiwygHeadings;
+//   @extend .WysiwygCode;
+//   @extend .WysiwygSpacing;
+// }
 
-$module: '.WysiwygAnchors';
+// $module: '.WysiwygAnchors';
 
-#{$module} {
-  a {
+// #{$module} {
+//   a {
 
-    &,
-    &:visited {
-      @apply text-link;
-      transition: all 0.24s ease;
+//     &,
+//     &:visited {
+//       @apply text-link;
+//       transition: all 0.24s ease;
 
-      &:hover,
-      &:focus {
-        @apply text-link-hover;
-      }
+//       &:hover,
+//       &:focus {
+//         @apply text-link-hover;
+//       }
 
-      &:active {}
+//       &:active {}
 
-      // If an anchor exists inside a heading, inherit the headings color
-      $this: &;
+//       // If an anchor exists inside a heading, inherit the headings color
+//       $this: &;
 
-      @at-root h1,
-      h2,
-      h3,
-      h4,
-      h5,
-      h6 {
-        #{$this} {
-          color: inherit;
-        }
-      }
-    }
-  }
-}
+//       @at-root h1,
+//       h2,
+//       h3,
+//       h4,
+//       h5,
+//       h6 {
+//         #{$this} {
+//           color: inherit;
+//         }
+//       }
+//     }
+//   }
+// }
 
-$module: '.WysiwygHeadings';
+// $module: '.WysiwygHeadings';
 
-#{$module} {
+// #{$module} {
 
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    @apply font-sans font-semibold text-black leading-tight;
-  }
+//   h1,
+//   h2,
+//   h3,
+//   h4,
+//   h5,
+//   h6 {
+//     @apply font-sans font-semibold text-black leading-tight;
+//   }
 
-  h1 {
-    @apply text-2xl;
-  }
+//   h1 {
+//     @apply text-2xl;
+//   }
 
-  h2 {
-    @apply text-xl;
-  }
+//   h2 {
+//     @apply text-xl;
+//   }
 
-  h3,
-  h4,
-  h5 {
-    @apply text-lg;
-  }
-}
+//   h3,
+//   h4,
+//   h5 {
+//     @apply text-lg;
+//   }
+// }
 
-$module: '.WysiwygCode';
+// $module: '.WysiwygCode';
 
-#{$module} {
-  code {
-    @apply font-mono inline-block px-1 rounded-sm text-sm align-baseline bg-pink-100 text-pink-600;
-  }
-}
+// #{$module} {
+//   code {
+//     @apply font-mono inline-block px-1 rounded-sm text-sm align-baseline bg-pink-100 text-pink-600;
+//   }
+// }
 
-$module: '.WysiwygSpacing';
+// $module: '.WysiwygSpacing';
 
-#{$module} {
+// #{$module} {
 
-  p,
-  ul,
-  ol,
-  .wp-block-embed {
-    @apply my-8;
-  }
-}
+//   p,
+//   ul,
+//   ol,
+//   .wp-block-embed {
+//     @apply my-8;
+//   }
+// }
