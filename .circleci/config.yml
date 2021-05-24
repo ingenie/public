@@ -107,6 +107,10 @@ jobs:
           path: /home/circleci/repo/wp-content/themes/ingenie2020
           destination: /
 
+      # - store_artifacts:
+      #   path: /home/circleci/repo/resources
+      #   destination: /resoures
+
       - persist_to_workspace:
           root: /home/circleci/repo/wp-content/themes/ingenie2020
           paths:
@@ -197,7 +201,7 @@ jobs:
       - run: 
           name: Pre-Deploy check
           command: |
-            cd ~/repo/workspace
+            cd ~/repo
             ls
   nofity-deploy-state:
     executor: machine-executor
