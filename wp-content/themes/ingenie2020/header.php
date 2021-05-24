@@ -17,8 +17,7 @@
     <div class="flex-none px-4 py-2 mt-3 align-middle">
         <a href="/">
             <!-- <span class="text-xl font-bold">ingenie</span> -->
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/ingenie-logo.svg" alt="ingenie Insurance"
-                width="112" height="auto">
+            <img src="/resources/img/ingenie-logo.svg" alt="ingenie Insurance" width="112" height="auto">
         </a>
     </div>
 

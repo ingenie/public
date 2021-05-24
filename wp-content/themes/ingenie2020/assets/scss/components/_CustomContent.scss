@@ -6,6 +6,56 @@
 // The main point of this is to keep these out of the global base styles in order to leverage the
 // full power of TailwindCSS in areas of the site that are not dynamically generated markup.
 
+// Custom styles used in the_content() output which does not live in the style guide
+// TODO: If used in a couple of places please refactor into styleguide for consistency
+// SEE: style-guide-page.php template for more...
+//
+// USES: PurgeCss ignore as its not dynamically generated from the_content() editor using tailwind/purge
+
+/* DO NOT REMOVE NEXT LINE */
+/* purgecss start ignore */
+// 
+
+// $module: '.wysiwyg-content';
+
+// #{$module} {
+
+.homepage-blog-cards {
+  @apply w-10/12 mx-auto my-2;
+
+  @screen md {
+    @apply w-8/12;
+  }
+}
+
+.blog-card-btns {
+  @apply mx-3 w-full mx-auto;
+
+  @screen md {
+    @apply w-2/3;
+  }
+}
+
+.ig-blog-card-btn {
+  @apply w-1/2 mx-auto;
+}
+
+.btn-icon-right {
+  @apply h-5 w-5 ml-1;
+}
+
+.btn-icon-left {
+  @apply h-5 w-5 mr-1;
+}
+
+// }
+
+/* DO NOT REMOVE NEXT LINE */
+/* purgecss end ignore */
+
+
+
+
 // $module: '.Wysiwyg';
 
 // #{$module} {

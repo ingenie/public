@@ -9,8 +9,34 @@ module.exports = {
         xl: '5rem',
       },
     },
+    fontFamily: {
+      sans: [
+        '"Open Sans"',
+        'Helvetica',
+        'Arial',
+        'sans-serif',
+      ]
+    },
     extend: {
       colors: {
+        'good': {
+          default: '#81c750',
+        },
+        'okay': {
+          default: '#b7d7a1',
+        },
+        'improvement': {
+          default: '#fec926',
+        },
+        'unsafe': {
+          default: '#f28816',
+        },
+        'dangerous': {
+          default: '#fe2b17',
+        },
+        'highly-dangerous': {
+          default: '#000',
+        },
         'ig-blue': {
           50: '#F2F5F7',
           100: '#E6EAEF',
@@ -203,6 +229,36 @@ module.exports = {
       fontSize: {
         xxs: '0.675rem',
       },
+      // spacing: {
+      //   '1/2': '50%',
+      //   '1/3': '33.333333%',
+      //   '2/3': '66.666667%',
+      //   '1/4': '25%',
+      //   '2/4': '50%',
+      //   '3/4': '75%',
+      //   '1/5': '20%',
+      //   '2/5': '40%',
+      //   '3/5': '60%',
+      //   '4/5': '80%',
+      //   '1/6': '16.666667%',
+      //   '2/6': '33.333333%',
+      //   '3/6': '50%',
+      //   '4/6': '66.666667%',
+      //   '5/6': '83.333333%',
+      //   '1/12': '8.333333%',
+      //   '2/12': '16.666667%',
+      //   '3/12': '25%',
+      //   '4/12': '33.333333%',
+      //   '5/12': '41.666667%',
+      //   '6/12': '50%',
+      //   '7/12': '58.333333%',
+      //   '8/12': '66.666667%',
+      //   '9/12': '75%',
+      //   '10/12': '83.333333%',
+      //   '11/12': '91.666667%',
+      //   full: '100%',
+      //   screen: '100vw',
+      // },
       lineHeight: {
         tighter: '1.125',
       },
@@ -214,12 +270,7 @@ module.exports = {
         full: '100%',
       },
       backgroundImage: {
-        'home-hero-sm': "url('https://staging.ingenie.com/resources/images/maskhead/isometric-road-home-mob.svg')",
-        'home-hero-md': "url('https://staging.ingenie.com/resources/images/maskhead/isometric-road-home-desktop.svg')",
-        'yd-home-hero-sm': "url('https://staging.ingenie.com/resources/images/maskhead/isometric-road-mobile.svg')",
-        'yd-home-hero-md': "url('https://staging.ingenie.com/resources/images/maskhead/isometric-road.svg')",
-        // 'learner-home-hero-sm': '',
-        // 'learner-home-hero-md': '',
+        // 'home-hero-sm': "url('https://staging.ingenie.com/resources/images/maskhead/isometric-road-home-mob.svg')",
       },
     }
   },

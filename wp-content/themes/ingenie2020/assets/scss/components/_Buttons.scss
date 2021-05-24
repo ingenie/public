@@ -1,4 +1,4 @@
-// Primary links
+// Links
 .primary-link-sm {
   @apply items-center px-2 py-1 text-xs leading-none bg-transparent rounded text-ig-orange-500 border-ig-orange-500;
 
@@ -9,15 +9,33 @@
 }
 
 .primary-link {
-  @apply items-center px-2 py-1 text-base leading-none bg-transparent rounded text-ig-orange-500 border-ig-orange-500;
+  @apply items-center px-2 py-1 text-base leading-none bg-transparent rounded text-ig-orange-500;
 
   &:hover {
-    @apply border-transparent text-ig-orange-400;
+    @apply text-ig-orange-400;
   }
 
 }
 
-// Primary buttons
+.secondary-link-sm {
+  @apply items-center px-2 py-1 text-xs leading-none bg-transparent rounded text-ig-blue-500 border-ig-blue-500;
+
+  &:hover {
+    @apply border-transparent text-ig-blue-400;
+  }
+
+}
+
+.secondary-link {
+  @apply items-center px-2 py-1 text-base leading-none bg-transparent rounded text-ig-blue-500;
+
+  &:hover {
+    @apply text-ig-blue-400;
+  }
+
+}
+
+// Buttons
 .primary-btn-sm {
   @apply items-center px-2 py-1 text-sm leading-none text-white border rounded border-ig-orange-500 bg-ig-orange-500 border-transparent;
 
@@ -42,9 +60,20 @@
   }
 }
 
-// Secondary buttons
+.primary-btn-clear {
+  @apply items-center px-3 py-2 text-base leading-none text-ig-orange-500 border rounded border-ig-orange-500 bg-transparent;
+
+  &:hover {
+    @apply bg-ig-orange-600 text-white;
+  }
+
+  @screen md {
+    @apply mt-0;
+  }
+}
+
 .secondary-btn-sm {
-  @apply items-center px-2 py-1 my-2 text-sm leading-none text-white border rounded border-ig-blue-500 bg-ig-blue-500 border-transparent;
+  @apply items-center px-2 py-1 text-sm leading-none text-white border rounded border-ig-blue-500 bg-ig-blue-500 border-transparent;
 
   &:hover {
     @apply bg-ig-blue-600;
@@ -56,10 +85,22 @@
 }
 
 .secondary-btn {
-  @apply items-center px-3 py-2 my-2 text-base leading-none text-white border rounded border-ig-blue-500 bg-ig-blue-500 border-transparent;
+  @apply items-center px-3 py-2 text-base leading-none text-white border rounded border-ig-blue-500 bg-ig-blue-500 border-transparent;
 
   &:hover {
     @apply bg-ig-blue-600;
+  }
+
+  @screen md {
+    @apply mt-0;
+  }
+}
+
+.secondary-btn-clear {
+  @apply items-center px-3 py-2 text-base leading-none text-ig-blue-500 border rounded border-ig-blue-500 bg-transparent;
+
+  &:hover {
+    @apply bg-ig-blue-600 text-white;
   }
 
   @screen md {

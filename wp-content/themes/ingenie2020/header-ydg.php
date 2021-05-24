@@ -10,8 +10,8 @@
         <div class="flex-auto">
             <a href="/">
                 <!-- <span class="text-xl font-bold">ingenie</span> -->
-                <img class="mx-auto" src="<?php echo get_template_directory_uri(); ?>/assets/img/ingenie-logo-ydg.svg"
-                    alt="ingenie Insurance" width="112" height="auto">
+                <img class="mx-auto" src="/resources/img/ingenie-logo-ydg.svg" alt="ingenie Insurance" width="112"
+                    height="auto">
             </a>
         </div>
 
@@ -34,9 +34,8 @@
     <div class="flex">
         <div class="z-50 w-full -mt-6 absolute md:static">
             <a href="/young-drivers-guide">
-                <img class="object-center mx-auto"
-                    src="<?php echo get_template_directory_uri(); ?>/assets/img/ydg-masthead-logo.svg"
-                    alt="ingenie Insurance" width="300" height="auto">
+                <img class="object-center mx-auto" src="/resources/img/ydg-masthead-logo.svg" alt="ingenie Insurance"
+                    width="300" height="auto">
             </a>
         </div>
     </div>

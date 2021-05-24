@@ -1,0 +1,18 @@
+// Scroll to top
+.back-to-top {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  width: 64px;
+  display: none;
+  height: 64px;
+  z-index: 9999;
+  cursor: pointer;
+  text-decoration: none;
+  transition: opacity 0.2s ease-out;
+  background-image: url($img-path + '/pages/icons/back-to-top.svg');
+}
+
+.back-to-top:hover {
+  opacity: 0.7;
+}

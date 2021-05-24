@@ -78,17 +78,28 @@ $yd_frac_cus_discount_txt = "7";
 return $yd_frac_cus_discount_txt;
 }
 function yd_sp_dates_up_front_txt($atts) {
-$yd_sp_dates_up_front_txt = "Aug 2020 - April 2021";
+$yd_sp_dates_up_front_txt = "Based on all ingenie customers, Aug 2020 - April 2021";
 return $yd_sp_dates_up_front_txt;
 }
 function yd_sp_dates_renewals_txt($atts) {
 $yd_sp_dates_renewals_txt = "Based on all ingenie renewals at end of first year, May 2020 - April 2021.";
 return $yd_sp_dates_renewals_txt;
 }
+function yd_sp_factors_renewals_txt($atts) {
+$yd_sp_factors_renewals_txt = "Other factors will go towards your final renewal quote including any changes made to
+the policy that year";
+return $yd_sp_factors_renewals_txt;
+}
 function yd_sp_premium_increases_txt($atts) {
 $yd_sp_premium_increases_txt = "Premium increases could apply for poor driving.";
 return $yd_sp_premium_increases_txt;
 }
+function yd_sp_top_up_miles_txt($atts) {
+$yd_sp_top_up_miles_txt = "If you're driving more than you estimated, you'll need to call us to buy top up miles. If you
+drive over your mileage allowance your insurance could be cancelled.";
+return $yd_sp_top_up_miles_txt;
+}
+
 
 
 // ------------------------
@@ -115,6 +126,28 @@ $ig_main_number = "<span class='MAIN-TEL'>0330 678 0652</span>";
 return $ig_main_number;
 }
 
+// ------------------------
+//
+// SOCIAL MEDIA URLS
+//
+// ------------------------
+function ig_facebook_account($atts) {
+$ig_facebook_account = "<a href='https://en-gb.facebook.com/ingenieinsurance' target='_blank'>Facebook</a>";
+return $ig_facebook_account;
+}
+
+function ig_twitter_account($atts) {
+$ig_twitter_account = "<a href='https://twitter.com/ingenie' target='_blank'>Twitter</a>";
+return $ig_twitter_account;
+}
+
+function ig_instagram_account($atts) {
+$ig_instagram_account = "<a href='https://www.instagram.com/ingenieinsurance' target='_blank'>Twitter</a>";
+return $ig_instagram_account;
+}
+
+
+
 
 // ------------------------
 //
@@ -136,9 +169,15 @@ add_shortcode('yd_frac_cus_discount_txt', 'yd_frac_cus_discount_txt');
 add_shortcode('yd_get_a_quote_url', 'yd_get_a_quote_url');
 add_shortcode('yd_sp_dates_up_front_txt', 'yd_sp_dates_up_front_txt');
 add_shortcode('yd_sp_dates_renewals_txt', 'yd_sp_dates_renewals_txt');
+add_shortcode('yd_sp_factors_renewals_txt', 'yd_sp_factors_renewals_txt');
 add_shortcode('yd_sp_premium_increases_txt', 'yd_sp_premium_increases_txt');
+add_shortcode('yd_sp_top_up_miles_txt', 'yd_sp_top_up_miles_txt');
 
 add_shortcode('obd_help_number', 'obd_help_number');
 add_shortcode('obd_trakm8_email', 'obd_trakm8_email');
 
 add_shortcode('ig_main_number', 'ig_main_number');
+
+add_shortcode('ig_facebook_account', 'ig_facebook_account');
+add_shortcode('ig_twitter_account', 'ig_twitter_account');
+add_shortcode('ig_instagram_account', 'ig_instagram_account');

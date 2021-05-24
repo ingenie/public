@@ -3,7 +3,9 @@
 <!-- No title thanks  -->
 <!-- <?php the_title(); ?> -->
 
-<?php the_content(); ?>
+<section class="wysiwyg-content">
+    <?php the_content(); ?>
+</section>
 
 <!-- No loop thanks -->
 <!-- <?php get_template_part( 'templates/partials/section', 'content' ); ?>-->

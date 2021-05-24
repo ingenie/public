@@ -54,6 +54,7 @@ require_once( __DIR__ . '/includes/custom-post-titles.php');
 require_once( __DIR__ . '/includes/shortcodes-sliders.php');
 require_once( __DIR__ . '/includes/shortcodes-quote-button.php');
 require_once( __DIR__ . '/includes/shortcodes-notifications.php');
+require_once( __DIR__ . '/includes/shortcodes-hero-img.php');
 require_once( __DIR__ . '/includes/shortcodes-trust-pilot.php');
 
 /* 
