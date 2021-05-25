@@ -3,6 +3,7 @@
 Plugin Name: ingenie Business Stats
 Plugin URI: http://ingenie.com
 Description: ingenie Business stats to change / keep all stats in check across environments. Can be used in all pages, posts, and templates.
+NOTE: ingenie plugin deploy as per and are not excluded in the pagelyignore file
 Version: 1.0
 Author: ingenie
 Author URI: http://ingenie.com
