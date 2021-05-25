@@ -90934,3 +90934,3115 @@ Content-Encoding: gzip
 2021-05-24 23:58:26#52 - SyncApiRequest::_process_queue() queue already being processed
 2021-05-24 23:58:26#52 - SyncApiRequest::api():378 done processing queue
 2021-05-24 23:58:26#52 - SyncApiResponse::__toString() returning response data: '{"error_code":7,"error_message":"The User \\"9116pwpadmin\\", is currently editing this Content on the Target site.","error_data":"9116pwpadmin","has_errors":1,"success":0,"data":{"access_nonce":"711de73d6e","auth_cookie":"9116pwpadmin|1621900707|RNJh9uq3hGXHtOGRyl1Z81h7kG1nXQ3bYMlLhvXr432|125b2557164514dfd4314aa1d0392898a5ac0532f096c46aebee0d4b30700fab","user_id":1,"site_key":"afa120d49cfa2e7d16a5809b6fd943c2","message":"The User \\"9116pwpadmin\\", is currently editing this Content on the Target site."}}'
+2021-05-25 08:25:18#51 - SyncSettings::settings_api_init():157 action=current_screen
+2021-05-25 08:25:18#51 - SyncSettings::_init_general_settings() tab=general action=current_screen
+2021-05-25 08:25:18#51 - SyncAdmin::admin_enqueue_scripts():118 syncdata=array (
+  'site_key' => '40e68d70bb03c5f701e01c30ca5054cc',
+)
+2021-05-25 08:25:18#51 - SyncAdmin::get_content_details() post id=34
+2021-05-25 08:25:18#51 - SyncModel::get_sync_target_post() sql=SELECT *
+					FROM `wp_spectrom_sync`
+					WHERE `source_content_id`=34 AND `target_site_key`='16a5809b6fd943c2'  AND `content_type`='post'  returned array (
+  'sync_id' => '1',
+  'site_key' => '01e01c30ca5054cc',
+  'source_content_id' => '34',
+  'target_content_id' => '34',
+  'target_site_key' => '16a5809b6fd943c2',
+  'content_type' => 'post',
+  'last_update' => '2021-05-24 09:48:28',
+  'wp_version' => '5.7.2',
+  'sync_version' => '1.7',
+)
+2021-05-25 08:25:18#51 - SyncAdmin::get_content_details():471 - retrieving Target post ID 34
+2021-05-25 08:25:18#51 - SyncApiRequest::api() action="getinfo"
+2021-05-25 08:25:18#51 - SyncApiResponse::__construct():40 req id=NULL
+2021-05-25 08:25:18#51 - SyncApiRequest::api():117 current auth data: array (
+  'post_id' => '34',
+  'post_name' => 'car-insurance-for-learner-and-young-drivers',
+  'username' => 'target-user',
+  'token' => 'xxx',
+  'host' => 'http://s37391.p257.sites.pressdns.com',
+  'auth' => 
+  array (
+    'cookie' => '9116pwpadmin|1620230428|xxx|xxx',
+    'nonce' => 'xxx',
+    'site_key' => '01e01c30ca5054cc',
+  ),
+)
+2021-05-25 08:25:18#51 - SyncApiRequest::api():121 checking action="getinfo"
+2021-05-25 08:25:18#51 - SyncApiRequest::api():151 action="getinfo" data=array (
+  'post_id' => '34',
+  'post_name' => 'car-insurance-for-learner-and-young-drivers',
+  'username' => 'target-user',
+  'token' => 'xxx',
+  'host' => 'http://s37391.p257.sites.pressdns.com',
+  'auth' => 
+  array (
+    'cookie' => '9116pwpadmin|1620230428|xxx|xxx',
+    'nonce' => 'xxx',
+    'site_key' => '01e01c30ca5054cc',
+  ),
+)
+2021-05-25 08:25:18#51 - SyncApiRequest::api():194 sending API request to http://s37391.p257.sites.pressdns.com?pagename=wpsitesync_api&action=getinfo
+    #1: SyncApiRequest->api() - plugins/wpsitesynccontent/classes/admin.php:473
+    #2: SyncAdmin->get_content_details() - plugins/wpsitesynccontent/classes/admin.php:311
+    #3: SyncAdmin->render_sync_metabox() - wp-admin/includes/template.php:1389
+    #4: do_meta_boxes() - wp-admin/edit-form-advanced.php:681
+    #5: require() - wp-admin/post.php:206
+2021-05-25 08:25:18#51 - SyncApiRequest::api():198 req id=01e01c30ca5054cc-144.072518-999
+2021-05-25 08:25:19#51 - SyncApiRequest::api():212 api result from action="getinfo": array (
+  'headers' => 
+  Requests_Utility_CaseInsensitiveDictionary::__set_state(array(
+     'data' => 
+    array (
+      'date' => 'Tue, 25 May 2021 07:25:19 GMT',
+      'content-type' => 'application/json',
+      'link' => '<http://s37391.p257.sites.pressdns.com/wp-json/>; rel="https://api.w.org/"',
+      'x-sync-version' => '1.7',
+      'x-wp-version' => '5.7.2',
+      'spectrom-sync-api-request' => '01e01c30ca5054cc-144.072518-999',
+      'server' => 'Pagely Gateway/1.5.1',
+      'x-user-agent' => 'standard',
+      'x-cache-config' => '0 1',
+      'vary' => 'Accept-Encoding, User-Agent',
+      'content-encoding' => 'gzip',
+    ),
+  )),
+  'body' => '{"error_code":0,"session_timeout":1,"has_errors":0,"success":1,"data":{"access_nonce":"501fe5ac38","auth_cookie":"9116pwpadmin|1621931119|6i1KSq4NdOnPfxZHWUoxBemd9fTDVl5N570ohqUHDU1|e8780ff8738dc23cb04466c6ae71dc2976f33850167161539f011d5305ede40c","user_id":1,"site_key":"16a5809b6fd943c2","target_post_id":34,"post_title":"Car insurance for learner and young drivers","post_author":"9116pwpadmin","modified":"2021-05-24 08:48:29","content":"[get-message color=\\"info\\" message=\\"HELLO!! Latest information on Coronavirus and your ingenie car insurance\\" link=\\"\\/youn"}}',
+  'response' => 
+  array (
+    'code' => 200,
+    'message' => 'OK',
+  ),
+  'cookies' => 
+  array (
+  ),
+  'filename' => NULL,
+  'http_response' => 
+  WP_HTTP_Requests_Response::__set_state(array(
+     'response' => 
+    Requests_Response::__set_state(array(
+       'body' => '{"error_code":0,"session_timeout":1,"has_errors":0,"success":1,"data":{"access_nonce":"501fe5ac38","auth_cookie":"9116pwpadmin|1621931119|6i1KSq4NdOnPfxZHWUoxBemd9fTDVl5N570ohqUHDU1|e8780ff8738dc23cb04466c6ae71dc2976f33850167161539f011d5305ede40c","user_id":1,"site_key":"16a5809b6fd943c2","target_post_id":34,"post_title":"Car insurance for learner and young drivers","post_author":"9116pwpadmin","modified":"2021-05-24 08:48:29","content":"[get-message color=\\"info\\" message=\\"HELLO!! Latest information on Coronavirus and your ingenie car insurance\\" link=\\"\\/youn"}}',
+       'raw' => 'HTTP/1.1 200 OK
+Date: Tue, 25 May 2021 07:25:19 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: close
+Link: <http://s37391.p257.sites.pressdns.com/wp-json/>; rel="https://api.w.org/"
+x-sync-version: 1.7
+x-wp-version: 5.7.2
+spectrom-sync-api-request: 01e01c30ca5054cc-144.072518-999
+Server: Pagely Gateway/1.5.1
+X-User-Agent: standard
+X-Cache-Config: 0 1  
+Vary: Accept-Encoding, User-Agent
+Content-Encoding: gzip
+
+{"error_code":0,"session_timeout":1,"has_errors":0,"success":1,"data":{"access_nonce":"501fe5ac38","auth_cookie":"9116pwpadmin|1621931119|6i1KSq4NdOnPfxZHWUoxBemd9fTDVl5N570ohqUHDU1|e8780ff8738dc23cb04466c6ae71dc2976f33850167161539f011d5305ede40c","user_id":1,"site_key":"16a5809b6fd943c2","target_post_id":34,"post_title":"Car insurance for learner and young drivers","post_author":"9116pwpadmin","modified":"2021-05-24 08:48:29","content":"[get-message color=\\"info\\" message=\\"HELLO!! Latest information on Coronavirus and your ingenie car insurance\\" link=\\"\\/youn"}}',
+       'headers' => 
+      Requests_Response_Headers::__set_state(array(
+         'data' => 
+        array (
+          'date' => 
+          array (
+            0 => 'Tue, 25 May 2021 07:25:19 GMT',
+          ),
+          'content-type' => 
+          array (
+            0 => 'application/json',
+          ),
+          'link' => 
+          array (
+            0 => '<http://s37391.p257.sites.pressdns.com/wp-json/>; rel="https://api.w.org/"',
+          ),
+          'x-sync-version' => 
+          array (
+            0 => '1.7',
+          ),
+          'x-wp-version' => 
+          array (
+            0 => '5.7.2',
+          ),
+          'spectrom-sync-api-request' => 
+          array (
+            0 => '01e01c30ca5054cc-144.072518-999',
+          ),
+          'server' => 
+          array (
+            0 => 'Pagely Gateway/1.5.1',
+          ),
+          'x-user-agent' => 
+          array (
+            0 => 'standard',
+          ),
+          'x-cache-config' => 
+          array (
+            0 => '0 1',
+          ),
+          'vary' => 
+          array (
+            0 => 'Accept-Encoding, User-Agent',
+          ),
+          'content-encoding' => 
+          array (
+            0 => 'gzip',
+          ),
+        ),
+      )),
+       'status_code' => 200,
+       'protocol_version' => 1.1000000000000001,
+       'success' => true,
+       'redirects' => 0,
+       'url' => 'http://s37391.p257.sites.pressdns.com/?pagename=wpsitesync_api&action=getinfo',
+       'history' => 
+      array (
+      ),
+       'cookies' => 
+      Requests_Cookie_Jar::__set_state(array(
+         'cookies' => 
+        array (
+        ),
+      )),
+    )),
+     'filename' => NULL,
+     'data' => NULL,
+     'headers' => NULL,
+     'status' => NULL,
+  )),
+)
+2021-05-25 08:25:19#51 - SyncApiRequest::api():255 response body: '{"error_code":0,"session_timeout":1,"has_errors":0,"success":1,"data":{"access_nonce":"501fe5ac38","auth_cookie":"9116pwpadmin|1621931119|6i1KSq4NdOnPfxZHWUoxBemd9fTDVl5N570ohqUHDU1|e8780ff8738dc23cb04466c6ae71dc2976f33850167161539f011d5305ede40c","user_id":1,"site_key":"16a5809b6fd943c2","target_post_id":34,"post_title":"Car insurance for learner and young drivers","post_author":"9116pwpadmin","modified":"2021-05-24 08:48:29","content":"[get-message color=\\"info\\" message=\\"HELLO!! Latest information on Coronavirus and your ingenie car insurance\\" link=\\"\\/youn"}}'
+2021-05-25 08:25:19#51 - SyncApiRequest::api():259 received response from Target for action="getinfo":
+2021-05-25 08:25:19#51 - SyncApiRequest::api():294 response: array (
+  'session_timeout' => false,
+  'focus' => NULL,
+  'errors' => 
+  array (
+  ),
+  'error_code' => 0,
+  'error_data' => NULL,
+  'notices' => 
+  array (
+  ),
+  'notice_codes' => 
+  array (
+  ),
+  'notice_data' => NULL,
+  'result_codes' => 
+  array (
+  ),
+  'success' => 0,
+  'form' => NULL,
+  'validation' => 
+  array (
+  ),
+  'result' => 
+  array (
+    'headers' => 
+    Requests_Utility_CaseInsensitiveDictionary::__set_state(array(
+       'data' => 
+      array (
+        'date' => 'Tue, 25 May 2021 07:25:19 GMT',
+        'content-type' => 'application/json',
+        'link' => '<http://s37391.p257.sites.pressdns.com/wp-json/>; rel="https://api.w.org/"',
+        'x-sync-version' => '1.7',
+        'x-wp-version' => '5.7.2',
+        'spectrom-sync-api-request' => '01e01c30ca5054cc-144.072518-999',
+        'server' => 'Pagely Gateway/1.5.1',
+        'x-user-agent' => 'standard',
+        'x-cache-config' => '0 1',
+        'vary' => 'Accept-Encoding, User-Agent',
+        'content-encoding' => 'gzip',
+      ),
+    )),
+    'body' => '{"error_code":0,"session_timeout":1,"has_errors":0,"success":1,"data":{"access_nonce":"501fe5ac38","auth_cookie":"9116pwpadmin|1621931119|6i1KSq4NdOnPfxZHWUoxBemd9fTDVl5N570ohqUHDU1|e8780ff8738dc23cb04466c6ae71dc2976f33850167161539f011d5305ede40c","user_id":1,"site_key":"16a5809b6fd943c2","target_post_id":34,"post_title":"Car insurance for learner and young drivers","post_author":"9116pwpadmin","modified":"2021-05-24 08:48:29","content":"[get-message color=\\"info\\" message=\\"HELLO!! Latest information on Coronavirus and your ingenie car insurance\\" link=\\"\\/youn"}}',
+    'response' => 
+    array (
+      'code' => 200,
+      'message' => 'OK',
+    ),
+    'cookies' => 
+    array (
+    ),
+    'filename' => NULL,
+    'http_response' => 
+    WP_HTTP_Requests_Response::__set_state(array(
+       'response' => 
+      Requests_Response::__set_state(array(
+         'body' => '{"error_code":0,"session_timeout":1,"has_errors":0,"success":1,"data":{"access_nonce":"501fe5ac38","auth_cookie":"9116pwpadmin|1621931119|6i1KSq4NdOnPfxZHWUoxBemd9fTDVl5N570ohqUHDU1|e8780ff8738dc23cb04466c6ae71dc2976f33850167161539f011d5305ede40c","user_id":1,"site_key":"16a5809b6fd943c2","target_post_id":34,"post_title":"Car insurance for learner and young drivers","post_author":"9116pwpadmin","modified":"2021-05-24 08:48:29","content":"[get-message color=\\"info\\" message=\\"HELLO!! Latest information on Coronavirus and your ingenie car insurance\\" link=\\"\\/youn"}}',
+         'raw' => 'HTTP/1.1 200 OK
+Date: Tue, 25 May 2021 07:25:19 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: close
+Link: <http://s37391.p257.sites.pressdns.com/wp-json/>; rel="https://api.w.org/"
+x-sync-version: 1.7
+x-wp-version: 5.7.2
+spectrom-sync-api-request: 01e01c30ca5054cc-144.072518-999
+Server: Pagely Gateway/1.5.1
+X-User-Agent: standard
+X-Cache-Config: 0 1  
+Vary: Accept-Encoding, User-Agent
+Content-Encoding: gzip
+
+{"error_code":0,"session_timeout":1,"has_errors":0,"success":1,"data":{"access_nonce":"501fe5ac38","auth_cookie":"9116pwpadmin|1621931119|6i1KSq4NdOnPfxZHWUoxBemd9fTDVl5N570ohqUHDU1|e8780ff8738dc23cb04466c6ae71dc2976f33850167161539f011d5305ede40c","user_id":1,"site_key":"16a5809b6fd943c2","target_post_id":34,"post_title":"Car insurance for learner and young drivers","post_author":"9116pwpadmin","modified":"2021-05-24 08:48:29","content":"[get-message color=\\"info\\" message=\\"HELLO!! Latest information on Coronavirus and your ingenie car insurance\\" link=\\"\\/youn"}}',
+         'headers' => 
+        Requests_Response_Headers::__set_state(array(
+           'data' => 
+          array (
+            'date' => 
+            array (
+              0 => 'Tue, 25 May 2021 07:25:19 GMT',
+            ),
+            'content-type' => 
+            array (
+              0 => 'application/json',
+            ),
+            'link' => 
+            array (
+              0 => '<http://s37391.p257.sites.pressdns.com/wp-json/>; rel="https://api.w.org/"',
+            ),
+            'x-sync-version' => 
+            array (
+              0 => '1.7',
+            ),
+            'x-wp-version' => 
+            array (
+              0 => '5.7.2',
+            ),
+            'spectrom-sync-api-request' => 
+            array (
+              0 => '01e01c30ca5054cc-144.072518-999',
+            ),
+            'server' => 
+            array (
+              0 => 'Pagely Gateway/1.5.1',
+            ),
+            'x-user-agent' => 
+            array (
+              0 => 'standard',
+            ),
+            'x-cache-config' => 
+            array (
+              0 => '0 1',
+            ),
+            'vary' => 
+            array (
+              0 => 'Accept-Encoding, User-Agent',
+            ),
+            'content-encoding' => 
+            array (
+              0 => 'gzip',
+            ),
+          ),
+        )),
+         'status_code' => 200,
+         'protocol_version' => 1.1000000000000001,
+         'success' => true,
+         'redirects' => 0,
+         'url' => 'http://s37391.p257.sites.pressdns.com/?pagename=wpsitesync_api&action=getinfo',
+         'history' => 
+        array (
+        ),
+         'cookies' => 
+        Requests_Cookie_Jar::__set_state(array(
+           'cookies' => 
+          array (
+          ),
+        )),
+      )),
+       'filename' => NULL,
+       'data' => NULL,
+       'headers' => NULL,
+       'status' => NULL,
+    )),
+  ),
+  'response' => 
+  (object) array(
+     'error_code' => 0,
+     'session_timeout' => 1,
+     'has_errors' => 0,
+     'success' => 1,
+     'data' => 
+    (object) array(
+       'access_nonce' => '501fe5ac38',
+       'auth_cookie' => '9116pwpadmin|1621931119|6i1KSq4NdOnPfxZHWUoxBemd9fTDVl5N570ohqUHDU1|e8780ff8738dc23cb04466c6ae71dc2976f33850167161539f011d5305ede40c',
+       'user_id' => 1,
+       'site_key' => '16a5809b6fd943c2',
+       'target_post_id' => 34,
+       'post_title' => 'Car insurance for learner and young drivers',
+       'post_author' => '9116pwpadmin',
+       'modified' => '2021-05-24 08:48:29',
+       'content' => '[get-message color="info" message="HELLO!! Latest information on Coronavirus and your ingenie car insurance" link="/youn',
+    ),
+  ),
+  'nosend' => false,
+  'request_id' => NULL,
+  'data' => 
+  array (
+  ),
+)
+2021-05-25 08:25:19#51 - SyncApiRequest::api():302 perform after action logging action="getinfo"
+2021-05-25 08:25:19#51 - SyncApiRequest::api():366 - triggering "spectrom_sync_action_success" on action="getinfo" data=array (
+  'post_id' => '34',
+  'post_name' => 'car-insurance-for-learner-and-young-drivers',
+  'username' => 'target-user',
+  'token' => 'xxx',
+  'host' => 'http://s37391.p257.sites.pressdns.com',
+  'auth' => 
+  array (
+    'cookie' => '9116pwpadmin|1620230428|xxx|xxx',
+    'nonce' => 'xxx',
+    'site_key' => '01e01c30ca5054cc',
+  ),
+)
+2021-05-25 08:25:19#51 - SyncApiRequest::api():376 starting queue processing
+2021-05-25 08:25:19#51 - SyncApiRequest::_process_queue()
+2021-05-25 08:25:19#51 - SyncApiRequest::_process_queue():428 queue has 0 entries
+2021-05-25 08:25:19#51 - SyncApiRequest::_process_queue():443 queue processing complete
+2021-05-25 08:25:19#51 - SyncApiRequest::api():378 done processing queue
+2021-05-25 08:25:19#51 - SyncAdmin::get_content_details():474 - returned object: array (
+  'session_timeout' => false,
+  'focus' => NULL,
+  'errors' => 
+  array (
+  ),
+  'error_code' => 0,
+  'error_data' => NULL,
+  'notices' => 
+  array (
+  ),
+  'notice_codes' => 
+  array (
+  ),
+  'notice_data' => NULL,
+  'result_codes' => 
+  array (
+  ),
+  'success' => 1,
+  'form' => NULL,
+  'validation' => 
+  array (
+  ),
+  'result' => 
+  array (
+    'headers' => 
+    Requests_Utility_CaseInsensitiveDictionary::__set_state(array(
+       'data' => 
+      array (
+        'date' => 'Tue, 25 May 2021 07:25:19 GMT',
+        'content-type' => 'application/json',
+        'link' => '<http://s37391.p257.sites.pressdns.com/wp-json/>; rel="https://api.w.org/"',
+        'x-sync-version' => '1.7',
+        'x-wp-version' => '5.7.2',
+        'spectrom-sync-api-request' => '01e01c30ca5054cc-144.072518-999',
+        'server' => 'Pagely Gateway/1.5.1',
+        'x-user-agent' => 'standard',
+        'x-cache-config' => '0 1',
+        'vary' => 'Accept-Encoding, User-Agent',
+        'content-encoding' => 'gzip',
+      ),
+    )),
+    'body' => '{"error_code":0,"session_timeout":1,"has_errors":0,"success":1,"data":{"access_nonce":"501fe5ac38","auth_cookie":"9116pwpadmin|1621931119|6i1KSq4NdOnPfxZHWUoxBemd9fTDVl5N570ohqUHDU1|e8780ff8738dc23cb04466c6ae71dc2976f33850167161539f011d5305ede40c","user_id":1,"site_key":"16a5809b6fd943c2","target_post_id":34,"post_title":"Car insurance for learner and young drivers","post_author":"9116pwpadmin","modified":"2021-05-24 08:48:29","content":"[get-message color=\\"info\\" message=\\"HELLO!! Latest information on Coronavirus and your ingenie car insurance\\" link=\\"\\/youn"}}',
+    'response' => 
+    array (
+      'code' => 200,
+      'message' => 'OK',
+    ),
+    'cookies' => 
+    array (
+    ),
+    'filename' => NULL,
+    'http_response' => 
+    WP_HTTP_Requests_Response::__set_state(array(
+       'response' => 
+      Requests_Response::__set_state(array(
+         'body' => '{"error_code":0,"session_timeout":1,"has_errors":0,"success":1,"data":{"access_nonce":"501fe5ac38","auth_cookie":"9116pwpadmin|1621931119|6i1KSq4NdOnPfxZHWUoxBemd9fTDVl5N570ohqUHDU1|e8780ff8738dc23cb04466c6ae71dc2976f33850167161539f011d5305ede40c","user_id":1,"site_key":"16a5809b6fd943c2","target_post_id":34,"post_title":"Car insurance for learner and young drivers","post_author":"9116pwpadmin","modified":"2021-05-24 08:48:29","content":"[get-message color=\\"info\\" message=\\"HELLO!! Latest information on Coronavirus and your ingenie car insurance\\" link=\\"\\/youn"}}',
+         'raw' => 'HTTP/1.1 200 OK
+Date: Tue, 25 May 2021 07:25:19 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: close
+Link: <http://s37391.p257.sites.pressdns.com/wp-json/>; rel="https://api.w.org/"
+x-sync-version: 1.7
+x-wp-version: 5.7.2
+spectrom-sync-api-request: 01e01c30ca5054cc-144.072518-999
+Server: Pagely Gateway/1.5.1
+X-User-Agent: standard
+X-Cache-Config: 0 1  
+Vary: Accept-Encoding, User-Agent
+Content-Encoding: gzip
+
+{"error_code":0,"session_timeout":1,"has_errors":0,"success":1,"data":{"access_nonce":"501fe5ac38","auth_cookie":"9116pwpadmin|1621931119|6i1KSq4NdOnPfxZHWUoxBemd9fTDVl5N570ohqUHDU1|e8780ff8738dc23cb04466c6ae71dc2976f33850167161539f011d5305ede40c","user_id":1,"site_key":"16a5809b6fd943c2","target_post_id":34,"post_title":"Car insurance for learner and young drivers","post_author":"9116pwpadmin","modified":"2021-05-24 08:48:29","content":"[get-message color=\\"info\\" message=\\"HELLO!! Latest information on Coronavirus and your ingenie car insurance\\" link=\\"\\/youn"}}',
+         'headers' => 
+        Requests_Response_Headers::__set_state(array(
+           'data' => 
+          array (
+            'date' => 
+            array (
+              0 => 'Tue, 25 May 2021 07:25:19 GMT',
+            ),
+            'content-type' => 
+            array (
+              0 => 'application/json',
+            ),
+            'link' => 
+            array (
+              0 => '<http://s37391.p257.sites.pressdns.com/wp-json/>; rel="https://api.w.org/"',
+            ),
+            'x-sync-version' => 
+            array (
+              0 => '1.7',
+            ),
+            'x-wp-version' => 
+            array (
+              0 => '5.7.2',
+            ),
+            'spectrom-sync-api-request' => 
+            array (
+              0 => '01e01c30ca5054cc-144.072518-999',
+            ),
+            'server' => 
+            array (
+              0 => 'Pagely Gateway/1.5.1',
+            ),
+            'x-user-agent' => 
+            array (
+              0 => 'standard',
+            ),
+            'x-cache-config' => 
+            array (
+              0 => '0 1',
+            ),
+            'vary' => 
+            array (
+              0 => 'Accept-Encoding, User-Agent',
+            ),
+            'content-encoding' => 
+            array (
+              0 => 'gzip',
+            ),
+          ),
+        )),
+         'status_code' => 200,
+         'protocol_version' => 1.1000000000000001,
+         'success' => true,
+         'redirects' => 0,
+         'url' => 'http://s37391.p257.sites.pressdns.com/?pagename=wpsitesync_api&action=getinfo',
+         'history' => 
+        array (
+        ),
+         'cookies' => 
+        Requests_Cookie_Jar::__set_state(array(
+           'cookies' => 
+          array (
+          ),
+        )),
+      )),
+       'filename' => NULL,
+       'data' => NULL,
+       'headers' => NULL,
+       'status' => NULL,
+    )),
+  ),
+  'response' => 
+  (object) array(
+     'error_code' => 0,
+     'session_timeout' => 1,
+     'has_errors' => 0,
+     'success' => 1,
+     'data' => 
+    (object) array(
+       'access_nonce' => '501fe5ac38',
+       'auth_cookie' => '9116pwpadmin|1621931119|6i1KSq4NdOnPfxZHWUoxBemd9fTDVl5N570ohqUHDU1|e8780ff8738dc23cb04466c6ae71dc2976f33850167161539f011d5305ede40c',
+       'user_id' => 1,
+       'site_key' => '16a5809b6fd943c2',
+       'target_post_id' => 34,
+       'post_title' => 'Car insurance for learner and young drivers',
+       'post_author' => '9116pwpadmin',
+       'modified' => '2021-05-24 08:48:29',
+       'content' => '[get-message color="info" message="HELLO!! Latest information on Coronavirus and your ingenie car insurance" link="/youn',
+    ),
+  ),
+  'nosend' => false,
+  'request_id' => NULL,
+  'data' => 
+  array (
+  ),
+)
+2021-05-25 08:25:19#51 - SyncAdmin::get_content_details():493 - response data: array (
+  'access_nonce' => '501fe5ac38',
+  'auth_cookie' => '9116pwpadmin|1621931119|6i1KSq4NdOnPfxZHWUoxBemd9fTDVl5N570ohqUHDU1|e8780ff8738dc23cb04466c6ae71dc2976f33850167161539f011d5305ede40c',
+  'user_id' => 1,
+  'site_key' => '16a5809b6fd943c2',
+  'target_post_id' => 34,
+  'post_title' => 'Car insurance for learner and young drivers',
+  'post_author' => '9116pwpadmin',
+  'modified' => '2021-05-24 08:48:29',
+  'content' => '[get-message color="info" message="HELLO!! Latest information on Coronavirus and your ingenie car insurance" link="/youn',
+)
+2021-05-25 08:25:30#49 - SyncSettings::settings_api_init():157 action=current_screen
+2021-05-25 08:25:30#49 - SyncSettings::_init_general_settings() tab=general action=current_screen
+2021-05-25 08:25:30#49 - SyncModel::remove_all_sync_data() sql=DELETE FROM `wp_spectrom_sync`
+			WHERE (`source_content_id`=887 AND `site_key`='01e01c30ca5054cc') OR
+				(`target_content_id`=887 AND `target_site_key`='01e01c30ca5054cc')
+2021-05-25 08:25:30#48 - SyncSettings::settings_api_init():157 action=current_screen
+2021-05-25 08:25:30#48 - SyncSettings::_init_general_settings() tab=general action=current_screen
+2021-05-25 08:25:30#48 - SyncAdmin::admin_enqueue_scripts():118 syncdata=array (
+  'site_key' => '40e68d70bb03c5f701e01c30ca5054cc',
+)
+2021-05-25 08:25:30#48 - SyncAdmin::get_content_details() post id=34
+2021-05-25 08:25:30#48 - SyncModel::get_sync_target_post() sql=SELECT *
+					FROM `wp_spectrom_sync`
+					WHERE `source_content_id`=34 AND `target_site_key`='16a5809b6fd943c2'  AND `content_type`='post'  returned array (
+  'sync_id' => '1',
+  'site_key' => '01e01c30ca5054cc',
+  'source_content_id' => '34',
+  'target_content_id' => '34',
+  'target_site_key' => '16a5809b6fd943c2',
+  'content_type' => 'post',
+  'last_update' => '2021-05-24 09:48:28',
+  'wp_version' => '5.7.2',
+  'sync_version' => '1.7',
+)
+2021-05-25 08:25:30#48 - SyncAdmin::get_content_details():471 - retrieving Target post ID 34
+2021-05-25 08:25:30#48 - SyncApiRequest::api() action="getinfo"
+2021-05-25 08:25:30#48 - SyncApiResponse::__construct():40 req id=NULL
+2021-05-25 08:25:30#48 - SyncApiRequest::api():117 current auth data: array (
+  'post_id' => '34',
+  'post_name' => 'car-insurance-for-learner-and-young-drivers',
+  'username' => 'target-user',
+  'token' => 'xxx',
+  'host' => 'http://s37391.p257.sites.pressdns.com',
+  'auth' => 
+  array (
+    'cookie' => '9116pwpadmin|1620230428|xxx|xxx',
+    'nonce' => 'xxx',
+    'site_key' => '01e01c30ca5054cc',
+  ),
+)
+2021-05-25 08:25:30#48 - SyncApiRequest::api():121 checking action="getinfo"
+2021-05-25 08:25:30#48 - SyncApiRequest::api():151 action="getinfo" data=array (
+  'post_id' => '34',
+  'post_name' => 'car-insurance-for-learner-and-young-drivers',
+  'username' => 'target-user',
+  'token' => 'xxx',
+  'host' => 'http://s37391.p257.sites.pressdns.com',
+  'auth' => 
+  array (
+    'cookie' => '9116pwpadmin|1620230428|xxx|xxx',
+    'nonce' => 'xxx',
+    'site_key' => '01e01c30ca5054cc',
+  ),
+)
+2021-05-25 08:25:30#48 - SyncApiRequest::api():194 sending API request to http://s37391.p257.sites.pressdns.com?pagename=wpsitesync_api&action=getinfo
+    #1: SyncApiRequest->api() - plugins/wpsitesynccontent/classes/admin.php:473
+    #2: SyncAdmin->get_content_details() - plugins/wpsitesynccontent/classes/admin.php:311
+    #3: SyncAdmin->render_sync_metabox() - wp-admin/includes/template.php:1389
+    #4: do_meta_boxes() - wp-admin/edit-form-advanced.php:681
+    #5: require() - wp-admin/post.php:206
+2021-05-25 08:25:30#48 - SyncApiRequest::api():198 req id=01e01c30ca5054cc-144.072530-872
+2021-05-25 08:25:31#48 - SyncApiRequest::api():212 api result from action="getinfo": array (
+  'headers' => 
+  Requests_Utility_CaseInsensitiveDictionary::__set_state(array(
+     'data' => 
+    array (
+      'date' => 'Tue, 25 May 2021 07:25:31 GMT',
+      'content-type' => 'application/json',
+      'link' => '<http://s37391.p257.sites.pressdns.com/wp-json/>; rel="https://api.w.org/"',
+      'x-sync-version' => '1.7',
+      'x-wp-version' => '5.7.2',
+      'spectrom-sync-api-request' => '01e01c30ca5054cc-144.072530-872',
+      'server' => 'Pagely Gateway/1.5.1',
+      'x-user-agent' => 'standard',
+      'x-cache-config' => '0 1',
+      'vary' => 'Accept-Encoding, User-Agent',
+      'content-encoding' => 'gzip',
+    ),
+  )),
+  'body' => '{"error_code":0,"session_timeout":1,"has_errors":0,"success":1,"data":{"access_nonce":"501fe5ac38","auth_cookie":"9116pwpadmin|1621931131|SLitiaT7ekvZ2dvrkeGgZIgaphh3wH36GGxyfTAOJNF|90c50c50e31c8542f8569c861ca4735caab055f348268de1e9968391d2e7cb16","user_id":1,"site_key":"16a5809b6fd943c2","target_post_id":34,"post_title":"Car insurance for learner and young drivers","post_author":"9116pwpadmin","modified":"2021-05-24 08:48:29","content":"[get-message color=\\"info\\" message=\\"HELLO!! Latest information on Coronavirus and your ingenie car insurance\\" link=\\"\\/youn"}}',
+  'response' => 
+  array (
+    'code' => 200,
+    'message' => 'OK',
+  ),
+  'cookies' => 
+  array (
+  ),
+  'filename' => NULL,
+  'http_response' => 
+  WP_HTTP_Requests_Response::__set_state(array(
+     'response' => 
+    Requests_Response::__set_state(array(
+       'body' => '{"error_code":0,"session_timeout":1,"has_errors":0,"success":1,"data":{"access_nonce":"501fe5ac38","auth_cookie":"9116pwpadmin|1621931131|SLitiaT7ekvZ2dvrkeGgZIgaphh3wH36GGxyfTAOJNF|90c50c50e31c8542f8569c861ca4735caab055f348268de1e9968391d2e7cb16","user_id":1,"site_key":"16a5809b6fd943c2","target_post_id":34,"post_title":"Car insurance for learner and young drivers","post_author":"9116pwpadmin","modified":"2021-05-24 08:48:29","content":"[get-message color=\\"info\\" message=\\"HELLO!! Latest information on Coronavirus and your ingenie car insurance\\" link=\\"\\/youn"}}',
+       'raw' => 'HTTP/1.1 200 OK
+Date: Tue, 25 May 2021 07:25:31 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: close
+Link: <http://s37391.p257.sites.pressdns.com/wp-json/>; rel="https://api.w.org/"
+x-sync-version: 1.7
+x-wp-version: 5.7.2
+spectrom-sync-api-request: 01e01c30ca5054cc-144.072530-872
+Server: Pagely Gateway/1.5.1
+X-User-Agent: standard
+X-Cache-Config: 0 1  
+Vary: Accept-Encoding, User-Agent
+Content-Encoding: gzip
+
+{"error_code":0,"session_timeout":1,"has_errors":0,"success":1,"data":{"access_nonce":"501fe5ac38","auth_cookie":"9116pwpadmin|1621931131|SLitiaT7ekvZ2dvrkeGgZIgaphh3wH36GGxyfTAOJNF|90c50c50e31c8542f8569c861ca4735caab055f348268de1e9968391d2e7cb16","user_id":1,"site_key":"16a5809b6fd943c2","target_post_id":34,"post_title":"Car insurance for learner and young drivers","post_author":"9116pwpadmin","modified":"2021-05-24 08:48:29","content":"[get-message color=\\"info\\" message=\\"HELLO!! Latest information on Coronavirus and your ingenie car insurance\\" link=\\"\\/youn"}}',
+       'headers' => 
+      Requests_Response_Headers::__set_state(array(
+         'data' => 
+        array (
+          'date' => 
+          array (
+            0 => 'Tue, 25 May 2021 07:25:31 GMT',
+          ),
+          'content-type' => 
+          array (
+            0 => 'application/json',
+          ),
+          'link' => 
+          array (
+            0 => '<http://s37391.p257.sites.pressdns.com/wp-json/>; rel="https://api.w.org/"',
+          ),
+          'x-sync-version' => 
+          array (
+            0 => '1.7',
+          ),
+          'x-wp-version' => 
+          array (
+            0 => '5.7.2',
+          ),
+          'spectrom-sync-api-request' => 
+          array (
+            0 => '01e01c30ca5054cc-144.072530-872',
+          ),
+          'server' => 
+          array (
+            0 => 'Pagely Gateway/1.5.1',
+          ),
+          'x-user-agent' => 
+          array (
+            0 => 'standard',
+          ),
+          'x-cache-config' => 
+          array (
+            0 => '0 1',
+          ),
+          'vary' => 
+          array (
+            0 => 'Accept-Encoding, User-Agent',
+          ),
+          'content-encoding' => 
+          array (
+            0 => 'gzip',
+          ),
+        ),
+      )),
+       'status_code' => 200,
+       'protocol_version' => 1.1000000000000001,
+       'success' => true,
+       'redirects' => 0,
+       'url' => 'http://s37391.p257.sites.pressdns.com/?pagename=wpsitesync_api&action=getinfo',
+       'history' => 
+      array (
+      ),
+       'cookies' => 
+      Requests_Cookie_Jar::__set_state(array(
+         'cookies' => 
+        array (
+        ),
+      )),
+    )),
+     'filename' => NULL,
+     'data' => NULL,
+     'headers' => NULL,
+     'status' => NULL,
+  )),
+)
+2021-05-25 08:25:31#48 - SyncApiRequest::api():255 response body: '{"error_code":0,"session_timeout":1,"has_errors":0,"success":1,"data":{"access_nonce":"501fe5ac38","auth_cookie":"9116pwpadmin|1621931131|SLitiaT7ekvZ2dvrkeGgZIgaphh3wH36GGxyfTAOJNF|90c50c50e31c8542f8569c861ca4735caab055f348268de1e9968391d2e7cb16","user_id":1,"site_key":"16a5809b6fd943c2","target_post_id":34,"post_title":"Car insurance for learner and young drivers","post_author":"9116pwpadmin","modified":"2021-05-24 08:48:29","content":"[get-message color=\\"info\\" message=\\"HELLO!! Latest information on Coronavirus and your ingenie car insurance\\" link=\\"\\/youn"}}'
+2021-05-25 08:25:31#48 - SyncApiRequest::api():259 received response from Target for action="getinfo":
+2021-05-25 08:25:31#48 - SyncApiRequest::api():294 response: array (
+  'session_timeout' => false,
+  'focus' => NULL,
+  'errors' => 
+  array (
+  ),
+  'error_code' => 0,
+  'error_data' => NULL,
+  'notices' => 
+  array (
+  ),
+  'notice_codes' => 
+  array (
+  ),
+  'notice_data' => NULL,
+  'result_codes' => 
+  array (
+  ),
+  'success' => 0,
+  'form' => NULL,
+  'validation' => 
+  array (
+  ),
+  'result' => 
+  array (
+    'headers' => 
+    Requests_Utility_CaseInsensitiveDictionary::__set_state(array(
+       'data' => 
+      array (
+        'date' => 'Tue, 25 May 2021 07:25:31 GMT',
+        'content-type' => 'application/json',
+        'link' => '<http://s37391.p257.sites.pressdns.com/wp-json/>; rel="https://api.w.org/"',
+        'x-sync-version' => '1.7',
+        'x-wp-version' => '5.7.2',
+        'spectrom-sync-api-request' => '01e01c30ca5054cc-144.072530-872',
+        'server' => 'Pagely Gateway/1.5.1',
+        'x-user-agent' => 'standard',
+        'x-cache-config' => '0 1',
+        'vary' => 'Accept-Encoding, User-Agent',
+        'content-encoding' => 'gzip',
+      ),
+    )),
+    'body' => '{"error_code":0,"session_timeout":1,"has_errors":0,"success":1,"data":{"access_nonce":"501fe5ac38","auth_cookie":"9116pwpadmin|1621931131|SLitiaT7ekvZ2dvrkeGgZIgaphh3wH36GGxyfTAOJNF|90c50c50e31c8542f8569c861ca4735caab055f348268de1e9968391d2e7cb16","user_id":1,"site_key":"16a5809b6fd943c2","target_post_id":34,"post_title":"Car insurance for learner and young drivers","post_author":"9116pwpadmin","modified":"2021-05-24 08:48:29","content":"[get-message color=\\"info\\" message=\\"HELLO!! Latest information on Coronavirus and your ingenie car insurance\\" link=\\"\\/youn"}}',
+    'response' => 
+    array (
+      'code' => 200,
+      'message' => 'OK',
+    ),
+    'cookies' => 
+    array (
+    ),
+    'filename' => NULL,
+    'http_response' => 
+    WP_HTTP_Requests_Response::__set_state(array(
+       'response' => 
+      Requests_Response::__set_state(array(
+         'body' => '{"error_code":0,"session_timeout":1,"has_errors":0,"success":1,"data":{"access_nonce":"501fe5ac38","auth_cookie":"9116pwpadmin|1621931131|SLitiaT7ekvZ2dvrkeGgZIgaphh3wH36GGxyfTAOJNF|90c50c50e31c8542f8569c861ca4735caab055f348268de1e9968391d2e7cb16","user_id":1,"site_key":"16a5809b6fd943c2","target_post_id":34,"post_title":"Car insurance for learner and young drivers","post_author":"9116pwpadmin","modified":"2021-05-24 08:48:29","content":"[get-message color=\\"info\\" message=\\"HELLO!! Latest information on Coronavirus and your ingenie car insurance\\" link=\\"\\/youn"}}',
+         'raw' => 'HTTP/1.1 200 OK
+Date: Tue, 25 May 2021 07:25:31 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: close
+Link: <http://s37391.p257.sites.pressdns.com/wp-json/>; rel="https://api.w.org/"
+x-sync-version: 1.7
+x-wp-version: 5.7.2
+spectrom-sync-api-request: 01e01c30ca5054cc-144.072530-872
+Server: Pagely Gateway/1.5.1
+X-User-Agent: standard
+X-Cache-Config: 0 1  
+Vary: Accept-Encoding, User-Agent
+Content-Encoding: gzip
+
+{"error_code":0,"session_timeout":1,"has_errors":0,"success":1,"data":{"access_nonce":"501fe5ac38","auth_cookie":"9116pwpadmin|1621931131|SLitiaT7ekvZ2dvrkeGgZIgaphh3wH36GGxyfTAOJNF|90c50c50e31c8542f8569c861ca4735caab055f348268de1e9968391d2e7cb16","user_id":1,"site_key":"16a5809b6fd943c2","target_post_id":34,"post_title":"Car insurance for learner and young drivers","post_author":"9116pwpadmin","modified":"2021-05-24 08:48:29","content":"[get-message color=\\"info\\" message=\\"HELLO!! Latest information on Coronavirus and your ingenie car insurance\\" link=\\"\\/youn"}}',
+         'headers' => 
+        Requests_Response_Headers::__set_state(array(
+           'data' => 
+          array (
+            'date' => 
+            array (
+              0 => 'Tue, 25 May 2021 07:25:31 GMT',
+            ),
+            'content-type' => 
+            array (
+              0 => 'application/json',
+            ),
+            'link' => 
+            array (
+              0 => '<http://s37391.p257.sites.pressdns.com/wp-json/>; rel="https://api.w.org/"',
+            ),
+            'x-sync-version' => 
+            array (
+              0 => '1.7',
+            ),
+            'x-wp-version' => 
+            array (
+              0 => '5.7.2',
+            ),
+            'spectrom-sync-api-request' => 
+            array (
+              0 => '01e01c30ca5054cc-144.072530-872',
+            ),
+            'server' => 
+            array (
+              0 => 'Pagely Gateway/1.5.1',
+            ),
+            'x-user-agent' => 
+            array (
+              0 => 'standard',
+            ),
+            'x-cache-config' => 
+            array (
+              0 => '0 1',
+            ),
+            'vary' => 
+            array (
+              0 => 'Accept-Encoding, User-Agent',
+            ),
+            'content-encoding' => 
+            array (
+              0 => 'gzip',
+            ),
+          ),
+        )),
+         'status_code' => 200,
+         'protocol_version' => 1.1000000000000001,
+         'success' => true,
+         'redirects' => 0,
+         'url' => 'http://s37391.p257.sites.pressdns.com/?pagename=wpsitesync_api&action=getinfo',
+         'history' => 
+        array (
+        ),
+         'cookies' => 
+        Requests_Cookie_Jar::__set_state(array(
+           'cookies' => 
+          array (
+          ),
+        )),
+      )),
+       'filename' => NULL,
+       'data' => NULL,
+       'headers' => NULL,
+       'status' => NULL,
+    )),
+  ),
+  'response' => 
+  (object) array(
+     'error_code' => 0,
+     'session_timeout' => 1,
+     'has_errors' => 0,
+     'success' => 1,
+     'data' => 
+    (object) array(
+       'access_nonce' => '501fe5ac38',
+       'auth_cookie' => '9116pwpadmin|1621931131|SLitiaT7ekvZ2dvrkeGgZIgaphh3wH36GGxyfTAOJNF|90c50c50e31c8542f8569c861ca4735caab055f348268de1e9968391d2e7cb16',
+       'user_id' => 1,
+       'site_key' => '16a5809b6fd943c2',
+       'target_post_id' => 34,
+       'post_title' => 'Car insurance for learner and young drivers',
+       'post_author' => '9116pwpadmin',
+       'modified' => '2021-05-24 08:48:29',
+       'content' => '[get-message color="info" message="HELLO!! Latest information on Coronavirus and your ingenie car insurance" link="/youn',
+    ),
+  ),
+  'nosend' => false,
+  'request_id' => NULL,
+  'data' => 
+  array (
+  ),
+)
+2021-05-25 08:25:31#48 - SyncApiRequest::api():302 perform after action logging action="getinfo"
+2021-05-25 08:25:31#48 - SyncApiRequest::api():366 - triggering "spectrom_sync_action_success" on action="getinfo" data=array (
+  'post_id' => '34',
+  'post_name' => 'car-insurance-for-learner-and-young-drivers',
+  'username' => 'target-user',
+  'token' => 'xxx',
+  'host' => 'http://s37391.p257.sites.pressdns.com',
+  'auth' => 
+  array (
+    'cookie' => '9116pwpadmin|1620230428|xxx|xxx',
+    'nonce' => 'xxx',
+    'site_key' => '01e01c30ca5054cc',
+  ),
+)
+2021-05-25 08:25:31#48 - SyncApiRequest::api():376 starting queue processing
+2021-05-25 08:25:31#48 - SyncApiRequest::_process_queue()
+2021-05-25 08:25:31#48 - SyncApiRequest::_process_queue():428 queue has 0 entries
+2021-05-25 08:25:31#48 - SyncApiRequest::_process_queue():443 queue processing complete
+2021-05-25 08:25:31#48 - SyncApiRequest::api():378 done processing queue
+2021-05-25 08:25:31#48 - SyncAdmin::get_content_details():474 - returned object: array (
+  'session_timeout' => false,
+  'focus' => NULL,
+  'errors' => 
+  array (
+  ),
+  'error_code' => 0,
+  'error_data' => NULL,
+  'notices' => 
+  array (
+  ),
+  'notice_codes' => 
+  array (
+  ),
+  'notice_data' => NULL,
+  'result_codes' => 
+  array (
+  ),
+  'success' => 1,
+  'form' => NULL,
+  'validation' => 
+  array (
+  ),
+  'result' => 
+  array (
+    'headers' => 
+    Requests_Utility_CaseInsensitiveDictionary::__set_state(array(
+       'data' => 
+      array (
+        'date' => 'Tue, 25 May 2021 07:25:31 GMT',
+        'content-type' => 'application/json',
+        'link' => '<http://s37391.p257.sites.pressdns.com/wp-json/>; rel="https://api.w.org/"',
+        'x-sync-version' => '1.7',
+        'x-wp-version' => '5.7.2',
+        'spectrom-sync-api-request' => '01e01c30ca5054cc-144.072530-872',
+        'server' => 'Pagely Gateway/1.5.1',
+        'x-user-agent' => 'standard',
+        'x-cache-config' => '0 1',
+        'vary' => 'Accept-Encoding, User-Agent',
+        'content-encoding' => 'gzip',
+      ),
+    )),
+    'body' => '{"error_code":0,"session_timeout":1,"has_errors":0,"success":1,"data":{"access_nonce":"501fe5ac38","auth_cookie":"9116pwpadmin|1621931131|SLitiaT7ekvZ2dvrkeGgZIgaphh3wH36GGxyfTAOJNF|90c50c50e31c8542f8569c861ca4735caab055f348268de1e9968391d2e7cb16","user_id":1,"site_key":"16a5809b6fd943c2","target_post_id":34,"post_title":"Car insurance for learner and young drivers","post_author":"9116pwpadmin","modified":"2021-05-24 08:48:29","content":"[get-message color=\\"info\\" message=\\"HELLO!! Latest information on Coronavirus and your ingenie car insurance\\" link=\\"\\/youn"}}',
+    'response' => 
+    array (
+      'code' => 200,
+      'message' => 'OK',
+    ),
+    'cookies' => 
+    array (
+    ),
+    'filename' => NULL,
+    'http_response' => 
+    WP_HTTP_Requests_Response::__set_state(array(
+       'response' => 
+      Requests_Response::__set_state(array(
+         'body' => '{"error_code":0,"session_timeout":1,"has_errors":0,"success":1,"data":{"access_nonce":"501fe5ac38","auth_cookie":"9116pwpadmin|1621931131|SLitiaT7ekvZ2dvrkeGgZIgaphh3wH36GGxyfTAOJNF|90c50c50e31c8542f8569c861ca4735caab055f348268de1e9968391d2e7cb16","user_id":1,"site_key":"16a5809b6fd943c2","target_post_id":34,"post_title":"Car insurance for learner and young drivers","post_author":"9116pwpadmin","modified":"2021-05-24 08:48:29","content":"[get-message color=\\"info\\" message=\\"HELLO!! Latest information on Coronavirus and your ingenie car insurance\\" link=\\"\\/youn"}}',
+         'raw' => 'HTTP/1.1 200 OK
+Date: Tue, 25 May 2021 07:25:31 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: close
+Link: <http://s37391.p257.sites.pressdns.com/wp-json/>; rel="https://api.w.org/"
+x-sync-version: 1.7
+x-wp-version: 5.7.2
+spectrom-sync-api-request: 01e01c30ca5054cc-144.072530-872
+Server: Pagely Gateway/1.5.1
+X-User-Agent: standard
+X-Cache-Config: 0 1  
+Vary: Accept-Encoding, User-Agent
+Content-Encoding: gzip
+
+{"error_code":0,"session_timeout":1,"has_errors":0,"success":1,"data":{"access_nonce":"501fe5ac38","auth_cookie":"9116pwpadmin|1621931131|SLitiaT7ekvZ2dvrkeGgZIgaphh3wH36GGxyfTAOJNF|90c50c50e31c8542f8569c861ca4735caab055f348268de1e9968391d2e7cb16","user_id":1,"site_key":"16a5809b6fd943c2","target_post_id":34,"post_title":"Car insurance for learner and young drivers","post_author":"9116pwpadmin","modified":"2021-05-24 08:48:29","content":"[get-message color=\\"info\\" message=\\"HELLO!! Latest information on Coronavirus and your ingenie car insurance\\" link=\\"\\/youn"}}',
+         'headers' => 
+        Requests_Response_Headers::__set_state(array(
+           'data' => 
+          array (
+            'date' => 
+            array (
+              0 => 'Tue, 25 May 2021 07:25:31 GMT',
+            ),
+            'content-type' => 
+            array (
+              0 => 'application/json',
+            ),
+            'link' => 
+            array (
+              0 => '<http://s37391.p257.sites.pressdns.com/wp-json/>; rel="https://api.w.org/"',
+            ),
+            'x-sync-version' => 
+            array (
+              0 => '1.7',
+            ),
+            'x-wp-version' => 
+            array (
+              0 => '5.7.2',
+            ),
+            'spectrom-sync-api-request' => 
+            array (
+              0 => '01e01c30ca5054cc-144.072530-872',
+            ),
+            'server' => 
+            array (
+              0 => 'Pagely Gateway/1.5.1',
+            ),
+            'x-user-agent' => 
+            array (
+              0 => 'standard',
+            ),
+            'x-cache-config' => 
+            array (
+              0 => '0 1',
+            ),
+            'vary' => 
+            array (
+              0 => 'Accept-Encoding, User-Agent',
+            ),
+            'content-encoding' => 
+            array (
+              0 => 'gzip',
+            ),
+          ),
+        )),
+         'status_code' => 200,
+         'protocol_version' => 1.1000000000000001,
+         'success' => true,
+         'redirects' => 0,
+         'url' => 'http://s37391.p257.sites.pressdns.com/?pagename=wpsitesync_api&action=getinfo',
+         'history' => 
+        array (
+        ),
+         'cookies' => 
+        Requests_Cookie_Jar::__set_state(array(
+           'cookies' => 
+          array (
+          ),
+        )),
+      )),
+       'filename' => NULL,
+       'data' => NULL,
+       'headers' => NULL,
+       'status' => NULL,
+    )),
+  ),
+  'response' => 
+  (object) array(
+     'error_code' => 0,
+     'session_timeout' => 1,
+     'has_errors' => 0,
+     'success' => 1,
+     'data' => 
+    (object) array(
+       'access_nonce' => '501fe5ac38',
+       'auth_cookie' => '9116pwpadmin|1621931131|SLitiaT7ekvZ2dvrkeGgZIgaphh3wH36GGxyfTAOJNF|90c50c50e31c8542f8569c861ca4735caab055f348268de1e9968391d2e7cb16',
+       'user_id' => 1,
+       'site_key' => '16a5809b6fd943c2',
+       'target_post_id' => 34,
+       'post_title' => 'Car insurance for learner and young drivers',
+       'post_author' => '9116pwpadmin',
+       'modified' => '2021-05-24 08:48:29',
+       'content' => '[get-message color="info" message="HELLO!! Latest information on Coronavirus and your ingenie car insurance" link="/youn',
+    ),
+  ),
+  'nosend' => false,
+  'request_id' => NULL,
+  'data' => 
+  array (
+  ),
+)
+2021-05-25 08:25:31#48 - SyncAdmin::get_content_details():493 - response data: array (
+  'access_nonce' => '501fe5ac38',
+  'auth_cookie' => '9116pwpadmin|1621931131|SLitiaT7ekvZ2dvrkeGgZIgaphh3wH36GGxyfTAOJNF|90c50c50e31c8542f8569c861ca4735caab055f348268de1e9968391d2e7cb16',
+  'user_id' => 1,
+  'site_key' => '16a5809b6fd943c2',
+  'target_post_id' => 34,
+  'post_title' => 'Car insurance for learner and young drivers',
+  'post_author' => '9116pwpadmin',
+  'modified' => '2021-05-24 08:48:29',
+  'content' => '[get-message color="info" message="HELLO!! Latest information on Coronavirus and your ingenie car insurance" link="/youn',
+)
+2021-05-25 08:25:35#27 - WPSiteSyncContent::check_ajax_query():160 action=wp_ajax_spectrom_sync
+2021-05-25 08:25:35#27 - SyncApiResponse::__construct():40 req id=NULL
+2021-05-25 08:25:35#27 - SyncApiResponse::_send_headers():324 no request id found
+2021-05-25 08:25:35#27 - SyncAjax::dispatch():52 op='push'
+2021-05-25 08:25:35#27 - SyncAjax::dispatch():65 signaling api readiness
+2021-05-25 08:25:35#27 - SyncApiRequest::api() action="push"
+2021-05-25 08:25:35#27 - SyncApiResponse::__construct():40 req id=NULL
+2021-05-25 08:25:35#27 - SyncApiRequest::api():117 current auth data: array (
+  'post_id' => 34,
+  'username' => 'target-user',
+  'token' => 'xxx',
+  'host' => 'http://s37391.p257.sites.pressdns.com',
+  'auth' => 
+  array (
+    'cookie' => '9116pwpadmin|1620230428|xxx|xxx',
+    'nonce' => 'xxx',
+    'site_key' => '01e01c30ca5054cc',
+  ),
+)
+2021-05-25 08:25:35#27 - SyncApiRequest::api():121 checking action="push"
+2021-05-25 08:25:35#27 - SyncModel::build_sync_data() post id=34
+2021-05-25 08:25:35#27 - SyncModel::_build_tax_data():391 post id #34 post_type=page
+2021-05-25 08:25:35#27 - SyncModel::get_sync_data() sql: SELECT *
+				FROM `wp_spectrom_sync`
+				
+				WHERE `source_content_id`=34 AND `site_key`='01e01c30ca5054cc'  AND `content_type`='post' 
+				LIMIT 1
+2021-05-25 08:25:35#27 - SyncApiRequest::_parse_media() id #34
+2021-05-25 08:25:35#27 - SyncApiRequest::_parse_media():878 post thumb id=0
+2021-05-25 08:25:35#27 - SyncApiRequest::_parse_media():902 found 3 <img> tags
+2021-05-25 08:25:35#27 - SyncApiRequest::_parse_media():909 <img src="/resources/img/pages/logos/ingenie-blog-logo.svg" class="w-10/12 md:w-8/12 mx-auto mt-2 mb-4" ...>
+2021-05-25 08:25:35#27 - SyncAttachModel::search_by_guid() sql=SELECT *
+				FROM `wp_posts`
+				WHERE `post_type`='attachment' AND `guid`='/resources/img/pages/logos/ingenie-blog-logo.svg'
+2021-05-25 08:25:35#27 -  - res=array (
+)
+2021-05-25 08:25:35#27 - SyncAttachModel::search_by_guid():27 performing extended search for /resources/img/pages/logos/ingenie-blog-logo.svg
+2021-05-25 08:25:35#27 - SyncAttachModel::get_image_sizes():128 found size: 'thumbnail'
+2021-05-25 08:25:35#27 - SyncAttachModel::get_image_sizes():128 found size: 'medium'
+2021-05-25 08:25:35#27 - SyncAttachModel::get_image_sizes():128 found size: 'medium_large'
+2021-05-25 08:25:35#27 - SyncAttachModel::get_image_sizes():128 found size: 'large'
+2021-05-25 08:25:35#27 - SyncAttachModel::get_image_sizes():128 found size: '1536x1536'
+2021-05-25 08:25:35#27 - SyncAttachModel::get_image_sizes():128 found size: '2048x2048'
+2021-05-25 08:25:35#27 - SyncAttachModel::get_image_sizes():128 found size: 'blog-large'
+2021-05-25 08:25:35#27 - SyncAttachModel::get_image_sizes():128 found size: 'blog-small'
+2021-05-25 08:25:35#27 - SyncAttachModel::get_image_sizes():128 found size: 'ingenie-ads'
+2021-05-25 08:25:35#27 - SyncAttachModel::get_image_sizes():128 found size: 'quote_thumbnails'
+2021-05-25 08:25:35#27 -  - image sizes: array (
+  0 => '150x150',
+  1 => '300x300',
+  2 => '768x0',
+  3 => '1024x1024',
+  4 => '1536x1536',
+  5 => '2048x2048',
+  6 => '750x450',
+  7 => '400x200',
+  8 => '350x350',
+  9 => '120x120',
+)
+2021-05-25 08:25:35#27 - SyncAttachModel::search_by_guid():52 img=/resources/img/pages/logos/ingenie-blog.svg
+2021-05-25 08:25:35#27 - SyncAttachModel::search_by_guid() sql=SELECT *
+				FROM `wp_posts`
+				WHERE `post_type`='attachment' AND `guid`='/resources/img/pages/logos/ingenie-blog.svg'
+2021-05-25 08:25:35#27 -  - res=array (
+)
+2021-05-25 08:25:35#27 - SyncAttachModel::search_by_guid():54 res=array (
+)
+2021-05-25 08:25:35#27 - SyncApiRequest::_parse_media():938 attachments: array (
+)
+2021-05-25 08:25:35#27 - SyncApiRequest::_parse_media():955 calling send_media("/resources/img/pages/logos/ingenie-blog-logo.svg", 34, 0, 0)
+2021-05-25 08:25:35#27 - SyncApiRequest::send_media('/resources/img/pages/logos/ingenie-blog-logo.svg', 34, 0, 0)
+2021-05-25 08:25:35#27 - SyncApiRequest::send_media():1633 added image #1: /resources/img/pages/logos/ingenie-blog-logo.svg
+2021-05-25 08:25:35#27 - SyncApiRequest::send_media():1638 url=/resources/img/pages/logos/ingenie-blog-logo.svg parts=array (
+  'path' => '/resources/img/pages/logos/ingenie-blog-logo.svg',
+  'host' => '',
+)
+2021-05-25 08:25:35#27 - SyncApiRequest::send_media():1646 sending image: /resources/img/pages/logos/ingenie-blog-logo.svg
+2021-05-25 08:25:35#27 - SyncApiRequest::url_to_path('/resources/img/pages/logos/ingenie-blog-logo.svg'):1792
+2021-05-25 08:25:35#27 - SyncApiRequest::url_to_path():1795 url parts=array (
+  'path' => '/resources/img/pages/logos/ingenie-blog-logo.svg',
+)
+2021-05-25 08:25:35#27 - SyncApiRequest::url_to_path():1809 domain=ingeniewordpress.local site=http://ingeniewordpress.local parts=array (
+  'path' => '/resources/img/pages/logos/ingenie-blog-logo.svg',
+  'host' => 'ingeniewordpress.local',
+  'scheme' => 'http',
+)
+2021-05-25 08:25:35#27 - SyncApiRequest::get_home_path():1836 home=http://ingeniewordpress.local
+2021-05-25 08:25:35#27 - SyncApiRequest::get_home_path():1840 site=http://ingeniewordpress.local
+2021-05-25 08:25:35#27 - SyncApiRequest::get_home_path():1843 home=[ingeniewordpress.local] site=[ingeniewordpress.local]
+2021-05-25 08:25:35#27 - SyncApiRequest::get_home_path():1853 home=ABSPATH
+2021-05-25 08:25:35#27 - SyncApiRequest::get_home_path():1856 returning "/Users/elton/LocalRepos/ingeniewordpress/app/public/"
+2021-05-25 08:25:35#27 - SyncApiRequest::url_to_path():1818 home=/Users/elton/LocalRepos/ingeniewordpress/app/public/
+2021-05-25 08:25:35#27 - SyncApiRequest::url_to_path():1819 path=/resources/img/pages/logos/ingenie-blog-logo.svg
+2021-05-25 08:25:35#27 - SyncApiRequest::url_to_path():1821 converting "/resources/img/pages/logos/ingenie-blog-logo.svg" to "/Users/elton/LocalRepos/ingeniewordpress/app/public/resources/img/pages/logos/ingenie-blog-logo.svg"
+2021-05-25 08:25:35#27 - SyncApiRequest::send_media():1648 path: /Users/elton/LocalRepos/ingeniewordpress/app/public/resources/img/pages/logos/ingenie-blog-logo.svg
+2021-05-25 08:25:35#27 - SyncApiRequest::send_media() src_parts[host]= source_domain=ingeniewordpress.local
+2021-05-25 08:25:35#27 - SyncApiRequest::upload_media() post_id=34 path=/Users/elton/LocalRepos/ingeniewordpress/app/public/resources/img/pages/logos/ingenie-blog-logo.svg featured=FALSE attach_id=0
+    #1: SyncApiRequest->upload_media() - plugins/wpsitesynccontent/classes/apirequest.php:1654
+    #2: SyncApiRequest->send_media() - plugins/wpsitesynccontent/classes/apirequest.php:958
+    #3: SyncApiRequest->_parse_media() - plugins/wpsitesynccontent/classes/apirequest.php:728
+    #4: SyncApiRequest->get_push_data() - plugins/wpsitesynccontent/classes/apirequest.php:766
+    #5: SyncApiRequest->_push() - plugins/wpsitesynccontent/classes/apirequest.php:128
+    #6: SyncApiRequest->api() - plugins/wpsitesynccontent/classes/ajax.php:162
+    #7: SyncAjax->push() - plugins/wpsitesynccontent/classes/ajax.php:97
+    #8: SyncAjax->dispatch() - plugins/wpsitesynccontent/wpsitesynccontent.php:163
+    #9: WPSiteSyncContent->check_ajax_query() - wp-includes/class-wp-hook.php:292
+    #10: WP_Hook->apply_filters() - wp-includes/class-wp-hook.php:316
+    #11: WP_Hook->do_action() - wp-includes/plugin.php:484
+    #12: do_action() - wp-admin/admin-ajax.php:187
+2021-05-25 08:25:35#27 - SyncApiRequest::_get_image_contents():1752 path=/Users/elton/LocalRepos/ingeniewordpress/app/public/resources/img/pages/logos/ingenie-blog-logo.svg
+2021-05-25 08:25:35#27 - SyncApiRequest::_get_image_contents():1761 reading file contents: /Users/elton/LocalRepos/ingeniewordpress/app/public/resources/img/pages/logos/ingenie-blog-logo.svg
+2021-05-25 08:25:35#27 - SyncApiRequest::upload_media():1731 image post /Users/elton/LocalRepos/ingeniewordpress/app/public/resources/img/pages/logos/ingenie-blog-logo.svg
+2021-05-25 08:25:35#27 - SyncApiRequest::_add_queue() adding "upload_media" to queue
+2021-05-25 08:25:35#27 - SyncApiRequest::send_media():1659 upload_media() successful
+2021-05-25 08:25:35#27 - SyncApiRequest::_parse_media():964 img id does not match attachment
+2021-05-25 08:25:35#27 - SyncApiRequest::_parse_media():909 <img src="/resources/img/pages/logos/ydg-logo.svg" class="homepage-blog-cards" ...>
+2021-05-25 08:25:35#27 - SyncAttachModel::search_by_guid() sql=SELECT *
+				FROM `wp_posts`
+				WHERE `post_type`='attachment' AND `guid`='/resources/img/pages/logos/ydg-logo.svg'
+2021-05-25 08:25:35#27 -  - res=array (
+)
+2021-05-25 08:25:35#27 - SyncAttachModel::search_by_guid():27 performing extended search for /resources/img/pages/logos/ydg-logo.svg
+2021-05-25 08:25:35#27 - SyncAttachModel::search_by_guid():52 img=/resources/img/pages/logos/ydg.svg
+2021-05-25 08:25:35#27 - SyncAttachModel::search_by_guid() sql=SELECT *
+				FROM `wp_posts`
+				WHERE `post_type`='attachment' AND `guid`='/resources/img/pages/logos/ydg.svg'
+2021-05-25 08:25:35#27 -  - res=array (
+)
+2021-05-25 08:25:35#27 - SyncAttachModel::search_by_guid():54 res=array (
+)
+2021-05-25 08:25:35#27 - SyncApiRequest::_parse_media():938 attachments: array (
+)
+2021-05-25 08:25:35#27 - SyncApiRequest::_parse_media():955 calling send_media("/resources/img/pages/logos/ydg-logo.svg", 34, 0, 0)
+2021-05-25 08:25:35#27 - SyncApiRequest::send_media('/resources/img/pages/logos/ydg-logo.svg', 34, 0, 0)
+2021-05-25 08:25:35#27 - SyncApiRequest::send_media():1633 added image #2: /resources/img/pages/logos/ydg-logo.svg
+2021-05-25 08:25:35#27 - SyncApiRequest::send_media():1638 url=/resources/img/pages/logos/ydg-logo.svg parts=array (
+  'path' => '/resources/img/pages/logos/ydg-logo.svg',
+  'host' => '',
+)
+2021-05-25 08:25:35#27 - SyncApiRequest::send_media():1646 sending image: /resources/img/pages/logos/ydg-logo.svg
+2021-05-25 08:25:35#27 - SyncApiRequest::url_to_path('/resources/img/pages/logos/ydg-logo.svg'):1792
+2021-05-25 08:25:35#27 - SyncApiRequest::url_to_path():1795 url parts=array (
+  'path' => '/resources/img/pages/logos/ydg-logo.svg',
+)
+2021-05-25 08:25:35#27 - SyncApiRequest::url_to_path():1809 domain=ingeniewordpress.local site=http://ingeniewordpress.local parts=array (
+  'path' => '/resources/img/pages/logos/ydg-logo.svg',
+  'host' => 'ingeniewordpress.local',
+  'scheme' => 'http',
+)
+2021-05-25 08:25:35#27 - SyncApiRequest::get_home_path():1836 home=http://ingeniewordpress.local
+2021-05-25 08:25:35#27 - SyncApiRequest::get_home_path():1840 site=http://ingeniewordpress.local
+2021-05-25 08:25:35#27 - SyncApiRequest::get_home_path():1843 home=[ingeniewordpress.local] site=[ingeniewordpress.local]
+2021-05-25 08:25:35#27 - SyncApiRequest::get_home_path():1853 home=ABSPATH
+2021-05-25 08:25:35#27 - SyncApiRequest::get_home_path():1856 returning "/Users/elton/LocalRepos/ingeniewordpress/app/public/"
+2021-05-25 08:25:35#27 - SyncApiRequest::url_to_path():1818 home=/Users/elton/LocalRepos/ingeniewordpress/app/public/
+2021-05-25 08:25:35#27 - SyncApiRequest::url_to_path():1819 path=/resources/img/pages/logos/ydg-logo.svg
+2021-05-25 08:25:35#27 - SyncApiRequest::url_to_path():1821 converting "/resources/img/pages/logos/ydg-logo.svg" to "/Users/elton/LocalRepos/ingeniewordpress/app/public/resources/img/pages/logos/ydg-logo.svg"
+2021-05-25 08:25:35#27 - SyncApiRequest::send_media():1648 path: /Users/elton/LocalRepos/ingeniewordpress/app/public/resources/img/pages/logos/ydg-logo.svg
+2021-05-25 08:25:35#27 - SyncApiRequest::send_media() src_parts[host]= source_domain=ingeniewordpress.local
+2021-05-25 08:25:35#27 - SyncApiRequest::upload_media() post_id=34 path=/Users/elton/LocalRepos/ingeniewordpress/app/public/resources/img/pages/logos/ydg-logo.svg featured=FALSE attach_id=0
+    #1: SyncApiRequest->upload_media() - plugins/wpsitesynccontent/classes/apirequest.php:1654
+    #2: SyncApiRequest->send_media() - plugins/wpsitesynccontent/classes/apirequest.php:958
+    #3: SyncApiRequest->_parse_media() - plugins/wpsitesynccontent/classes/apirequest.php:728
+    #4: SyncApiRequest->get_push_data() - plugins/wpsitesynccontent/classes/apirequest.php:766
+    #5: SyncApiRequest->_push() - plugins/wpsitesynccontent/classes/apirequest.php:128
+    #6: SyncApiRequest->api() - plugins/wpsitesynccontent/classes/ajax.php:162
+    #7: SyncAjax->push() - plugins/wpsitesynccontent/classes/ajax.php:97
+    #8: SyncAjax->dispatch() - plugins/wpsitesynccontent/wpsitesynccontent.php:163
+    #9: WPSiteSyncContent->check_ajax_query() - wp-includes/class-wp-hook.php:292
+    #10: WP_Hook->apply_filters() - wp-includes/class-wp-hook.php:316
+    #11: WP_Hook->do_action() - wp-includes/plugin.php:484
+    #12: do_action() - wp-admin/admin-ajax.php:187
+2021-05-25 08:25:35#27 - SyncApiRequest::_get_image_contents():1752 path=/Users/elton/LocalRepos/ingeniewordpress/app/public/resources/img/pages/logos/ydg-logo.svg
+2021-05-25 08:25:35#27 - SyncApiRequest::_get_image_contents():1761 reading file contents: /Users/elton/LocalRepos/ingeniewordpress/app/public/resources/img/pages/logos/ydg-logo.svg
+2021-05-25 08:25:35#27 - SyncApiRequest::upload_media():1731 image post /Users/elton/LocalRepos/ingeniewordpress/app/public/resources/img/pages/logos/ydg-logo.svg
+2021-05-25 08:25:35#27 - SyncApiRequest::_add_queue() adding "upload_media" to queue
+2021-05-25 08:25:35#27 - SyncApiRequest::send_media():1659 upload_media() successful
+2021-05-25 08:25:35#27 - SyncApiRequest::_parse_media():964 img id does not match attachment
+2021-05-25 08:25:35#27 - SyncApiRequest::_parse_media():909 <img src="/resources/img/pages/logos/parents-guide-logo.svg" class="homepage-blog-cards" ...>
+2021-05-25 08:25:35#27 - SyncAttachModel::search_by_guid() sql=SELECT *
+				FROM `wp_posts`
+				WHERE `post_type`='attachment' AND `guid`='/resources/img/pages/logos/parents-guide-logo.svg'
+2021-05-25 08:25:35#27 -  - res=array (
+)
+2021-05-25 08:25:35#27 - SyncAttachModel::search_by_guid():27 performing extended search for /resources/img/pages/logos/parents-guide-logo.svg
+2021-05-25 08:25:35#27 - SyncAttachModel::search_by_guid():52 img=/resources/img/pages/logos/parents-guide.svg
+2021-05-25 08:25:35#27 - SyncAttachModel::search_by_guid() sql=SELECT *
+				FROM `wp_posts`
+				WHERE `post_type`='attachment' AND `guid`='/resources/img/pages/logos/parents-guide.svg'
+2021-05-25 08:25:35#27 -  - res=array (
+)
+2021-05-25 08:25:35#27 - SyncAttachModel::search_by_guid():54 res=array (
+)
+2021-05-25 08:25:35#27 - SyncApiRequest::_parse_media():938 attachments: array (
+)
+2021-05-25 08:25:35#27 - SyncApiRequest::_parse_media():955 calling send_media("/resources/img/pages/logos/parents-guide-logo.svg", 34, 0, 0)
+2021-05-25 08:25:35#27 - SyncApiRequest::send_media('/resources/img/pages/logos/parents-guide-logo.svg', 34, 0, 0)
+2021-05-25 08:25:35#27 - SyncApiRequest::send_media():1633 added image #3: /resources/img/pages/logos/parents-guide-logo.svg
+2021-05-25 08:25:35#27 - SyncApiRequest::send_media():1638 url=/resources/img/pages/logos/parents-guide-logo.svg parts=array (
+  'path' => '/resources/img/pages/logos/parents-guide-logo.svg',
+  'host' => '',
+)
+2021-05-25 08:25:35#27 - SyncApiRequest::send_media():1646 sending image: /resources/img/pages/logos/parents-guide-logo.svg
+2021-05-25 08:25:35#27 - SyncApiRequest::url_to_path('/resources/img/pages/logos/parents-guide-logo.svg'):1792
+2021-05-25 08:25:35#27 - SyncApiRequest::url_to_path():1795 url parts=array (
+  'path' => '/resources/img/pages/logos/parents-guide-logo.svg',
+)
+2021-05-25 08:25:35#27 - SyncApiRequest::url_to_path():1809 domain=ingeniewordpress.local site=http://ingeniewordpress.local parts=array (
+  'path' => '/resources/img/pages/logos/parents-guide-logo.svg',
+  'host' => 'ingeniewordpress.local',
+  'scheme' => 'http',
+)
+2021-05-25 08:25:35#27 - SyncApiRequest::get_home_path():1836 home=http://ingeniewordpress.local
+2021-05-25 08:25:35#27 - SyncApiRequest::get_home_path():1840 site=http://ingeniewordpress.local
+2021-05-25 08:25:35#27 - SyncApiRequest::get_home_path():1843 home=[ingeniewordpress.local] site=[ingeniewordpress.local]
+2021-05-25 08:25:35#27 - SyncApiRequest::get_home_path():1853 home=ABSPATH
+2021-05-25 08:25:35#27 - SyncApiRequest::get_home_path():1856 returning "/Users/elton/LocalRepos/ingeniewordpress/app/public/"
+2021-05-25 08:25:35#27 - SyncApiRequest::url_to_path():1818 home=/Users/elton/LocalRepos/ingeniewordpress/app/public/
+2021-05-25 08:25:35#27 - SyncApiRequest::url_to_path():1819 path=/resources/img/pages/logos/parents-guide-logo.svg
+2021-05-25 08:25:35#27 - SyncApiRequest::url_to_path():1821 converting "/resources/img/pages/logos/parents-guide-logo.svg" to "/Users/elton/LocalRepos/ingeniewordpress/app/public/resources/img/pages/logos/parents-guide-logo.svg"
+2021-05-25 08:25:35#27 - SyncApiRequest::send_media():1648 path: /Users/elton/LocalRepos/ingeniewordpress/app/public/resources/img/pages/logos/parents-guide-logo.svg
+2021-05-25 08:25:35#27 - SyncApiRequest::send_media() src_parts[host]= source_domain=ingeniewordpress.local
+2021-05-25 08:25:35#27 - SyncApiRequest::upload_media() post_id=34 path=/Users/elton/LocalRepos/ingeniewordpress/app/public/resources/img/pages/logos/parents-guide-logo.svg featured=FALSE attach_id=0
+    #1: SyncApiRequest->upload_media() - plugins/wpsitesynccontent/classes/apirequest.php:1654
+    #2: SyncApiRequest->send_media() - plugins/wpsitesynccontent/classes/apirequest.php:958
+    #3: SyncApiRequest->_parse_media() - plugins/wpsitesynccontent/classes/apirequest.php:728
+    #4: SyncApiRequest->get_push_data() - plugins/wpsitesynccontent/classes/apirequest.php:766
+    #5: SyncApiRequest->_push() - plugins/wpsitesynccontent/classes/apirequest.php:128
+    #6: SyncApiRequest->api() - plugins/wpsitesynccontent/classes/ajax.php:162
+    #7: SyncAjax->push() - plugins/wpsitesynccontent/classes/ajax.php:97
+    #8: SyncAjax->dispatch() - plugins/wpsitesynccontent/wpsitesynccontent.php:163
+    #9: WPSiteSyncContent->check_ajax_query() - wp-includes/class-wp-hook.php:292
+    #10: WP_Hook->apply_filters() - wp-includes/class-wp-hook.php:316
+    #11: WP_Hook->do_action() - wp-includes/plugin.php:484
+    #12: do_action() - wp-admin/admin-ajax.php:187
+2021-05-25 08:25:35#27 - SyncApiRequest::_get_image_contents():1752 path=/Users/elton/LocalRepos/ingeniewordpress/app/public/resources/img/pages/logos/parents-guide-logo.svg
+2021-05-25 08:25:35#27 - SyncApiRequest::_get_image_contents():1761 reading file contents: /Users/elton/LocalRepos/ingeniewordpress/app/public/resources/img/pages/logos/parents-guide-logo.svg
+2021-05-25 08:25:35#27 - SyncApiRequest::upload_media():1731 image post /Users/elton/LocalRepos/ingeniewordpress/app/public/resources/img/pages/logos/parents-guide-logo.svg
+2021-05-25 08:25:35#27 - SyncApiRequest::_add_queue() adding "upload_media" to queue
+2021-05-25 08:25:35#27 - SyncApiRequest::send_media():1659 upload_media() successful
+2021-05-25 08:25:35#27 - SyncApiRequest::_parse_media():964 img id does not match attachment
+2021-05-25 08:25:35#27 - SyncApiRequest::_parse_media():972 found 15 <a> tags
+2021-05-25 08:25:35#27 - SyncApiRequest::_parse_media():1048 checking URL [http://www.w3.org/2000/svg]
+2021-05-25 08:25:35#27 - SyncAttachModel::search_by_guid() sql=SELECT *
+				FROM `wp_posts`
+				WHERE `post_type`='attachment' AND `guid`='http://www.w3.org/2000/svg'
+2021-05-25 08:25:35#27 -  - res=array (
+)
+2021-05-25 08:25:35#27 - SyncAttachModel::search_by_guid():27 performing extended search for http://www.w3.org/2000/svg
+2021-05-25 08:25:35#27 - SyncApiRequest::_parse_media():1052 found 0 results array (
+)
+2021-05-25 08:25:35#27 - SyncApiRequest::_parse_media():1064 no attachment id found
+2021-05-25 08:25:35#27 - SyncApiRequest::_parse_media():1048 checking URL [http://www.w3.org/2000/svg]
+2021-05-25 08:25:35#27 - SyncAttachModel::search_by_guid() sql=SELECT *
+				FROM `wp_posts`
+				WHERE `post_type`='attachment' AND `guid`='http://www.w3.org/2000/svg'
+2021-05-25 08:25:35#27 -  - res=array (
+)
+2021-05-25 08:25:35#27 - SyncAttachModel::search_by_guid():27 performing extended search for http://www.w3.org/2000/svg
+2021-05-25 08:25:35#27 - SyncApiRequest::_parse_media():1052 found 0 results array (
+)
+2021-05-25 08:25:35#27 - SyncApiRequest::_parse_media():1064 no attachment id found
+2021-05-25 08:25:35#27 - SyncApiRequest::_parse_media():1048 checking URL [http://www.w3.org/2000/svg]
+2021-05-25 08:25:35#27 - SyncAttachModel::search_by_guid() sql=SELECT *
+				FROM `wp_posts`
+				WHERE `post_type`='attachment' AND `guid`='http://www.w3.org/2000/svg'
+2021-05-25 08:25:35#27 -  - res=array (
+)
+2021-05-25 08:25:35#27 - SyncAttachModel::search_by_guid():27 performing extended search for http://www.w3.org/2000/svg
+2021-05-25 08:25:35#27 - SyncApiRequest::_parse_media():1052 found 0 results array (
+)
+2021-05-25 08:25:35#27 - SyncApiRequest::_parse_media():1064 no attachment id found
+2021-05-25 08:25:35#27 - SyncApiRequest::_parse_media():1048 checking URL [http://www.w3.org/2000/svg]
+2021-05-25 08:25:35#27 - SyncAttachModel::search_by_guid() sql=SELECT *
+				FROM `wp_posts`
+				WHERE `post_type`='attachment' AND `guid`='http://www.w3.org/2000/svg'
+2021-05-25 08:25:35#27 -  - res=array (
+)
+2021-05-25 08:25:35#27 - SyncAttachModel::search_by_guid():27 performing extended search for http://www.w3.org/2000/svg
+2021-05-25 08:25:35#27 - SyncApiRequest::_parse_media():1052 found 0 results array (
+)
+2021-05-25 08:25:35#27 - SyncApiRequest::_parse_media():1064 no attachment id found
+2021-05-25 08:25:35#27 - SyncApiRequest::_parse_media():1048 checking URL [http://www.w3.org/2000/svg]
+2021-05-25 08:25:35#27 - SyncAttachModel::search_by_guid() sql=SELECT *
+				FROM `wp_posts`
+				WHERE `post_type`='attachment' AND `guid`='http://www.w3.org/2000/svg'
+2021-05-25 08:25:35#27 -  - res=array (
+)
+2021-05-25 08:25:35#27 - SyncAttachModel::search_by_guid():27 performing extended search for http://www.w3.org/2000/svg
+2021-05-25 08:25:35#27 - SyncApiRequest::_parse_media():1052 found 0 results array (
+)
+2021-05-25 08:25:35#27 - SyncApiRequest::_parse_media():1064 no attachment id found
+2021-05-25 08:25:35#27 - SyncApiRequest::_parse_media():1048 checking URL [http://www.w3.org/2000/svg]
+2021-05-25 08:25:35#27 - SyncAttachModel::search_by_guid() sql=SELECT *
+				FROM `wp_posts`
+				WHERE `post_type`='attachment' AND `guid`='http://www.w3.org/2000/svg'
+2021-05-25 08:25:35#27 -  - res=array (
+)
+2021-05-25 08:25:35#27 - SyncAttachModel::search_by_guid():27 performing extended search for http://www.w3.org/2000/svg
+2021-05-25 08:25:35#27 - SyncApiRequest::_parse_media():1052 found 0 results array (
+)
+2021-05-25 08:25:35#27 - SyncApiRequest::_parse_media():1064 no attachment id found
+2021-05-25 08:25:35#27 - SyncApiRequest::_parse_media():1048 checking URL [http://www.w3.org/2000/svg]
+2021-05-25 08:25:35#27 - SyncAttachModel::search_by_guid() sql=SELECT *
+				FROM `wp_posts`
+				WHERE `post_type`='attachment' AND `guid`='http://www.w3.org/2000/svg'
+2021-05-25 08:25:35#27 -  - res=array (
+)
+2021-05-25 08:25:35#27 - SyncAttachModel::search_by_guid():27 performing extended search for http://www.w3.org/2000/svg
+2021-05-25 08:25:35#27 - SyncApiRequest::_parse_media():1052 found 0 results array (
+)
+2021-05-25 08:25:35#27 - SyncApiRequest::_parse_media():1064 no attachment id found
+2021-05-25 08:25:35#27 - SyncApiRequest::_parse_media():1048 checking URL [http://www.w3.org/2000/svg]
+2021-05-25 08:25:35#27 - SyncAttachModel::search_by_guid() sql=SELECT *
+				FROM `wp_posts`
+				WHERE `post_type`='attachment' AND `guid`='http://www.w3.org/2000/svg'
+2021-05-25 08:25:35#27 -  - res=array (
+)
+2021-05-25 08:25:35#27 - SyncAttachModel::search_by_guid():27 performing extended search for http://www.w3.org/2000/svg
+2021-05-25 08:25:35#27 - SyncApiRequest::_parse_media():1052 found 0 results array (
+)
+2021-05-25 08:25:35#27 - SyncApiRequest::_parse_media():1064 no attachment id found
+2021-05-25 08:25:35#27 - SyncApiRequest::_parse_media():1048 checking URL [http://www.w3.org/2000/svg]
+2021-05-25 08:25:35#27 - SyncAttachModel::search_by_guid() sql=SELECT *
+				FROM `wp_posts`
+				WHERE `post_type`='attachment' AND `guid`='http://www.w3.org/2000/svg'
+2021-05-25 08:25:35#27 -  - res=array (
+)
+2021-05-25 08:25:35#27 - SyncAttachModel::search_by_guid():27 performing extended search for http://www.w3.org/2000/svg
+2021-05-25 08:25:35#27 - SyncApiRequest::_parse_media():1052 found 0 results array (
+)
+2021-05-25 08:25:35#27 - SyncApiRequest::_parse_media():1064 no attachment id found
+2021-05-25 08:25:35#27 - SyncApiRequest::_parse_media():1048 checking URL [http://www.w3.org/2000/svg]
+2021-05-25 08:25:35#27 - SyncAttachModel::search_by_guid() sql=SELECT *
+				FROM `wp_posts`
+				WHERE `post_type`='attachment' AND `guid`='http://www.w3.org/2000/svg'
+2021-05-25 08:25:35#27 -  - res=array (
+)
+2021-05-25 08:25:35#27 - SyncAttachModel::search_by_guid():27 performing extended search for http://www.w3.org/2000/svg
+2021-05-25 08:25:35#27 - SyncApiRequest::_parse_media():1052 found 0 results array (
+)
+2021-05-25 08:25:35#27 - SyncApiRequest::_parse_media():1064 no attachment id found
+2021-05-25 08:25:35#27 - SyncApiRequest::_parse_media():1048 checking URL [http://www.w3.org/2000/svg]
+2021-05-25 08:25:35#27 - SyncAttachModel::search_by_guid() sql=SELECT *
+				FROM `wp_posts`
+				WHERE `post_type`='attachment' AND `guid`='http://www.w3.org/2000/svg'
+2021-05-25 08:25:35#27 -  - res=array (
+)
+2021-05-25 08:25:35#27 - SyncAttachModel::search_by_guid():27 performing extended search for http://www.w3.org/2000/svg
+2021-05-25 08:25:35#27 - SyncApiRequest::_parse_media():1052 found 0 results array (
+)
+2021-05-25 08:25:35#27 - SyncApiRequest::_parse_media():1064 no attachment id found
+2021-05-25 08:25:35#27 - SyncApiRequest::_parse_media():1048 checking URL [http://www.w3.org/2000/svg]
+2021-05-25 08:25:35#27 - SyncAttachModel::search_by_guid() sql=SELECT *
+				FROM `wp_posts`
+				WHERE `post_type`='attachment' AND `guid`='http://www.w3.org/2000/svg'
+2021-05-25 08:25:35#27 -  - res=array (
+)
+2021-05-25 08:25:35#27 - SyncAttachModel::search_by_guid():27 performing extended search for http://www.w3.org/2000/svg
+2021-05-25 08:25:35#27 - SyncApiRequest::_parse_media():1052 found 0 results array (
+)
+2021-05-25 08:25:35#27 - SyncApiRequest::_parse_media():1064 no attachment id found
+2021-05-25 08:25:35#27 - SyncApiRequest::_parse_media():1048 checking URL [http://www.w3.org/2000/svg]
+2021-05-25 08:25:35#27 - SyncAttachModel::search_by_guid() sql=SELECT *
+				FROM `wp_posts`
+				WHERE `post_type`='attachment' AND `guid`='http://www.w3.org/2000/svg'
+2021-05-25 08:25:35#27 -  - res=array (
+)
+2021-05-25 08:25:35#27 - SyncAttachModel::search_by_guid():27 performing extended search for http://www.w3.org/2000/svg
+2021-05-25 08:25:35#27 - SyncApiRequest::_parse_media():1052 found 0 results array (
+)
+2021-05-25 08:25:35#27 - SyncApiRequest::_parse_media():1064 no attachment id found
+2021-05-25 08:25:35#27 - SyncApiRequest::_parse_media():1048 checking URL [http://www.w3.org/2000/svg]
+2021-05-25 08:25:35#27 - SyncAttachModel::search_by_guid() sql=SELECT *
+				FROM `wp_posts`
+				WHERE `post_type`='attachment' AND `guid`='http://www.w3.org/2000/svg'
+2021-05-25 08:25:35#27 -  - res=array (
+)
+2021-05-25 08:25:35#27 - SyncAttachModel::search_by_guid():27 performing extended search for http://www.w3.org/2000/svg
+2021-05-25 08:25:35#27 - SyncApiRequest::_parse_media():1052 found 0 results array (
+)
+2021-05-25 08:25:35#27 - SyncApiRequest::_parse_media():1064 no attachment id found
+2021-05-25 08:25:35#27 - SyncApiRequest::_parse_media():1069 done processing media
+2021-05-25 08:25:35#27 - SyncApiRequest::parse_shortcodes():1089 matches=array (
+  0 => 
+  array (
+  ),
+  1 => 
+  array (
+  ),
+  2 => 
+  array (
+  ),
+  3 => 
+  array (
+  ),
+  4 => 
+  array (
+  ),
+  5 => 
+  array (
+  ),
+  6 => 
+  array (
+  ),
+)
+2021-05-25 08:25:35#27 - SyncApiRequest::get_push_data():735 after parse_shortcodes() res=true
+2021-05-25 08:25:35#27 - SyncApiRequest::get_push_data():747 all content processed; id refs=0 sent images=3 trigger=FALSE
+2021-05-25 08:25:35#27 - SyncApiRequest::trigger_push_complete():1534 adding "push_complete" callback
+2021-05-25 08:25:35#27 - SyncApiRequest::api():151 action="push" data=array (
+  'post_id' => 34,
+  'username' => 'target-user',
+  'token' => 'xxx',
+  'host' => 'http://s37391.p257.sites.pressdns.com',
+  'auth' => 
+  array (
+    'cookie' => '9116pwpadmin|1620230428|xxx|xxx',
+    'nonce' => 'xxx',
+    'site_key' => '01e01c30ca5054cc',
+  ),
+  'target_post_id' => '34',
+  'post_data' => 
+  array (
+    'ID' => 34,
+    'post_author' => '1',
+    'post_date' => '2020-08-25 18:02:12',
+    'post_date_gmt' => '2020-08-25 17:02:12',
+    'post_content' => '[get-message color="info" message="Latest information on Coronavirus and your ingenie car insurance" link="/young-driver-insurance/learner-car-insurance"]
+
+<!-- Title -->
+<h1 class="heading-1 text-center">Car insurance for learner and young drivers</h1>
+
+[get-hero src="ig-homepage-desktop.svg" alt="homepage banner alt text"]
+
+<!-- Choose your insurance - 3 col -->
+<h2 class="heading-2 text-center">Choose your insurance</h2>
+
+<div class="flex flex-wrap justify-center mb-4">
+	<div class="flex-auto md:flex-1">
+		<div class="standard-card text-center">
+			<h3 class="heading-3">Learning in my car</h3>
+			<ul class="standard-list">
+				<li>Start building up your own NCD</li>
+				<li>Black box to help you improve</li>
+				<li>Discounts up to [yd_drive_safe_discount_txt] if you drive well***</li>
+			</ul>
+			<div class="px-1 pt-4 pb-2">
+				<a href="/young-driver-insurance/learner-car-insurance" class="primary-link-sm inline-flex">
+					<span>Find out more</span>
+					<svg xmlns="http://www.w3.org/2000/svg" class="btn-icon-right" fill="none" viewBox="0 0 24 24"
+						 stroke="currentColor">
+						<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+							  d="M13 9l3 3m0 0l-3 3m3-3H8m13 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+					</svg>
+				</a>
+			</div>
+
+			<a href="[yd_get_a_quote_url]" class="primary-btn inline-flex absolute transform -translate-x-1/2" target="_blank" rel="noopener">
+				<span>Get a quote</span>
+				<svg xmlns="http://www.w3.org/2000/svg" class="btn-icon-right" viewBox="0 0 20 20" fill="currentColor">
+					<path fill-rule="evenodd"
+						  d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-8.707l-3-3a1 1 0 00-1.414 1.414L10.586 9H7a1 1 0 100 2h3.586l-1.293 1.293a1 1 0 101.414 1.414l3-3a1 1 0 000-1.414z"
+						  clip-rule="evenodd" />
+				</svg>
+			</a>
+
+
+		</div>
+	</div>
+
+	<div class="flex-auto md:flex-1">
+		<div class="standard-card text-center">
+			<h3 class="heading-3">Learning in another car</h3>
+			<ul class="standard-list">
+				<li>Drive someone’s car from [learner_quotes_start_from_txt] a day*</li>
+				<li>Flexible cover (1 month to 6 months)</li>
+				<li>The car owner\'s NCD is protected</li>
+			</ul>
+
+			<div class="px-1 pt-4 pb-2">
+				<a href="/learner-driver-insurance/how-it-works" class="primary-link-sm inline-flex">
+					<span>Find out more</span>
+					<svg xmlns="http://www.w3.org/2000/svg" class="btn-icon-right" fill="none" viewBox="0 0 24 24"
+						 stroke="currentColor">
+						<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+							  d="M13 9l3 3m0 0l-3 3m3-3H8m13 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+					</svg>
+				</a>
+			</div>
+
+
+			<a href="[learner_get_a_quote_url]" class="primary-btn inline-flex absolute transform -translate-x-1/2" target="_blank" rel="noopener">
+				<span>Get a quote</span>
+				<svg xmlns="http://www.w3.org/2000/svg" class="btn-icon-right" viewBox="0 0 20 20" fill="currentColor">
+					<path fill-rule="evenodd"
+						  d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-8.707l-3-3a1 1 0 00-1.414 1.414L10.586 9H7a1 1 0 100 2h3.586l-1.293 1.293a1 1 0 101.414 1.414l3-3a1 1 0 000-1.414z"
+						  clip-rule="evenodd" />
+				</svg>
+			</a>
+
+
+		</div>
+	</div>
+
+	<div class="flex-auto md:flex-1">
+		<div class="standard-card text-center">
+
+			<h3 class="heading-3">Passed my test</h3>
+			<ul class="standard-list">
+				<li>Black box to help you improve</li>
+				<li>Discounts up to [yd_drive_safe_discount_txt] if you drive well***</li>
+				<li>Save an average of [yd_renewal_discount_txt] on renewal**</li>
+			</ul>
+
+			<div class="px-1 pt-4 pb-2">
+				<a href="/young-driver-insurance" class="primary-link-sm inline-flex">
+					<span>Find out more</span>
+					<svg xmlns="http://www.w3.org/2000/svg" class="btn-icon-right" fill="none" viewBox="0 0 24 24"
+						 stroke="currentColor">
+						<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+							  d="M13 9l3 3m0 0l-3 3m3-3H8m13 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+					</svg>
+				</a>
+			</div>
+
+
+			<a href="[yd_get_a_quote_url]" class="primary-btn inline-flex absolute transform -translate-x-1/2">
+				<span>Get a quote</span>
+				<svg xmlns="http://www.w3.org/2000/svg" class="btn-icon-right" viewBox="0 0 20 20" fill="currentColor">
+					<path fill-rule="evenodd"
+						  d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-8.707l-3-3a1 1 0 00-1.414 1.414L10.586 9H7a1 1 0 100 2h3.586l-1.293 1.293a1 1 0 101.414 1.414l3-3a1 1 0 000-1.414z"
+						  clip-rule="evenodd" />
+				</svg>
+			</a>
+		</div>
+	</div>
+</div>
+
+<p class="small-print">
+	*[learner_sp_dates_discount_txt]
+	**[yd_sp_dates_renewals_txt] 
+***[yd_sp_premium_increases_txt]
+	</p>
+
+<!-- TrustBox - horizontal bar -->
+[trust-pilot-bar]
+
+<!-- What our custoemr say -->
+<div class="py-8 bg-ig-li-blue-500">
+	<h1 class="heading-1 text-center">What our customers say about us</h1>
+	[customer-quotes number="10"]
+	</div>
+
+<!-- Driving guides -->
+<div class="py-5">
+	<h1 class="heading-1 text-center">Driving guides</h1>
+	<div class="flex flex-wrap justify-center mb-4">
+
+		<div class="flex-auto md:flex-1">
+			<div class="standard-card text-center">
+
+				<img class="homepage-blog-cards" src="/resources/img/pages/logos/parents-guide-logo.svg" alt="Parents Guide">
+
+				<div class="blog-card-btns">
+					<p class="my-1"><a href="#" class="secondary-btn md:w-2/3 flex justify-center">
+						<span>Learning to drive</span>
+						<svg xmlns="http://www.w3.org/2000/svg" class="btn-icon-right" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+							<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 5l7 7-7 7M5 5l7 7-7 7" />
+						</svg>
+						</a>
+					</p>
+
+						<p class="my-1"><a href="#" class="secondary-btn md:w-2/3 flex justify-center">
+						<span>Buying &amp; Selling a car</span>
+						<svg xmlns="http://www.w3.org/2000/svg" class="btn-icon-right" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+							<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 5l7 7-7 7M5 5l7 7-7 7" />
+						</svg>
+						</a>
+					</p>
+
+						<p class="my-1"><a href="#" class="secondary-btn md:w-2/3 flex justify-center">
+						<span>Car Insurance</span>
+						<svg xmlns="http://www.w3.org/2000/svg" class="btn-icon-right" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+							<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 5l7 7-7 7M5 5l7 7-7 7" />
+						</svg>
+						</a>
+					</p>
+
+							<p class="my-1"><a href="#" class="secondary-btn md:w-2/3 flex justify-center">
+						<span>Driving Tips</span>
+						<svg xmlns="http://www.w3.org/2000/svg" class="btn-icon-right" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+							<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 5l7 7-7 7M5 5l7 7-7 7" />
+						</svg>
+						</a>
+					</p>
+
+				</div>
+			</div>
+		</div>
+
+		<div class="flex-auto md:flex-1">
+			<div class="standard-card text-center">
+
+				<img class="homepage-blog-cards" src="/resources/img/pages/logos/ydg-logo.svg" alt="Young Drivers Guide">
+
+				<div class="blog-card-btns">
+						<p class="my-1"><a href="#" class="secondary-btn md:w-2/3 flex justify-center">
+						<span>Learning to drive</span>
+						<svg xmlns="http://www.w3.org/2000/svg" class="btn-icon-right" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+							<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 5l7 7-7 7M5 5l7 7-7 7" />
+						</svg>
+						</a>
+					</p>
+
+					<p class="my-1"><a href="#" class="secondary-btn md:w-2/3 flex justify-center">
+						<span>Buying &amp; Selling a car</span>
+						<svg xmlns="http://www.w3.org/2000/svg" class="btn-icon-right" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+							<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 5l7 7-7 7M5 5l7 7-7 7" />
+						</svg>
+						</a>
+					</p>
+
+						<p class="my-1"><a href="#" class="secondary-btn md:w-2/3 flex justify-center">
+						<span>Car Insurance</span>
+						<svg xmlns="http://www.w3.org/2000/svg" class="btn-icon-right" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+							<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 5l7 7-7 7M5 5l7 7-7 7" />
+						</svg>
+						</a>
+					</p>
+
+					<p class="my-1"><a href="#" class="secondary-btn md:w-2/3 flex justify-center">
+						<span>Driving Tips</span>
+						<svg xmlns="http://www.w3.org/2000/svg" class="btn-icon-right" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+							<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 5l7 7-7 7M5 5l7 7-7 7" />
+						</svg>
+						</a>
+					</p>
+
+				</div>
+
+
+			</div>
+		</div>
+	</div>
+
+</div>
+
+<div class="py-8 bg-ig-li-blue-500 text-center">
+
+	<div class="ig-blog-card-btn">
+		<a href="/blog">
+			<div class="standard-card text-center">
+
+				<img class="w-10/12 md:w-8/12 mx-auto mt-2 mb-4" src="/resources/img/pages/logos/ingenie-blog-logo.svg" alt="ingenie Blog">
+
+				<div class="mx-3">
+					<p class="my-4 text-xl">
+						Find out what\'s going on at ingenie
+					</p>
+				</div>
+
+			</div>
+		</a>
+	</div>
+
+	[yd-quote-button text="Get a quote"]
+
+</div>
+
+',
+    'post_title' => 'Car insurance for learner and young drivers',
+    'post_excerpt' => '',
+    'post_status' => 'publish',
+    'comment_status' => 'closed',
+    'ping_status' => 'closed',
+    'post_password' => '',
+    'post_name' => 'car-insurance-for-learner-and-young-drivers',
+    'to_ping' => '',
+    'pinged' => '',
+    'post_modified' => '2021-05-25 08:25:30',
+    'post_modified_gmt' => '2021-05-25 07:25:30',
+    'post_content_filtered' => '',
+    'post_parent' => 0,
+    'guid' => 'http://ingeniewordpress.local/?page_id=34',
+    'menu_order' => 0,
+    'post_type' => 'page',
+    'post_mime_type' => '',
+    'comment_count' => '0',
+    'filter' => 'raw',
+  ),
+  'post_meta' => 
+  array (
+    '_wp_page_template' => 
+    array (
+      0 => 'default',
+    ),
+    'inline_featured_image' => 
+    array (
+      0 => '0',
+    ),
+  ),
+  'taxonomies' => 
+  array (
+    'hierarchical' => 
+    array (
+      0 => 
+      WP_Term::__set_state(array(
+         'term_id' => 26,
+         'name' => 'Home Pages',
+         'slug' => 'home-pages',
+         'term_group' => 0,
+         'term_taxonomy_id' => 26,
+         'taxonomy' => 'category',
+         'description' => 'Home pages for man sections of the site',
+         'parent' => 0,
+         'count' => 4,
+         'filter' => 'raw',
+      )),
+    ),
+    'flat' => 
+    array (
+    ),
+    'lineage' => 
+    array (
+    ),
+  ),
+  'thumbnail' => 0,
+  'gmt_offset' => 1.0,
+  'media_data' => true,
+)
+2021-05-25 08:25:35#27 - SyncApiRequest::api():194 sending API request to http://s37391.p257.sites.pressdns.com?pagename=wpsitesync_api&action=push
+    #1: SyncApiRequest->api() - plugins/wpsitesynccontent/classes/ajax.php:162
+    #2: SyncAjax->push() - plugins/wpsitesynccontent/classes/ajax.php:97
+    #3: SyncAjax->dispatch() - plugins/wpsitesynccontent/wpsitesynccontent.php:163
+    #4: WPSiteSyncContent->check_ajax_query() - wp-includes/class-wp-hook.php:292
+    #5: WP_Hook->apply_filters() - wp-includes/class-wp-hook.php:316
+    #6: WP_Hook->do_action() - wp-includes/plugin.php:484
+    #7: do_action() - wp-admin/admin-ajax.php:187
+2021-05-25 08:25:35#27 - SyncApiRequest::api():198 req id=01e01c30ca5054cc-144.072535-940
+2021-05-25 08:25:36#27 - SyncApiRequest::api():212 api result from action="push": array (
+  'headers' => 
+  Requests_Utility_CaseInsensitiveDictionary::__set_state(array(
+     'data' => 
+    array (
+      'date' => 'Tue, 25 May 2021 07:25:36 GMT',
+      'content-type' => 'application/json',
+      'link' => '<http://s37391.p257.sites.pressdns.com/wp-json/>; rel="https://api.w.org/"',
+      'x-sync-version' => '1.7',
+      'x-wp-version' => '5.7.2',
+      'spectrom-sync-api-request' => '01e01c30ca5054cc-144.072535-940',
+      'server' => 'Pagely Gateway/1.5.1',
+      'x-user-agent' => 'standard',
+      'x-cache-config' => '0 1',
+      'vary' => 'Accept-Encoding, User-Agent',
+      'content-encoding' => 'gzip',
+    ),
+  )),
+  'body' => '{"error_code":0,"session_timeout":1,"has_errors":0,"success":1,"data":{"access_nonce":"501fe5ac38","auth_cookie":"9116pwpadmin|1621931136|1mf9GSLIo8pmdoG8O621foN9fQ72qGe3u5I1j0BtFkS|17d5c0d319a3bd646fb6a810e1989ddabd6ef4c1bbd75674833d63162347eff7","user_id":1,"site_key":"16a5809b6fd943c2","post_id":34}}',
+  'response' => 
+  array (
+    'code' => 200,
+    'message' => 'OK',
+  ),
+  'cookies' => 
+  array (
+  ),
+  'filename' => NULL,
+  'http_response' => 
+  WP_HTTP_Requests_Response::__set_state(array(
+     'response' => 
+    Requests_Response::__set_state(array(
+       'body' => '{"error_code":0,"session_timeout":1,"has_errors":0,"success":1,"data":{"access_nonce":"501fe5ac38","auth_cookie":"9116pwpadmin|1621931136|1mf9GSLIo8pmdoG8O621foN9fQ72qGe3u5I1j0BtFkS|17d5c0d319a3bd646fb6a810e1989ddabd6ef4c1bbd75674833d63162347eff7","user_id":1,"site_key":"16a5809b6fd943c2","post_id":34}}',
+       'raw' => 'HTTP/1.1 200 OK
+Date: Tue, 25 May 2021 07:25:36 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: close
+Link: <http://s37391.p257.sites.pressdns.com/wp-json/>; rel="https://api.w.org/"
+x-sync-version: 1.7
+x-wp-version: 5.7.2
+spectrom-sync-api-request: 01e01c30ca5054cc-144.072535-940
+Server: Pagely Gateway/1.5.1
+X-User-Agent: standard
+X-Cache-Config: 0 1  
+Vary: Accept-Encoding, User-Agent
+Content-Encoding: gzip
+
+{"error_code":0,"session_timeout":1,"has_errors":0,"success":1,"data":{"access_nonce":"501fe5ac38","auth_cookie":"9116pwpadmin|1621931136|1mf9GSLIo8pmdoG8O621foN9fQ72qGe3u5I1j0BtFkS|17d5c0d319a3bd646fb6a810e1989ddabd6ef4c1bbd75674833d63162347eff7","user_id":1,"site_key":"16a5809b6fd943c2","post_id":34}}',
+       'headers' => 
+      Requests_Response_Headers::__set_state(array(
+         'data' => 
+        array (
+          'date' => 
+          array (
+            0 => 'Tue, 25 May 2021 07:25:36 GMT',
+          ),
+          'content-type' => 
+          array (
+            0 => 'application/json',
+          ),
+          'link' => 
+          array (
+            0 => '<http://s37391.p257.sites.pressdns.com/wp-json/>; rel="https://api.w.org/"',
+          ),
+          'x-sync-version' => 
+          array (
+            0 => '1.7',
+          ),
+          'x-wp-version' => 
+          array (
+            0 => '5.7.2',
+          ),
+          'spectrom-sync-api-request' => 
+          array (
+            0 => '01e01c30ca5054cc-144.072535-940',
+          ),
+          'server' => 
+          array (
+            0 => 'Pagely Gateway/1.5.1',
+          ),
+          'x-user-agent' => 
+          array (
+            0 => 'standard',
+          ),
+          'x-cache-config' => 
+          array (
+            0 => '0 1',
+          ),
+          'vary' => 
+          array (
+            0 => 'Accept-Encoding, User-Agent',
+          ),
+          'content-encoding' => 
+          array (
+            0 => 'gzip',
+          ),
+        ),
+      )),
+       'status_code' => 200,
+       'protocol_version' => 1.1000000000000001,
+       'success' => true,
+       'redirects' => 0,
+       'url' => 'http://s37391.p257.sites.pressdns.com/?pagename=wpsitesync_api&action=push',
+       'history' => 
+      array (
+      ),
+       'cookies' => 
+      Requests_Cookie_Jar::__set_state(array(
+         'cookies' => 
+        array (
+        ),
+      )),
+    )),
+     'filename' => NULL,
+     'data' => NULL,
+     'headers' => NULL,
+     'status' => NULL,
+  )),
+)
+2021-05-25 08:25:36#27 - SyncApiRequest::api():255 response body: '{"error_code":0,"session_timeout":1,"has_errors":0,"success":1,"data":{"access_nonce":"501fe5ac38","auth_cookie":"9116pwpadmin|1621931136|1mf9GSLIo8pmdoG8O621foN9fQ72qGe3u5I1j0BtFkS|17d5c0d319a3bd646fb6a810e1989ddabd6ef4c1bbd75674833d63162347eff7","user_id":1,"site_key":"16a5809b6fd943c2","post_id":34}}'
+2021-05-25 08:25:36#27 - SyncApiRequest::api():259 received response from Target for action="push":
+2021-05-25 08:25:36#27 - SyncApiRequest::api():294 response: array (
+  'session_timeout' => false,
+  'focus' => NULL,
+  'errors' => 
+  array (
+  ),
+  'error_code' => 0,
+  'error_data' => NULL,
+  'notices' => 
+  array (
+  ),
+  'notice_codes' => 
+  array (
+  ),
+  'notice_data' => NULL,
+  'result_codes' => 
+  array (
+  ),
+  'success' => 0,
+  'form' => NULL,
+  'validation' => 
+  array (
+  ),
+  'result' => 
+  array (
+    'headers' => 
+    Requests_Utility_CaseInsensitiveDictionary::__set_state(array(
+       'data' => 
+      array (
+        'date' => 'Tue, 25 May 2021 07:25:36 GMT',
+        'content-type' => 'application/json',
+        'link' => '<http://s37391.p257.sites.pressdns.com/wp-json/>; rel="https://api.w.org/"',
+        'x-sync-version' => '1.7',
+        'x-wp-version' => '5.7.2',
+        'spectrom-sync-api-request' => '01e01c30ca5054cc-144.072535-940',
+        'server' => 'Pagely Gateway/1.5.1',
+        'x-user-agent' => 'standard',
+        'x-cache-config' => '0 1',
+        'vary' => 'Accept-Encoding, User-Agent',
+        'content-encoding' => 'gzip',
+      ),
+    )),
+    'body' => '{"error_code":0,"session_timeout":1,"has_errors":0,"success":1,"data":{"access_nonce":"501fe5ac38","auth_cookie":"9116pwpadmin|1621931136|1mf9GSLIo8pmdoG8O621foN9fQ72qGe3u5I1j0BtFkS|17d5c0d319a3bd646fb6a810e1989ddabd6ef4c1bbd75674833d63162347eff7","user_id":1,"site_key":"16a5809b6fd943c2","post_id":34}}',
+    'response' => 
+    array (
+      'code' => 200,
+      'message' => 'OK',
+    ),
+    'cookies' => 
+    array (
+    ),
+    'filename' => NULL,
+    'http_response' => 
+    WP_HTTP_Requests_Response::__set_state(array(
+       'response' => 
+      Requests_Response::__set_state(array(
+         'body' => '{"error_code":0,"session_timeout":1,"has_errors":0,"success":1,"data":{"access_nonce":"501fe5ac38","auth_cookie":"9116pwpadmin|1621931136|1mf9GSLIo8pmdoG8O621foN9fQ72qGe3u5I1j0BtFkS|17d5c0d319a3bd646fb6a810e1989ddabd6ef4c1bbd75674833d63162347eff7","user_id":1,"site_key":"16a5809b6fd943c2","post_id":34}}',
+         'raw' => 'HTTP/1.1 200 OK
+Date: Tue, 25 May 2021 07:25:36 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: close
+Link: <http://s37391.p257.sites.pressdns.com/wp-json/>; rel="https://api.w.org/"
+x-sync-version: 1.7
+x-wp-version: 5.7.2
+spectrom-sync-api-request: 01e01c30ca5054cc-144.072535-940
+Server: Pagely Gateway/1.5.1
+X-User-Agent: standard
+X-Cache-Config: 0 1  
+Vary: Accept-Encoding, User-Agent
+Content-Encoding: gzip
+
+{"error_code":0,"session_timeout":1,"has_errors":0,"success":1,"data":{"access_nonce":"501fe5ac38","auth_cookie":"9116pwpadmin|1621931136|1mf9GSLIo8pmdoG8O621foN9fQ72qGe3u5I1j0BtFkS|17d5c0d319a3bd646fb6a810e1989ddabd6ef4c1bbd75674833d63162347eff7","user_id":1,"site_key":"16a5809b6fd943c2","post_id":34}}',
+         'headers' => 
+        Requests_Response_Headers::__set_state(array(
+           'data' => 
+          array (
+            'date' => 
+            array (
+              0 => 'Tue, 25 May 2021 07:25:36 GMT',
+            ),
+            'content-type' => 
+            array (
+              0 => 'application/json',
+            ),
+            'link' => 
+            array (
+              0 => '<http://s37391.p257.sites.pressdns.com/wp-json/>; rel="https://api.w.org/"',
+            ),
+            'x-sync-version' => 
+            array (
+              0 => '1.7',
+            ),
+            'x-wp-version' => 
+            array (
+              0 => '5.7.2',
+            ),
+            'spectrom-sync-api-request' => 
+            array (
+              0 => '01e01c30ca5054cc-144.072535-940',
+            ),
+            'server' => 
+            array (
+              0 => 'Pagely Gateway/1.5.1',
+            ),
+            'x-user-agent' => 
+            array (
+              0 => 'standard',
+            ),
+            'x-cache-config' => 
+            array (
+              0 => '0 1',
+            ),
+            'vary' => 
+            array (
+              0 => 'Accept-Encoding, User-Agent',
+            ),
+            'content-encoding' => 
+            array (
+              0 => 'gzip',
+            ),
+          ),
+        )),
+         'status_code' => 200,
+         'protocol_version' => 1.1000000000000001,
+         'success' => true,
+         'redirects' => 0,
+         'url' => 'http://s37391.p257.sites.pressdns.com/?pagename=wpsitesync_api&action=push',
+         'history' => 
+        array (
+        ),
+         'cookies' => 
+        Requests_Cookie_Jar::__set_state(array(
+           'cookies' => 
+          array (
+          ),
+        )),
+      )),
+       'filename' => NULL,
+       'data' => NULL,
+       'headers' => NULL,
+       'status' => NULL,
+    )),
+  ),
+  'response' => 
+  (object) array(
+     'error_code' => 0,
+     'session_timeout' => 1,
+     'has_errors' => 0,
+     'success' => 1,
+     'data' => 
+    (object) array(
+       'access_nonce' => '501fe5ac38',
+       'auth_cookie' => '9116pwpadmin|1621931136|1mf9GSLIo8pmdoG8O621foN9fQ72qGe3u5I1j0BtFkS|17d5c0d319a3bd646fb6a810e1989ddabd6ef4c1bbd75674833d63162347eff7',
+       'user_id' => 1,
+       'site_key' => '16a5809b6fd943c2',
+       'post_id' => 34,
+    ),
+  ),
+  'nosend' => false,
+  'request_id' => NULL,
+  'data' => 
+  array (
+  ),
+)
+2021-05-25 08:25:36#27 - SyncApiRequest::api():302 perform after action logging action="push"
+2021-05-25 08:25:36#27 - SyncLogModel::log():45 logging: array (
+  'post_id' => 34,
+  'post_title' => 'Car insurance for learner and young drivers',
+  'operation' => 'push',
+  'source_user' => 1,
+  'source_site' => 's37391.p257.sites.pressdns.com',
+  'source_site_key' => '01e01c30ca5054cc',
+  'target_user' => 0,
+  'type' => 'send',
+)
+2021-05-25 08:25:36#27 - SyncModel::get_sync_data() sql: SELECT *
+				FROM `wp_spectrom_sync`
+				
+				WHERE `source_content_id`=34 AND `site_key`='01e01c30ca5054cc'  AND `content_type`='post' 
+				LIMIT 1
+2021-05-25 08:25:36#27 - SyncApiRequest::api():376 starting queue processing
+2021-05-25 08:25:36#27 - SyncApiRequest::_process_queue()
+2021-05-25 08:25:36#27 - SyncApiRequest::_process_queue():428 queue has 3 entries
+2021-05-25 08:25:36#27 - SyncApiRequest::_process_queue():432 found action upload_media
+2021-05-25 08:25:36#27 - SyncApiRequest::api() action="upload_media"
+2021-05-25 08:25:36#27 - SyncApiResponse::__construct():40 req id=NULL
+2021-05-25 08:25:36#27 - SyncApiRequest::api():117 current auth data: array (
+  'post_id' => 34,
+  'attach_id' => 0,
+  'featured' => 0,
+  'boundary' => '5DZYeK%7Z$oJm*eXREom@(Vb',
+  'img_path' => '/Users/elton/LocalRepos/ingeniewordpress/app/public/resources/img/pages/logos',
+  'img_name' => 'ingenie-blog-logo.svg',
+  'img_year' => '2021',
+  'img_month' => '05',
+  'img_url' => '',
+  'contents' => '10430 bytes...truncated',
+  'attach_desc' => '',
+  'attach_title' => '',
+  'attach_caption' => '',
+  'attach_name' => '',
+  'attach_alt' => '',
+  'username' => 'target-user',
+  'token' => 'xxx',
+  'host' => 'http://s37391.p257.sites.pressdns.com',
+  'auth' => 
+  array (
+    'cookie' => '9116pwpadmin|1620230428|xxx|xxx',
+    'nonce' => 'xxx',
+    'site_key' => '01e01c30ca5054cc',
+  ),
+)
+2021-05-25 08:25:36#27 - SyncApiRequest::api():121 checking action="upload_media"
+2021-05-25 08:25:36#27 - SyncApiRequest::_media():777 called with array (
+  'post_id' => 34,
+  'attach_id' => 0,
+  'featured' => 0,
+  'boundary' => '5DZYeK%7Z$oJm*eXREom@(Vb',
+  'img_path' => '/Users/elton/LocalRepos/ingeniewordpress/app/public/resources/img/pages/logos',
+  'img_name' => 'ingenie-blog-logo.svg',
+  'img_year' => '2021',
+  'img_month' => '05',
+  'img_url' => '',
+  'contents' => '10430 bytes...truncated',
+  'attach_desc' => '',
+  'attach_title' => '',
+  'attach_caption' => '',
+  'attach_name' => '',
+  'attach_alt' => '',
+  'username' => 'target-user',
+  'token' => 'xxx',
+  'host' => 'http://s37391.p257.sites.pressdns.com',
+  'auth' => 
+  array (
+    'cookie' => '9116pwpadmin|1620230428|xxx|xxx',
+    'nonce' => 'xxx',
+    'site_key' => '01e01c30ca5054cc',
+  ),
+)
+2021-05-25 08:25:36#27 - SyncApiRequest::api():149 action="upload_media" data=--5DZYeK%7Z$oJm*eXREom@(Vb
+Content-Disposition: form-data; name="post_id"
+
+34
+--5DZYeK%7Z$oJm*eXREom@(Vb
+Content-Disposition: form-data; name="attach_id"
+
+0
+--5DZYeK%7Z$oJm*eXREom@(Vb
+Content-Disposition: form-data; name="featured"
+
+0
+--5DZYeK%7Z$oJm*eXREom@(Vb
+Content-Disposition: form-data; name="img_path"
+
+/Users/elton/LocalRepos/ingeniewordpress/app/public/resources/img/pages/logos
+--5DZYeK%7Z$oJm*eXREom@(Vb
+Content-Disposition: form-data; name="img_year"
+
+2021
+--5DZYeK%7Z$oJm*eXREom@(Vb
+Content-Disposition: form-data; name="img_month"
+
+05
+--5DZYeK%7Z$oJm*eXREom@(Vb
+Content-Disposition: form-data; name="img_url"
+
+
+--5DZYeK%7Z$oJm*eXREom@(Vb
+Content-Disposition: form-data; name="attach_desc"
+
+
+--5DZYeK%7Z$oJm*eXREom@(Vb
+Content-Disposition: form-data; name="attach_title"
+
+
+--5DZYeK%7Z$oJm*eXREom@(Vb
+Content-Disposition: form-data; name="attach_caption"
+
+
+--5DZYeK%7Z$oJm*eXREom@(Vb
+Content-Disposition: form-data; name="attach_name"
+
+
+--5DZYeK%7Z$oJm*eXREom@(Vb
+Content-Disposition: form-data; name="attach_alt"
+
+
+--5DZYeK%7Z$oJm*eXREom@(Vb
+Content-Disposition: form-data; name="username"
+
+9116pwpadmin
+--5DZYeK%7Z$oJm*eXREom@(Vb
+Content-Disposition: form-data; name="token"
+{target-token}
+zBGF5h924Rn6SHietnxeCMbZvAChYWgTY6KaXEGO7pCWQCOV
+--5DZYeK%7Z$oJm*eXREom@(Vb
+Content-Disposition: form-data; name="host"
+
+http://s37391.p257.sites.pressdns.com
+--5DZYeK%7Z$oJm*eXREom@(Vb
+Content-Disposition: form-data; name="sync_file_upload"; filename="ingenie-blog-logo.svg"
+
+2021-05-25 08:25:36#27 - SyncApiRequest::api():194 sending API request to http://s37391.p257.sites.pressdns.com?pagename=wpsitesync_api&action=upload_media
+    #1: SyncApiRequest->api() - plugins/wpsitesynccontent/classes/apirequest.php:433
+    #2: SyncApiRequest->_process_queue() - plugins/wpsitesynccontent/classes/apirequest.php:377
+    #3: SyncApiRequest->api() - plugins/wpsitesynccontent/classes/ajax.php:162
+    #4: SyncAjax->push() - plugins/wpsitesynccontent/classes/ajax.php:97
+    #5: SyncAjax->dispatch() - plugins/wpsitesynccontent/wpsitesynccontent.php:163
+    #6: WPSiteSyncContent->check_ajax_query() - wp-includes/class-wp-hook.php:292
+    #7: WP_Hook->apply_filters() - wp-includes/class-wp-hook.php:316
+    #8: WP_Hook->do_action() - wp-includes/plugin.php:484
+    #9: do_action() - wp-admin/admin-ajax.php:187
+2021-05-25 08:25:36#27 - SyncApiRequest::api():198 req id=01e01c30ca5054cc-144.072536-822
+2021-05-25 08:25:36#27 - SyncApiRequest::api():212 api result from action="upload_media": array (
+  'headers' => 
+  Requests_Utility_CaseInsensitiveDictionary::__set_state(array(
+     'data' => 
+    array (
+      'date' => 'Tue, 25 May 2021 07:25:37 GMT',
+      'content-type' => 'application/json',
+      'link' => '<http://s37391.p257.sites.pressdns.com/wp-json/>; rel="https://api.w.org/"',
+      'x-sync-version' => '1.7',
+      'x-wp-version' => '5.7.2',
+      'spectrom-sync-api-request' => '01e01c30ca5054cc-144.072536-822',
+      'server' => 'Pagely Gateway/1.5.1',
+      'x-user-agent' => 'standard',
+      'x-cache-config' => '0 1',
+      'vary' => 'Accept-Encoding, User-Agent',
+      'content-encoding' => 'gzip',
+    ),
+  )),
+  'body' => '{"error_code":24,"error_message":"The image uploaded is not a valid image type.","session_timeout":1,"has_errors":1,"success":0,"data":{"access_nonce":"501fe5ac38","auth_cookie":"9116pwpadmin|1621931137|7MWsIrBVxb4uYVWSAKNtxmt9aWrnbrZDqmr6xm6Fy3E|c9e1259af1cac2695f0a56eb0ac87ac873e74791fd220161e21f827c607998a8","user_id":1,"site_key":"16a5809b6fd943c2","message":"The image uploaded is not a valid image type."}}',
+  'response' => 
+  array (
+    'code' => 200,
+    'message' => 'OK',
+  ),
+  'cookies' => 
+  array (
+  ),
+  'filename' => NULL,
+  'http_response' => 
+  WP_HTTP_Requests_Response::__set_state(array(
+     'response' => 
+    Requests_Response::__set_state(array(
+       'body' => '{"error_code":24,"error_message":"The image uploaded is not a valid image type.","session_timeout":1,"has_errors":1,"success":0,"data":{"access_nonce":"501fe5ac38","auth_cookie":"9116pwpadmin|1621931137|7MWsIrBVxb4uYVWSAKNtxmt9aWrnbrZDqmr6xm6Fy3E|c9e1259af1cac2695f0a56eb0ac87ac873e74791fd220161e21f827c607998a8","user_id":1,"site_key":"16a5809b6fd943c2","message":"The image uploaded is not a valid image type."}}',
+       'raw' => 'HTTP/1.1 200 OK
+Date: Tue, 25 May 2021 07:25:37 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: close
+Link: <http://s37391.p257.sites.pressdns.com/wp-json/>; rel="https://api.w.org/"
+x-sync-version: 1.7
+x-wp-version: 5.7.2
+spectrom-sync-api-request: 01e01c30ca5054cc-144.072536-822
+Server: Pagely Gateway/1.5.1
+X-User-Agent: standard
+X-Cache-Config: 0 1  
+Vary: Accept-Encoding, User-Agent
+Content-Encoding: gzip
+
+{"error_code":24,"error_message":"The image uploaded is not a valid image type.","session_timeout":1,"has_errors":1,"success":0,"data":{"access_nonce":"501fe5ac38","auth_cookie":"9116pwpadmin|1621931137|7MWsIrBVxb4uYVWSAKNtxmt9aWrnbrZDqmr6xm6Fy3E|c9e1259af1cac2695f0a56eb0ac87ac873e74791fd220161e21f827c607998a8","user_id":1,"site_key":"16a5809b6fd943c2","message":"The image uploaded is not a valid image type."}}',
+       'headers' => 
+      Requests_Response_Headers::__set_state(array(
+         'data' => 
+        array (
+          'date' => 
+          array (
+            0 => 'Tue, 25 May 2021 07:25:37 GMT',
+          ),
+          'content-type' => 
+          array (
+            0 => 'application/json',
+          ),
+          'link' => 
+          array (
+            0 => '<http://s37391.p257.sites.pressdns.com/wp-json/>; rel="https://api.w.org/"',
+          ),
+          'x-sync-version' => 
+          array (
+            0 => '1.7',
+          ),
+          'x-wp-version' => 
+          array (
+            0 => '5.7.2',
+          ),
+          'spectrom-sync-api-request' => 
+          array (
+            0 => '01e01c30ca5054cc-144.072536-822',
+          ),
+          'server' => 
+          array (
+            0 => 'Pagely Gateway/1.5.1',
+          ),
+          'x-user-agent' => 
+          array (
+            0 => 'standard',
+          ),
+          'x-cache-config' => 
+          array (
+            0 => '0 1',
+          ),
+          'vary' => 
+          array (
+            0 => 'Accept-Encoding, User-Agent',
+          ),
+          'content-encoding' => 
+          array (
+            0 => 'gzip',
+          ),
+        ),
+      )),
+       'status_code' => 200,
+       'protocol_version' => 1.1000000000000001,
+       'success' => true,
+       'redirects' => 0,
+       'url' => 'http://s37391.p257.sites.pressdns.com/?pagename=wpsitesync_api&action=upload_media',
+       'history' => 
+      array (
+      ),
+       'cookies' => 
+      Requests_Cookie_Jar::__set_state(array(
+         'cookies' => 
+        array (
+        ),
+      )),
+    )),
+     'filename' => NULL,
+     'data' => NULL,
+     'headers' => NULL,
+     'status' => NULL,
+  )),
+)
+2021-05-25 08:25:36#27 - SyncApiRequest::api():255 response body: '{"error_code":24,"error_message":"The image uploaded is not a valid image type.","session_timeout":1,"has_errors":1,"success":0,"data":{"access_nonce":"501fe5ac38","auth_cookie":"9116pwpadmin|1621931137|7MWsIrBVxb4uYVWSAKNtxmt9aWrnbrZDqmr6xm6Fy3E|c9e1259af1cac2695f0a56eb0ac87ac873e74791fd220161e21f827c607998a8","user_id":1,"site_key":"16a5809b6fd943c2","message":"The image uploaded is not a valid image type."}}'
+2021-05-25 08:25:36#27 - SyncApiRequest::api():259 received response from Target for action="upload_media":
+2021-05-25 08:25:36#27 - SyncApiRequest::api():268 error code=24 msg=NULL
+2021-05-25 08:25:36#27 - SyncApiResponse::error_code():189 setting error code: 24 data=NULL
+2021-05-25 08:25:36#27 - SyncApiResponse::copy_json() (object) array(
+   'error_code' => 24,
+   'error_message' => 'The image uploaded is not a valid image type.',
+   'session_timeout' => 1,
+   'has_errors' => 1,
+   'success' => 0,
+   'data' => 
+  (object) array(
+     'access_nonce' => '501fe5ac38',
+     'auth_cookie' => '9116pwpadmin|1621931137|7MWsIrBVxb4uYVWSAKNtxmt9aWrnbrZDqmr6xm6Fy3E|c9e1259af1cac2695f0a56eb0ac87ac873e74791fd220161e21f827c607998a8',
+     'user_id' => 1,
+     'site_key' => 'afa120d49cfa2e7d16a5809b6fd943c2',
+     'message' => 'The image uploaded is not a valid image type.',
+  ),
+)
+2021-05-25 08:25:36#27 - SyncApiRequest::api():294 response: array (
+  'session_timeout' => false,
+  'focus' => NULL,
+  'errors' => 
+  array (
+  ),
+  'error_code' => 24,
+  'error_data' => NULL,
+  'notices' => 
+  array (
+  ),
+  'notice_codes' => 
+  array (
+  ),
+  'notice_data' => NULL,
+  'result_codes' => 
+  array (
+  ),
+  'success' => 0,
+  'form' => NULL,
+  'validation' => 
+  array (
+  ),
+  'result' => 
+  array (
+    'headers' => 
+    Requests_Utility_CaseInsensitiveDictionary::__set_state(array(
+       'data' => 
+      array (
+        'date' => 'Tue, 25 May 2021 07:25:37 GMT',
+        'content-type' => 'application/json',
+        'link' => '<http://s37391.p257.sites.pressdns.com/wp-json/>; rel="https://api.w.org/"',
+        'x-sync-version' => '1.7',
+        'x-wp-version' => '5.7.2',
+        'spectrom-sync-api-request' => '01e01c30ca5054cc-144.072536-822',
+        'server' => 'Pagely Gateway/1.5.1',
+        'x-user-agent' => 'standard',
+        'x-cache-config' => '0 1',
+        'vary' => 'Accept-Encoding, User-Agent',
+        'content-encoding' => 'gzip',
+      ),
+    )),
+    'body' => '{"error_code":24,"error_message":"The image uploaded is not a valid image type.","session_timeout":1,"has_errors":1,"success":0,"data":{"access_nonce":"501fe5ac38","auth_cookie":"9116pwpadmin|1621931137|7MWsIrBVxb4uYVWSAKNtxmt9aWrnbrZDqmr6xm6Fy3E|c9e1259af1cac2695f0a56eb0ac87ac873e74791fd220161e21f827c607998a8","user_id":1,"site_key":"16a5809b6fd943c2","message":"The image uploaded is not a valid image type."}}',
+    'response' => 
+    array (
+      'code' => 200,
+      'message' => 'OK',
+    ),
+    'cookies' => 
+    array (
+    ),
+    'filename' => NULL,
+    'http_response' => 
+    WP_HTTP_Requests_Response::__set_state(array(
+       'response' => 
+      Requests_Response::__set_state(array(
+         'body' => '{"error_code":24,"error_message":"The image uploaded is not a valid image type.","session_timeout":1,"has_errors":1,"success":0,"data":{"access_nonce":"501fe5ac38","auth_cookie":"9116pwpadmin|1621931137|7MWsIrBVxb4uYVWSAKNtxmt9aWrnbrZDqmr6xm6Fy3E|c9e1259af1cac2695f0a56eb0ac87ac873e74791fd220161e21f827c607998a8","user_id":1,"site_key":"16a5809b6fd943c2","message":"The image uploaded is not a valid image type."}}',
+         'raw' => 'HTTP/1.1 200 OK
+Date: Tue, 25 May 2021 07:25:37 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: close
+Link: <http://s37391.p257.sites.pressdns.com/wp-json/>; rel="https://api.w.org/"
+x-sync-version: 1.7
+x-wp-version: 5.7.2
+spectrom-sync-api-request: 01e01c30ca5054cc-144.072536-822
+Server: Pagely Gateway/1.5.1
+X-User-Agent: standard
+X-Cache-Config: 0 1  
+Vary: Accept-Encoding, User-Agent
+Content-Encoding: gzip
+
+{"error_code":24,"error_message":"The image uploaded is not a valid image type.","session_timeout":1,"has_errors":1,"success":0,"data":{"access_nonce":"501fe5ac38","auth_cookie":"9116pwpadmin|1621931137|7MWsIrBVxb4uYVWSAKNtxmt9aWrnbrZDqmr6xm6Fy3E|c9e1259af1cac2695f0a56eb0ac87ac873e74791fd220161e21f827c607998a8","user_id":1,"site_key":"16a5809b6fd943c2","message":"The image uploaded is not a valid image type."}}',
+         'headers' => 
+        Requests_Response_Headers::__set_state(array(
+           'data' => 
+          array (
+            'date' => 
+            array (
+              0 => 'Tue, 25 May 2021 07:25:37 GMT',
+            ),
+            'content-type' => 
+            array (
+              0 => 'application/json',
+            ),
+            'link' => 
+            array (
+              0 => '<http://s37391.p257.sites.pressdns.com/wp-json/>; rel="https://api.w.org/"',
+            ),
+            'x-sync-version' => 
+            array (
+              0 => '1.7',
+            ),
+            'x-wp-version' => 
+            array (
+              0 => '5.7.2',
+            ),
+            'spectrom-sync-api-request' => 
+            array (
+              0 => '01e01c30ca5054cc-144.072536-822',
+            ),
+            'server' => 
+            array (
+              0 => 'Pagely Gateway/1.5.1',
+            ),
+            'x-user-agent' => 
+            array (
+              0 => 'standard',
+            ),
+            'x-cache-config' => 
+            array (
+              0 => '0 1',
+            ),
+            'vary' => 
+            array (
+              0 => 'Accept-Encoding, User-Agent',
+            ),
+            'content-encoding' => 
+            array (
+              0 => 'gzip',
+            ),
+          ),
+        )),
+         'status_code' => 200,
+         'protocol_version' => 1.1000000000000001,
+         'success' => true,
+         'redirects' => 0,
+         'url' => 'http://s37391.p257.sites.pressdns.com/?pagename=wpsitesync_api&action=upload_media',
+         'history' => 
+        array (
+        ),
+         'cookies' => 
+        Requests_Cookie_Jar::__set_state(array(
+           'cookies' => 
+          array (
+          ),
+        )),
+      )),
+       'filename' => NULL,
+       'data' => NULL,
+       'headers' => NULL,
+       'status' => NULL,
+    )),
+  ),
+  'response' => 
+  (object) array(
+     'error_code' => 24,
+     'error_message' => 'The image uploaded is not a valid image type.',
+     'session_timeout' => 1,
+     'has_errors' => 1,
+     'success' => 0,
+     'data' => 
+    (object) array(
+       'access_nonce' => '501fe5ac38',
+       'auth_cookie' => '9116pwpadmin|1621931137|7MWsIrBVxb4uYVWSAKNtxmt9aWrnbrZDqmr6xm6Fy3E|c9e1259af1cac2695f0a56eb0ac87ac873e74791fd220161e21f827c607998a8',
+       'user_id' => 1,
+       'site_key' => '16a5809b6fd943c2',
+       'message' => 'The image uploaded is not a valid image type.',
+    ),
+  ),
+  'nosend' => false,
+  'request_id' => NULL,
+  'data' => 
+  array (
+    'access_nonce' => '501fe5ac38',
+    'auth_cookie' => '9116pwpadmin|1621931137|7MWsIrBVxb4uYVWSAKNtxmt9aWrnbrZDqmr6xm6Fy3E|c9e1259af1cac2695f0a56eb0ac87ac873e74791fd220161e21f827c607998a8',
+    'user_id' => 1,
+    'site_key' => '16a5809b6fd943c2',
+    'message' => 'The image uploaded is not a valid image type.',
+  ),
+)
+2021-05-25 08:25:36#27 - SyncApiRequest::api():371 error code=24
+2021-05-25 08:25:36#27 - SyncApiRequest::_process_queue():436 got an error from the Target: SyncApiResponse::__set_state(array(
+   'session_timeout' => false,
+   'focus' => NULL,
+   'errors' => 
+  array (
+  ),
+   'error_code' => 24,
+   'error_data' => NULL,
+   'notices' => 
+  array (
+  ),
+   'notice_codes' => 
+  array (
+  ),
+   'notice_data' => NULL,
+   'result_codes' => 
+  array (
+  ),
+   'success' => 0,
+   'form' => NULL,
+   'validation' => 
+  array (
+  ),
+   'result' => 
+  array (
+    'headers' => 
+    Requests_Utility_CaseInsensitiveDictionary::__set_state(array(
+       'data' => 
+      array (
+        'date' => 'Tue, 25 May 2021 07:25:37 GMT',
+        'content-type' => 'application/json',
+        'link' => '<http://s37391.p257.sites.pressdns.com/wp-json/>; rel="https://api.w.org/"',
+        'x-sync-version' => '1.7',
+        'x-wp-version' => '5.7.2',
+        'spectrom-sync-api-request' => '01e01c30ca5054cc-144.072536-822',
+        'server' => 'Pagely Gateway/1.5.1',
+        'x-user-agent' => 'standard',
+        'x-cache-config' => '0 1',
+        'vary' => 'Accept-Encoding, User-Agent',
+        'content-encoding' => 'gzip',
+      ),
+    )),
+    'body' => '{"error_code":24,"error_message":"The image uploaded is not a valid image type.","session_timeout":1,"has_errors":1,"success":0,"data":{"access_nonce":"501fe5ac38","auth_cookie":"9116pwpadmin|1621931137|7MWsIrBVxb4uYVWSAKNtxmt9aWrnbrZDqmr6xm6Fy3E|c9e1259af1cac2695f0a56eb0ac87ac873e74791fd220161e21f827c607998a8","user_id":1,"site_key":"afa120d49cfa2e7d16a5809b6fd943c2","message":"The image uploaded is not a valid image type."}}',
+    'response' => 
+    array (
+      'code' => 200,
+      'message' => 'OK',
+    ),
+    'cookies' => 
+    array (
+    ),
+    'filename' => NULL,
+    'http_response' => 
+    WP_HTTP_Requests_Response::__set_state(array(
+       'response' => 
+      Requests_Response::__set_state(array(
+         'body' => '{"error_code":24,"error_message":"The image uploaded is not a valid image type.","session_timeout":1,"has_errors":1,"success":0,"data":{"access_nonce":"501fe5ac38","auth_cookie":"9116pwpadmin|1621931137|7MWsIrBVxb4uYVWSAKNtxmt9aWrnbrZDqmr6xm6Fy3E|c9e1259af1cac2695f0a56eb0ac87ac873e74791fd220161e21f827c607998a8","user_id":1,"site_key":"afa120d49cfa2e7d16a5809b6fd943c2","message":"The image uploaded is not a valid image type."}}',
+         'raw' => 'HTTP/1.1 200 OK
+Date: Tue, 25 May 2021 07:25:37 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: close
+Link: <http://s37391.p257.sites.pressdns.com/wp-json/>; rel="https://api.w.org/"
+x-sync-version: 1.7
+x-wp-version: 5.7.2
+spectrom-sync-api-request: 01e01c30ca5054cc-144.072536-822
+Server: Pagely Gateway/1.5.1
+X-User-Agent: standard
+X-Cache-Config: 0 1  
+Vary: Accept-Encoding, User-Agent
+Content-Encoding: gzip
+
+{"error_code":24,"error_message":"The image uploaded is not a valid image type.","session_timeout":1,"has_errors":1,"success":0,"data":{"access_nonce":"501fe5ac38","auth_cookie":"9116pwpadmin|1621931137|7MWsIrBVxb4uYVWSAKNtxmt9aWrnbrZDqmr6xm6Fy3E|c9e1259af1cac2695f0a56eb0ac87ac873e74791fd220161e21f827c607998a8","user_id":1,"site_key":"afa120d49cfa2e7d16a5809b6fd943c2","message":"The image uploaded is not a valid image type."}}',
+         'headers' => 
+        Requests_Response_Headers::__set_state(array(
+           'data' => 
+          array (
+            'date' => 
+            array (
+              0 => 'Tue, 25 May 2021 07:25:37 GMT',
+            ),
+            'content-type' => 
+            array (
+              0 => 'application/json',
+            ),
+            'link' => 
+            array (
+              0 => '<http://s37391.p257.sites.pressdns.com/wp-json/>; rel="https://api.w.org/"',
+            ),
+            'x-sync-version' => 
+            array (
+              0 => '1.7',
+            ),
+            'x-wp-version' => 
+            array (
+              0 => '5.7.2',
+            ),
+            'spectrom-sync-api-request' => 
+            array (
+              0 => '01e01c30ca5054cc-144.072536-822',
+            ),
+            'server' => 
+            array (
+              0 => 'Pagely Gateway/1.5.1',
+            ),
+            'x-user-agent' => 
+            array (
+              0 => 'standard',
+            ),
+            'x-cache-config' => 
+            array (
+              0 => '0 1',
+            ),
+            'vary' => 
+            array (
+              0 => 'Accept-Encoding, User-Agent',
+            ),
+            'content-encoding' => 
+            array (
+              0 => 'gzip',
+            ),
+          ),
+        )),
+         'status_code' => 200,
+         'protocol_version' => 1.1000000000000001,
+         'success' => true,
+         'redirects' => 0,
+         'url' => 'http://s37391.p257.sites.pressdns.com/?pagename=wpsitesync_api&action=upload_media',
+         'history' => 
+        array (
+        ),
+         'cookies' => 
+        Requests_Cookie_Jar::__set_state(array(
+           'cookies' => 
+          array (
+          ),
+        )),
+      )),
+       'filename' => NULL,
+       'data' => NULL,
+       'headers' => NULL,
+       'status' => NULL,
+    )),
+  ),
+   'response' => 
+  (object) array(
+     'error_code' => 24,
+     'error_message' => 'The image uploaded is not a valid image type.',
+     'session_timeout' => 1,
+     'has_errors' => 1,
+     'success' => 0,
+     'data' => 
+    (object) array(
+       'access_nonce' => '501fe5ac38',
+       'auth_cookie' => '9116pwpadmin|1621931137|7MWsIrBVxb4uYVWSAKNtxmt9aWrnbrZDqmr6xm6Fy3E|c9e1259af1cac2695f0a56eb0ac87ac873e74791fd220161e21f827c607998a8',
+       'user_id' => 1,
+       'site_key' => 'afa120d49cfa2e7d16a5809b6fd943c2',
+       'message' => 'The image uploaded is not a valid image type.',
+    ),
+  ),
+   'nosend' => false,
+   'request_id' => NULL,
+   'data' => 
+  array (
+    'access_nonce' => '501fe5ac38',
+    'auth_cookie' => '9116pwpadmin|1621931137|7MWsIrBVxb4uYVWSAKNtxmt9aWrnbrZDqmr6xm6Fy3E|c9e1259af1cac2695f0a56eb0ac87ac873e74791fd220161e21f827c607998a8',
+    'user_id' => 1,
+    'site_key' => 'afa120d49cfa2e7d16a5809b6fd943c2',
+    'message' => 'The image uploaded is not a valid image type.',
+  ),
+   '_headers_sent' => false,
+   '_capture' => false,
+))
+2021-05-25 08:25:36#27 - SyncApiResponse::error_code():189 setting error code: 24 data=NULL
+2021-05-25 08:25:36#27 - SyncApiRequest::push_complete_api():1546 sending "push_complete" API call
+2021-05-25 08:25:36#27 - SyncApiRequest::push_complete_api():1553 data=array (
+  'post_id' => 34,
+  'id_refs' => 
+  array (
+  ),
+  'children' => 
+  array (
+  ),
+)
+2021-05-25 08:25:36#27 - SyncApiRequest::api() action="push_complete"
+2021-05-25 08:25:36#27 - SyncApiResponse::__construct():40 req id=NULL
+2021-05-25 08:25:36#27 - SyncApiRequest::api():117 current auth data: array (
+  'post_id' => 34,
+  'id_refs' => 
+  array (
+  ),
+  'children' => 
+  array (
+  ),
+  'username' => 'target-user',
+  'token' => 'xxx',
+  'host' => 'http://s37391.p257.sites.pressdns.com',
+  'auth' => 
+  array (
+    'cookie' => '9116pwpadmin|1620230428|xxx|xxx',
+    'nonce' => 'xxx',
+    'site_key' => '01e01c30ca5054cc',
+  ),
+)
+2021-05-25 08:25:36#27 - SyncApiRequest::api():121 checking action="push_complete"
+2021-05-25 08:25:36#27 - SyncApiRequest::api():151 action="push_complete" data=array (
+  'post_id' => 34,
+  'id_refs' => 
+  array (
+  ),
+  'children' => 
+  array (
+  ),
+  'username' => 'target-user',
+  'token' => 'xxx',
+  'host' => 'http://s37391.p257.sites.pressdns.com',
+  'auth' => 
+  array (
+    'cookie' => '9116pwpadmin|1620230428|xxx|xxx',
+    'nonce' => 'xxx',
+    'site_key' => '01e01c30ca5054cc',
+  ),
+)
+2021-05-25 08:25:36#27 - SyncApiRequest::api():194 sending API request to http://s37391.p257.sites.pressdns.com?pagename=wpsitesync_api&action=push_complete
+    #1: SyncApiRequest->api() - plugins/wpsitesynccontent/classes/apirequest.php:1554
+    #2: SyncApiRequest->push_complete_api() - wp-includes/class-wp-hook.php:292
+    #3: WP_Hook->apply_filters() - wp-includes/class-wp-hook.php:316
+    #4: WP_Hook->do_action() - wp-includes/plugin.php:484
+    #5: do_action() - plugins/wpsitesynccontent/classes/apirequest.php:442
+    #6: SyncApiRequest->_process_queue() - plugins/wpsitesynccontent/classes/apirequest.php:377
+    #7: SyncApiRequest->api() - plugins/wpsitesynccontent/classes/ajax.php:162
+    #8: SyncAjax->push() - plugins/wpsitesynccontent/classes/ajax.php:97
+    #9: SyncAjax->dispatch() - plugins/wpsitesynccontent/wpsitesynccontent.php:163
+    #10: WPSiteSyncContent->check_ajax_query() - wp-includes/class-wp-hook.php:292
+    #11: WP_Hook->apply_filters() - wp-includes/class-wp-hook.php:316
+    #12: WP_Hook->do_action() - wp-includes/plugin.php:484
+    #13: do_action() - wp-admin/admin-ajax.php:187
+2021-05-25 08:25:36#27 - SyncApiRequest::api():198 req id=01e01c30ca5054cc-144.072536-213
+2021-05-25 08:25:37#27 - SyncApiRequest::api():212 api result from action="push_complete": array (
+  'headers' => 
+  Requests_Utility_CaseInsensitiveDictionary::__set_state(array(
+     'data' => 
+    array (
+      'date' => 'Tue, 25 May 2021 07:25:37 GMT',
+      'content-type' => 'application/json',
+      'link' => '<http://s37391.p257.sites.pressdns.com/wp-json/>; rel="https://api.w.org/"',
+      'x-sync-version' => '1.7',
+      'x-wp-version' => '5.7.2',
+      'spectrom-sync-api-request' => '01e01c30ca5054cc-144.072536-213',
+      'server' => 'Pagely Gateway/1.5.1',
+      'x-user-agent' => 'standard',
+      'x-cache-config' => '0 1',
+      'vary' => 'Accept-Encoding, User-Agent',
+      'content-encoding' => 'gzip',
+    ),
+  )),
+  'body' => '{"error_code":0,"session_timeout":1,"has_errors":0,"success":1,"data":{"access_nonce":"501fe5ac38","auth_cookie":"9116pwpadmin|1621931137|ssjEV2UBYhoET6P4cEqcdwLBQb36hotO8Dn2RayXg9T|9673c0d93d9d16f0c999e01d7a8062ed6ec7b4c14081f0e5b08c109b99329462","user_id":1,"site_key":"16a5809b6fd943c2"}}',
+  'response' => 
+  array (
+    'code' => 200,
+    'message' => 'OK',
+  ),
+  'cookies' => 
+  array (
+  ),
+  'filename' => NULL,
+  'http_response' => 
+  WP_HTTP_Requests_Response::__set_state(array(
+     'response' => 
+    Requests_Response::__set_state(array(
+       'body' => '{"error_code":0,"session_timeout":1,"has_errors":0,"success":1,"data":{"access_nonce":"501fe5ac38","auth_cookie":"9116pwpadmin|1621931137|ssjEV2UBYhoET6P4cEqcdwLBQb36hotO8Dn2RayXg9T|9673c0d93d9d16f0c999e01d7a8062ed6ec7b4c14081f0e5b08c109b99329462","user_id":1,"site_key":"16a5809b6fd943c2"}}',
+       'raw' => 'HTTP/1.1 200 OK
+Date: Tue, 25 May 2021 07:25:37 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: close
+Link: <http://s37391.p257.sites.pressdns.com/wp-json/>; rel="https://api.w.org/"
+x-sync-version: 1.7
+x-wp-version: 5.7.2
+spectrom-sync-api-request: 01e01c30ca5054cc-144.072536-213
+Server: Pagely Gateway/1.5.1
+X-User-Agent: standard
+X-Cache-Config: 0 1  
+Vary: Accept-Encoding, User-Agent
+Content-Encoding: gzip
+
+{"error_code":0,"session_timeout":1,"has_errors":0,"success":1,"data":{"access_nonce":"501fe5ac38","auth_cookie":"9116pwpadmin|1621931137|ssjEV2UBYhoET6P4cEqcdwLBQb36hotO8Dn2RayXg9T|9673c0d93d9d16f0c999e01d7a8062ed6ec7b4c14081f0e5b08c109b99329462","user_id":1,"site_key":"16a5809b6fd943c2"}}',
+       'headers' => 
+      Requests_Response_Headers::__set_state(array(
+         'data' => 
+        array (
+          'date' => 
+          array (
+            0 => 'Tue, 25 May 2021 07:25:37 GMT',
+          ),
+          'content-type' => 
+          array (
+            0 => 'application/json',
+          ),
+          'link' => 
+          array (
+            0 => '<http://s37391.p257.sites.pressdns.com/wp-json/>; rel="https://api.w.org/"',
+          ),
+          'x-sync-version' => 
+          array (
+            0 => '1.7',
+          ),
+          'x-wp-version' => 
+          array (
+            0 => '5.7.2',
+          ),
+          'spectrom-sync-api-request' => 
+          array (
+            0 => '01e01c30ca5054cc-144.072536-213',
+          ),
+          'server' => 
+          array (
+            0 => 'Pagely Gateway/1.5.1',
+          ),
+          'x-user-agent' => 
+          array (
+            0 => 'standard',
+          ),
+          'x-cache-config' => 
+          array (
+            0 => '0 1',
+          ),
+          'vary' => 
+          array (
+            0 => 'Accept-Encoding, User-Agent',
+          ),
+          'content-encoding' => 
+          array (
+            0 => 'gzip',
+          ),
+        ),
+      )),
+       'status_code' => 200,
+       'protocol_version' => 1.1000000000000001,
+       'success' => true,
+       'redirects' => 0,
+       'url' => 'http://s37391.p257.sites.pressdns.com/?pagename=wpsitesync_api&action=push_complete',
+       'history' => 
+      array (
+      ),
+       'cookies' => 
+      Requests_Cookie_Jar::__set_state(array(
+         'cookies' => 
+        array (
+        ),
+      )),
+    )),
+     'filename' => NULL,
+     'data' => NULL,
+     'headers' => NULL,
+     'status' => NULL,
+  )),
+)
+2021-05-25 08:25:37#27 - SyncApiRequest::api():255 response body: '{"error_code":0,"session_timeout":1,"has_errors":0,"success":1,"data":{"access_nonce":"501fe5ac38","auth_cookie":"9116pwpadmin|1621931137|ssjEV2UBYhoET6P4cEqcdwLBQb36hotO8Dn2RayXg9T|9673c0d93d9d16f0c999e01d7a8062ed6ec7b4c14081f0e5b08c109b99329462","user_id":1,"site_key":"16a5809b6fd943c2"}}'
+2021-05-25 08:25:37#27 - SyncApiRequest::api():259 received response from Target for action="push_complete":
+2021-05-25 08:25:37#27 - SyncApiRequest::api():294 response: array (
+  'session_timeout' => false,
+  'focus' => NULL,
+  'errors' => 
+  array (
+  ),
+  'error_code' => 0,
+  'error_data' => NULL,
+  'notices' => 
+  array (
+  ),
+  'notice_codes' => 
+  array (
+  ),
+  'notice_data' => NULL,
+  'result_codes' => 
+  array (
+  ),
+  'success' => 0,
+  'form' => NULL,
+  'validation' => 
+  array (
+  ),
+  'result' => 
+  array (
+    'headers' => 
+    Requests_Utility_CaseInsensitiveDictionary::__set_state(array(
+       'data' => 
+      array (
+        'date' => 'Tue, 25 May 2021 07:25:37 GMT',
+        'content-type' => 'application/json',
+        'link' => '<http://s37391.p257.sites.pressdns.com/wp-json/>; rel="https://api.w.org/"',
+        'x-sync-version' => '1.7',
+        'x-wp-version' => '5.7.2',
+        'spectrom-sync-api-request' => '01e01c30ca5054cc-144.072536-213',
+        'server' => 'Pagely Gateway/1.5.1',
+        'x-user-agent' => 'standard',
+        'x-cache-config' => '0 1',
+        'vary' => 'Accept-Encoding, User-Agent',
+        'content-encoding' => 'gzip',
+      ),
+    )),
+    'body' => '{"error_code":0,"session_timeout":1,"has_errors":0,"success":1,"data":{"access_nonce":"501fe5ac38","auth_cookie":"9116pwpadmin|1621931137|ssjEV2UBYhoET6P4cEqcdwLBQb36hotO8Dn2RayXg9T|9673c0d93d9d16f0c999e01d7a8062ed6ec7b4c14081f0e5b08c109b99329462","user_id":1,"site_key":"16a5809b6fd943c2"}}',
+    'response' => 
+    array (
+      'code' => 200,
+      'message' => 'OK',
+    ),
+    'cookies' => 
+    array (
+    ),
+    'filename' => NULL,
+    'http_response' => 
+    WP_HTTP_Requests_Response::__set_state(array(
+       'response' => 
+      Requests_Response::__set_state(array(
+         'body' => '{"error_code":0,"session_timeout":1,"has_errors":0,"success":1,"data":{"access_nonce":"501fe5ac38","auth_cookie":"9116pwpadmin|1621931137|ssjEV2UBYhoET6P4cEqcdwLBQb36hotO8Dn2RayXg9T|9673c0d93d9d16f0c999e01d7a8062ed6ec7b4c14081f0e5b08c109b99329462","user_id":1,"site_key":"16a5809b6fd943c2"}}',
+         'raw' => 'HTTP/1.1 200 OK
+Date: Tue, 25 May 2021 07:25:37 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: close
+Link: <http://s37391.p257.sites.pressdns.com/wp-json/>; rel="https://api.w.org/"
+x-sync-version: 1.7
+x-wp-version: 5.7.2
+spectrom-sync-api-request: 01e01c30ca5054cc-144.072536-213
+Server: Pagely Gateway/1.5.1
+X-User-Agent: standard
+X-Cache-Config: 0 1  
+Vary: Accept-Encoding, User-Agent
+Content-Encoding: gzip
+
+{"error_code":0,"session_timeout":1,"has_errors":0,"success":1,"data":{"access_nonce":"501fe5ac38","auth_cookie":"9116pwpadmin|1621931137|ssjEV2UBYhoET6P4cEqcdwLBQb36hotO8Dn2RayXg9T|9673c0d93d9d16f0c999e01d7a8062ed6ec7b4c14081f0e5b08c109b99329462","user_id":1,"site_key":"16a5809b6fd943c2"}}',
+         'headers' => 
+        Requests_Response_Headers::__set_state(array(
+           'data' => 
+          array (
+            'date' => 
+            array (
+              0 => 'Tue, 25 May 2021 07:25:37 GMT',
+            ),
+            'content-type' => 
+            array (
+              0 => 'application/json',
+            ),
+            'link' => 
+            array (
+              0 => '<http://s37391.p257.sites.pressdns.com/wp-json/>; rel="https://api.w.org/"',
+            ),
+            'x-sync-version' => 
+            array (
+              0 => '1.7',
+            ),
+            'x-wp-version' => 
+            array (
+              0 => '5.7.2',
+            ),
+            'spectrom-sync-api-request' => 
+            array (
+              0 => '01e01c30ca5054cc-144.072536-213',
+            ),
+            'server' => 
+            array (
+              0 => 'Pagely Gateway/1.5.1',
+            ),
+            'x-user-agent' => 
+            array (
+              0 => 'standard',
+            ),
+            'x-cache-config' => 
+            array (
+              0 => '0 1',
+            ),
+            'vary' => 
+            array (
+              0 => 'Accept-Encoding, User-Agent',
+            ),
+            'content-encoding' => 
+            array (
+              0 => 'gzip',
+            ),
+          ),
+        )),
+         'status_code' => 200,
+         'protocol_version' => 1.1000000000000001,
+         'success' => true,
+         'redirects' => 0,
+         'url' => 'http://s37391.p257.sites.pressdns.com/?pagename=wpsitesync_api&action=push_complete',
+         'history' => 
+        array (
+        ),
+         'cookies' => 
+        Requests_Cookie_Jar::__set_state(array(
+           'cookies' => 
+          array (
+          ),
+        )),
+      )),
+       'filename' => NULL,
+       'data' => NULL,
+       'headers' => NULL,
+       'status' => NULL,
+    )),
+  ),
+  'response' => 
+  (object) array(
+     'error_code' => 0,
+     'session_timeout' => 1,
+     'has_errors' => 0,
+     'success' => 1,
+     'data' => 
+    (object) array(
+       'access_nonce' => '501fe5ac38',
+       'auth_cookie' => '9116pwpadmin|1621931137|ssjEV2UBYhoET6P4cEqcdwLBQb36hotO8Dn2RayXg9T|9673c0d93d9d16f0c999e01d7a8062ed6ec7b4c14081f0e5b08c109b99329462',
+       'user_id' => 1,
+       'site_key' => '16a5809b6fd943c2',
+    ),
+  ),
+  'nosend' => false,
+  'request_id' => NULL,
+  'data' => 
+  array (
+  ),
+)
+2021-05-25 08:25:37#27 - SyncApiRequest::api():302 perform after action logging action="push_complete"
+2021-05-25 08:25:37#27 - SyncApiRequest::push_complete_api():1555 done with "push_complete" API call
+2021-05-25 08:25:37#27 - SyncApiRequest::_process_queue():443 queue processing complete
+2021-05-25 08:25:37#27 - SyncApiRequest::api():378 done processing queue
+2021-05-25 08:25:37#27 - SyncApiResponse::__toString() returning response data: '{"error_code":24,"error_message":"The image uploaded is not a valid image type.","has_errors":1,"success":0,"data":{"message":"The image uploaded is not a valid image type."}}'

@@ -55,3 +55,6 @@ wp-content/themes/ingenie2020/node_modules/
 # ignore editor
 *.history/
 
+# logs
+# wp-content/plugins/wpsitesynccontent/~log.txt
+
