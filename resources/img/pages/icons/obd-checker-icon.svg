@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="71px" height="71px" viewBox="0 0 71 71" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>obd-checker-icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="obd-checker-icon" transform="translate(35.500000, 35.500000) rotate(180.000000) translate(-35.500000, -35.500000) " fill-rule="nonzero">
+            <rect id="Rectangle_502" fill="#2980B9" x="0" y="0" width="71" height="71" rx="7.702"></rect>
+            <path d="M51.851,20.192 L36.337,6.406 L21.21,20.343 C20.3943515,21.0732941 20.0350693,22.186171 20.2697121,23.2555422 C20.5043549,24.3249133 21.296575,25.1851261 22.3430542,25.5068297 C23.3895334,25.8285334 24.5281651,25.561894 25.323,24.809 L33.341,17.423 L33.341,42.703 C33.341,44.3797365 34.7002635,45.739 36.377,45.739 C38.0537365,45.739 39.413,44.3797365 39.413,42.703 L39.413,17.261 L47.813,24.73 C48.6220951,25.4614526 49.7613784,25.7026773 50.7974968,25.3619187 C51.8336151,25.02116 52.6073179,24.1507923 52.824309,23.0818805 C53.0413001,22.0129686 52.6682282,20.9098035 51.847,20.192 L51.851,20.192 Z" id="Path_1643" fill="#FFFFFF"></path>
+            <path d="M42.853,63.52 L7.394,63.52 L7.394,52.787 L42.853,52.787 L42.853,63.52 Z M9.999,60.92 L40.251,60.92 L40.251,55.392 L9.999,55.392 L9.999,60.92 Z" id="Path_1644" fill="#FFFFFF"></path>
+            <rect id="Rectangle_503" fill="#FFFFFF" x="47.313" y="52.574" width="16.943" height="11.082" rx="5.541"></rect>
+        </g>
+    </g>
+</svg>
