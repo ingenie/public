@@ -1,5 +1,5 @@
 <!-- Alert Notification -->
-<div class="md:mt-2">
+<div class="mb-2 md:my-2">
     <!-- {# purgecss: bg-info-400 bg-success-400 bg-warning-400 bg-alert-400 #} -->
     <div class="flex justify-center bg-<?php echo $color ?>-400 px-3 py-2">
         <div class="py-3">
@@ -50,8 +50,15 @@
             </svg> -->
         </div>
         <div class="p-3">
-            <p class="text-<?php echo $color ?>-900 text-sm inline-block align-text-top"><?php echo $message ?> - <a
-                    href="<?php echo $link ?>" class="underline" target="_blank">Find out more</a></p>
+            <p class="text-<?php echo $color ?>-900 text-sm inline-block align-text-top"><?php echo $message ?>
+
+                <?php
+            if (!empty($link)) { ?>
+                - <a href="<?php echo $link ?>" class="underline" target="_blank">Find out more</a>
+                <?php }             
+            ?>
+
+            </p>
         </div>
     </div>
 </div>

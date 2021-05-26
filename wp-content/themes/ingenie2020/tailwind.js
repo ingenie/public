@@ -20,22 +20,22 @@ module.exports = {
     extend: {
       colors: {
         'good': {
-          default: '#81c750',
+          DEFAULT: '#81c750',
         },
         'okay': {
-          default: '#b7d7a1',
+          DEFAULT: '#b7d7a1',
         },
         'improvement': {
-          default: '#fec926',
+          DEFAULT: '#fec926',
         },
         'unsafe': {
-          default: '#f28816',
+          DEFAULT: '#f28816',
         },
         'dangerous': {
-          default: '#fe2b17',
+          DEFAULT: '#fe2b17',
         },
         'highly-dangerous': {
-          default: '#000',
+          DEFAULT: '#000',
         },
         'ig-blue': {
           50: '#F2F5F7',

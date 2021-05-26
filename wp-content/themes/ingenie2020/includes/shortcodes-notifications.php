@@ -11,7 +11,7 @@ function get_message($atts) {
     extract( shortcode_atts( array(
         'color' => 'success',
         'message' => 'Hope you having a lovely day!',
-        'link' => '',
+        'link' => false,
     ), $atts ) );
 
     ob_start();

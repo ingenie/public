@@ -3,6 +3,7 @@
 import ExampleComponent1 from "./components/ExampleComponent1";
 import MobileHamburgerMenu from "./components/MobileHamburgerMenu";
 import MainMenu from "./components/MainMenu";
+import Accordian from "./components/Accordian";
 import BackToTop from "./components/BackToTop";
 import FlexSlider from "./components/jquery.flexslider-min";
 import FlexSliderSetUp from "./components/FlexSliderInit";
@@ -25,5 +26,6 @@ jQuery(function ($) {
   FlexSliderSetUp.init();
   MobileHamburgerMenu.init();
   MainMenu.init();
+  Accordian.init();
   BackToTop.init();
 });

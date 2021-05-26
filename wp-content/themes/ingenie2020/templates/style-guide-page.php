@@ -134,7 +134,7 @@ SECTION - WIP
         <div class="flex-auto md:flex-1">
             <div class="standard-card text-center">
                 <!--			<img class="w-full" src="/img/card-top.jpg" alt="Sunset in the mountains">-->
-                <h3 class="font-bold text-xl my-3">Learning in my car</h3>
+                <h3 class="heading-3 my-3">Learning in my car</h3>
                 <ul class="standard-list">
                     <li>Start building up your own NCD</li>
                     <li>Black box to help you improve</li>
@@ -148,7 +148,7 @@ SECTION - WIP
             <div class="standard-card text-center">
                 <!--			<img class="w-full" src="/img/card-top.jpg" alt="Sunset in the mountains">-->
 
-                <h3 class="font-bold text-xl my-3">Learning in another car</h3>
+                <h3 class="heading-3 my-3">Learning in another car</h3>
                 <ul class="standard-list">
                     <li>Drive someone’s car from <?php echo do_shortcode("[learner_quotes_start_from_txt]"); ?> a day*
                     </li>
@@ -162,7 +162,7 @@ SECTION - WIP
             <div class="standard-card text-center">
                 <!--			<img class="w-full" src="/img/card-top.jpg" alt="Sunset in the mountains">-->
 
-                <h3 class="font-bold text-xl my-3">Passed my test</h3>
+                <h3 class="heading-3 my-3">Passed my test</h3>
                 <ul class="standard-list">
                     <li>Black box to help you improve</li>
                     <li>Discounts up to <?php echo do_shortcode("[yd_drive_safe_discount_txt]"); ?> if you drive well
@@ -179,7 +179,7 @@ SECTION - WIP
         <div class="flex-auto md:flex-1">
             <div class="standard-card text-center">
                 <!--			<img class="w-full" src="/img/card-top.jpg" alt="Sunset in the mountains">-->
-                <h3 class="font-bold text-xl my-3">Learning in my car</h3>
+                <h3 class="heading-3 my-3">Learning in my car</h3>
                 <ul class="standard-list">
                     <li>Start building up your own NCD</li>
                     <li>Black box to help you improve</li>
@@ -193,7 +193,7 @@ SECTION - WIP
             <div class="standard-card text-center">
                 <!--			<img class="w-full" src="/img/card-top.jpg" alt="Sunset in the mountains">-->
 
-                <h3 class="font-bold text-xl my-3">Learning in another car</h3>
+                <h3 class="heading-3  my-3">Learning in another car</h3>
                 <ul class="standard-list">
                     <li>Drive someone’s car from <?php echo do_shortcode("[learner_quotes_start_from_txt]"); ?> a day*
                     </li>
@@ -211,7 +211,7 @@ SECTION - WIP
         <div class="flex-auto md:flex-1 md:max-w-lg max-w-none">
             <div class="standard-card text-center">
                 <!--			<img class="w-full" src="/img/card-top.jpg" alt="Sunset in the mountains">-->
-                <h3 class="font-bold text-xl my-3">Learning in my car</h3>
+                <h3 class="heading-3 my-3">Learning in my car</h3>
                 <ul class="standard-list">
                     <li>Start building up your own NCD</li>
                     <li>Black box to help you improve</li>
@@ -526,9 +526,9 @@ SECTION - WIP
 
     <h3 class="pt-2 pb-3 text-sm text-center font-semibold underline">Banners - using shortcodes</h3>
 
-    <?php echo do_shortcode("[get-message color='info' message='This is a info banner notification' link='#']"); ?>
+    <?php echo do_shortcode("[get-message color='info' message='This is a info banner notification' link='cheese.html']"); ?>
 
-    <?php echo do_shortcode("[get-message color='warning' message='This is a warning banner notification' link='#']"); ?>
+    <?php echo do_shortcode("[get-message color='warning' message='This is a warning banner notification with no link passed in']"); ?>
 
     <?php echo do_shortcode("[get-message color='success' message='This is a success banner notification' link='#']"); ?>
 
