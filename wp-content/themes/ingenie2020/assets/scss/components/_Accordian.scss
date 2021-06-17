@@ -1,8 +1,8 @@
 // Simple Accordian 
+/* purgecss start ignore */
 .accordian {
   cursor: pointer;
 
-/* purgecss start ignore */
   &.active {
 
     @apply bg-ig-li-blue-500;
@@ -17,17 +17,17 @@
 
     }
   }
-/* purgecss end ignore */
-
-
+  
+  
   .pointer {
     display: inline-block;
     font-size: 2rem;
     transform: rotate(0deg);
   }
-
+  
   +.accordian-pane {
     display: none;
   }
-
+  
 }
+/* purgecss end ignore */
