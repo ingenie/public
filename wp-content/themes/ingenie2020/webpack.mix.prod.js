@@ -65,6 +65,8 @@ mix.purgeCss({
     // or 'purgecss start ignore'
     // If it in the sylte guide template your golden 🏆
     /max-w-md/,
+    /p-10/,
+    /mt-12/
   ]
 
 });
