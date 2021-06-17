@@ -812,9 +812,158 @@ SECTION - Misc
             car that can give out data on how the car’s performing. But we’re only interested in the how you’re driving
             bit.
         </p>
+    </div>
+
+    <!-- Messages -->
+    <div class="flex flex-wrap justify-center mb-4">
+        <div class="flex-auto md:flex-1 md:max-w-3xl max-w-none">
+            <div class="standard-card bg-white pb-3">
+                <table class="table-fixed">
+
+                    <tbody>
+                        <tr>
+                            <td class="w-1/4 bg-good px-3 py-5 text-center ">GOOD</td>
+                            <td class="w-auto p-3"><span class="font-semibold">Good</span> messages show you're driving
+                                consistently well</td>
+                        </tr>
+                        <tr>
+                            <td class="w-1/4 bg-okay px-3 py-5 text-center ">OKAY</td>
+                            <td class="w-auto p-3"><span class="font-semibold">Okay</span> messages mean in general
+                                you've been driving well, but there are areas of your driving you need to work on before
+                                you can get a Good message</td>
+                        </tr>
+                        <tr>
+                            <td class="w-1/4 bg-improvement px-3 py-5 text-center ">IMPROVEMENT</td>
+                            <td class="w-auto p-3"><span class="font-semibold">Needs Improvement</span> messages show
+                                the areas you need to improve on to stay safe</td>
+                        </tr>
+                        <tr>
+                            <td class="w-1/4 bg-unsafe px-3 py-5 text-center ">UNSAFE</td>
+                            <td class="w-auto p-3"><span class="font-semibold">Unsafe</span> messages highlight that you
+                                urgently need to improve your driving as it's becoming a concern</td>
+                        </tr>
+                        <tr>
+                            <td class="w-1/4 bg-dangerous px-3 py-5 text-white text-center ">UNDANGEROUS</td>
+                            <td class="w-auto p-3"><span class="font-semibold">Dangerous</span> messages warn you
+                                there’s a serious problem with your driving and you need to take immediate action</td>
+                        </tr>
+                        <tr>
+                            <td class="w-1/4 bg-highly-dangerous px-3 py-5 text-white text-center ">HIGHLY DANGEROUS
+                            </td>
+                            <td class="w-auto p-3"><span class="font-semibold">Highly Dangerous</span> messages are very
+                                rare - we'll only send one if a driver starts to really worry us. You'll get one of
+                                these messages if you:
+                                <br />
+                                - Drive extremely recklessly (e.g. driving excessively over the speed limit)
+                                <br />
+                                - Get an extremely high number of harsh braking and/or harsh cornering events
+                                <br />
+                                - Get 6 Dangerous messages for speeding in the year
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+
+            </div>
+        </div>
+
+    </div>
+
+
+    <!-- Pros/cons -->
+    <div class="flex flex-wrap justify-center mb-4">
+        <div class="flex-auto md:flex-1">
+            <div class="text-center">
+                <h3 class="heading-3 my-3">Covered</h3>
+                <ul class="standard-list list-none">
+                    <li class="border-b border-gray-300 mb-1">
+                        <p class="inline">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="inline h-6 w-6 pr-1 pb-1 text-success-900"
+                                fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                            </svg>Driving any time you like - no night-time curfew here!
+                        </p>
+                    </li>
+                    <li class="border-b border-gray-300 mb-1">
+                        <p class="inline">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="inline h-6 w-6 pr-1 pb-1 text-success-900"
+                                fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                            </svg>Stolen car recovery if it's been reported as missing
+                        </p>
+                    </li>
+                    <li class="border-b border-gray-300 mb-1">
+                        <p class="inline">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="inline h-6 w-6 pr-1 pb-1 text-success-900"
+                                fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                            </svg>Your audio system up to £300 as long as it's a permanent fixture
+                        </p>
+                    </li>
+                    <li class="border-b  border-gray-300 mb-1">
+                        <p class="inline">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="inline h-6 w-6 pr-1 pb-1 text-success-900"
+                                fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                            </svg>A car to get you around if yours is being fixed by one of our repairers*
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="flex-auto md:flex-1">
+            <div class="text-center">
+                <h3 class="heading-3 my-3">NOT Covered</h3>
+                <ul class="standard-list list-none">
+                    <li class="border-b border-gray-300 mb-1">
+                        <p class="inline">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="inline h-6 w-6 pr-1 pb-1 text-alert-500"
+                                fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M10 14l2-2m0 0l2-2m-2 2l-2-2m2 2l2 2m7-2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                            </svg>Modifications like alloy wheels or tinted windows
+                        </p>
+                    </li>
+                    <li class="border-b border-gray-300 mb-1">
+                        <p class="inline">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="inline h-6 w-6 pr-1 pb-1 text-alert-500"
+                                fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M10 14l2-2m0 0l2-2m-2 2l-2-2m2 2l2 2m7-2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                            </svg>Taking your car on a track
+                        </p>
+                    </li>
+                    <li class="border-b border-gray-300 mb-1">
+                        <p class="inline">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="inline h-6 w-6 pr-1 pb-1 text-alert-500"
+                                fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M10 14l2-2m0 0l2-2m-2 2l-2-2m2 2l2 2m7-2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                            </svg>Using your car for deliveries or racing
+                        </p>
+                    </li>
+                    <li class="border-b  border-gray-300 mb-1">
+                        <p class="inline">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="inline h-6 w-6 pr-1 pb-1 text-alert-500"
+                                fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M10 14l2-2m0 0l2-2m-2 2l-2-2m2 2l2 2m7-2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                            </svg>Driving other cars if you're under 25
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
 
 
     </div>
+
 
 </div>
 
