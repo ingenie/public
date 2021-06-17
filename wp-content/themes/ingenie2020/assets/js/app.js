@@ -2,9 +2,12 @@
 // NPM packages if they support it…
 import ExampleComponent1 from "./components/ExampleComponent1";
 import MobileHamburgerMenu from "./components/MobileHamburgerMenu";
+import DeviceCheck from "./components/DeviceCheck";
+import Faqs from "./components/Faqs";
 import MainMenu from "./components/MainMenu";
 import Accordian from "./components/Accordian";
 import BackToTop from "./components/BackToTop";
+// import HighlightSearch from "./components/jquery.mark.min.js";
 import FlexSlider from "./components/jquery.flexslider-min";
 import FlexSliderSetUp from "./components/FlexSliderInit";
 
@@ -21,10 +24,13 @@ jQuery(function ($) {
   // ExampleComponent1.init();
   // ExampleModule2.init();
   // ReplaceObfuscatedEmailAddresses.init();
-  // AnimateOnPageLinks.init();
+  AnimateOnPageLinks.init();
+  // HighlightSearch.init();
   FlexSlider.init();
   FlexSliderSetUp.init();
   MobileHamburgerMenu.init();
+  DeviceCheck.init();
+  Faqs.init();
   MainMenu.init();
   Accordian.init();
   BackToTop.init();

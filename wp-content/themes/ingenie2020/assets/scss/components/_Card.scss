@@ -1,6 +1,6 @@
 // Standard card
 .standard-card {
-  @apply relative border border-ig-blue-200 border-solid shadow-lg mt-3 p-3 pb-6 mb-4;
+  @apply relative border border-ig-blue-200 border-solid shadow-lg mt-3 p-3 pb-6 mb-4 mx-3;
   // min-height: 340px;
 
   @screen md {

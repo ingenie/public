@@ -275,7 +275,12 @@ module.exports = {
     }
   },
   variants: {
-    textColor: ['responsive', 'hover', 'focus', 'visited'],
+    extend: {
+      textColor: ['responsive', 'hover', 'focus', 'visited', 'group-hover'],
+      backgroundColor: ['group-hover'],
+      margin: ['first'], // TODO: might not work
+      borderWidth: ['hover'], // not using yet
+    }
   },
   future: {
     removeDeprecatedGapUtilities: true,

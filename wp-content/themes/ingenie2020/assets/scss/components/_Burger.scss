@@ -112,6 +112,8 @@ $menu-width: 270px;
 /*
 * Transform all the slices of hamburger
 */
+
+/* purgecss start ignore */
 #menuToggle.open span {
   opacity: 1;
   transform: rotate(45deg) translate(-3px, -3px);
@@ -126,6 +128,9 @@ $menu-width: 270px;
 #menuToggle.open span:nth-child(3) {
   transform: rotate(-45deg) translate(-3px, -3px);
 }
+
+/* ...more rules */
+/* purgecss end ignore */
 
 /*
 * Prevent background scroll when menu open

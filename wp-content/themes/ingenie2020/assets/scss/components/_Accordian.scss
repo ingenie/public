@@ -4,27 +4,23 @@
 
   &.active {
 
+    @apply bg-ig-li-blue-500;
+
     +.accordian-pane {
       display: flex;
     }
 
-    div.pointer {
-      span {
-        transform: rotate(180deg);
-        top: -6px;
-        position: relative;
-      }
+    .pointer {
+      transform: rotate(180deg);
+      position: relative;
 
     }
   }
 
-  div.pointer {
-    span {
-      display: inline-block;
-      font-size: 2rem;
-      transform: rotate(0deg);
-    }
-
+  .pointer {
+    display: inline-block;
+    font-size: 2rem;
+    transform: rotate(0deg);
   }
 
   +.accordian-pane {

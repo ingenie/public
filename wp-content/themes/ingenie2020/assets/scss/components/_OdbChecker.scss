@@ -1,0 +1,14 @@
+// OBD checker - NOTE: Most css in iframe with Trakm8
+iframe#obd {
+  width: 770px;
+  height: 330px;
+  margin: auto;
+}
+
+@media only screen and (max-width: 480px) {
+
+  iframe#obd {
+    width: 100%;
+    height: 500px;
+  }
+}

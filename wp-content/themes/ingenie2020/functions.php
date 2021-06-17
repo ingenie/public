@@ -63,6 +63,8 @@ Hide Basic Posts to avoid confusion
 =================================
 */
 
+remove_filter('the_content', 'wpautop');
+
 // function post_remove ()      //creating functions post_remove for removing menu item
 // { 
 //    remove_menu_page('edit.php');

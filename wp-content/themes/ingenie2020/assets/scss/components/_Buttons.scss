@@ -1,6 +1,6 @@
 // Links
 .primary-link-sm {
-  @apply items-center px-1 py-1 text-sm leading-none bg-transparent rounded text-ig-orange-500 border-ig-orange-500;
+  @apply items-center text-sm leading-none bg-transparent rounded text-ig-orange-500 border-ig-orange-500;
 
   &:hover {
     @apply border-transparent text-ig-orange-400;
@@ -9,7 +9,7 @@
 }
 
 .primary-link {
-  @apply items-center px-1 py-1 text-base leading-none bg-transparent rounded text-ig-orange-500;
+  @apply items-center text-base leading-none bg-transparent rounded text-ig-orange-500;
 
   &:hover {
     @apply text-ig-orange-400;
@@ -18,7 +18,7 @@
 }
 
 .secondary-link-sm {
-  @apply items-center px-1 py-1 text-sm leading-none bg-transparent rounded text-ig-blue-500 border-ig-blue-500;
+  @apply items-center text-sm leading-none bg-transparent rounded text-ig-blue-500 border-ig-blue-500;
 
   &:hover {
     @apply border-transparent text-ig-blue-400;
@@ -27,7 +27,7 @@
 }
 
 .secondary-link {
-  @apply items-center px-1 py-1 text-base leading-none bg-transparent rounded text-ig-blue-500;
+  @apply items-center text-base leading-none bg-transparent rounded text-ig-blue-500;
 
   &:hover {
     @apply text-ig-blue-400;

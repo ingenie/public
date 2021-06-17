@@ -4,7 +4,7 @@
 
 // Titles
 .heading-1 {
-  @apply text-ig-blue-500 py-3 px-1;
+  @apply text-ig-blue-500 py-3 px-1 mt-2;
 }
 
 .heading-2 {
@@ -12,11 +12,15 @@
 }
 
 .heading-3 {
-  @apply font-bold text-xl my-3;
+  @apply font-bold text-xl my-4;
 }
 
 .heading-4 {
-  @apply leading-tight p-2 text-base font-semibold;
+  @apply leading-tight p-1 text-base font-semibold;
+}
+
+.heading-5 {
+  @apply leading-tight p-1 text-xs font-semibold;
 }
 
 // Paragrapgh
