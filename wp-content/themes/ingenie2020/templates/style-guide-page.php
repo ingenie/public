@@ -415,7 +415,7 @@ SECTION - WIP
 
 
     <div class="flex flex-wrap justify-center mb-4">
-        <div class="flex-auto md:flex-1">
+        <div class="flex-auto md:w-1/3">
             <div class="text-center border-0 shadow-none standard-card">
                 <img class="object-cover mx-auto" src="/resources/img/pages/icons/pound-icon.svg" alt="upfront savings"
                     width="48" height="48">
@@ -427,7 +427,7 @@ SECTION - WIP
             </div>
         </div>
 
-        <div class="flex-auto md:flex-1">
+        <div class="flex-auto md:w-1/3">
             <div class="text-center border-0 shadow-none standard-card">
                 <img class="object-cover mx-auto" src="/resources/img/pages/icons/progress-icon.svg"
                     alt="save on progress" width="48" height="48">
@@ -439,7 +439,7 @@ SECTION - WIP
             </div>
         </div>
 
-        <div class="flex-auto md:flex-1">
+        <div class="flex-auto md:w-1/3">
             <div class="text-center border-0 shadow-none standard-card">
                 <img class="object-cover mx-auto" src="/resources/img/pages/icons/pig-icon.svg" alt="save at renewal"
                     width="48" height="48">
