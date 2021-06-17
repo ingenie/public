@@ -2,6 +2,7 @@
 .accordian {
   cursor: pointer;
 
+/* purgecss start ignore */
   &.active {
 
     @apply bg-ig-li-blue-500;
@@ -16,6 +17,8 @@
 
     }
   }
+/* purgecss end ignore */
+
 
   .pointer {
     display: inline-block;

@@ -66,7 +66,12 @@ mix.purgeCss({
     // If it in the sylte guide template your golden 🏆
     /max-w-md/,
     /max-w-lg/,
-    /mb-16/
+    /mb-16/,
+    /text-dangerous/,
+    /text-highly-dangerous/,
+    /py-10/,
+    /md:w-2\/12/,
+    /w-10\/12/
   ]
 
 });
