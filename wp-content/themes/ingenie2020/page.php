@@ -8,6 +8,6 @@
 </section>
 
 <!-- No loop thanks -->
-<!-- <?php get_template_part( 'templates/partials/section', 'content' ); ?>-->
+<!-- <?php get_template_part('templates/partials/section', 'content'); ?>-->
 
 <?php get_footer(); ?>

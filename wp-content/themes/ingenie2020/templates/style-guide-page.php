@@ -7,11 +7,21 @@
 get_header();
 ?>
 
+<!-- START: Highlight the code examples -->
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.0.1/styles/atom-one-dark.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.0.1/highlight.min.js"></script>
+<script>
+hljs.highlightAll();
+</script>
+<!-- END: Highlight the code examples -->
+
+
 <div class="bg-ig-li-blue-500 text-center p-8 my-4">
     <h1 class="pt-4 text-center">Styleguide - Components</h1>
-    <h3 class="heading-3">, take a look to see if we’ve answered it already</h3>
+    <h3 class="heading-3 max-w-3xl mx-auto">Reusable UI blocks and code snippets to speed up page building. Some
+        shortcodes also exist for easier implementation</h3>
 
-    <div class="max-w-2xl m-auto my-6">
+    <div class="max-w-2xl m-auto py-10">
         <a class="inline-block filter primary-btn my-1" href="#fonts">Fonts</a>
         <a class="inline-block filter primary-btn my-1" href="#links">Buttons</a>
         <a class="inline-block filter primary-btn my-1" href="#cards">Cards</a>
@@ -24,9 +34,6 @@ get_header();
         <a class="inline-block filter primary-btn my-1" href="#misc">Misc</a>
     </div>
 
-    <p class="pb-5 text-sm text-center text-ig-orange-500">NOTE: SVG icons available for button/links are <a
-            href="https://heroicons.com" class="underline" target="_blank" rel="noopener noreferrer">available here</a>,
-        compatible with tailwind css (https://heroicons.com)</p>
 </div>
 
 <div class="container mx-auto">
@@ -38,7 +45,7 @@ HEADINGS
 SECTION - WIP
 -------------------------	
 -->
-    <!-- <span id="fonts" class="block w-full h-0 mt-0 border-t border-gray-300"></span> -->
+    <!-- <span id="fonts" class="block w-full h-0 my-10 border-t border-gray-300"></span> -->
     <!-- Headings / Fonts -->
     <h2 id="fonts" class="heading-2 flex py-2 mt-16 mb-1 justify-center">
         <span class="border-l-4 border-ig-orange-500 pl-2">
@@ -64,84 +71,352 @@ SECTION - WIP
 -------------------------	
 -->
 
-    <span id="links" class="block w-full h-0 mt-0 border-t border-gray-300"></span>
+    <span id="links" class="block w-full h-0 my-10 border-t border-gray-300"></span>
     <h2 class="heading-2 flex py-2 mt-16 mb-1 justify-center">
         <span class="border-l-4 border-ig-orange-500 pl-2">
-            Buttons - Links
+            Buttons / Links
         </span>
     </h2>
 
+    <?php echo do_shortcode("[get-message color='info' message='NOTE: SVG icons compatible with tailwind css available for button/links are available here at (https://heroicons.com)' link='https://heroicons.com']"); ?>
+
     <!-- Button - Links -->
-    <h3 class="pt-2 pb-3 text-sm font-semibold text-center underline">Links</h3>
-    <p class="my-1">
-        <a href="/retrieve-a-quote-type" class="inline-flex primary-link">
-            <span>Primary href link</span>
-        </a>
-    </p>
-    <p class="my-1">
-        <a href="/retrieve-a-quote-type" class="inline-flex primary-link">
-            <span>Primary href link (with icon)</span>
-            <svg xmlns="http://www.w3.org/2000/svg" class="btn-icon-right" fill="none" viewBox="0 0 24 24"
-                stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                    d="M13 9l3 3m0 0l-3 3m3-3H8m13 0a9 9 0 11-18 0 9 9 0 0118 0z" />
-            </svg>
-        </a>
-    </p>
+    <!-- <h3 class="pt-2 pb-3 text-sm font-semibold text-center underline">Links</h3> -->
 
-    <h3 class="pt-2 pb-3 text-sm font-semibold text-center underline">Buttons</h3>
-    <p class="my-1">
-        <a href="/choose-a-type-of-insurance" class="inline-flex primary-btn">
-            <span>Primary button</span>
-        </a>
-    </p>
-    <p class="my-1">
-        <a href="/choose-a-type-of-insurance" class="inline-flex primary-btn-clear">
-            <span>Primary button clear</span>
-        </a>
-    </p>
-    <p class="my-1">
-        <a href="/choose-a-type-of-insurance" class="inline-flex secondary-btn">
-            <span>Secondary button</span>
-        </a>
-    </p>
-    <p class="my-1">
-        <a href="/choose-a-type-of-insurance" class="inline-flex secondary-btn-clear">
-            <span>Secondary button clear</span>
-        </a>
-    </p>
-    <p class="my-1">
-        <a href="/choose-a-type-of-insurance" class="inline-flex primary-btn">
-            <span>Primary button (with icon)</span>
-            <svg xmlns="http://www.w3.org/2000/svg" class="btn-icon-right" viewBox="0 0 20 20" fill="currentColor">
-                <path fill-rule="evenodd"
-                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-8.707l-3-3a1 1 0 00-1.414 1.414L10.586 9H7a1 1 0 100 2h3.586l-1.293 1.293a1 1 0 101.414 1.414l3-3a1 1 0 000-1.414z"
-                    clip-rule="evenodd" />
-            </svg>
-        </a>
-    </p>
-    <p class="my-1">
-        <a href="/choose-a-type-of-insurance" class="inline-flex secondary-btn">
-            <span>Secondary button (with icon)</span>
-            <svg xmlns="http://www.w3.org/2000/svg" class="btn-icon-right" viewBox="0 0 20 20" fill="currentColor">
-                <path fill-rule="evenodd"
-                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-8.707l-3-3a1 1 0 00-1.414 1.414L10.586 9H7a1 1 0 100 2h3.586l-1.293 1.293a1 1 0 101.414 1.414l3-3a1 1 0 000-1.414z"
-                    clip-rule="evenodd" />
-            </svg>
-        </a>
-    </p>
+    <div class="flex flex-wrap">
+        <div class="md:w-1/2">
+            <p class="my-1">
+                <a href="#" class="primary-link-xs">
+                    Primary link x-small
+                </a>
+            </p>
+            <p class="my-1">
+                <a href="#" class="primary-link-sm">
+                    Primary link small
+                </a>
+            </p>
+            <p class="my-1">
+                <a href="#" class="primary-link">
+                    Primary link
+                </a>
+            </p>
+            <p class="my-1">
+                <a href="#" class="inline-flex primary-link">
+                    Primary link (with icon)
+                    <svg xmlns="http://www.w3.org/2000/svg" class="btn-icon-right" fill="none" viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M13 9l3 3m0 0l-3 3m3-3H8m13 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    </svg>
+                </a>
+            </p>
 
-    <h3 class="pt-2 pb-3 text-sm font-semibold text-center underline">YD Get a quote buttons - using shortcodes</h3>
-    <?php echo do_shortcode("[yd-quote-button size='-sm' text='Get a quote (small)']"); ?>
-    <?php echo do_shortcode("[yd-quote-button text='Get a quote (standard)']"); ?>
-    <?php echo do_shortcode("[yd-quote-button type='secondary' text='Get a quote (secondary)']"); ?>
+        </div>
+        <div class="md:w-1/2">
+            <p class="my-1">
+                <a href="#" class="inline-flex secondary-link-xs">
+                    Secondary link x-small
+                </a>
+            </p>
+            <p class="my-1">
+                <a href="#" class="inline-flex secondary-link-sm">
+                    Secondary link small
+                </a>
+            </p>
+            <p class="my-1">
+                <a href="#" class="inline-flex secondary-link">
+                    Secondary link
+                </a>
+            </p>
+            <p class="my-1">
+                <a href="#" class="inline-flex secondary-link">
+                    Secondary link (with icon)
+                    <svg xmlns="http://www.w3.org/2000/svg" class="btn-icon-right" fill="none" viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M13 9l3 3m0 0l-3 3m3-3H8m13 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    </svg>
+                </a>
+            </p>
 
-    <h3 class="pt-2 pb-3 text-sm font-semibold text-center underline">LD Get a quote buttons - using shortcodes</h3>
-    <?php echo do_shortcode("[learner-quote-button size='-sm' text='Get a quote (small)']"); ?>
-    <?php echo do_shortcode("[learner-quote-button text='Get a quote (standard)']"); ?>
-    <?php echo do_shortcode("[learner-quote-button type='secondary' text='Get a quote (secondary)']"); ?>
+        </div>
+    </div>
+
+    <!-- MARKUP -->
+    <div class="mb-10 mt-2">
+        <pre class="text-xs">
+        <code class="language-html">
+    &lt;a href="#" class="inline-flex primary-link"&gt;Primary link&lt;/a&gt;
+
+    &lt;a href="#" class="inline-flex secondary-link-sm"&gt;Secondary link small&lt;/a&gt;
+
+    &lt;a href="#" class="inline-flex secondary-link"&gt;
+    Secondary link (with icon)
+        &lt;svg xmlns="http://www.w3.org/2000/svg" class="btn-icon-right" fill="none" viewBox="0 0 24 24"
+            stroke="currentColor"&gt;
+            &lt;path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M13 9l3 3m0 0l-3 3m3-3H8m13 0a9 9 0 11-18 0 9 9 0 0118 0z" /&gt;
+            &lt;/svg&gt;
+    &lt;/a&gt;
+  </code>
+</pre>
+    </div>
+    <!-- MARKUP -->
+
+    <!-- <h3 class="pt-2 pb-3 text-sm font-semibold text-center underline">Buttons</h3> -->
+
+    <div class="flex flex-wrap">
+        <div class="md:w-1/3">
+            <p class="my-1">
+                <a href="#" class="inline-flex primary-btn">Primary button</a>
+            </p>
+        </div>
+        <div class="md:w-1/3">
+            <p class="my-1">
+                <a href="#" class="inline-flex primary-btn-sm">Primary small</a>
+            </p>
+        </div>
+        <div class="md:w-1/3">
+            <p class="my-1">
+                <a href="#" class="inline-flex primary-btn-xs">Primary x-small</a>
+            </p>
+        </div>
+    </div>
+
+    <!-- MARKUP -->
+    <div class="mb-10 mt-2">
+        <pre class="text-xs">
+        <code class="language-html">
+    &lt;a href="#" class="inline-flex primary-btn"&gt;Primary button&lt;/a&gt;
+    &lt;a href="#" class="inline-flex primary-btn-sm"&gt;Primary small&lt;/a&gt;
+    &lt;a href="#" class="inline-flex primary-btn-xs"&gt;Primary x-small&lt;/a&gt;
+  </code>
+</pre>
+    </div>
+    <!-- MARKUP -->
+
+    <div class="flex flex-wrap">
+        <div class="md:w-1/3">
+            <p class="my-1">
+                <a href="#" class="inline-flex primary-btn-clear">
+                    Primary button clear
+                </a>
+            </p>
+        </div>
+        <div class="md:w-1/3">
+            <p class="my-1">
+                <a href="#" class="inline-flex primary-btn-clear-sm">
+                    Primary clear small
+                </a>
+            </p>
+        </div>
+        <div class="md:w-1/3">
+            <p class="my-1">
+                <a href="#" class="inline-flex primary-btn-clear-xs">
+                    Primary clear x-small
+                </a>
+            </p>
+        </div>
+    </div>
+
+    <!-- MARKUP -->
+    <div class="mb-10 mt-2">
+        <pre class="text-xs">
+        <code class="language-html">
+    &lt;a href="#" class="inline-flex primary-btn-clear"&gt;Primary button clear&lt;/a&gt;
+    &lt;a href="#" class="inline-flex primary-btn-clear-sm"&gt;Primary clear small&lt;/a&gt;
+    &lt;a href="#" class="inline-flex primary-btn-clear-xs"&gt;Primary clear x-small&lt;/a&gt;
+  </code>
+</pre>
+    </div>
+    <!-- MARKUP -->
+
+    <div class="flex flex-wrap">
+        <div class="md:w-1/3">
+            <p class="my-1">
+                <a href="#" class="inline-flex secondary-btn">
+                    Secondary button
+                </a>
+            </p>
+        </div>
+        <div class="md:w-1/3">
+            <p class="my-1">
+                <a href="#" class="inline-flex secondary-btn-sm">
+                    Secondary small
+                </a>
+            </p>
+        </div>
+        <div class="md:w-1/3">
+            <p class="my-1">
+                <a href="#" class="inline-flex secondary-btn-xs">
+                    Secondary x-small
+                </a>
+            </p>
+        </div>
+    </div>
+
+    <!-- MARKUP -->
+    <div class="mb-10 mt-2">
+        <pre class="text-xs">
+        <code class="language-html">
+    &lt;a href="#" class="inline-flex secondary-btn"&gt;Secondary button&lt;/a&gt;
+    &lt;a href="#" class="inline-flex secondary-btn-sm"&gt;Secondary small&lt;/a&gt;
+    &lt;a href="#" class="inline-flex secondary-btn-xs"&gt;Secondary x-small&lt;/a&gt;
+  </code>
+</pre>
+    </div>
+    <!-- MARKUP -->
+
+    <div class="flex flex-wrap">
+        <div class="md:w-1/3">
+            <p class="my-1">
+                <a href="#" class="inline-flex secondary-btn-clear">
+                    Secondary button clear
+                </a>
+            </p>
+        </div>
+        <div class="md:w-1/3">
+            <p class="my-1">
+                <a href="#" class="inline-flex secondary-btn-clear-sm">
+                    Secondary clear small
+                </a>
+            </p>
+        </div>
+        <div class="md:w-1/3">
+            <p class="my-1">
+                <a href="#" class="inline-flex secondary-btn-clear-xs">
+                    Secondary clear x-small
+                </a>
+            </p>
+        </div>
+    </div>
+
+    <!-- MARKUP -->
+    <div class="mb-10 mt-2">
+        <pre class="text-xs">
+        <code class="language-html">
+    &lt;a href="#" class="inline-flex secondary-btn-clear"&gt;Secondary button clear&lt;/a&gt;
+    &lt;a href="#" class="inline-flex secondary-btn-clear-sm"&gt;Secondary clear small&lt;/a&gt;
+    &lt;a href="#" class="inline-flex secondary-btn-clear-xs"&gt;Secondary clear x-small&lt;/a&gt;
+  </code>
+</pre>
+    </div>
+    <!-- MARKUP -->
+
+    <div class="flex flex-wrap">
+        <div class="md:w-1/2">
+            <p class="my-1">
+                <a href="#" class="inline-flex primary-btn">
+                    <span>Primary button (with icon)</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="btn-icon-right" viewBox="0 0 20 20"
+                        fill="currentColor">
+                        <path fill-rule="evenodd"
+                            d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-8.707l-3-3a1 1 0 00-1.414 1.414L10.586 9H7a1 1 0 100 2h3.586l-1.293 1.293a1 1 0 101.414 1.414l3-3a1 1 0 000-1.414z"
+                            clip-rule="evenodd" />
+                    </svg>
+                </a>
+            </p>
+        </div>
+        <div class="md:w-1/2">
+            <p class="my-1">
+                <a href="#" class="inline-flex secondary-btn">
+                    <span>Secondary button (with icon)</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="btn-icon-right" viewBox="0 0 20 20"
+                        fill="currentColor">
+                        <path fill-rule="evenodd"
+                            d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-8.707l-3-3a1 1 0 00-1.414 1.414L10.586 9H7a1 1 0 100 2h3.586l-1.293 1.293a1 1 0 101.414 1.414l3-3a1 1 0 000-1.414z"
+                            clip-rule="evenodd" />
+                    </svg>
+                </a>
+            </p>
+        </div>
+    </div>
 
 
+
+    <!-- MARKUP -->
+    <div class="mb-10 mt-2">
+        <pre class="text-xs">
+        <code class="language-html">
+    &lt;a href="#" class="inline-flex primary-btn"&gt;
+        &lt;span&gt;Primary button (with icon)&lt;/span&gt;
+        &lt;svg xmlns="http://www.w3.org/2000/svg" class="btn-icon-right" viewBox="0 0 20 20"
+            fill="currentColor"&gt;
+            &lt;path fill-rule="evenodd"
+                d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-8.707l-3-3a1 1 0 00-1.414 1.414L10.586 9H7a1 1 0 100 2h3.586l-1.293 1.293a1 1 0 101.414 1.414l3-3a1 1 0 000-1.414z"
+                clip-rule="evenodd" /&gt;
+        &lt;/svg&gt;
+    &lt;/a&gt;
+
+    
+    &lt;a href="#" class="inline-flex secondary-btn"&gt;
+        &lt;span&gt;Secondary button (with icon)&lt;/span&gt;
+        &lt;svg xmlns="http://www.w3.org/2000/svg" class="btn-icon-right" viewBox="0 0 20 20"
+            fill="currentColor"&gt;
+            &lt;path fill-rule="evenodd"
+                d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-8.707l-3-3a1 1 0 00-1.414 1.414L10.586 9H7a1 1 0 100 2h3.586l-1.293 1.293a1 1 0 101.414 1.414l3-3a1 1 0 000-1.414z"
+                clip-rule="evenodd" /&gt;
+        &lt;/svg&gt;
+    &lt;/a&gt;
+  </code>
+</pre>
+    </div>
+    <!-- MARKUP -->
+
+
+
+
+    <!-- <h3 class="pt-2 pb-3 text-sm font-semibold text-center underline">YD Get a quote buttons - using shortcodes</h3> -->
+    <div class="flex flex-wrap">
+        <div class="md:w-1/3">
+            <?php echo do_shortcode("[yd-quote-button text='Get a quote']"); ?>
+        </div>
+        <div class="md:w-1/3">
+            <?php echo do_shortcode("[yd-quote-button type='secondary' text='Get a quote (secondary)']"); ?>
+        </div>
+        <div class="md:w-1/3">
+            <?php echo do_shortcode("[yd-quote-button size='-sm' text='Get a quote (small)']"); ?>
+        </div>
+    </div>
+
+    <!-- MARKUP -->
+    <div class="mb-10 mt-2">
+        <pre class="text-xs">
+        <code class="language-php">
+    [yd-quote-button text='Get a quote']
+    [yd-quote-button type='secondary' text='Get a quote (secondary)']
+    [yd-quote-button size='-sm' text='Get a quote (small)']
+  </code>
+</pre>
+    </div>
+    <!-- MARKUP -->
+
+    <!-- <h3 class="pt-2 pb-3 text-sm font-semibold text-center underline">LD Get a quote buttons - using shortcodes</h3> -->
+    <div class="flex flex-wrap">
+        <div class="md:w-1/3">
+            <?php echo do_shortcode("[learner-quote-button text='Get a quote']"); ?>
+        </div>
+        <div class="md:w-1/3">
+            <?php echo do_shortcode("[learner-quote-button type='secondary' text='Get a quote (secondary)']"); ?>
+        </div>
+        <div class="md:w-1/3">
+            <?php echo do_shortcode("[learner-quote-button size='-sm' text='Get a quote (small)']"); ?>
+        </div>
+    </div>
+
+
+
+    <!-- MARKUP -->
+    <div class="mb-10 mt-2">
+        <pre class="text-xs">
+        <code class="language-php">
+    [learner-quote-button text='Get a quote']
+    [learner-quote-button type='secondary' text='Get a quote (secondary)']
+    [learner-quote-button size='-sm' text='Get a quote (small)']
+  </code>
+</pre>
+    </div>
+    <!-- MARKUP -->
 
 
     <!-- 
@@ -152,7 +427,7 @@ SECTION - WIP
 -------------------------	
 -->
 
-    <span id="cards" class="block w-full h-0 mt-0 border-t border-gray-300"></span>
+    <span id="cards" class="block w-full h-0 my-10 border-t border-gray-300"></span>
     <h2 class="heading-2 flex py-2 mt-16 mb-1 justify-center">
         <span class="border-l-4 border-ig-orange-500 pl-2">
             Cards
@@ -553,7 +828,7 @@ NOTIFICATIONS
 SECTION - WIP
 -------------------------	
 -->
-    <span id="notifications" class="block w-full h-0 mt-0 border-t border-gray-300"></span>
+    <span id="notifications" class="block w-full h-0 my-10 border-t border-gray-300"></span>
     <!-- Notifications -->
     <h2 class="heading-2 flex py-2 mt-16 mb-1 justify-center">
         <span class="border-l-4 border-ig-orange-500 pl-2">
@@ -561,7 +836,7 @@ SECTION - WIP
         </span>
     </h2>
 
-    <h3 class="pt-2 pb-3 text-sm font-semibold text-center underline">Banners - using shortcodes</h3>
+    <!-- <h3 class="pt-2 pb-3 text-sm font-semibold text-center underline">Banners - using shortcodes</h3> -->
 
     <?php echo do_shortcode("[get-message color='info' message='This is a info banner notification' link='cheese.html']"); ?>
 
@@ -570,6 +845,19 @@ SECTION - WIP
     <?php echo do_shortcode("[get-message color='success' message='This is a success banner notification' link='#']"); ?>
 
     <?php echo do_shortcode("[get-message color='alert' message='This is a alert banner notification' link='#']"); ?>
+
+    <!-- MARKUP -->
+    <div class="mb-10 mt-2">
+        <pre class="text-xs">
+        <code class="language-php">
+    [get-message color='info' message='This is a info banner notification' link='cheese.html']
+    [get-message color='warning' message='This is a warning banner notification with no link passed in']
+    [get-message color='success' message='This is a success banner notification' link='#']
+    [get-message color='alert' message='This is a alert banner notification' link='#']
+  </code>
+</pre>
+    </div>
+    <!-- MARKUP -->
 
 
     <!-- 
@@ -580,7 +868,7 @@ SECTION - WIP
 -------------------------	
 -->
 
-    <span id="smallprint" class="block w-full h-0 mt-0 border-t border-gray-300"></span>
+    <span id="smallprint" class="block w-full h-0 my-10 border-t border-gray-300"></span>
     <!-- Small print -->
     <h2 class="heading-2 flex py-2 mt-16 mb-1 justify-center">
         <span class="border-l-4 border-ig-orange-500 pl-2">
@@ -616,7 +904,7 @@ TRUST PILOT
 SECTION - WIP
 -------------------------	
 -->
-    <span id="trustpilot" class="block w-full h-0 mt-0 border-t border-gray-300"></span>
+    <span id="trustpilot" class="block w-full h-0 my-10 border-t border-gray-300"></span>
     <!-- Trust Pilot -->
     <h2 class="heading-2 flex py-2 mt-16 mb-1 justify-center">
         <span class="border-l-4 border-ig-orange-500 pl-2">
@@ -635,7 +923,7 @@ ACCORDIANS
 SECTION - WIP
 -------------------------	
 -->
-    <span id="accordians" class="block w-full h-0 mt-0 border-t border-gray-300"></span>
+    <span id="accordians" class="block w-full h-0 my-10 border-t border-gray-300"></span>
     <!-- Carousels -->
     <h2 class="heading-2 flex py-2 mt-16 mb-1 justify-center">
         <span class="border-l-4 border-ig-orange-500 pl-2">
@@ -657,7 +945,7 @@ SECTION - WIP
 -->
 
 <div class="container mx-auto">
-    <span id="carousels" class="block w-full h-0 mt-0 border-t border-gray-300"></span>
+    <span id="carousels" class="block w-full h-0 my-10 border-t border-gray-300"></span>
     <!-- Accordians -->
     <h2 class="heading-2 flex py-2 mt-16 mb-1 justify-center">
         <span class="border-l-4 border-ig-orange-500 pl-2">
@@ -689,7 +977,7 @@ SECTION - WIP
 
 <div class="container mx-auto">
 
-    <span id="hero" class="block w-full h-0 mt-0 border-t border-gray-300"></span>
+    <span id="hero" class="block w-full h-0 my-10 border-t border-gray-300"></span>
 
     <!-- Hero Image shortcode -->
     <h2 class="heading-2 flex py-2 mt-16 mb-1 justify-center">
@@ -719,7 +1007,7 @@ SECTION - WIP
 -->
 <div class="container mx-auto">
 
-    <span id="video" class="block w-full h-0 mt-0 border-t border-gray-300"></span>
+    <span id="video" class="block w-full h-0 my-10 border-t border-gray-300"></span>
 
     <!-- Video  -->
     <h2 class="heading-2 flex py-2 mt-16 mb-1 justify-center">
@@ -746,7 +1034,7 @@ SECTION - Misc
 -->
 <div id="misc" class="mx-auto">
 
-    <span id="video" class="block w-full h-0 mt-0 border-t border-gray-300"></span>
+    <span id="video" class="block w-full h-0 my-10 border-t border-gray-300"></span>
 
     <!-- Video  -->
     <h2 class="heading-2 flex py-2 mt-16 mb-1 justify-center">

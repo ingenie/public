@@ -63,16 +63,16 @@ mix.purgeCss({
     // Use prugecss to expose dynamic tailwind classes 
     // Search project for: '{# purgecss:' for more context
     // or 'purgecss start ignore'
-    // If it in the sylte guide template your golden 🏆
+
+    // If it in the sylte guide template your golden 🏆 
+    // At end of add below into style guide so these can be deleted.
     /max-w-md/,
     /max-w-lg/,
     /mb-16/,
     /text-dangerous/,
     /text-highly-dangerous/,
-    /py-10/,
     /md:w-2\/12/,
     /w-10\/12/,
-    /max-w-3xl/
   ]
 
 });

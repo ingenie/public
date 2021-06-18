@@ -1,0 +1,40 @@
+/*
+Footer
+*/
+
+  /* Slide in */
+ .link-items {
+
+    a {
+      display: inline-block;
+      position: relative;
+      padding: 0.2em 0;
+    }
+    
+    a::after {
+      content: '';
+      position: absolute;
+      bottom: 2px;
+      left: -1px;
+      width: 100%;
+      height: 1px;
+      @apply bg-ig-blue-300;
+      opacity: 0;
+      transition: opacity 300ms, transform 300ms;
+    }
+    
+    a {
+      overflow: hidden;
+    }
+    
+    a::after {
+      opacity: 1;
+      transform: translate3d(-100%, 0, 0);
+    }
+    
+    a:hover::after,
+    a:focus::after{
+      transform: translate3d(0, 0, 0);
+    }
+  
+  }
