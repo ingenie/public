@@ -143,10 +143,10 @@ function custom_post_type()
 
     );
 
-    $ydgAdsLabels = array(
-        'name'                => _x('YDG Adverts', 'Post Type General Name'),
-        'singular_name'       => _x('YDG Advert', 'Post Type Singular Name'),
-        'menu_name'           => __('YDG Advert'),
+    $igAdsLabels = array(
+        'name'                => _x('IG Adverts', 'Post Type General Name'),
+        'singular_name'       => _x('IG Advert', 'Post Type Singular Name'),
+        'menu_name'           => __('IG Adverts'),
         'parent_item_colon'   => __('Parent Advert'),
         'all_items'           => __('View all adverts'),
         'view_item'           => __('View advert'),
@@ -159,14 +159,14 @@ function custom_post_type()
         'not_found_in_trash'  => __('Not found in Trash'),
     );
 
-    $ydgAdsArgs = array(
+    $igAdsArgs = array(
         'label'               => __('adverts'),
-        'description'         => __('ingenie adverts for site'),
-        'labels'              => $ydgAdsLabels,
+        'description'         => __('ingenie adverts for blog'),
+        'labels'              => $igAdsLabels,
         // Features this CPT supports in Post Editor
         'supports'            => array('title', 'editor', 'excerpt', 'author', 'thumbnail', 'revisions', 'custom-fields',),
         // You can associate this CPT with a taxonomy or custom taxonomy. 
-        'taxonomies'          => array('placement'),
+        'taxonomies'          => array('location'),
         /* A hierarchical CPT is like Pages and can have
         * Parent and child items. A non-hierarchical CPT
         * is like Posts.
@@ -188,53 +188,100 @@ function custom_post_type()
 
     );
 
-    $ydgLabels = array(
-        'name'                => _x('YDG Posts', 'Post Type General Name'),
-        'singular_name'       => _x('YDG Post', 'Post Type Singular Name'),
-        'menu_name'           => __('YDG Posts'),
-        'parent_item_colon'   => __('Parent YDG Post'),
-        'all_items'           => __('View all YDG Posts'),
-        'view_item'           => __('View YDG Post'),
-        'add_new_item'        => __('Add New YDG Post'),
-        'add_new'             => __('Add New YDG Post'),
-        'edit_item'           => __('Edit YDG Post'),
-        'update_item'         => __('Update YDG Post'),
-        'search_items'        => __('Search YDG Post'),
-        'not_found'           => __('Not Found'),
-        'not_found_in_trash'  => __('Not found in Trash'),
-    );
+    // Hiding young driver guide seciton for now untill ready!!
+    // $ydgAdsLabels = array(
+    //     'name'                => _x('YDG Adverts', 'Post Type General Name'),
+    //     'singular_name'       => _x('YDG Advert', 'Post Type Singular Name'),
+    //     'menu_name'           => __('YDG Adverts'),
+    //     'parent_item_colon'   => __('Parent Advert'),
+    //     'all_items'           => __('View all adverts'),
+    //     'view_item'           => __('View advert'),
+    //     'add_new_item'        => __('Add New advert'),
+    //     'add_new'             => __('Add New advert'),
+    //     'edit_item'           => __('Edit advert'),
+    //     'update_item'         => __('Update advert'),
+    //     'search_items'        => __('Search advert'),
+    //     'not_found'           => __('Not Found'),
+    //     'not_found_in_trash'  => __('Not found in Trash'),
+    // );
 
-    $ydgArgs = array(
-        'label'               => __('young-drivers-guides'),
-        'description'         => __('YDG blog for ingenie Insurance'),
-        'labels'              => $ydgLabels,
-        // Features this CPT supports in Post Editor
-        'supports'            => array('title', 'editor', 'excerpt', 'author', 'thumbnail', 'revisions', 'custom-fields',),
-        // You can associate this CPT with a taxonomy or custom taxonomy. 
-        'taxonomies'          => array('topics'),
-        /* A hierarchical CPT is like Pages and can have
-        * Parent and child items. A non-hierarchical CPT
-        * is like Posts.
-        */
-        'hierarchical'        => false,
-        'public'              => true,
-        'show_ui'             => true,
-        'show_in_menu'        => true,
-        'show_in_nav_menus'   => true,
-        'show_in_admin_bar'   => true,
-        'menu_position'       => 4,
-        'menu_icon'           => 'dashicons-book',
-        'can_export'          => true,
-        'has_archive'         => true,
-        'exclude_from_search' => false,
-        'publicly_queryable'  => true,
-        'capability_type'     => 'post',
-        'show_in_rest' => true,
+    // $ydgAdsArgs = array(
+    //     'label'               => __('adverts'),
+    //     'description'         => __('ingenie adverts for blog'),
+    //     'labels'              => $ydgAdsLabels,
+    //     // Features this CPT supports in Post Editor
+    //     'supports'            => array('title', 'editor', 'excerpt', 'author', 'thumbnail', 'revisions', 'custom-fields',),
+    //     // You can associate this CPT with a taxonomy or custom taxonomy. 
+    //     'taxonomies'          => array('placement'),
+    //     /* A hierarchical CPT is like Pages and can have
+    //     * Parent and child items. A non-hierarchical CPT
+    //     * is like Posts.
+    //     */
+    //     'hierarchical'        => false,
+    //     'public'              => true,
+    //     'show_ui'             => true,
+    //     'show_in_menu'        => true,
+    //     'show_in_nav_menus'   => true,
+    //     'show_in_admin_bar'   => true,
+    //     'menu_position'       => 5,
+    //     'menu_icon'           => 'dashicons-carrot',
+    //     'can_export'          => true,
+    //     'has_archive'         => true,
+    //     'exclude_from_search' => false,
+    //     'publicly_queryable'  => true,
+    //     'capability_type'     => 'post',
+    //     'show_in_rest' => true,
 
-    );
+    // );
 
-    register_post_type('young-drivers-guides', $ydgArgs);
-    register_post_type('adverts', $ydgAdsArgs);
+    // $ydgLabels = array(
+    //     'name'                => _x('YDG Posts', 'Post Type General Name'),
+    //     'singular_name'       => _x('YDG Post', 'Post Type Singular Name'),
+    //     'menu_name'           => __('YDG Posts'),
+    //     'parent_item_colon'   => __('Parent YDG Post'),
+    //     'all_items'           => __('View all YDG Posts'),
+    //     'view_item'           => __('View YDG Post'),
+    //     'add_new_item'        => __('Add New YDG Post'),
+    //     'add_new'             => __('Add New YDG Post'),
+    //     'edit_item'           => __('Edit YDG Post'),
+    //     'update_item'         => __('Update YDG Post'),
+    //     'search_items'        => __('Search YDG Post'),
+    //     'not_found'           => __('Not Found'),
+    //     'not_found_in_trash'  => __('Not found in Trash'),
+    // );
+
+    // $ydgArgs = array(
+    //     'label'               => __('young-drivers-guides'),
+    //     'description'         => __('YDG blog for ingenie Insurance'),
+    //     'labels'              => $ydgLabels,
+    //     // Features this CPT supports in Post Editor
+    //     'supports'            => array('title', 'editor', 'excerpt', 'author', 'thumbnail', 'revisions', 'custom-fields',),
+    //     // You can associate this CPT with a taxonomy or custom taxonomy. 
+    //     'taxonomies'          => array('topics'),
+    //     /* A hierarchical CPT is like Pages and can have
+    //     * Parent and child items. A non-hierarchical CPT
+    //     * is like Posts.
+    //     */
+    //     'hierarchical'        => false,
+    //     'public'              => true,
+    //     'show_ui'             => true,
+    //     'show_in_menu'        => true,
+    //     'show_in_nav_menus'   => true,
+    //     'show_in_admin_bar'   => true,
+    //     'menu_position'       => 4,
+    //     'menu_icon'           => 'dashicons-book',
+    //     'can_export'          => true,
+    //     'has_archive'         => true,
+    //     'exclude_from_search' => false,
+    //     'publicly_queryable'  => true,
+    //     'capability_type'     => 'post',
+    //     'show_in_rest' => true,
+
+    // );
+
+    // register_post_type('young-drivers-guides', $ydgArgs);
+    // register_post_type('adverts', $ydgAdsArgs);
+    register_post_type('advertise', $igAdsArgs);
     register_post_type('yd-faqs', $ydFaqArgs);
     register_post_type('learner-faqs', $learnerFaqArgs);
     register_post_type('quotes', $quoteArgs);

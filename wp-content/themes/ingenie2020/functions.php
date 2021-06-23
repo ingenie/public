@@ -12,10 +12,11 @@ use ingenie2020Theme\View;
  * i.e; If a class named SomeClass is stored in app/SomeDir/SomeClass.php, there is no need to include/require that file
  * as the autoloader will handle that for you.
  */
+
 require get_stylesheet_directory() . '/app/AutoLoader.php';
 $loader = new AutoLoader();
 $loader->register();
-$loader->addNamespace( 'ingenie2020Theme', get_stylesheet_directory() . '/app' );
+$loader->addNamespace('ingenie2020Theme', get_stylesheet_directory() . '/app');
 
 View::$view_dir = get_stylesheet_directory() . '/templates/views';
 
@@ -39,23 +40,24 @@ add_theme_support('post-thumbnails');
 Custom Image Sizes
 =================================
 */
-add_image_size( 'blog-large', 750, 450, true);
-add_image_size( 'blog-small', 400, 200, true);
-add_image_size( 'ingenie-ads', 350, 350, true);
-add_image_size( 'quote_thumbnails', 120, 120, true);
+add_image_size('blog-large', 750, 450, true);
+add_image_size('blog-small', 400, 200, true);
+add_image_size('ingenie-ads', 350, 350, true);
+add_image_size('quote_thumbnails', 120, 120, true);
 
 
-require_once( __DIR__ . '/includes/register-and-add-classes-on-nav-menu.php');
-require_once( __DIR__ . '/includes/custom-post-types.php');
-require_once( __DIR__ . '/includes/custom-post-restrict-search.php');
-require_once( __DIR__ . '/includes/custom-taxonomies.php');
-require_once( __DIR__ . '/includes/custom-term-functions.php');
-require_once( __DIR__ . '/includes/custom-post-titles.php');
-require_once( __DIR__ . '/includes/shortcodes-sliders.php');
-require_once( __DIR__ . '/includes/shortcodes-quote-button.php');
-require_once( __DIR__ . '/includes/shortcodes-notifications.php');
-require_once( __DIR__ . '/includes/shortcodes-hero-img.php');
-require_once( __DIR__ . '/includes/shortcodes-trust-pilot.php');
+require_once(__DIR__ . '/includes/register-and-add-classes-on-nav-menu.php');
+require_once(__DIR__ . '/includes/custom-post-types.php');
+require_once(__DIR__ . '/includes/custom-post-restrict-search.php');
+require_once(__DIR__ . '/includes/custom-taxonomies.php');
+require_once(__DIR__ . '/includes/custom-term-functions.php');
+require_once(__DIR__ . '/includes/custom-post-titles.php');
+require_once(__DIR__ . '/includes/shortcodes-sliders.php');
+require_once(__DIR__ . '/includes/shortcodes-quote-button.php');
+require_once(__DIR__ . '/includes/shortcodes-notifications.php');
+require_once(__DIR__ . '/includes/shortcodes-hero-img.php');
+require_once(__DIR__ . '/includes/shortcodes-trust-pilot.php');
+require_once(__DIR__ . '/includes/shortcodes-faqs.php');
 
 /* 
 =================================

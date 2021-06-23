@@ -1,5 +1,6 @@
 /*
-Main Navigaton Menu
+Main desktop Navigaton Menu :
+Uses two WP menus for learner and YD currently
 */
 
 .navbar-main {
@@ -22,13 +23,15 @@ Main Navigaton Menu
 
       >.sub-menu {
         @apply bg-ig-blue-500;
-        display: block;
+        // display: block;
+        visibility: visible;
+        opacity: 1;
+        transition-delay: .2s;
       }
     }
 
     a {
       @apply px-3 py-3;
-      width: 100%;
       box-sizing: border-box;
       display: inline-block;
       text-decoration: none;
@@ -39,11 +42,14 @@ Main Navigaton Menu
       }
     }
 
-    ul.sub-menu {
+    .sub-menu {
       z-index: 998;
-      display: none;
+      // display: none;
+      visibility: hidden;
+      opacity: 0;
+      transition: visibility 0s, opacity 0.5s;
+      transition-duration: .3s;
       text-align: left;
-      padding: 1.5rem 5rem 1.5rem 25%;
       position: absolute;
       top: 50px;
       left: 0;
@@ -54,19 +60,18 @@ Main Navigaton Menu
       li {
         position: relative;
         background: transparent;
-        width: 40%;
+        width: 30%;
         display: inline-block;
         text-align: left;
         padding: 0;
         margin: 0 1rem;
-        @apply text-xs;
         border: none;
 
         // &:hover {
         //   @apply bg-ig-blue-600;
         // }
 
-        &:not(:first-child)::after {
+        &::after {
           content: '>';
           position: absolute;
           bottom: 8px;
@@ -83,21 +88,13 @@ Main Navigaton Menu
           transition: left .2s;
         }
 
-        &:first-child {
-          width: 100%;
-          font-size: 1.4rem;
-          @apply mb-4 mt-1;
-          margin-left: -10px;
-        }
+        a {
+          padding: 8px;
 
-        &:not(:first-child) {
-          a {
-            padding: 8px;
-
-            &:hover {
-              @apply text-ig-orange-500;
-            }
+          &:hover {
+            @apply text-ig-orange-500;
           }
+
         }
       }
     }

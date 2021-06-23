@@ -2,7 +2,7 @@
 <footer class="bg-ig-blue-500 py-8">
     <div class="lg:container lg:mx-auto">
         <div
-            class="link-items flex flex-col sm:flex-row flex-wrap items-center sm:items-start justify-between p-4 text-white">
+            class="link-items flex flex-col sm:flex-row text-center sm:text-left flex-wrap items-center sm:items-start justify-between p-4 text-white">
 
 
             <div class="sm:flex-1/4 p-0 text-sm sm:p-1">

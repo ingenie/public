@@ -4,14 +4,16 @@
 
     <div class="flex-1 px-4 py-2 m-2 text-left">
 
-        <!-- Burger menu -->
-        <?php get_template_part('templates/partials/navburger-main'); ?>
-        <!-- Burger toggle -->
-        <button type="button" id="menuToggle">
-            <span></span>
-            <span></span>
-            <span></span>
-        </button>
+        <span class="lg:hidden">
+            <!-- Burger menu -->
+            <?php get_template_part('templates/partials/navburger-main'); ?>
+            <button type="button" id="menuToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </span>
+
     </div>
 
     <div class="flex-none px-4 py-2 mt-3 align-middle">
@@ -21,7 +23,8 @@
         </a>
     </div>
 
-    <div class="flex-1 px-4 py-2 m-2 text-center sm:text-right">
+    <div class="flex-1 px-4 py-2 m-2 text-right">
+        <!-- TODO: do we need myaccount here anymore?? -->
         <!-- <a href="/myaccount" class="primary-link-sm hidden lg:inline-flex">
             <span>My Account</span>
             <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 pl-1" fill="none" viewBox="0 0 24 24"

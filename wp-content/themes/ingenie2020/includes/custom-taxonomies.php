@@ -56,6 +56,31 @@ function create_custom_hierarchical_taxonomy()
         'rewrite' => array('slug' => 'section'),
     ));
 
+    $igAdsTaxlabels = array(
+        'name' => _x('Locations', 'taxonomy general name'),
+        'singular_name' => _x('Location', 'taxonomy singular name'),
+        'search_items' =>  __('Search Locations'),
+        'all_items' => __('All Locations'),
+        'parent_item' => __('Parent Location'),
+        'parent_item_colon' => __('Parent Location:'),
+        'edit_item' => __('Edit Location'),
+        'update_item' => __('Update Location'),
+        'add_new_item' => __('Add New Location'),
+        'new_item_name' => __('New Location Name'),
+        'menu_name' => __('Locations'),
+    );
+
+    register_taxonomy('locations', array('advertise'), array(
+        'hierarchical' => true,
+        'labels' => $igAdsTaxlabels,
+        'show_ui' => true,
+        'show_admin_column' => true,
+        'query_var' => true,
+        'rewrite' => array('slug' => 'location'),
+    ));
+
+
+
     $adsTaxlabels = array(
         'name' => _x('Placements', 'taxonomy general name'),
         'singular_name' => _x('Placement', 'taxonomy singular name'),
@@ -67,7 +92,7 @@ function create_custom_hierarchical_taxonomy()
         'update_item' => __('Update Placement'),
         'add_new_item' => __('Add New Placement'),
         'new_item_name' => __('New Placement Name'),
-        'menu_name' => __('Ad Placements'),
+        'menu_name' => __('Placements'),
     );
 
     register_taxonomy('placements', array('adverts'), array(

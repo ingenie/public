@@ -1,14 +1,15 @@
 <?php
-$data = isset( $data ) ? $data : new stdClass();
-$text = isset( $data->text ) ? $data->text : "";
-$size = isset( $data->size ) ? $data->size : "";
-$type = isset( $data->type ) ? $data->type : "";
- ?>
+$data = isset($data) ? $data : new stdClass();
+$text = isset($data->text) ? $data->text : "";
+$size = isset($data->size) ? $data->size : "";
+$type = isset($data->type) ? $data->type : "";
+$qstring = isset($data->qstring) ? $data->qstring : "";
+?>
 
 <p class="my-1">
     <!-- {# purgecss: primary-btn-sm primary-btn secondary-btn secondary-btn-sm #} -->
-    <a href="<?php echo do_shortcode("[yd_get_a_quote_url]"); ?>" class="<?= $type ?>-btn<?= $size ?> inline-flex"
-        target="_blank">
+    <a href="<?php echo do_shortcode("[yd_get_a_quote_url]"); ?><?= $qstring ?>"
+        class="<?= $type ?>-btn<?= $size ?> inline-flex" target="_blank">
         <span><?= $text ?></span>
         <svg xmlns="http://www.w3.org/2000/svg" class="btn-icon-right" viewBox="0 0 20 20" fill="currentColor">
             <path fill-rule="evenodd"

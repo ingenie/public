@@ -372,7 +372,7 @@ SECTION - WIP
             <?php echo do_shortcode("[yd-quote-button text='Get a quote']"); ?>
         </div>
         <div class="md:w-1/3">
-            <?php echo do_shortcode("[yd-quote-button type='secondary' text='Get a quote (secondary)']"); ?>
+            <?php echo do_shortcode("[yd-quote-button type='secondary' text='Secondary QB with query' qstring='&TEST=123']"); ?>
         </div>
         <div class="md:w-1/3">
             <?php echo do_shortcode("[yd-quote-button size='-sm' text='Get a quote (small)']"); ?>
@@ -384,8 +384,9 @@ SECTION - WIP
         <pre class="text-xs">
         <code class="language-php">
     [yd-quote-button text='Get a quote']
-    [yd-quote-button type='secondary' text='Get a quote (secondary)']
+    [yd-quote-button type='secondary' text='Secondary QB with query' qstring='&TEST=123']
     [yd-quote-button size='-sm' text='Get a quote (small)']
+   
   </code>
 </pre>
     </div>
@@ -554,19 +555,8 @@ SECTION - WIP
                         </svg>
                     </a>
                 </div>
-
-                <a href="<?php echo do_shortcode("[yd_get_a_quote_url]"); ?>"
-                    class="absolute inline-flex transform -translate-x-1/2 primary-btn" target="_blank" rel="noopener">
-                    <span>Get a quote</span>
-                    <svg xmlns="http://www.w3.org/2000/svg" class="btn-icon-right" viewBox="0 0 20 20"
-                        fill="currentColor">
-                        <path fill-rule="evenodd"
-                            d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-8.707l-3-3a1 1 0 00-1.414 1.414L10.586 9H7a1 1 0 100 2h3.586l-1.293 1.293a1 1 0 101.414 1.414l3-3a1 1 0 000-1.414z"
-                            clip-rule="evenodd" />
-                    </svg>
-                </a>
-
-
+                <div class="absolute inline-flex transform -translate-x-1/2">
+                    <?php echo do_shortcode("[yd-quote-button text='Get a quote']"); ?></div>
             </div>
         </div>
 
@@ -591,18 +581,8 @@ SECTION - WIP
                     </a>
                 </div>
 
-
-                <a href="<?php echo do_shortcode("[learner_get_a_quote_url]"); ?>"
-                    class="absolute inline-flex transform -translate-x-1/2 primary-btn" target="_blank" rel="noopener">
-                    <span>Get a quote</span>
-                    <svg xmlns="http://www.w3.org/2000/svg" class="btn-icon-right" viewBox="0 0 20 20"
-                        fill="currentColor">
-                        <path fill-rule="evenodd"
-                            d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-8.707l-3-3a1 1 0 00-1.414 1.414L10.586 9H7a1 1 0 100 2h3.586l-1.293 1.293a1 1 0 101.414 1.414l3-3a1 1 0 000-1.414z"
-                            clip-rule="evenodd" />
-                    </svg>
-                </a>
-
+                <div class="absolute inline-flex transform -translate-x-1/2">
+                    <?php echo do_shortcode("[learner-quote-button text='Get a quote']"); ?></div>
 
             </div>
         </div>
@@ -629,23 +609,15 @@ SECTION - WIP
                     </a>
                 </div>
 
+                <div class="absolute inline-flex transform -translate-x-1/2">
+                    <?php echo do_shortcode("[yd-quote-button text='Get a quote']"); ?></div>
 
-                <a href="<?php echo do_shortcode("[yd_get_a_quote_url]"); ?>"
-                    class="absolute inline-flex transform -translate-x-1/2 primary-btn">
-                    <span>Get a quote</span>
-                    <svg xmlns="http://www.w3.org/2000/svg" class="btn-icon-right" viewBox="0 0 20 20"
-                        fill="currentColor">
-                        <path fill-rule="evenodd"
-                            d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-8.707l-3-3a1 1 0 00-1.414 1.414L10.586 9H7a1 1 0 100 2h3.586l-1.293 1.293a1 1 0 101.414 1.414l3-3a1 1 0 000-1.414z"
-                            clip-rule="evenodd" />
-                    </svg>
-                </a>
             </div>
         </div>
     </div>
 
 
-    <!-- Cards - with button -->
+    <!-- Cards - single with button -->
     <h3 class="pt-2 pb-3 text-sm font-semibold text-center underline">Card - single box with buttons</h3>
 
     <div class="flex flex-wrap justify-center mb-4">
@@ -670,17 +642,8 @@ SECTION - WIP
                     </a>
                 </div>
 
-                <a href="<?php echo do_shortcode("[ld_get_a_quote_url]"); ?>"
-                    class="absolute inline-flex transform -translate-x-1/2 primary-btn" target="_blank" rel="noopener">
-                    <span>Get a quote</span>
-                    <svg xmlns="http://www.w3.org/2000/svg" class="btn-icon-right" viewBox="0 0 20 20"
-                        fill="currentColor">
-                        <path fill-rule="evenodd"
-                            d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-8.707l-3-3a1 1 0 00-1.414 1.414L10.586 9H7a1 1 0 100 2h3.586l-1.293 1.293a1 1 0 101.414 1.414l3-3a1 1 0 000-1.414z"
-                            clip-rule="evenodd" />
-                    </svg>
-                </a>
-
+                <div class="absolute inline-flex transform -translate-x-1/2">
+                    <?php echo do_shortcode("[learner-quote-button text='Get a quote']"); ?></div>
 
             </div>
         </div>
