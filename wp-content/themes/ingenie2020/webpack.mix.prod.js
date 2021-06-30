@@ -73,6 +73,9 @@ mix.purgeCss({
     /text-highly-dangerous/,
     /md:w-2\/12/,
     /w-10\/12/,
+    /gap-2/,
+    /pl-3/,
+    /text-5xl/
   ]
 
 });
