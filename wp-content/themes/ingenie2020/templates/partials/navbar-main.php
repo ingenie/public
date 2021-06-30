@@ -7,12 +7,13 @@
                 <div class="sub-menu yd-menu">
                     <div class="flex">
                         <div class="flex-1">
+                            <h3 class="heading-3 pl-16 mt-8">Young Driver Insurance</h3>
                             <?php
                             wp_nav_menu(
                                 array(
                                     'theme_location' => 'main-yd-menu',
-                                    'container_class' => 'text-sm p-7',
-                                    'menu_class' => 'text-center',
+                                    'container_class' => 'text-sm p-10 pt-0',
+                                    'menu_class' => '',
                                     'add_li_class'  => 'm-0 block sm:inline-block sm:mt-0 border'
                                 )
                             ); ?>
@@ -36,12 +37,13 @@
                 <div class="sub-menu learner-menu">
                     <div class="flex">
                         <div class="flex-1">
+                            <h3 class="heading-3 pl-16 mt-8">Learner Driver Insurance</h3>
                             <?php
                             wp_nav_menu(
                                 array(
                                     'theme_location' => 'main-learner-menu',
-                                    'container_class' => 'text-sm p-7',
-                                    'menu_class' => 'text-center',
+                                    'container_class' => 'text-sm p-10 pt-0',
+                                    'menu_class' => '',
                                     'add_li_class'  => 'm-0 block sm:inline-block sm:mt-0 border'
                                 )
                             ); ?>

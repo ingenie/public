@@ -1,8 +1,7 @@
 <div class="flex flex-wrap lg:container lg:mx-auto justify-center p-4">
 
     <div class="p-5">
-        <a href="//ingenie.com//twitter.com/ingenie">
-
+        <a href="//twitter.com/ingenie" target="_blank" rel="noopener">
             <svg fill="currentColor" class="text-white w-8 h-8" version="1.2" baseProfile="tiny"
                 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                 viewBox="0 0 400 400" xml:space="preserve">
@@ -18,7 +17,7 @@
     </div>
 
     <div class="p-5">
-        <a href="//ingenie.com//facebook.com/ingenieinsurance">
+        <a href="//facebook.com/ingenieinsurance" target="_blank" rel="noopener">
             <svg fill="currentColor" class="text-white w-8 h-8" version="1.2" baseProfile="tiny"
                 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                 viewBox="0 0 266.9 266.9" xml:space="preserve">
@@ -30,7 +29,7 @@
     </div>
 
     <div class="p-5">
-        <a class="bg-white" href="//ingenie.com//www.instagram.com/ingenieinsurance/">
+        <a class="bg-white" href="//www.instagram.com/ingenieinsurance/" target="_blank" rel="noopener">
             <svg fill="currentColor" class="text-white w-8 h-8" version="1.2" baseProfile="tiny"
                 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                 viewBox="0 0 512 512" xml:space="preserve">
