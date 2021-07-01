@@ -10,7 +10,7 @@ wp-*.php
 # "mu-plugins", "plugins", "themes" directory
 wp-content/*
 !wp-content/mu-plugins/
-# !wp-content/plugins/
+!wp-content/plugins/
 !wp-content/themes/
 # pagely advice 
 wp-content/advanced-cache.php
