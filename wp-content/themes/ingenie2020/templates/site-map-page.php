@@ -23,7 +23,7 @@ get_header(); ?>
 
         <h3 class="subtitle">Posts</h3>
 
-        <ul class="standard-list">
+        <ul class="standard-list ml-1">
 
             <?php
             $wpposts = new WP_Query(
@@ -52,14 +52,14 @@ get_header(); ?>
 
     </div> -->
 
-    <div class="container mx-auto mt-6 mb-12">
+    <div class="container mx-auto mt-6 mb-12 p-1">
         <div class="flex flex-wrap">
 
-            <div class="sitemap-young-driver w-1/3">
+            <div class="sitemap-young-driver w-1/2 sm:w-1/3 px-2">
 
                 <h3 class="heading-3">Young Driver Insurance</h3>
 
-                <ul class="standard-list">
+                <ul class="standard-list ml-1">
 
                     <?php
                     $wpcpt = new WP_Query(
@@ -101,11 +101,11 @@ get_header(); ?>
                 </ul>
 
             </div>
-            <div class="sitemap-learner-driver w-1/3">
+            <div class="sitemap-learner-driver w-1/2 sm:w-1/3 px-2">
 
                 <h3 class="heading-3">Learner Driver Insurance</h3>
 
-                <ul class="standard-list">
+                <ul class="standard-list ml-1">
 
                     <?php
                     $wpcpt = new WP_Query(
@@ -147,11 +147,11 @@ get_header(); ?>
 
             </div>
 
-            <div class="sitemap-utilities w-1/3">
+            <div class="sitemap-utilities w-1/2 sm:w-1/3 px-2">
 
                 <h3 class="heading-3">Utility Pages</h3>
 
-                <ul class="standard-list">
+                <ul class="standard-list ml-1">
 
                     <?php
                     $wpcpt = new WP_Query(
@@ -192,7 +192,7 @@ get_header(); ?>
 
                 <h3 class="heading-3">Home Pages</h3>
 
-                <ul class="standard-list">
+                <ul class="standard-list ml-1">
 
                     <?php
                     $wppages = new WP_Query(
@@ -233,7 +233,7 @@ get_header(); ?>
 
                 <h3 class="heading-3">Press releases</h3>
 
-                <ul class="standard-list">
+                <ul class="standard-list ml-1">
 
                     <?php
                     $wpcpt = new WP_Query(

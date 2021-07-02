@@ -6,6 +6,8 @@ import DeviceCheck from "./components/DeviceCheck";
 import Faqs from "./components/Faqs";
 import MainMenu from "./components/MainMenu";
 import Accordian from "./components/Accordian";
+import ViewCode from "./components/ViewCode";
+import Modal from "./components/Modal";
 import BackToTop from "./components/BackToTop";
 // import HighlightSearch from "./components/jquery.mark.min.js";
 import FlexSlider from "./components/jquery.flexslider-min";
@@ -33,5 +35,7 @@ jQuery(function ($) {
   Faqs.init();
   MainMenu.init();
   Accordian.init();
+  ViewCode.init();
+  Modal.init();
   BackToTop.init();
 });

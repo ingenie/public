@@ -4,7 +4,7 @@ Uses two WP menus for learner and YD currently
 */
 
 .navbar-main {
-  z-index: 997;
+  @apply z-50;
   position: relative;
 
   >ul {
@@ -43,7 +43,7 @@ Uses two WP menus for learner and YD currently
     }
 
     .sub-menu {
-      z-index: 998;
+      @apply z-50;
       // display: none;
       visibility: hidden;
       opacity: 0;

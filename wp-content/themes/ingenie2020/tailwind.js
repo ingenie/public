@@ -1,6 +1,13 @@
 module.exports = {
   purge: false,
   theme: {
+    zIndex: {
+      '25': 25,
+      '50': 50,
+      '75': 75,
+      '100': 100,
+      'auto': 'auto',
+    },
     container: {
       padding: {
         default: '0',
@@ -15,7 +22,19 @@ module.exports = {
         'Helvetica',
         'Arial',
         'sans-serif',
-      ]
+      ],
+      // serif: [
+      //   '"Open Sans"',
+      //   'Helvetica',
+      //   'Arial',
+      //   '"sans-serif"',
+      // ],
+      // mono: [
+      //   '"Open Sans"',
+      //   'Helvetica',
+      //   'Arial',
+      //   '"sans-serif"',
+      // ],
     },
     extend: {
       colors: {

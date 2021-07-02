@@ -2,9 +2,10 @@
 
     <div class="p-5">
         <a href="//twitter.com/ingenie" target="_blank" rel="noopener">
-            <svg fill="currentColor" class="text-white w-8 h-8" version="1.2" baseProfile="tiny"
-                xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                viewBox="0 0 400 400" xml:space="preserve">
+            <svg fill="currentColor"
+                class="text-white w-8 h-8 hover:text-ig-orange-500 transition-text duration-1000 ease-out" version="1.2"
+                baseProfile="tiny" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+                y="0px" viewBox="0 0 400 400" xml:space="preserve">
                 <path d="M350,400H50c-27.6,0-50-22.4-50-50V50C0,22.4,22.4,0,50,0h300c27.6,0,50,22.4,50,50v300
 	C400,377.6,377.6,400,350,400z M153.6,301.6c94.3,0,145.9-78.2,145.9-145.9c0-2.2,0-4.4-0.1-6.6c10-7.2,18.7-16.3,25.6-26.6
 	c-9.2,4.1-19.1,6.8-29.5,8.1c10.6-6.3,18.7-16.4,22.6-28.4c-9.9,5.9-20.9,10.1-32.6,12.4c-9.4-10-22.7-16.2-37.4-16.2
@@ -18,9 +19,10 @@
 
     <div class="p-5">
         <a href="//facebook.com/ingenieinsurance" target="_blank" rel="noopener">
-            <svg fill="currentColor" class="text-white w-8 h-8" version="1.2" baseProfile="tiny"
-                xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                viewBox="0 0 266.9 266.9" xml:space="preserve">
+            <svg fill="currentColor"
+                class="text-white w-8 h-8 hover:text-ig-orange-500 transition-text duration-1000 ease-out" version="1.2"
+                baseProfile="tiny" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+                y="0px" viewBox="0 0 266.9 266.9" xml:space="preserve">
                 <path d="M252.2,0H14.7C6.6,0,0,6.6,0,14.7v237.4c0,8.1,6.6,14.7,14.7,14.7h127.8V163.5h-34.8v-40.3
 		h34.8V93.6c0-34.5,21.1-53.2,51.8-53.2c14.7,0,27.4,1.1,31.1,1.6v36l-21.3,0c-16.7,0-20,7.9-20,19.6v25.7H224l-5.2,40.3h-34.7
 		v103.4h68c8.1,0,14.7-6.6,14.7-14.7V14.7C266.9,6.6,260.3,0,252.2,0z" />
@@ -30,9 +32,10 @@
 
     <div class="p-5">
         <a class="bg-white" href="//www.instagram.com/ingenieinsurance/" target="_blank" rel="noopener">
-            <svg fill="currentColor" class="text-white w-8 h-8" version="1.2" baseProfile="tiny"
-                xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                viewBox="0 0 512 512" xml:space="preserve">
+            <svg fill="currentColor"
+                class="text-white w-8 h-8 hover:text-ig-orange-500 transition-text duration-1000 ease-out" version="1.2"
+                baseProfile="tiny" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+                y="0px" viewBox="0 0 512 512" xml:space="preserve">
                 <g>
                     <path d="M256,49.5c67.3,0,75.2,0.3,101.8,1.5c24.6,1.1,37.9,5.2,46.8,8.7c11.8,4.6,20.2,10,29,18.8
 		c8.8,8.8,14.3,17.2,18.8,29c3.4,8.9,7.6,22.2,8.7,46.8c1.2,26.6,1.5,34.5,1.5,101.8s-0.3,75.2-1.5,101.8

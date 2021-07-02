@@ -1,10 +1,10 @@
 <?php
 /*
- * Template Name: Style Guide Page Template
+ * Template Name: Style Guide Stats Template
  * Template Post Type: page
  */
 
-get_header('styleguides');
+get_header();
 ?>
 
 <!-- START: Highlight the code examples -->
@@ -15,24 +15,13 @@ hljs.highlightAll();
 </script>
 <!-- END: Highlight the code examples -->
 
-<div class="fixed right-0 top-0 show-source z-100">
-    <div
-        class="absolute text-xs text-white font-semibold pre z-100 transform rotate-45 h-40 pt-4 text-center leading-none">
-        <span class="text-2xl">[</span>
-        <span>View Source</span>
-        <span class="text-2xl">]</span>
-    </div>
-    <div class="w-32 overflow-hidden inline-block">
-        <div class="h-52 bg-ig-blue-600 -rotate-45 transform origin-top-left"></div>
-    </div>
-</div>
 
 <div class="bg-ig-li-blue-500 text-center p-8 my-4">
-    <h1 class="pt-4 text-center">Styleguide - Components</h1>
+    <h1 class="pt-4 text-center">Styleguide - Stats</h1>
     <h3 class="heading-3 max-w-3xl mx-auto">Reusable UI blocks and code snippets to speed up page building. Some
         shortcodes also exist for easier implementation</h3>
 
-    <div class="max-w-3xl m-auto py-10">
+    <div class="max-w-2xl m-auto py-10">
         <a class="inline-block filter primary-btn my-1" href="#fonts">Fonts</a>
         <a class="inline-block filter primary-btn my-1" href="#smallprint">Small Print</a>
         <a class="inline-block filter primary-btn my-1" href="#links">Buttons</a>
@@ -45,16 +34,6 @@ hljs.highlightAll();
         <a class="inline-block filter primary-btn my-1" href="#hero">Hero Banners</a>
         <a class="inline-block filter primary-btn my-1" href="#video">Video</a>
         <a class="inline-block filter primary-btn my-1" href="#misc">Misc</a>
-        <a class="inline-flex filter secondary-btn my-1" href="/styleguide-stats" target="_blank">
-            <span>Site Stats</span>
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 btn-icon-right" viewBox="0 0 20 20"
-                fill="currentColor">
-                <path
-                    d="M11 3a1 1 0 100 2h2.586l-6.293 6.293a1 1 0 101.414 1.414L15 6.414V9a1 1 0 102 0V4a1 1 0 00-1-1h-5z" />
-                <path d="M5 5a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2v-3a1 1 0 10-2 0v3H5V7h3a1 1 0 000-2H5z" />
-            </svg>
-        </a>
-
     </div>
 
 </div>
@@ -76,37 +55,6 @@ SECTION - WIP
         </span>
     </h2>
 
-    <h3 class="pt-2 pb-3 mt-5 text-sm font-semibold text-center">Web Font Family
-    </h3>
-    <h1 class="heading-1">"Open Sans", Helvetica, Arial, sans-serif</h1>
-    <h5 class="heading-5">"Open Sans", Helvetica, Arial, sans-serif</h5>
-
-    <p class="text-xl">Paragraph xl - 22,5px</p>
-    <p class="text-lg">Paragraph lg - 20.25px</p>
-    <p>Paragraph base - 18px</p>
-    <p class="text-sm">Paragraph sm - 15.75px</p>
-    <p class="text-xs">Paragraph xs - 13.5px</p>
-
-    <!-- MARKUP -->
-    <div class="mb-10 snippets hidden">
-        <pre class="text-xs">
-        <code class="language-html">
-        &lt;h1 class="heading-1"&gt;"Open Sans", Helvetica, Arial, sans-serif&lt;/h1&gt;
-        &lt;h5 class="heading-5"&gt;"Open Sans", Helvetica, Arial, sans-serif&lt;/h5&gt;
-
-        &lt;p class="text-xl"&gt;Paragraph xl - 22,5px&lt;/p&gt;
-        &lt;p class="text-lg"&gt;Paragraph lg - 20.25px&lt;/p&gt;
-        &lt;p&gt;Paragraph base - 18px&lt;/p&gt;
-        &lt;p class="text-sm"&gt;Paragraph sm - 15.75px&lt;/p&gt;
-        &lt;p class="text-xs"&gt;Paragraph xs - 13.5px&lt;/p&gt;
-        </code>
-        </pre>
-    </div>
-    <!-- MARKUP -->
-
-
-    <h3 class="pt-2 pb-3 mt-5 text-sm font-semibold text-center">Headings
-    </h3>
     <h1 class="heading-1">This is example heading 1</h1>
     <h2 class="heading-2">This is example heading 2</h2>
     <h3 class="heading-3">This is example heading 3</h3>
@@ -114,16 +62,16 @@ SECTION - WIP
     <h5 class="heading-5">This is example heading 5</h5>
 
     <!-- MARKUP -->
-    <div class="mb-10 snippets hidden">
+    <div class="mb-10 mt-2">
         <pre class="text-xs">
         <code class="language-html">
-        &lt;h1 class="heading-1"&gt;This is example heading 1&lt;/h1&gt;
-        &lt;h2 class="heading-2"&gt;This is example heading 2&lt;/h2&gt;
-        &lt;h3 class="heading-3"&gt;This is example heading 3&lt;/h3&gt;
-        &lt;h4 class="heading-4"&gt;This is example heading 4&lt;/h4&gt;
-        &lt;h5 class="heading-5"&gt;This is example heading 5&lt;h5&gt;
-        </code>
-        </pre>
+    &lt;h1 class="heading-1"&gt;This is example heading 1&lt;/h1&gt;
+    &lt;h2 class="heading-2"&gt;This is example heading 2&lt;/h2&gt;
+    &lt;h3 class="heading-3"&gt;This is example heading 3&lt;/h3&gt;
+    &lt;h4 class="heading-4"&gt;This is example heading 4&lt;/h4&gt;
+    &lt;h5 class="heading-5"&gt;This is example heading 5&lt;h5&gt;
+  </code>
+</pre>
     </div>
     <!-- MARKUP -->
 
@@ -166,7 +114,7 @@ SECTION - WIP
     </p>
 
     <!-- MARKUP -->
-    <div class="mb-10 snippets hidden">
+    <div class="mb-10 mt-2">
         <pre class="text-xs">
         <code class="language-php">
         * [yd_sp_dates_up_front_txt]
@@ -194,7 +142,7 @@ SECTION - WIP
     </p>
 
     <!-- MARKUP -->
-    <div class="mb-10 snippets hidden">
+    <div class="mb-10 mt-2">
         <pre class="text-xs">
         <code class="language-php">
         * [learner_sp_dates_discount_txt]
@@ -205,7 +153,9 @@ SECTION - WIP
 
     <?php echo do_shortcode("[get-message color='warning' message='Q. Should we be using *, †, ‡, §, ‖, etc.? See Wikipedia if interested' link='https://en.wikipedia.org/wiki/Note_(typography)']"); ?>
 
-    <?php echo do_shortcode("[get-message color='info' message='See full list of ingenie stat variables and thier usage on the ingenie <a href=\"/styleguide-stats\" class=\"primary-link-sm\">styleguide stats</a> page.']"); ?>
+    <?php echo do_shortcode("[get-message color='info' message='See full
+        list of ingenie stat variables and thier usage on the ingenie <a href=\"/styleguide-stats\"
+            class=\"primary-link-sm\">styleguide stats</a> page.']"); ?>
     <p>
 
 
@@ -289,7 +239,7 @@ SECTION - WIP
     </div>
 
     <!-- MARKUP -->
-    <div class="mb-10 snippets hidden">
+    <div class="mb-10 mt-2">
         <pre class="text-xs">
         <code class="language-html">
     &lt;a href="#" class="inline-flex primary-link"&gt;Primary link&lt;/a&gt;
@@ -330,7 +280,7 @@ SECTION - WIP
     </div>
 
     <!-- MARKUP -->
-    <div class="mb-10 snippets hidden">
+    <div class="mb-10 mt-2">
         <pre class="text-xs">
         <code class="language-html">
     &lt;a href="#" class="inline-flex primary-btn"&gt;Primary button&lt;/a&gt;
@@ -366,7 +316,7 @@ SECTION - WIP
     </div>
 
     <!-- MARKUP -->
-    <div class="mb-10 snippets hidden">
+    <div class="mb-10 mt-2">
         <pre class="text-xs">
         <code class="language-html">
     &lt;a href="#" class="inline-flex primary-btn-clear"&gt;Primary button clear&lt;/a&gt;
@@ -402,7 +352,7 @@ SECTION - WIP
     </div>
 
     <!-- MARKUP -->
-    <div class="mb-10 snippets hidden">
+    <div class="mb-10 mt-2">
         <pre class="text-xs">
         <code class="language-html">
     &lt;a href="#" class="inline-flex secondary-btn"&gt;Secondary button&lt;/a&gt;
@@ -438,7 +388,7 @@ SECTION - WIP
     </div>
 
     <!-- MARKUP -->
-    <div class="mb-10 snippets hidden">
+    <div class="mb-10 mt-2">
         <pre class="text-xs">
         <code class="language-html">
     &lt;a href="#" class="inline-flex secondary-btn-clear"&gt;Secondary button clear&lt;/a&gt;
@@ -481,7 +431,7 @@ SECTION - WIP
 
 
     <!-- MARKUP -->
-    <div class="mb-10 snippets hidden">
+    <div class="mb-10 mt-2">
         <pre class="text-xs">
         <code class="language-html">
     &lt;a href="#" class="inline-flex primary-btn"&gt;
@@ -526,7 +476,7 @@ SECTION - WIP
     </div>
 
     <!-- MARKUP -->
-    <div class="mb-10 snippets hidden">
+    <div class="mb-10 mt-2">
         <pre class="text-xs">
         <code class="language-php">
     [yd-quote-button text='Get a quote']
@@ -554,7 +504,7 @@ SECTION - WIP
 
 
     <!-- MARKUP -->
-    <div class="mb-10 snippets hidden">
+    <div class="mb-10 mt-2">
         <pre class="text-xs">
         <code class="language-php">
     [learner-quote-button text='Get a quote']
@@ -955,19 +905,14 @@ SECTION - WIP
 
     <?php echo do_shortcode("[get-message color='alert' message='This is a alert banner notification' link='#']"); ?>
 
-    <?php echo do_shortcode("[get-message color='info' message='This message adds a <a href=\"/styleguide-stats\" class=\"primary-link-sm\">inline link</a> to the message argument for more control over link. Escape the double quotes with a backslash! Use HTML entities if using single &rsquo; quote in message.']"); ?>
-    <p>
-
-        <!-- MARKUP -->
-    <div class="mb-10 snippets hidden">
+    <!-- MARKUP -->
+    <div class="mb-10 mt-2">
         <pre class="text-xs">
         <code class="language-php">
     [get-message color='info' message='This is a info banner notification' link='cheese.html']
     [get-message color='warning' message='This is a warning banner notification with no link passed in']
     [get-message color='success' message='This is a success banner notification' link='#']
     [get-message color='alert' message='This is a alert banner notification' link='#']
-    [get-message color='info' message='This message adds a  &lt;a href=\"/styleguide-stats\" class=\"primary-link-sm\"&gt;inline link&lt;/a&gt; to the message argument for more control over link. Escape the double quotes with a backslash! Use HTMlL entities if using single &rsquo; quote in message.']
-
   </code>
 </pre>
     </div>
@@ -1080,58 +1025,18 @@ SECTION
         </span>
     </h2>
 
+    <!-- MODAL OVERLAY -->
+    <!-- <div id="modal-overlay"
+        class="cursor-pointer close-modal z-75 fixed hidden top-0 left-0 w-screen h-screen flex items-center justify-center bg-ig-blue-700 bg-opacity-50 ">
+    </div> -->
 
-    <!-- MODAL Trigger -->
+    <!-- MODAL : Always next to modalTrigger -->
     <p class="my-5 text-center">
-        Simple modal.pop up. Give it a try!...</p>
-    <p class="my-5 text-center"> <a class="modal-trigger primary-btn" data-id="test-modal-1">Open modal -
-            1</a>
-        <a class="modal-trigger secondary-btn-clear" data-id="test-modal-2">Open modal - 2</a>
+        Try!... <a id="modalTrigger" class="modal-trigger primary-btn" style="cursor:pointer;" data-id="test-modal">Open
+            modal</a> Simple
+        modal opens next .model in dom.
     </p>
-
-
-    <!-- MARKUP -->
-    <div class="mb-10 snippets hidden">
-        <h3 class="pt-2 pb-3 text-sm font-semibold text-center">Trigger</h3>
-        <pre class="text-xs">
-        <code class="language-html">
-        &lt;a class="modal-trigger primary-btn" data-id="test-modal-1"&gt;Open
-            modal&lt;/a&gt;
-        &lt;a class="modal-trigger primary-btn" data-id="test-modal-2"&gt;Open
-        modal&lt;/a&gt;
-  </code>
-</pre>
-    </div>
-    <!-- MARKUP -->
-
-    <!-- MARKUP -->
-    <div class="mb-10 snippets hidden">
-        <h3 class="pt-2 pb-3 text-sm font-semibold text-center">Modal</h3>
-        <pre class="text-xs">
-        <code class="language-html">
-    &lt;div id="test-modal-1"
-        class="modal z-100 fixed left-0 top-0 md:top-20 md:left-1/4 m-auto bg-white w-screen md:w-1/2 md:w-1/2 h-screen sm:h-auto p-8 transform scale-0 transition-transform duration-300"&gt;
-        &lt;button type="button" class="close-modal focus:outline-none absolute right-3 top-3"&gt;
-            &lt;svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
-                stroke="currentColor"&gt;
-                &lt;path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                    d="M10 14l2-2m0 0l2-2m-2 2l-2-2m2 2l2 2m7-2a9 9 0 11-18 0 9 9 0 0118 0z" /&gt;
-            &lt;/svg&gt;
-        &lt;/button&gt;
-        &lt;h2 class="heading-2"&gt;Modal heading -1&lt;/h2&gt;
-        &lt;div class="p-1"&gt;
-            &lt;p class="p-2"&gt;Modal content -1&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;button class="close-modal inline-flex primary-btn my-2 mx-auto"&gt;Close&lt;/button&gt;
-    &lt;/div&gt;
-  </code>
-</pre>
-    </div>
-    <!-- MARKUP -->
-
-
-    <!-- MODAL Test 1 -->
-    <div id="test-modal-1"
+    <div
         class="modal z-100 fixed left-0 top-0 md:top-20 md:left-1/4 m-auto bg-white w-screen md:w-1/2 md:w-1/2 h-screen sm:h-auto p-8 transform scale-0 transition-transform duration-300">
         <button type="button" class="close-modal focus:outline-none absolute right-3 top-3">
             <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
@@ -1140,39 +1045,14 @@ SECTION
                     d="M10 14l2-2m0 0l2-2m-2 2l-2-2m2 2l2 2m7-2a9 9 0 11-18 0 9 9 0 0118 0z" />
             </svg>
         </button>
-        <h2 class="heading-2">Modal heading -1</h2>
+        <h2 class="heading-2">Modal heading</h2>
         <div class="p-1">
 
-            <p class="p-2">Modal content -1</p>
+            <p class="p-2">Modal content</p>
         </div>
 
         <button class="close-modal inline-flex primary-btn my-2 mx-auto">Close</button>
     </div>
-
-    <!-- MODAL Test 2 -->
-    <div id="test-modal-2"
-        class="modal z-100 fixed left-0 top-0 md:top-20 md:left-1/4 m-auto bg-white w-screen md:w-1/2 md:w-1/2 h-screen sm:h-auto p-8 transform scale-0 transition-transform duration-300">
-        <button type="button" class="close-modal focus:outline-none absolute right-3 top-3">
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
-                stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                    d="M10 14l2-2m0 0l2-2m-2 2l-2-2m2 2l2 2m7-2a9 9 0 11-18 0 9 9 0 0118 0z" />
-            </svg>
-        </button>
-        <h2 class="heading-2">Modal heading -2</h2>
-
-        <div class="p-1">
-            <p class="p-2">Modal content -2</p>
-        </div>
-
-        <div class="flex justify-between">
-            <div class="my-1"> <button class="close-modal inline-flex primary-btn">Close</button></div>
-            <div class=""> <?php echo do_shortcode("[yd-quote-button text='Young Driver quote']") ?></div>
-        </div>
-
-    </div>
-
-
 
 
 </div>

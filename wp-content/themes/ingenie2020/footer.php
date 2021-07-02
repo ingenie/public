@@ -48,6 +48,11 @@
         <?php get_template_part('templates/partials/social/footer', 'icons'); ?>
     </div>
 
+    <!-- MODAL OVERLAY -->
+    <div id="modal-overlay"
+        class="cursor-pointer close-modal z-75 fixed hidden top-0 left-0 w-screen h-screen flex items-center justify-center bg-ig-blue-700 bg-opacity-50 ">
+    </div>
+
 </footer>
 
 <!-- TODO: TrustBox script TEMP until GTM implemented -->

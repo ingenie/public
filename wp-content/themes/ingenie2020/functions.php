@@ -37,6 +37,13 @@ add_theme_support('post-thumbnails');
 
 /* 
 =================================
+Image paths
+=================================
+*/
+update_option('upload_url_path', '/wp-content/uploads');
+
+/* 
+=================================
 Custom Image Sizes
 =================================
 */
@@ -45,7 +52,11 @@ add_image_size('blog-small', 400, 200, true);
 add_image_size('ingenie-ads', 350, 350, true);
 add_image_size('quote_thumbnails', 120, 120, true);
 
-
+/* 
+=================================
+Includes
+=================================
+*/
 require_once(__DIR__ . '/includes/register-and-add-classes-on-nav-menu.php');
 require_once(__DIR__ . '/includes/custom-post-types.php');
 require_once(__DIR__ . '/includes/custom-post-restrict-search.php');

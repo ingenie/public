@@ -1,4 +1,3 @@
-Ima 'Single press release'
 <?php get_header(); ?>
 
 <!-- <div class="container text-sm mt-0 mb-4 p-2 mx-auto">
