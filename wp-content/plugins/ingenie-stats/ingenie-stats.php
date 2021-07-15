@@ -153,7 +153,7 @@ return $obd_trakm8_email;
 // ------------------------
 function ig_main_number($atts)
 {
-$ig_main_number = "<span class='MAIN-TEL'>0330 678 0652</span>";
+$ig_main_number = "<a href='tel:0330 678 0652' class='primary-link-sm inline-flex MAIN-TEL'>0330 678 0652</a>";
 return $ig_main_number;
 }
 
@@ -164,19 +164,21 @@ return $ig_main_number;
 // ------------------------
 function ig_facebook_account($atts)
 {
-$ig_facebook_account = "<a href='https://en-gb.facebook.com/ingenieinsurance' target='_blank'>Facebook</a>";
+$ig_facebook_account = "<a class='primary-link-sm' href='https://en-gb.facebook.com/ingenieinsurance'
+    target='_blank'>Facebook</a>";
 return $ig_facebook_account;
 }
 
 function ig_twitter_account($atts)
 {
-$ig_twitter_account = "<a href='https://twitter.com/ingenie' target='_blank'>Twitter</a>";
+$ig_twitter_account = "<a class='primary-link-sm' href='https://twitter.com/ingenie' target='_blank'>Twitter</a>";
 return $ig_twitter_account;
 }
 
 function ig_instagram_account($atts)
 {
-$ig_instagram_account = "<a href='https://www.instagram.com/ingenieinsurance' target='_blank'>Instagram</a>";
+$ig_instagram_account = "<a class='primary-link-sm' href='https://www.instagram.com/ingenieinsurance'
+    target='_blank'>Instagram</a>";
 return $ig_instagram_account;
 }
 
