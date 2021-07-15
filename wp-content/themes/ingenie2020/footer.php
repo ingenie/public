@@ -38,7 +38,7 @@
             </div>
 
             <div class="sm:flex-1/4 p-3 sm:p-1">
-                <?php get_template_part('templates/partials/thirdparty/trustpilot', 'footer'); ?>
+                <?php get_template_part('templates/partials/thirdparty/trustpilot', 'footer-mini'); ?>
             </div>
 
         </div>

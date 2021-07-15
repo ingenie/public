@@ -3,7 +3,7 @@
         <div class="flex flex-col sm:flex-row flex-wrap items-center sm:items-start justify-between p-4 text-white">
 
             <div class="sm:flex-1/4 p-3 sm:p-1">
-                <?php get_template_part( 'templates/partials/thirdparty/trustpilot', 'footer' ); ?>
+                <?php get_template_part('templates/partials/thirdparty/trustpilot', 'footer-mini'); ?>
             </div>
 
             <div class="sm:flex-1/4 p-0 text-sm sm:p-1 text-center">
@@ -33,9 +33,9 @@
 
         </div>
 
-        <?php get_template_part( 'templates/partials/copyright' ); ?>
+        <?php get_template_part('templates/partials/copyright'); ?>
 
-        <?php get_template_part( 'templates/partials/social/footer', 'icons' ); ?>
+        <?php get_template_part('templates/partials/social/footer', 'icons'); ?>
     </div>
 
 </footer>
@@ -44,4 +44,4 @@
 <script type="text/javascript" src="//widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js" async></script>
 <!-- End TrustBox script -->
 
-<?php get_template_part( 'templates/partials/document-close' );?>
+<?php get_template_part('templates/partials/document-close'); ?>
