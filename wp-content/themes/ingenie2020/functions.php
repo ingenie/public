@@ -67,7 +67,11 @@ require_once(__DIR__ . '/includes/shortcodes-sliders.php');
 require_once(__DIR__ . '/includes/shortcodes-quote-button.php');
 require_once(__DIR__ . '/includes/shortcodes-notifications.php');
 require_once(__DIR__ . '/includes/shortcodes-hero-img.php');
-require_once(__DIR__ . '/includes/shortcodes-trust-pilot.php');
+require_once(__DIR__ . '/includes/shortcodes-trust-pilot-bar.php');
+require_once(__DIR__ . '/includes/shortcodes-trust-pilot-footer-mini.php');
+require_once(__DIR__ . '/includes/shortcodes-trust-pilot-mini-star.php');
+require_once(__DIR__ . '/includes/shortcodes-trust-pilot-slider.php');
+require_once(__DIR__ . '/includes/shortcodes-trust-pilot-review-us.php');
 require_once(__DIR__ . '/includes/shortcodes-faqs.php');
 
 /* 
