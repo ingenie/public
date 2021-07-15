@@ -283,9 +283,8 @@ get_header(); ?>
     <!-- RV 1 -->
     <div class="flex-auto md:w-1/2 mb-2">
         <div class="accordian border-b flex pr-2 mx-4">
-            <h4 class="flex-auto heading-4 text-center text-sm">Started <span class="text-ig-orange-500">ON OR AFTER 1st
-                    Feb 2021</span> <br />
-                or renewals <span class="text-ig-orange-500">ON OR AFTER 31st May 2021</span>
+            <h4 class="pt-3 flex-auto heading-4 text-center">Started <span class="text-ig-orange-500">ON OR AFTER 1st
+                    Feb 2021</span>
             </h4>
             <span class="flex-none pointer">
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 align-baseline inline-block " fill="none"
