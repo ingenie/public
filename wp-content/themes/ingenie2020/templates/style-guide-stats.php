@@ -11,7 +11,7 @@ get_header();
 <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.0.1/styles/atom-one-dark.min.css">
 <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.0.1/highlight.min.js"></script>
 <script>
-hljs.highlightAll();
+    hljs.highlightAll();
 </script>
 <!-- END: Highlight the code examples -->
 
@@ -47,30 +47,24 @@ hljs.highlightAll();
 
         <a class="inline-flex filter secondary-btn my-1" href="/styleguide-components" target="_blank">
             <span>Components</span>
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 btn-icon-right" viewBox="0 0 20 20"
-                fill="currentColor">
-                <path
-                    d="M11 3a1 1 0 100 2h2.586l-6.293 6.293a1 1 0 101.414 1.414L15 6.414V9a1 1 0 102 0V4a1 1 0 00-1-1h-5z" />
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 btn-icon-right" viewBox="0 0 20 20" fill="currentColor">
+                <path d="M11 3a1 1 0 100 2h2.586l-6.293 6.293a1 1 0 101.414 1.414L15 6.414V9a1 1 0 102 0V4a1 1 0 00-1-1h-5z" />
                 <path d="M5 5a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2v-3a1 1 0 10-2 0v3H5V7h3a1 1 0 000-2H5z" />
             </svg>
         </a>
 
         <a class="inline-flex filter secondary-btn my-1" href="/styleguide-landing-pages" target="_blank">
             <span>Landing Pages</span>
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 btn-icon-right" viewBox="0 0 20 20"
-                fill="currentColor">
-                <path
-                    d="M11 3a1 1 0 100 2h2.586l-6.293 6.293a1 1 0 101.414 1.414L15 6.414V9a1 1 0 102 0V4a1 1 0 00-1-1h-5z" />
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 btn-icon-right" viewBox="0 0 20 20" fill="currentColor">
+                <path d="M11 3a1 1 0 100 2h2.586l-6.293 6.293a1 1 0 101.414 1.414L15 6.414V9a1 1 0 102 0V4a1 1 0 00-1-1h-5z" />
                 <path d="M5 5a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2v-3a1 1 0 10-2 0v3H5V7h3a1 1 0 000-2H5z" />
             </svg>
         </a>
 
-        <a class="inline-flex filter secondary-btn my-1" href="/styleguide-layouts" target="_blank">
-            <span>Layouts/Blocks</span>
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 btn-icon-right" viewBox="0 0 20 20"
-                fill="currentColor">
-                <path
-                    d="M11 3a1 1 0 100 2h2.586l-6.293 6.293a1 1 0 101.414 1.414L15 6.414V9a1 1 0 102 0V4a1 1 0 00-1-1h-5z" />
+        <a class="inline-flex filter secondary-btn my-1" href="/styleguide-misc" target="_blank">
+            <span>Misc</span>
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 btn-icon-right" viewBox="0 0 20 20" fill="currentColor">
+                <path d="M11 3a1 1 0 100 2h2.586l-6.293 6.293a1 1 0 101.414 1.414L15 6.414V9a1 1 0 102 0V4a1 1 0 00-1-1h-5z" />
                 <path d="M5 5a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2v-3a1 1 0 10-2 0v3H5V7h3a1 1 0 000-2H5z" />
             </svg>
         </a>
@@ -123,8 +117,7 @@ hljs.highlightAll();
             </pre>
         </div>
         <div class="flex-auto md:w-1/2">
-            <span
-                class="break-all h-full w-full items-center justify-center flex text-xs bg-gray-100 p-2 text-ig-blue-500 border-b-2 md:border-b-0 md:border-r-8 border-gray-600">
+            <span class="break-all h-full w-full items-center justify-center flex text-xs bg-gray-100 p-2 text-ig-blue-500 border-b-2 md:border-b-0 md:border-r-8 border-gray-600">
                 <?php echo do_shortcode("[learner_get_a_quote_url]"); ?>
             </span>
         </div>
@@ -140,8 +133,7 @@ hljs.highlightAll();
             </pre>
         </div>
         <div class="flex-auto md:w-1/2">
-            <span
-                class="break-all h-full w-full items-center justify-center flex text-xs bg-gray-100 p-2 text-ig-blue-500 border-b-2 md:border-b-0 md:border-r-8 border-gray-600">
+            <span class="break-all h-full w-full items-center justify-center flex text-xs bg-gray-100 p-2 text-ig-blue-500 border-b-2 md:border-b-0 md:border-r-8 border-gray-600">
                 <?php echo do_shortcode("[learner_retrieve_a_quote_url]"); ?>
             </span>
         </div>
@@ -157,8 +149,7 @@ hljs.highlightAll();
             </pre>
         </div>
         <div class="flex-auto md:w-1/2">
-            <span
-                class="break-all h-full w-full items-center justify-center flex text-xs bg-gray-100 p-2 text-ig-blue-500 border-b-2 md:border-b-0 md:border-r-8 border-gray-600">
+            <span class="break-all h-full w-full items-center justify-center flex text-xs bg-gray-100 p-2 text-ig-blue-500 border-b-2 md:border-b-0 md:border-r-8 border-gray-600">
                 <?php echo do_shortcode("[learner_quotes_start_from_txt]"); ?>
             </span>
         </div>
@@ -174,8 +165,7 @@ hljs.highlightAll();
             </pre>
         </div>
         <div class="flex-auto md:w-1/2">
-            <span
-                class="break-all h-full w-full items-center justify-center flex text-xs bg-gray-100 p-2 text-ig-blue-500 border-b-2 md:border-b-0 md:border-r-8 border-gray-600">
+            <span class="break-all h-full w-full items-center justify-center flex text-xs bg-gray-100 p-2 text-ig-blue-500 border-b-2 md:border-b-0 md:border-r-8 border-gray-600">
                 <?php echo do_shortcode("[learner_low_excess_txt]"); ?>
             </span>
         </div>
@@ -191,8 +181,7 @@ hljs.highlightAll();
             </pre>
         </div>
         <div class="flex-auto md:w-1/2">
-            <span
-                class="break-all h-full w-full items-center justify-center flex text-xs bg-gray-100 p-2 text-ig-blue-500 border-b-2 md:border-b-0 md:border-r-8 border-gray-600">
+            <span class="break-all h-full w-full items-center justify-center flex text-xs bg-gray-100 p-2 text-ig-blue-500 border-b-2 md:border-b-0 md:border-r-8 border-gray-600">
                 <?php echo do_shortcode("[learner_sp_dates_discount_txt]"); ?>
             </span>
         </div>
@@ -240,8 +229,7 @@ hljs.highlightAll();
             </pre>
         </div>
         <div class="flex-auto md:w-1/2">
-            <span
-                class="break-all h-full w-full items-center justify-center flex text-xs bg-gray-100 p-2 text-ig-blue-500 border-b-2 md:border-b-0 md:border-r-8 border-gray-600">
+            <span class="break-all h-full w-full items-center justify-center flex text-xs bg-gray-100 p-2 text-ig-blue-500 border-b-2 md:border-b-0 md:border-r-8 border-gray-600">
                 <?php echo do_shortcode("[yd_get_a_quote_url]"); ?>
             </span>
         </div>
@@ -257,8 +245,7 @@ hljs.highlightAll();
             </pre>
         </div>
         <div class="flex-auto md:w-1/2">
-            <span
-                class="break-all h-full w-full items-center justify-center flex text-xs bg-gray-100 p-2 text-ig-blue-500 border-b-2 md:border-b-0 md:border-r-8 border-gray-600">
+            <span class="break-all h-full w-full items-center justify-center flex text-xs bg-gray-100 p-2 text-ig-blue-500 border-b-2 md:border-b-0 md:border-r-8 border-gray-600">
                 <?php echo do_shortcode("[yd_retrieve_a_quote_url]"); ?>
             </span>
         </div>
@@ -274,8 +261,7 @@ hljs.highlightAll();
             </pre>
         </div>
         <div class="flex-auto md:w-1/2">
-            <span
-                class="break-all h-full w-full items-center justify-center flex text-xs bg-gray-100 p-2 text-ig-blue-500 border-b-2 md:border-b-0 md:border-r-8 border-gray-600">
+            <span class="break-all h-full w-full items-center justify-center flex text-xs bg-gray-100 p-2 text-ig-blue-500 border-b-2 md:border-b-0 md:border-r-8 border-gray-600">
                 <?php echo do_shortcode("[yd_up_front_txt]"); ?>
             </span>
         </div>
@@ -291,8 +277,7 @@ hljs.highlightAll();
             </pre>
         </div>
         <div class="flex-auto md:w-1/2">
-            <span
-                class="break-all h-full w-full items-center justify-center flex text-xs bg-gray-100 p-2 text-ig-blue-500 border-b-2 md:border-b-0 md:border-r-8 border-gray-600">
+            <span class="break-all h-full w-full items-center justify-center flex text-xs bg-gray-100 p-2 text-ig-blue-500 border-b-2 md:border-b-0 md:border-r-8 border-gray-600">
                 <?php echo do_shortcode("[yd_drive_safe_discount_txt]"); ?>
             </span>
         </div>
@@ -309,8 +294,7 @@ hljs.highlightAll();
             </pre>
         </div>
         <div class="flex-auto md:w-1/2">
-            <span
-                class="break-all h-full w-full items-center justify-center flex text-xs bg-gray-100 p-2 text-ig-blue-500 border-b-2 md:border-b-0 md:border-r-8 border-gray-600">
+            <span class="break-all h-full w-full items-center justify-center flex text-xs bg-gray-100 p-2 text-ig-blue-500 border-b-2 md:border-b-0 md:border-r-8 border-gray-600">
                 <?php echo do_shortcode("[yd_renewal_discount_txt]"); ?>
             </span>
         </div>
@@ -326,8 +310,7 @@ hljs.highlightAll();
             </pre>
         </div>
         <div class="flex-auto md:w-1/2">
-            <span
-                class="break-all h-full w-full items-center justify-center flex text-xs bg-gray-100 p-2 text-ig-blue-500 border-b-2 md:border-b-0 md:border-r-8 border-gray-600">
+            <span class="break-all h-full w-full items-center justify-center flex text-xs bg-gray-100 p-2 text-ig-blue-500 border-b-2 md:border-b-0 md:border-r-8 border-gray-600">
                 <?php echo do_shortcode("[yd_renewal_percentage_txt]"); ?>
             </span>
         </div>
@@ -343,8 +326,7 @@ hljs.highlightAll();
             </pre>
         </div>
         <div class="flex-auto md:w-1/2">
-            <span
-                class="break-all h-full w-full items-center justify-center flex text-xs bg-gray-100 p-2 text-ig-blue-500 border-b-2 md:border-b-0 md:border-r-8 border-gray-600">
+            <span class="break-all h-full w-full items-center justify-center flex text-xs bg-gray-100 p-2 text-ig-blue-500 border-b-2 md:border-b-0 md:border-r-8 border-gray-600">
                 <?php echo do_shortcode("[yd_frac_cus_discount_txt]"); ?>
             </span>
         </div>
@@ -360,8 +342,7 @@ hljs.highlightAll();
             </pre>
         </div>
         <div class="flex-auto md:w-1/2">
-            <span
-                class="break-all h-full w-full items-center justify-center flex text-xs bg-gray-100 p-2 text-ig-blue-500 border-b-2 md:border-b-0 md:border-r-8 border-gray-600">
+            <span class="break-all h-full w-full items-center justify-center flex text-xs bg-gray-100 p-2 text-ig-blue-500 border-b-2 md:border-b-0 md:border-r-8 border-gray-600">
                 <?php echo do_shortcode("[yd_sp_dates_up_front_txt]"); ?>
             </span>
         </div>
@@ -377,8 +358,7 @@ hljs.highlightAll();
             </pre>
         </div>
         <div class="flex-auto md:w-1/2">
-            <span
-                class="break-all h-full w-full items-center justify-center flex text-xs bg-gray-100 p-2 text-ig-blue-500 border-b-2 md:border-b-0 md:border-r-8 border-gray-600">
+            <span class="break-all h-full w-full items-center justify-center flex text-xs bg-gray-100 p-2 text-ig-blue-500 border-b-2 md:border-b-0 md:border-r-8 border-gray-600">
                 <?php echo do_shortcode("[yd_sp_dates_renewals_txt]"); ?>
             </span>
         </div>
@@ -394,8 +374,7 @@ hljs.highlightAll();
             </pre>
         </div>
         <div class="flex-auto md:w-1/2">
-            <span
-                class="break-all h-full w-full items-center justify-center flex text-xs bg-gray-100 p-2 text-ig-blue-500 border-b-2 md:border-b-0 md:border-r-8 border-gray-600">
+            <span class="break-all h-full w-full items-center justify-center flex text-xs bg-gray-100 p-2 text-ig-blue-500 border-b-2 md:border-b-0 md:border-r-8 border-gray-600">
                 <?php echo do_shortcode("[yd_sp_factors_renewals_txt]"); ?>
             </span>
         </div>
@@ -411,8 +390,7 @@ hljs.highlightAll();
             </pre>
         </div>
         <div class="flex-auto md:w-1/2">
-            <span
-                class="break-all h-full w-full items-center justify-center flex text-xs bg-gray-100 p-2 text-ig-blue-500 border-b-2 md:border-b-0 md:border-r-8 border-gray-600">
+            <span class="break-all h-full w-full items-center justify-center flex text-xs bg-gray-100 p-2 text-ig-blue-500 border-b-2 md:border-b-0 md:border-r-8 border-gray-600">
                 <?php echo do_shortcode("[yd_sp_premium_increases_txt]"); ?>
             </span>
         </div>
@@ -428,8 +406,7 @@ hljs.highlightAll();
             </pre>
         </div>
         <div class="flex-auto md:w-1/2">
-            <span
-                class="break-all h-full w-full items-center justify-center flex text-xs bg-gray-100 p-2 text-ig-blue-500 border-b-2 md:border-b-0 md:border-r-8 border-gray-600">
+            <span class="break-all h-full w-full items-center justify-center flex text-xs bg-gray-100 p-2 text-ig-blue-500 border-b-2 md:border-b-0 md:border-r-8 border-gray-600">
                 <?php echo do_shortcode("[yd_sp_top_up_miles_txt]"); ?>
             </span>
         </div>
@@ -477,8 +454,7 @@ hljs.highlightAll();
             </pre>
         </div>
         <div class="flex-auto md:w-1/2">
-            <span
-                class="break-all h-full w-full items-center justify-center flex text-xs bg-gray-100 p-2 text-ig-blue-500 border-b-2 md:border-b-0 md:border-r-8 border-gray-600">
+            <span class="break-all h-full w-full items-center justify-center flex text-xs bg-gray-100 p-2 text-ig-blue-500 border-b-2 md:border-b-0 md:border-r-8 border-gray-600">
                 <?php echo do_shortcode("[obd_help_number]"); ?>
             </span>
         </div>
@@ -494,8 +470,7 @@ hljs.highlightAll();
             </pre>
         </div>
         <div class="flex-auto md:w-1/2">
-            <span
-                class="break-all h-full w-full items-center justify-center flex text-xs bg-gray-100 p-2 text-ig-blue-500 border-b-2 md:border-b-0 md:border-r-8 border-gray-600">
+            <span class="break-all h-full w-full items-center justify-center flex text-xs bg-gray-100 p-2 text-ig-blue-500 border-b-2 md:border-b-0 md:border-r-8 border-gray-600">
                 <?php echo do_shortcode("[obd_trakm8_email]"); ?>
             </span>
         </div>
@@ -545,8 +520,7 @@ hljs.highlightAll();
             </pre>
         </div>
         <div class="flex-auto md:w-1/2">
-            <span
-                class="break-all h-full w-full items-center justify-center flex text-xs bg-gray-100 p-2 text-ig-blue-500 border-b-2 md:border-b-0 md:border-r-8 border-gray-600">
+            <span class="break-all h-full w-full items-center justify-center flex text-xs bg-gray-100 p-2 text-ig-blue-500 border-b-2 md:border-b-0 md:border-r-8 border-gray-600">
                 <?php echo do_shortcode("[ig_main_number]"); ?>
             </span>
         </div>
@@ -594,8 +568,7 @@ hljs.highlightAll();
             </pre>
         </div>
         <div class="flex-auto md:w-1/2">
-            <span
-                class="break-all h-full w-full items-center justify-center flex text-xs bg-gray-100 p-2 text-ig-blue-500 border-b-2 md:border-b-0 md:border-r-8 border-gray-600">
+            <span class="break-all h-full w-full items-center justify-center flex text-xs bg-gray-100 p-2 text-ig-blue-500 border-b-2 md:border-b-0 md:border-r-8 border-gray-600">
                 <?php echo do_shortcode("[ig_facebook_account]"); ?>
             </span>
         </div>
@@ -611,8 +584,7 @@ hljs.highlightAll();
             </pre>
         </div>
         <div class="flex-auto md:w-1/2">
-            <span
-                class="break-all h-full w-full items-center justify-center flex text-xs bg-gray-100 p-2 text-ig-blue-500 border-b-2 md:border-b-0 md:border-r-8 border-gray-600">
+            <span class="break-all h-full w-full items-center justify-center flex text-xs bg-gray-100 p-2 text-ig-blue-500 border-b-2 md:border-b-0 md:border-r-8 border-gray-600">
                 <?php echo do_shortcode("[ig_twitter_account]"); ?>
             </span>
         </div>
@@ -628,8 +600,7 @@ hljs.highlightAll();
             </pre>
         </div>
         <div class="flex-auto md:w-1/2">
-            <span
-                class="break-all h-full w-full items-center justify-center flex text-xs bg-gray-100 p-2 text-ig-blue-500 border-b-2 md:border-b-0 md:border-r-8 border-gray-600">
+            <span class="break-all h-full w-full items-center justify-center flex text-xs bg-gray-100 p-2 text-ig-blue-500 border-b-2 md:border-b-0 md:border-r-8 border-gray-600">
                 <?php echo do_shortcode("[ig_instagram_account]"); ?>
             </span>
         </div>

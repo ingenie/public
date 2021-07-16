@@ -1,6 +1,6 @@
 <?php
 /*
- * Template Name: Style Guide Layouts Template
+ * Template Name: Style Guide Misc Template
  * Template Post Type: page
  */
 
@@ -78,8 +78,8 @@ hljs.highlightAll();
             </svg>
         </a>
 
-        <!-- <a class="inline-flex filter secondary-btn my-1" href="/styleguide-layouts" target="_blank">
-            <span>Layouts/Blocks</span>
+        <!-- <a class="inline-flex filter secondary-btn my-1" href="/styleguide-misc" target="_blank">
+            <span>Misc</span>
             <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 btn-icon-right" viewBox="0 0 20 20"
                 fill="currentColor">
                 <path

@@ -11,13 +11,12 @@ get_header('styleguides');
 <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.0.1/styles/atom-one-dark.min.css">
 <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.0.1/highlight.min.js"></script>
 <script>
-hljs.highlightAll();
+    hljs.highlightAll();
 </script>
 <!-- END: Highlight the code examples -->
 
 <div class="fixed right-0 top-0 show-source z-100">
-    <div
-        class="absolute text-xs text-white font-semibold pre z-100 transform rotate-45 h-40 pt-4 text-center leading-none">
+    <div class="absolute text-xs text-white font-semibold pre z-100 transform rotate-45 h-40 pt-4 text-center leading-none">
         <span class="text-2xl">[</span>
         <span id="toggle">View Code</span>
         <span class="text-2xl">]</span>
@@ -48,10 +47,8 @@ hljs.highlightAll();
         <!-- External guides -->
         <a class="inline-flex filter secondary-btn my-1" href="/styleguide-stats" target="_blank">
             <span>Site Stats</span>
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 btn-icon-right" viewBox="0 0 20 20"
-                fill="currentColor">
-                <path
-                    d="M11 3a1 1 0 100 2h2.586l-6.293 6.293a1 1 0 101.414 1.414L15 6.414V9a1 1 0 102 0V4a1 1 0 00-1-1h-5z" />
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 btn-icon-right" viewBox="0 0 20 20" fill="currentColor">
+                <path d="M11 3a1 1 0 100 2h2.586l-6.293 6.293a1 1 0 101.414 1.414L15 6.414V9a1 1 0 102 0V4a1 1 0 00-1-1h-5z" />
                 <path d="M5 5a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2v-3a1 1 0 10-2 0v3H5V7h3a1 1 0 000-2H5z" />
             </svg>
         </a>
@@ -68,20 +65,16 @@ hljs.highlightAll();
 
         <a class="inline-flex filter secondary-btn my-1" href="/styleguide-landing-pages" target="_blank">
             <span>Landing Pages</span>
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 btn-icon-right" viewBox="0 0 20 20"
-                fill="currentColor">
-                <path
-                    d="M11 3a1 1 0 100 2h2.586l-6.293 6.293a1 1 0 101.414 1.414L15 6.414V9a1 1 0 102 0V4a1 1 0 00-1-1h-5z" />
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 btn-icon-right" viewBox="0 0 20 20" fill="currentColor">
+                <path d="M11 3a1 1 0 100 2h2.586l-6.293 6.293a1 1 0 101.414 1.414L15 6.414V9a1 1 0 102 0V4a1 1 0 00-1-1h-5z" />
                 <path d="M5 5a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2v-3a1 1 0 10-2 0v3H5V7h3a1 1 0 000-2H5z" />
             </svg>
         </a>
 
-        <a class="inline-flex filter secondary-btn my-1" href="/styleguide-layouts" target="_blank">
-            <span>Layouts/Blocks</span>
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 btn-icon-right" viewBox="0 0 20 20"
-                fill="currentColor">
-                <path
-                    d="M11 3a1 1 0 100 2h2.586l-6.293 6.293a1 1 0 101.414 1.414L15 6.414V9a1 1 0 102 0V4a1 1 0 00-1-1h-5z" />
+        <a class="inline-flex filter secondary-btn my-1" href="/styleguide-misc" target="_blank">
+            <span>Misc</span>
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 btn-icon-right" viewBox="0 0 20 20" fill="currentColor">
+                <path d="M11 3a1 1 0 100 2h2.586l-6.293 6.293a1 1 0 101.414 1.414L15 6.414V9a1 1 0 102 0V4a1 1 0 00-1-1h-5z" />
                 <path d="M5 5a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2v-3a1 1 0 10-2 0v3H5V7h3a1 1 0 000-2H5z" />
             </svg>
         </a>
@@ -280,10 +273,8 @@ SECTION - WIP
             <p class="my-1">
                 <a href="#" class="inline-flex primary-link">
                     Primary link (with icon)
-                    <svg xmlns="http://www.w3.org/2000/svg" class="btn-icon-right" fill="none" viewBox="0 0 24 24"
-                        stroke="currentColor">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                            d="M13 9l3 3m0 0l-3 3m3-3H8m13 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    <svg xmlns="http://www.w3.org/2000/svg" class="btn-icon-right" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 9l3 3m0 0l-3 3m3-3H8m13 0a9 9 0 11-18 0 9 9 0 0118 0z" />
                     </svg>
                 </a>
             </p>
@@ -308,10 +299,8 @@ SECTION - WIP
             <p class="my-1">
                 <a href="#" class="inline-flex secondary-link">
                     Secondary link (with icon)
-                    <svg xmlns="http://www.w3.org/2000/svg" class="btn-icon-right" fill="none" viewBox="0 0 24 24"
-                        stroke="currentColor">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                            d="M13 9l3 3m0 0l-3 3m3-3H8m13 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    <svg xmlns="http://www.w3.org/2000/svg" class="btn-icon-right" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 9l3 3m0 0l-3 3m3-3H8m13 0a9 9 0 11-18 0 9 9 0 0118 0z" />
                     </svg>
                 </a>
             </p>
@@ -485,11 +474,8 @@ SECTION - WIP
             <p class="my-1">
                 <a href="#" class="inline-flex primary-btn">
                     <span>Primary button (with icon)</span>
-                    <svg xmlns="http://www.w3.org/2000/svg" class="btn-icon-right" viewBox="0 0 20 20"
-                        fill="currentColor">
-                        <path fill-rule="evenodd"
-                            d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-8.707l-3-3a1 1 0 00-1.414 1.414L10.586 9H7a1 1 0 100 2h3.586l-1.293 1.293a1 1 0 101.414 1.414l3-3a1 1 0 000-1.414z"
-                            clip-rule="evenodd" />
+                    <svg xmlns="http://www.w3.org/2000/svg" class="btn-icon-right" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-8.707l-3-3a1 1 0 00-1.414 1.414L10.586 9H7a1 1 0 100 2h3.586l-1.293 1.293a1 1 0 101.414 1.414l3-3a1 1 0 000-1.414z" clip-rule="evenodd" />
                     </svg>
                 </a>
             </p>
@@ -498,11 +484,8 @@ SECTION - WIP
             <p class="my-1">
                 <a href="#" class="inline-flex secondary-btn">
                     <span>Secondary button (with icon)</span>
-                    <svg xmlns="http://www.w3.org/2000/svg" class="btn-icon-right" viewBox="0 0 20 20"
-                        fill="currentColor">
-                        <path fill-rule="evenodd"
-                            d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-8.707l-3-3a1 1 0 00-1.414 1.414L10.586 9H7a1 1 0 100 2h3.586l-1.293 1.293a1 1 0 101.414 1.414l3-3a1 1 0 000-1.414z"
-                            clip-rule="evenodd" />
+                    <svg xmlns="http://www.w3.org/2000/svg" class="btn-icon-right" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-8.707l-3-3a1 1 0 00-1.414 1.414L10.586 9H7a1 1 0 100 2h3.586l-1.293 1.293a1 1 0 101.414 1.414l3-3a1 1 0 000-1.414z" clip-rule="evenodd" />
                     </svg>
                 </a>
             </p>
@@ -760,10 +743,8 @@ SECTION - WIP
                 <div class="px-1 pt-4 pb-2">
                     <a href="/young-driver-insurance/learner-car-insurance" class="inline-flex primary-link-sm">
                         <span>Find out more</span>
-                        <svg xmlns="http://www.w3.org/2000/svg" class="btn-icon-right" fill="none" viewBox="0 0 24 24"
-                            stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                d="M13 9l3 3m0 0l-3 3m3-3H8m13 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+                        <svg xmlns="http://www.w3.org/2000/svg" class="btn-icon-right" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 9l3 3m0 0l-3 3m3-3H8m13 0a9 9 0 11-18 0 9 9 0 0118 0z" />
                         </svg>
                     </a>
                 </div>
@@ -785,10 +766,8 @@ SECTION - WIP
                 <div class="px-1 pt-4 pb-2">
                     <a href="/learner-driver-insurance/how-it-works" class="inline-flex primary-link-sm">
                         <span>Find out more</span>
-                        <svg xmlns="http://www.w3.org/2000/svg" class="btn-icon-right" fill="none" viewBox="0 0 24 24"
-                            stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                d="M13 9l3 3m0 0l-3 3m3-3H8m13 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+                        <svg xmlns="http://www.w3.org/2000/svg" class="btn-icon-right" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 9l3 3m0 0l-3 3m3-3H8m13 0a9 9 0 11-18 0 9 9 0 0118 0z" />
                         </svg>
                     </a>
                 </div>
@@ -866,8 +845,7 @@ SECTION - WIP
     <div class="flex flex-wrap justify-center mb-4">
         <div class="flex-auto md:w-1/3">
             <div class="text-center border-0 shadow-none standard-card">
-                <img class="object-cover mx-auto" src="/resources/img/pages/icons/pound-icon.svg" alt="upfront savings"
-                    width="48" height="48">
+                <img class="object-cover mx-auto" src="/resources/img/pages/icons/pound-icon.svg" alt="upfront savings" width="48" height="48">
                 <h3 class="heading-3">Save <?php echo do_shortcode("[yd_up_front_txt]"); ?> upfront</h3>
                 <p>
                     Our drivers save an average of <?php echo do_shortcode(" when they insure"); ?>
@@ -878,8 +856,7 @@ SECTION - WIP
 
         <div class="flex-auto md:w-1/3">
             <div class="text-center border-0 shadow-none standard-card">
-                <img class="object-cover mx-auto" src="/resources/img/pages/icons/progress-icon.svg"
-                    alt="save on progress" width="48" height="48">
+                <img class="object-cover mx-auto" src="/resources/img/pages/icons/progress-icon.svg" alt="save on progress" width="48" height="48">
 
                 <h3 class="heading-3">Earn up to <?php echo do_shortcode("[yd_drive_safe_discount_txt]"); ?> off</h3>
                 <p>
@@ -890,8 +867,7 @@ SECTION - WIP
 
         <div class="flex-auto md:w-1/3">
             <div class="text-center border-0 shadow-none standard-card">
-                <img class="object-cover mx-auto" src="/resources/img/pages/icons/pig-icon.svg" alt="save at renewal"
-                    width="48" height="48">
+                <img class="object-cover mx-auto" src="/resources/img/pages/icons/pig-icon.svg" alt="save at renewal" width="48" height="48">
 
                 <h3 class="heading-3">Save at renewal</h3>
                 <p>
@@ -950,32 +926,28 @@ SECTION - WIP
     <div class="flex flex-wrap justify-center mb-4">
         <div class="flex-auto md:flex-1">
             <div class="text-center border-0 shadow-none standard-card">
-                <img class="object-cover mx-auto" src="/resources/img/pages/icons/app-speed-icon.svg" alt="driving tips"
-                    width="64" height="auto">
+                <img class="object-cover mx-auto" src="/resources/img/pages/icons/app-speed-icon.svg" alt="driving tips" width="64" height="auto">
                 <h4 class="heading-4">Speed</h4>
             </div>
         </div>
 
         <div class="flex-auto md:flex-1">
             <div class="text-center border-0 shadow-none standard-card">
-                <img class="object-cover mx-auto" src="/resources/img/pages/icons/app-acceleration-icon.svg"
-                    alt="driving tips" width="64" height="auto">
+                <img class="object-cover mx-auto" src="/resources/img/pages/icons/app-acceleration-icon.svg" alt="driving tips" width="64" height="auto">
                 <h4 class="heading-4">Acceleration</h4>
             </div>
         </div>
 
         <div class="flex-auto md:flex-1">
             <div class="text-center border-0 shadow-none standard-card">
-                <img class="object-cover mx-auto" src="/resources/img/pages/icons/app-braking-icon.svg"
-                    alt="driving tips" width="64" height="auto">
+                <img class="object-cover mx-auto" src="/resources/img/pages/icons/app-braking-icon.svg" alt="driving tips" width="64" height="auto">
                 <h4 class="heading-4">Braking</h4>
             </div>
         </div>
 
         <div class="flex-auto md:flex-1">
             <div class="text-center border-0 shadow-none standard-card">
-                <img class="object-cover mx-auto" src="/resources/img/pages/icons/app-cornering-icon.svg"
-                    alt="driving tips" width="64" height="auto">
+                <img class="object-cover mx-auto" src="/resources/img/pages/icons/app-cornering-icon.svg" alt="driving tips" width="64" height="auto">
                 <h4 class="heading-4">Cornering</h4>
             </div>
         </div>
@@ -1031,13 +1003,11 @@ SECTION - WIP
         <div class="flex-auto md:flex-1">
             <div class="text-center border-0 shadow-none standard-card">
                 <h3 class="heading-3">Save <?php echo do_shortcode("[yd_up_front_txt]"); ?> upfront</h3>
-                <img class="object-cover mx-auto" src="/resources/img/pages/blog/driving-tips-cat.jpg"
-                    alt="driving tips" width="480" height="auto">
+                <img class="object-cover mx-auto" src="/resources/img/pages/blog/driving-tips-cat.jpg" alt="driving tips" width="480" height="auto">
 
 
                 <p class="mt-4">
-                    <a href="https://www.ingenie.com/young-drivers-guide/category/driving-tips"
-                        class="inline-flex primary-btn-clear">
+                    <a href="https://www.ingenie.com/young-drivers-guide/category/driving-tips" class="inline-flex primary-btn-clear">
                         <span>Read more</span>
                     </a>
                 </p>
@@ -1047,12 +1017,10 @@ SECTION - WIP
         <div class="flex-auto md:flex-1">
             <div class="text-center border-0 shadow-none standard-card">
                 <h3 class="heading-3">Earn up to <?php echo do_shortcode("[yd_drive_safe_discount_txt]"); ?> off</h3>
-                <img class="object-cover mx-auto" src="/resources/img/pages/blog/car-insurance-cat.jpg"
-                    alt="car insurance info" width="480" height="auto">
+                <img class="object-cover mx-auto" src="/resources/img/pages/blog/car-insurance-cat.jpg" alt="car insurance info" width="480" height="auto">
 
                 <p class="mt-4">
-                    <a href="https://www.ingenie.com/young-drivers-guide/category/car-insurance"
-                        class="inline-flex primary-btn-clear">
+                    <a href="https://www.ingenie.com/young-drivers-guide/category/car-insurance" class="inline-flex primary-btn-clear">
                         <span>Read more</span>
                     </a>
                 </p>
@@ -1062,13 +1030,11 @@ SECTION - WIP
         <div class="flex-auto md:flex-1">
             <div class="text-center border-0 shadow-none standard-card">
                 <h3 class="heading-3">Save at renewal</h3>
-                <img class="object-cover mx-auto" src="/resources/img/pages/blog/running-a-car-cat.jpg"
-                    alt="running a car advice" width="480" height="auto">
+                <img class="object-cover mx-auto" src="/resources/img/pages/blog/running-a-car-cat.jpg" alt="running a car advice" width="480" height="auto">
 
 
                 <p class="mt-4">
-                    <a href="https://www.ingenie.com/young-drivers-guide/category/running-a-car"
-                        class="inline-flex primary-btn-clear">
+                    <a href="https://www.ingenie.com/young-drivers-guide/category/running-a-car" class="inline-flex primary-btn-clear">
                         <span>Read more</span>
                     </a>
                 </p>
@@ -1121,6 +1087,103 @@ SECTION - WIP
                 &lt;/div&gt;
             &lt;/div&gt;
         &lt;/div&gt;
+    </code>
+    </pre>
+    </div>
+    <!-- MARKUP -->
+
+
+    <!-- Cards - guides and blog -->
+    <h3 class="pt-2 pb-3 text-sm font-semibold text-center">Cards - boxed image</h3>
+
+    <section class="flex flex-wrap justify-center py-10">
+
+        <div class="w-full sm:w-1/2 lg:w-1/3">
+            <div class="standard-card p-0 relative">
+
+                <a href="#"><img class="object-cover object-center w-full h-40 md:w-full md:h-32" src="/resources/img/pages/misc/ydg-header.jpg" alt="alt text">
+                </a>
+
+                <div class="p-4 pt-1">
+                    <div class="h-12">
+                        <h4 class="heading-4 my-2 min-h-full p-0">ingenie - Young Driver Guide</h4>
+                    </div>
+
+                    <p class="block leading-snug text-sm pr-3">
+                        Just head to our Young Driver’s Guide for all the learner advice you need to get road-ready.
+                    </p>
+
+                    <span class="text-ig-blue-500 right-0 bottom-0 pb-1 pr-2 absolute">
+                        <a href="#">
+                            <svg class="w-4 h-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                                <path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+                            </svg>
+                        </a>
+                    </span>
+                </div>
+            </div>
+        </div>
+
+        <div class="w-full sm:w-1/2 lg:w-1/3">
+            <div class="standard-card p-0 relative">
+
+                <a href="#"><img class="object-cover object-center w-full h-40 md:w-full md:h-32" src="/resources/img/pages/misc/pg-header.jpg" alt="alt text">
+                </a>
+
+                <div class="p-4 pt-1">
+                    <div class="h-12">
+                        <h4 class="heading-4 my-2 min-h-full p-0">ingenie - Parents Guide</h4>
+                    </div>
+
+                    <p class="block leading-snug text-sm pr-3">
+                        Just head to our Parents Guide for all the learner advice you may need to help your budding
+                        learner.
+                    </p>
+
+                    <span class="text-ig-blue-500 right-0 bottom-0 pb-1 pr-2 absolute">
+                        <a href="#">
+                            <svg class="w-4 h-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                                <path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+                            </svg>
+                        </a>
+                    </span>
+                </div>
+            </div>
+        </div>
+
+        <div class="w-full sm:w-1/2 lg:w-1/3">
+            <div class="standard-card p-0 relative">
+
+                <a href="#"><img class="object-cover object-center w-full h-40 md:w-full md:h-32" src="/resources/img/pages/misc/blog-header.jpg" alt="alt text">
+                </a>
+
+                <div class="p-4 pt-1">
+                    <div class="h-12">
+                        <h4 class="heading-4 my-2 min-h-full p-0">ingenie - Lifestyle</h4>
+                    </div>
+
+                    <p class="block leading-snug text-sm pr-3">
+                        Steer towards our lifestyle blog to see whats new at ingenie and insurance as a whole.
+                    </p>
+
+                    <span class="text-ig-blue-500 right-0 bottom-0 pb-1 pr-2 absolute">
+                        <a href="#">
+                            <svg class="w-4 h-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                                <path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+                            </svg>
+                        </a>
+                    </span>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- MARKUP -->
+    <div class="mb-10 snippets hidden">
+        <pre class="text-xs">
+        <code class="language-html">
+       TODO...
     </code>
     </pre>
     </div>
@@ -1198,8 +1261,7 @@ SECTION - WIP
                 Accordian heading
             </h4>
             <span class="flex-none pointer m-auto">
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 align-baseline" fill="none" viewBox="0 0 24 24"
-                    stroke="currentColor">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 align-baseline" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
                 </svg>
             </span>
@@ -1212,8 +1274,7 @@ SECTION - WIP
                 Accordian heading 2
             </h4>
             <span class="flex-none pointer m-auto">
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 align-baseline" fill="none" viewBox="0 0 24 24"
-                    stroke="currentColor">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 align-baseline" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
                 </svg>
             </span>
@@ -1226,8 +1287,7 @@ SECTION - WIP
                 Accordian heading 3
             </h4>
             <span class="flex-none pointer m-auto">
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 align-baseline" fill="none" viewBox="0 0 24 24"
-                    stroke="currentColor">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 align-baseline" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
                 </svg>
             </span>
@@ -1280,13 +1340,11 @@ SECTION - WIP
         <h3 class="pt-2 pb-3 text-sm font-semibold text-center">With icons</h3>
         <div class="accordian heading-4 border-b flex p-2 mx-0">
             <span class="flex-none m-auto mx-1 mt-1">
-                <svg class="h-10 w-10" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg"
-                    xmlns:xlink="http://www.w3.org/1999/xlink">
+                <svg class="h-10 w-10" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                     <title>cu-change-icon</title>
                     <g id="cu-change-icon" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                         <g fill="#2980B9" fill-rule="nonzero" id="Path_3267">
-                            <path
-                                d="M30.5126286,39.8927118 C30.5054311,40.5723936 29.9428269,41.1178886 29.2553789,41.1117277 L15.717493,41.1117277 C15.0365657,41.1117277 14.484565,40.5659557 14.484565,39.8927118 C14.484565,39.2194679 15.0365657,38.6736959 15.717493,38.6736959 L29.2553789,38.6736959 C29.9428269,38.667535 30.5054311,39.2130301 30.5126286,39.8927118 L30.5126286,39.8927118 Z M11.2254443,22.1975583 C5.02580262,22.1975583 0,17.2284656 0,11.0987791 C0,4.96909268 5.02580262,0 11.2254443,0 C17.4250861,0 22.4508887,4.96909268 22.4508887,11.0987791 C22.4508887,14.0423584 21.2682113,16.8653763 19.1630322,18.9468011 C17.057853,21.028226 14.2026173,22.1975583 11.2254443,22.1975583 Z M6.1515435,8.81798002 L9.05332086,5.94894562 L7.36950421,4.28412875 L4.46959775,7.14946356 L6.1515435,8.81798002 Z M6.95603368,9.61524232 L14.1459308,16.7240104 L17.3582788,16.9496855 L17.0420954,13.8475768 L9.85219832,6.73880873 L6.95603368,9.61524232 Z M29.2553789,43.9918609 L15.717493,43.9918609 C15.0365657,43.9918609 14.484565,44.5376329 14.484565,45.2108768 C14.484565,45.8841207 15.0365657,46.4298927 15.717493,46.4298927 L29.2553789,46.4298927 C29.9363062,46.4298927 30.4883068,45.8841207 30.4883068,45.2108768 C30.4883068,44.5376329 29.9363062,43.9918609 29.2553789,43.9918609 Z M30.8007484,18.5479097 L24.0879326,18.5479097 C23.5530547,19.4390119 22.9260584,20.2728062 22.2170253,21.0358861 L29.6856876,21.0358861 L29.6856876,24.6392897 L33.393826,24.6392897 L33.4761459,24.7206807 L33.4761459,50.4532001 L11.7062675,50.4532001 L11.7062675,25.8250092 C11.5453695,25.8250092 11.3882133,25.8490566 11.2273152,25.8490566 C10.5435105,25.8435604 9.86089455,25.791644 9.18428438,25.6936737 L9.18428438,52.9411765 L36,52.9411765 L36,23.6884943 L30.8007484,18.5479097 Z M29.2553789,28.0392157 L15.717493,28.0392157 C15.036049,28.0392157 14.4836296,28.5854018 14.4836296,29.2591565 C14.4836296,29.9329112 15.036049,30.4790973 15.717493,30.4790973 L29.2553789,30.4790973 C29.9368228,30.4790973 30.4892423,29.9329112 30.4892423,29.2591565 C30.4892423,28.5854018 29.9368228,28.0392157 29.2553789,28.0392157 L29.2553789,28.0392157 Z M29.2553789,33.3573807 L15.717493,33.3573807 C15.036049,33.3573807 14.4836296,33.9035668 14.4836296,34.5773215 C14.4836296,35.2510762 15.036049,35.7972623 15.717493,35.7972623 L29.2553789,35.7972623 C29.9368228,35.7972623 30.4892423,35.2510762 30.4892423,34.5773215 C30.4892423,33.9035668 29.9368228,33.3573807 29.2553789,33.3573807 L29.2553789,33.3573807 Z">
+                            <path d="M30.5126286,39.8927118 C30.5054311,40.5723936 29.9428269,41.1178886 29.2553789,41.1117277 L15.717493,41.1117277 C15.0365657,41.1117277 14.484565,40.5659557 14.484565,39.8927118 C14.484565,39.2194679 15.0365657,38.6736959 15.717493,38.6736959 L29.2553789,38.6736959 C29.9428269,38.667535 30.5054311,39.2130301 30.5126286,39.8927118 L30.5126286,39.8927118 Z M11.2254443,22.1975583 C5.02580262,22.1975583 0,17.2284656 0,11.0987791 C0,4.96909268 5.02580262,0 11.2254443,0 C17.4250861,0 22.4508887,4.96909268 22.4508887,11.0987791 C22.4508887,14.0423584 21.2682113,16.8653763 19.1630322,18.9468011 C17.057853,21.028226 14.2026173,22.1975583 11.2254443,22.1975583 Z M6.1515435,8.81798002 L9.05332086,5.94894562 L7.36950421,4.28412875 L4.46959775,7.14946356 L6.1515435,8.81798002 Z M6.95603368,9.61524232 L14.1459308,16.7240104 L17.3582788,16.9496855 L17.0420954,13.8475768 L9.85219832,6.73880873 L6.95603368,9.61524232 Z M29.2553789,43.9918609 L15.717493,43.9918609 C15.0365657,43.9918609 14.484565,44.5376329 14.484565,45.2108768 C14.484565,45.8841207 15.0365657,46.4298927 15.717493,46.4298927 L29.2553789,46.4298927 C29.9363062,46.4298927 30.4883068,45.8841207 30.4883068,45.2108768 C30.4883068,44.5376329 29.9363062,43.9918609 29.2553789,43.9918609 Z M30.8007484,18.5479097 L24.0879326,18.5479097 C23.5530547,19.4390119 22.9260584,20.2728062 22.2170253,21.0358861 L29.6856876,21.0358861 L29.6856876,24.6392897 L33.393826,24.6392897 L33.4761459,24.7206807 L33.4761459,50.4532001 L11.7062675,50.4532001 L11.7062675,25.8250092 C11.5453695,25.8250092 11.3882133,25.8490566 11.2273152,25.8490566 C10.5435105,25.8435604 9.86089455,25.791644 9.18428438,25.6936737 L9.18428438,52.9411765 L36,52.9411765 L36,23.6884943 L30.8007484,18.5479097 Z M29.2553789,28.0392157 L15.717493,28.0392157 C15.036049,28.0392157 14.4836296,28.5854018 14.4836296,29.2591565 C14.4836296,29.9329112 15.036049,30.4790973 15.717493,30.4790973 L29.2553789,30.4790973 C29.9368228,30.4790973 30.4892423,29.9329112 30.4892423,29.2591565 C30.4892423,28.5854018 29.9368228,28.0392157 29.2553789,28.0392157 L29.2553789,28.0392157 Z M29.2553789,33.3573807 L15.717493,33.3573807 C15.036049,33.3573807 14.4836296,33.9035668 14.4836296,34.5773215 C14.4836296,35.2510762 15.036049,35.7972623 15.717493,35.7972623 L29.2553789,35.7972623 C29.9368228,35.7972623 30.4892423,35.2510762 30.4892423,34.5773215 C30.4892423,33.9035668 29.9368228,33.3573807 29.2553789,33.3573807 L29.2553789,33.3573807 Z">
                             </path>
                         </g>
                     </g>
@@ -1296,8 +1354,7 @@ SECTION - WIP
                 Accordian heading with icon
             </h4>
             <span class="flex-none pointer m-auto">
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 align-baseline" fill="none" viewBox="0 0 24 24"
-                    stroke="currentColor">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 align-baseline" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
                 </svg>
             </span>
@@ -1415,13 +1472,10 @@ SECTION
 
 
     <!-- MODAL Test 1 -->
-    <div id="test-modal-1"
-        class="modal z-100 fixed left-0 top-0 md:top-20 md:left-1/4 m-auto bg-white w-screen md:w-1/2 md:w-1/2 h-screen sm:h-auto p-8 transform scale-0 transition-transform duration-300">
+    <div id="test-modal-1" class="modal z-100 fixed left-0 top-0 md:top-20 md:left-1/4 m-auto bg-white w-screen md:w-1/2 md:w-1/2 h-screen sm:h-auto p-8 transform scale-0 transition-transform duration-300">
         <button type="button" class="close-modal focus:outline-none absolute right-3 top-3">
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
-                stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                    d="M10 14l2-2m0 0l2-2m-2 2l-2-2m2 2l2 2m7-2a9 9 0 11-18 0 9 9 0 0118 0z" />
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 14l2-2m0 0l2-2m-2 2l-2-2m2 2l2 2m7-2a9 9 0 11-18 0 9 9 0 0118 0z" />
             </svg>
         </button>
         <h2 class="heading-2">Modal heading -1</h2>
@@ -1434,13 +1488,10 @@ SECTION
     </div>
 
     <!-- MODAL Test 2 -->
-    <div id="test-modal-2"
-        class="modal z-100 fixed left-0 top-0 md:top-20 md:left-1/4 m-auto bg-white w-screen md:w-1/2 md:w-1/2 h-screen sm:h-auto p-8 transform scale-0 transition-transform duration-300">
+    <div id="test-modal-2" class="modal z-100 fixed left-0 top-0 md:top-20 md:left-1/4 m-auto bg-white w-screen md:w-1/2 md:w-1/2 h-screen sm:h-auto p-8 transform scale-0 transition-transform duration-300">
         <button type="button" class="close-modal focus:outline-none absolute right-3 top-3">
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
-                stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                    d="M10 14l2-2m0 0l2-2m-2 2l-2-2m2 2l2 2m7-2a9 9 0 11-18 0 9 9 0 0118 0z" />
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 14l2-2m0 0l2-2m-2 2l-2-2m2 2l2 2m7-2a9 9 0 11-18 0 9 9 0 0118 0z" />
             </svg>
         </button>
         <h2 class="heading-2">Modal heading -2</h2>
@@ -1592,8 +1643,7 @@ SECTION - WIP
     </h2>
 
     <div class="relative px-0 mx-4 lg:px-12 lg:mx-40" style="padding-top: 56.25%">
-        <iframe class="absolute inset-0 w-full h-full" src="https://player.vimeo.com/video/216175767" frameborder="0"
-            webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+        <iframe class="absolute inset-0 w-full h-full" src="https://player.vimeo.com/video/216175767" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
     </div>
 
     <!-- MARKUP -->
