@@ -41,8 +41,8 @@
 
         <div class="flex-grow-0">
             <?php if (has_post_thumbnail()) : ?>
-            <img class="object-cover object-top w-full h-56" src="<?php the_post_thumbnail_url('blog-large'); ?>"
-                alt="<?php the_title(); ?>">
+            <img class="object-cover object-top w-full h-full sm:h-56"
+                src="<?php the_post_thumbnail_url('blog-large'); ?>" alt="<?php the_title(); ?>">
             <?php endif; ?>
         </div>
 

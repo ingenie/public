@@ -6,7 +6,8 @@ const Modal = {
   init() {
     // ingenie simple modal
     $(".modal-trigger").click(function () {
-
+      $(".modal").removeClass('scale-100');
+      $("#modal-overlay").addClass('hidden');
       var $this = $(this);
       var $dataId = $this.attr("data-id");
       $('#' + $dataId).addClass('scale-100');

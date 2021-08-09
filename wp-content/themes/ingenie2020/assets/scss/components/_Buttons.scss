@@ -198,6 +198,31 @@
   }
 }
 
+// Third part btns (RED Driving, etc)
+.red-btn {
+  @apply items-center px-3 py-2 text-base leading-none text-white border rounded border-red-600 bg-red-600 border-transparent;
+
+  &:hover {
+    @apply bg-red-700;
+  }
+
+  @screen md {
+    @apply mt-0;
+  }
+}
+
+.red-btn-clear {
+  @apply items-center px-3 py-2 text-base leading-none text-white border rounded border-gray-500 bg-gray-500 border-transparent;
+
+  &:hover {
+    @apply bg-gray-600;
+  }
+
+  @screen md {
+    @apply mt-0;
+  }
+}
+
 
 // $module: '.Example';
 

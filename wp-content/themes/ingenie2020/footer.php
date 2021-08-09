@@ -22,6 +22,7 @@
                     <li><a href="/myaccount">My Account</a></li>
                     <li><a href="/contact-us">Contact us</a></li>
                     <li><a href="/webchat">Web Chat</a></li>
+                    <li><a href="/crash-guide">Crash Guide</a></li>
                     <li><a href="/make-a-claim">Make a claim</a></li>
                     <li><a href="/sitemap">Sitemap</a></li>
 
