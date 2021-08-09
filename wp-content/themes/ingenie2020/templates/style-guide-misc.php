@@ -15,17 +15,17 @@ hljs.highlightAll();
 </script>
 <!-- END: Highlight the code examples -->
 
-<div class="fixed right-0 top-0 show-source z-100">
+<!-- <div class="fixed right-0 top-0 show-source z-100 cursor-pointer">
     <div
-        class="absolute text-xs text-white font-semibold pre z-100 transform rotate-45 h-40 pt-4 text-center leading-none">
+        class="absolute text-xs text-white font-semibold pre z-100 transform rotate-45 h-40 pt-4 text-center leading-none cursor-pointer">
         <span class="text-2xl">[</span>
-        <span id="toggle">View Code</span>
+        <span id="toggle">Show Code</span>
         <span class="text-2xl">]</span>
     </div>
     <div class="w-32 overflow-hidden inline-block">
         <div class="h-52 bg-ig-blue-600 -rotate-45 transform origin-top-left"></div>
     </div>
-</div>
+</div> -->
 
 <div class="bg-ig-li-blue-500 text-center p-8 my-4">
     <h1 class="pt-4 text-center">Styleguide - Layouts</h1>
@@ -34,59 +34,16 @@ hljs.highlightAll();
         purging of the Tailwind CSS framework to reduce file sizes in production builds.</h5>
 
     <div class="max-w-3xl m-auto py-10">
-        <!-- <a class="inline-block filter primary-btn my-1" href="#fonts">Fonts</a>
-        <a class="inline-block filter primary-btn my-1" href="#smallprint">Small Print</a>
-        <a class="inline-block filter primary-btn my-1" href="#links">Buttons</a>
-        <a class="inline-block filter primary-btn my-1" href="#cards">Cards</a>
-        <a class="inline-block filter primary-btn my-1" href="#notifications">Notifications</a>
-        <a class="inline-block filter primary-btn my-1" href="#trustpilot">Trust Pilot</a>
-        <a class="inline-block filter primary-btn my-1" href="#accordians">Accordians</a>
-        <a class="inline-block filter primary-btn my-1" href="#modals">Modals</a>
-        <a class="inline-block filter primary-btn my-1" href="#carousels">Carousels</a>
-        <a class="inline-block filter primary-btn my-1" href="#hero">Hero Banners</a>
-        <a class="inline-block filter primary-btn my-1" href="#video">Video</a> -->
         <a class="inline-block filter primary-btn my-1" href="#misc">Misc</a>
 
-        <!-- External guides -->
-        <a class="inline-flex filter secondary-btn my-1" href="/styleguide-stats" target="_blank">
-            <span>Site Stats</span>
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 btn-icon-right" viewBox="0 0 20 20"
-                fill="currentColor">
-                <path
-                    d="M11 3a1 1 0 100 2h2.586l-6.293 6.293a1 1 0 101.414 1.414L15 6.414V9a1 1 0 102 0V4a1 1 0 00-1-1h-5z" />
-                <path d="M5 5a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2v-3a1 1 0 10-2 0v3H5V7h3a1 1 0 000-2H5z" />
+        <a class="inline-flex filter secondary-btn my-1" href="/styleguide">
+            <span>Back</span>
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 btn-icon-right" fill="none" viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
             </svg>
         </a>
-
-        <a class="inline-flex filter secondary-btn my-1" href="/styleguide-components" target="_blank">
-            <span>Components</span>
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 btn-icon-right" viewBox="0 0 20 20"
-                fill="currentColor">
-                <path
-                    d="M11 3a1 1 0 100 2h2.586l-6.293 6.293a1 1 0 101.414 1.414L15 6.414V9a1 1 0 102 0V4a1 1 0 00-1-1h-5z" />
-                <path d="M5 5a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2v-3a1 1 0 10-2 0v3H5V7h3a1 1 0 000-2H5z" />
-            </svg>
-        </a>
-
-        <a class="inline-flex filter secondary-btn my-1" href="/styleguide-landing-pages" target="_blank">
-            <span>Landing Pages</span>
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 btn-icon-right" viewBox="0 0 20 20"
-                fill="currentColor">
-                <path
-                    d="M11 3a1 1 0 100 2h2.586l-6.293 6.293a1 1 0 101.414 1.414L15 6.414V9a1 1 0 102 0V4a1 1 0 00-1-1h-5z" />
-                <path d="M5 5a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2v-3a1 1 0 10-2 0v3H5V7h3a1 1 0 000-2H5z" />
-            </svg>
-        </a>
-
-        <!-- <a class="inline-flex filter secondary-btn my-1" href="/styleguide-misc" target="_blank">
-            <span>Misc</span>
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 btn-icon-right" viewBox="0 0 20 20"
-                fill="currentColor">
-                <path
-                    d="M11 3a1 1 0 100 2h2.586l-6.293 6.293a1 1 0 101.414 1.414L15 6.414V9a1 1 0 102 0V4a1 1 0 00-1-1h-5z" />
-                <path d="M5 5a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2v-3a1 1 0 10-2 0v3H5V7h3a1 1 0 000-2H5z" />
-            </svg>
-        </a> -->
 
     </div>
 
