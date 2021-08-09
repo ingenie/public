@@ -151,11 +151,13 @@ return $obd_trakm8_email;
 // INGENIE CONTACT STATS
 //
 // ------------------------
-function ig_main_number($atts)
+function ig_main_yd_number($atts)
 {
-$ig_main_number = "<a href='tel:0330 678 0652' class='primary-link-sm inline-flex MAIN-TEL'>0330 678 0652</a>";
-return $ig_main_number;
+$ig_main_yd_number = "<a href='tel:0330 303 0021' class='primary-link-sm inline-flex MAIN-TEL'>0330 303 0021</a>";
+return $ig_main_yd_number;
 }
+
+
 
 // ------------------------
 //
@@ -182,6 +184,29 @@ $ig_instagram_account = "<a class='primary-link-sm' href='https://www.instagram.
 return $ig_instagram_account;
 }
 
+// ------------------------
+//
+// Blog URLS
+//
+// ------------------------
+
+function ig_blog_url($atts)
+{
+$ig_blog_url = "https://www.ingenie.com/blog";
+return $ig_blog_url;
+}
+
+function ig_young_drivers_guide_url($atts)
+{
+$ig_young_drivers_guide_url = "https://www.ingenie.com/young-drivers-guide";
+return $ig_young_drivers_guide_url;
+}
+
+function ig_parents_guide_url($atts)
+{
+$ig_parents_guide_url = "https://www.ingenie.com/parents-guide";
+return $ig_parents_guide_url;
+}
 
 
 
@@ -214,8 +239,12 @@ add_shortcode('yd_sp_top_up_miles_txt', 'yd_sp_top_up_miles_txt');
 add_shortcode('obd_help_number', 'obd_help_number');
 add_shortcode('obd_trakm8_email', 'obd_trakm8_email');
 
-add_shortcode('ig_main_number', 'ig_main_number');
+add_shortcode('ig_main_yd_number', 'ig_main_yd_number');
 
 add_shortcode('ig_facebook_account', 'ig_facebook_account');
 add_shortcode('ig_twitter_account', 'ig_twitter_account');
 add_shortcode('ig_instagram_account', 'ig_instagram_account');
+
+add_shortcode('ig_blog_url', 'ig_blog_url');
+add_shortcode('ig_young_drivers_guide_url', 'ig_young_drivers_guide_url');
+add_shortcode('ig_parents_guide_url', 'ig_parents_guide_url');
