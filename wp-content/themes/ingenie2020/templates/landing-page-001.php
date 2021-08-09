@@ -227,7 +227,8 @@ function copyCodeTemplate() {
     <div class="w-full sm:w-1/2 lg:w-1/3">
         <div class="standard-card p-0 relative">
 
-            <a href="#"><img class="object-cover object-center w-full h-40 md:w-full md:h-32"
+            <a href="<?php echo do_shortcode("[ig_young_drivers_guide_url]"); ?>"><img
+                    class="object-cover object-center w-full h-40 md:w-full md:h-32"
                     src="/resources/img/pages/misc/ydg-header.jpg" alt="alt text">
             </a>
 
@@ -241,7 +242,7 @@ function copyCodeTemplate() {
                 </p>
 
                 <span class="text-ig-blue-500 right-0 bottom-0 pb-1 pr-2 absolute">
-                    <a href="#">
+                    <a href="<?php echo do_shortcode("[ig_young_drivers_guide_url]"); ?>">
                         <svg class="w-4 h-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
                             <path fill-rule="evenodd"
                                 d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
@@ -256,7 +257,8 @@ function copyCodeTemplate() {
     <div class="w-full sm:w-1/2 lg:w-1/3">
         <div class="standard-card p-0 relative">
 
-            <a href="#"><img class="object-cover object-center w-full h-40 md:w-full md:h-32"
+            <a href="<?php echo do_shortcode("[ig_parents_guide_url]"); ?>"><img
+                    class="object-cover object-center w-full h-40 md:w-full md:h-32"
                     src="/resources/img/pages/misc/pg-header.jpg" alt="alt text">
             </a>
 
@@ -271,7 +273,7 @@ function copyCodeTemplate() {
                 </p>
 
                 <span class="text-ig-blue-500 right-0 bottom-0 pb-1 pr-2 absolute">
-                    <a href="#">
+                    <a href="<?php echo do_shortcode("[ig_parents_guide_url]"); ?>">
                         <svg class="w-4 h-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
                             <path fill-rule="evenodd"
                                 d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
@@ -286,7 +288,8 @@ function copyCodeTemplate() {
     <div class="w-full sm:w-1/2 lg:w-1/3">
         <div class="standard-card p-0 relative">
 
-            <a href="#"><img class="object-cover object-center w-full h-40 md:w-full md:h-32"
+            <a href="<?php echo do_shortcode("[ig_blog_url]"); ?>"><img
+                    class="object-cover object-center w-full h-40 md:w-full md:h-32"
                     src="/resources/img/pages/misc/blog-header.jpg" alt="alt text">
             </a>
 
@@ -300,7 +303,7 @@ function copyCodeTemplate() {
                 </p>
 
                 <span class="text-ig-blue-500 right-0 bottom-0 pb-1 pr-2 absolute">
-                    <a href="#">
+                    <a href="<?php echo do_shortcode("[ig_blog_url]"); ?>">
                         <svg class="w-4 h-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
                             <path fill-rule="evenodd"
                                 d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
@@ -315,7 +318,7 @@ function copyCodeTemplate() {
 <!-- END OF TEMPLATE -->
 
 <!-- Hidden copy code -->
-<textarea id="duplicateCode" style="visibility:hidden; height:0px; width:0px;">
+<textarea id="duplicateCode" style="height:1px; width:1px;">
 <section class="hidden md:block hero h-72 bg-center bg-no-repeat" style="
     background-image:url(https://dummyimage.com/280x280/999999/d2d2d2), url(https://dummyimage.com/280x280/999999/d2d2d2), url(https://dummyimage.com/1920x300/878787/d1d1d1); 
     background-position: left, right, center;
@@ -499,93 +502,93 @@ function copyCodeTemplate() {
 
 <section class="flex flex-wrap justify-center p-10">
 
-    <div class="w-full sm:w-1/2 lg:w-1/3">
-        <div class="standard-card p-0 relative">
+	<div class="w-full sm:w-1/2 lg:w-1/3">
+		<div class="standard-card p-0 relative">
 
-            <a href="#"><img class="object-cover object-center w-full h-40 md:w-full md:h-32"
-                    src="/resources/img/pages/misc/ydg-header.jpg" alt="alt text">
-            </a>
+			<a href="[ig_young_driver_guide_url]"><img class="object-cover object-center w-full h-40 md:w-full md:h-32"
+							 src="/resources/img/pages/misc/ydg-header.jpg" alt="alt text">
+			</a>
 
-            <div class="p-4 pt-1">
-                <div class="h-12">
-                    <h4 class="heading-4 my-2 min-h-full p-0">ingenie - Young Driver Guide</h4>
-                </div>
+			<div class="p-4 pt-1">
+				<div class="h-12">
+					<h4 class="heading-4 my-2 min-h-full p-0">ingenie - Young Driver Guide</h4>
+				</div>
 
-                <p class="block leading-snug text-sm pr-3">
-                    Just head to our Young Driver’s Guide for all the learner advice you need to get road-ready.
-                </p>
+				<p class="block leading-snug text-sm pr-3">
+					Just head to our Young Driver’s Guide for all the learner advice you need to get road-ready.
+				</p>
 
-                <span class="text-ig-blue-500 right-0 bottom-0 pb-1 pr-2 absolute">
-                    <a href="#">
-                        <svg class="w-4 h-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
-                            <path fill-rule="evenodd"
-                                d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
-                                clip-rule="evenodd" />
-                        </svg>
-                    </a>
-                </span>
-            </div>
-        </div>
-    </div>
+				<span class="text-ig-blue-500 right-0 bottom-0 pb-1 pr-2 absolute">
+					<a href="[ig_young_driver_guide_url]">
+						<svg class="w-4 h-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+							<path fill-rule="evenodd"
+								  d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
+								  clip-rule="evenodd" />
+						</svg>
+					</a>
+				</span>
+			</div>
+		</div>
+	</div>
 
-    <div class="w-full sm:w-1/2 lg:w-1/3">
-        <div class="standard-card p-0 relative">
+	<div class="w-full sm:w-1/2 lg:w-1/3">
+		<div class="standard-card p-0 relative">
 
-            <a href="#"><img class="object-cover object-center w-full h-40 md:w-full md:h-32"
-                    src="/resources/img/pages/misc/pg-header.jpg" alt="alt text">
-            </a>
+			<a href="[ig_parents_guide_url]"><img class="object-cover object-center w-full h-40 md:w-full md:h-32"
+							 src="/resources/img/pages/misc/pg-header.jpg" alt="alt text">
+			</a>
 
-            <div class="p-4 pt-1">
-                <div class="h-12">
-                    <h4 class="heading-4 my-2 min-h-full p-0">ingenie - Parents Guide</h4>
-                </div>
+			<div class="p-4 pt-1">
+				<div class="h-12">
+					<h4 class="heading-4 my-2 min-h-full p-0">ingenie - Parents Guide</h4>
+				</div>
 
-                <p class="block leading-snug text-sm pr-3">
-                    Just head to our Parents Guide for all the advice you may need to help your budding
-                    learner.
-                </p>
+				<p class="block leading-snug text-sm pr-3">
+					Just head to our Parents Guide for all the advice you may need to help your budding
+					learner.
+				</p>
 
-                <span class="text-ig-blue-500 right-0 bottom-0 pb-1 pr-2 absolute">
-                    <a href="#">
-                        <svg class="w-4 h-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
-                            <path fill-rule="evenodd"
-                                d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
-                                clip-rule="evenodd" />
-                        </svg>
-                    </a>
-                </span>
-            </div>
-        </div>
-    </div>
+				<span class="text-ig-blue-500 right-0 bottom-0 pb-1 pr-2 absolute">
+					<a href="[ig_parents_guide_url]">
+						<svg class="w-4 h-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+							<path fill-rule="evenodd"
+								  d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
+								  clip-rule="evenodd" />
+						</svg>
+					</a>
+				</span>
+			</div>
+		</div>
+	</div>
 
-    <div class="w-full sm:w-1/2 lg:w-1/3">
-        <div class="standard-card p-0 relative">
+	<div class="w-full sm:w-1/2 lg:w-1/3">
+		<div class="standard-card p-0 relative">
 
-            <a href="#"><img class="object-cover object-center w-full h-40 md:w-full md:h-32"
-                    src="/resources/img/pages/misc/blog-header.jpg" alt="alt text">
-            </a>
+			<a href="[ig_blog_url]"><img class="object-cover object-center w-full h-40 md:w-full md:h-32"
+							 src="/resources/img/pages/misc/blog-header.jpg" alt="alt text">
+			</a>
 
-            <div class="p-4 pt-1">
-                <div class="h-12">
-                    <h4 class="heading-4 my-2 min-h-full p-0">ingenie - Lifestyle</h4>
-                </div>
+			<div class="p-4 pt-1">
+				<div class="h-12">
+					<h4 class="heading-4 my-2 min-h-full p-0">ingenie - Lifestyle</h4>
+				</div>
 
-                <p class="block leading-snug text-sm pr-3">
-                    Steer towards our lifestyle blog to see whats new at ingenie and insurance as a whole.
-                </p>
+				<p class="block leading-snug text-sm pr-3">
+					Steer towards our lifestyle blog to see whats new at ingenie and insurance as a whole.
+				</p>
 
-                <span class="text-ig-blue-500 right-0 bottom-0 pb-1 pr-2 absolute">
-                    <a href="#">
-                        <svg class="w-4 h-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
-                            <path fill-rule="evenodd"
-                                d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
-                                clip-rule="evenodd" />
-                        </svg>
-                    </a>
-                </span>
-            </div>
-        </div>
-    </div>
+				<span class="text-ig-blue-500 right-0 bottom-0 pb-1 pr-2 absolute">
+					<a href="[ig_blog_url]">
+						<svg class="w-4 h-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+							<path fill-rule="evenodd"
+								  d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
+								  clip-rule="evenodd" />
+						</svg>
+					</a>
+				</span>
+			</div>
+		</div>
+	</div>
 </section>
 </textarea>
 
@@ -598,10 +601,12 @@ function copyCodeTemplate() {
                 d="M10 14l2-2m0 0l2-2m-2 2l-2-2m2 2l2 2m7-2a9 9 0 11-18 0 9 9 0 0118 0z" />
         </svg>
     </button>
-    <h2 class="heading-2">Success</h2>
+    <h2 class="heading-2">Good Job!</h2>
     <div class="p-1">
-        <p class="p-2">Copied code to template successfully.</p>
-        <p class="p-2">Copy into content editor on you new landing page to start with fresh template.</p>
+        <?php echo do_shortcode("[get-message color='success' message='Copied code to template 001 successfully']"); ?>
+        <p class="p-2 text-sm">To start with fresh template, paste into Wordpress content editor on your new landing
+            page to get started.</p>
+        <?php echo do_shortcode("[get-message color='info' message='NOTE: New landing pages should start with: <span class=\"font-bold\">Landing Pages</span> category selected & <span class=\"font-bold\">Landing Pages Template</span> page attribute selected. Ask developer if unsure.']"); ?>
     </div>
     <button class="close-modal inline-flex primary-btn my-2 mx-auto">Close</button>
 </div>
