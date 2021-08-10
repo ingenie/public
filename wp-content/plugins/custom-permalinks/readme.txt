@@ -1,15 +1,16 @@
 === Custom Permalinks ===
-Contributors: sasiddiqui, michaeltyson
+Contributors: sasiddiqui
 Tags: permalink, url, link, address, custom, redirect, custom post type, GDPR, GDPR Compliant
-Requires at least: 2.6
-Tested up to: 5.5
-Stable tag: 1.7.1
+Tested up to: 5.8
+Stable tag: 2.1.0
 License: GPLv3
-License URI: https://www.gnu.org/licenses/gpl.html
+License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
 Set custom permalinks on a per-post, per-tag or per-category basis.
 
 == Description ==
+
+> Incase of found any site breaking issue after upgrading to the latest version then please report the issue on [WordPress Forum](https://wordpress.org/support/plugin/custom-permalinks/) OR [GitHub](https://github.com/samiahmedsiddiqui/custom-permalinks) with complete information to reproduce the issue and move back to the old version. You can download any of the old version from here: https://wordpress.org/plugins/custom-permalinks/advanced/
 
 Lay out your site the way *you* want it. Set the URL of any post, page, tag or category to anything you want. Old permalinks will redirect properly to the new address. Custom Permalinks give you ultimate control over your site structure.
 
@@ -18,25 +19,6 @@ Lay out your site the way *you* want it. Set the URL of any post, page, tag or c
 This plugin is only useful for assigning custom permalinks for *individual* posts, pages, tags or categories. It will not apply whole permalink structures or automatically apply a category's custom permalink to the posts within that category.
 
 > If anyone wants the different Structure Tags for their Post types or use symbols in the URLs So, use the [Permalinks Customizer](https://wordpress.org/plugins/permalinks-customizer/) which is a fork of this plugin and contains the enhancement of this plugin.
-
-=== Unsupported Characters ===
-
-Following characters are no longer allowed in the permalinks.
-
-* `<`
-* `>`
-* `{`
-* `}`
-* `|`
-* <code>`</code>
-* `^`
-* `\`
-* `(`
-* `)`
-* `[`
-* `]`
-
-> Permalinks created previously using any of these characters will not be affected in anyway. However, new permalinks will not support the use of these characters as they are not considered to be safe.
 
 == Privacy Policy ==
 
@@ -60,47 +42,44 @@ To have any kind of query please feel free to [contact us](https://www.customper
 add_filter( 'custom_permalinks_path_info', '__return_true' );
 `
 
-=== Disable redirects ===
+=== Disable Redirects ===
 
 To disable complete redirects functionality provided by this plugin, add the filter that looks like this:
 
 `
-function yasglobal_avoid_redirect( $permalink )
-{
-    return true;
+function yasglobal_avoid_redirect( $permalink ) {
+  return true;
 }
 add_filter( 'custom_permalinks_avoid_redirect', 'yasglobal_avoid_redirect' );
 `
 
-=== Disable specific redirects ===
+=== Disable Particular Redirects ===
 
 To disable any specific redirect to be processed by this plugin, add the filter that looks like this:
 
 `
-function yasglobal_avoid_redirect( $permalink )
-{
-    // Replace 'testing-hello-world/' with the permalink you want to avoid
-    if ( 'testing-hello-world/' === $permalink ) {
-        return true;
-    }
+function yasglobal_avoid_redirect( $permalink ) {
+  // Replace 'testing-hello-world/' with the permalink you want to avoid
+  if ( 'testing-hello-world/' === $permalink ) {
+    return true;
+  }
 
-    return false;
+  return false;
 }
 add_filter( 'custom_permalinks_avoid_redirect', 'yasglobal_avoid_redirect' );
 `
 
-=== Exclude permalink to be processed ===
+=== Exclude Permalink to be processed ===
 
 To exclude any Permalink to be processed by the plugin, add the filter that looks like this:
 
 `
-function yasglobal_xml_sitemap_url( $permalink )
-{
-    if ( false !== strpos( $permalink, 'sitemap.xml' ) ) {
-        return '__true';
-    }
+function yasglobal_xml_sitemap_url( $permalink ) {
+  if ( false !== strpos( $permalink, 'sitemap.xml' ) ) {
+    return '__true';
+  }
 
-    return;
+  return;
 }
 add_filter( 'custom_permalinks_request_ignore', 'yasglobal_xml_sitemap_url' );
 `
@@ -110,35 +89,72 @@ add_filter( 'custom_permalinks_request_ignore', 'yasglobal_xml_sitemap_url' );
 To remove custom permalink **form** from any post type, add the filter that looks like this:
 
 `
-function yasglobal_exclude_post_types( $post_type )
-{
-    // Replace 'custompost' with your post type name
-    if ( 'custompost' === $post_type ) {
-        return '__true';
-    }
+function yasglobal_exclude_post_types( $post_type ) {
+  // Replace 'custompost' with your post type name
+  if ( 'custompost' === $post_type ) {
+    return '__true';
+  }
 
-    return '__false';
+  return '__false';
 }
 add_filter( 'custom_permalinks_exclude_post_type', 'yasglobal_exclude_post_types' );
 `
 
 === Exclude Posts ===
 
-To exclude custom permalink **form**  from any posts (based on ID, Template, etc), add the filter that looks like this:
+To exclude custom permalink **form** from any posts (based on ID, Template, etc), add the filter that looks like this:
 
 `
-function yasglobal_exclude_posts( $post )
-{
-    if ( 1557 === $post->ID ) {
-        return true;
-    }
+function yasglobal_exclude_posts( $post ) {
+  if ( 1557 === $post->ID ) {
+    return true;
+  }
 
-    return false;
+  return false;
 }
 add_filter( 'custom_permalinks_exclude_posts', 'yasglobal_exclude_posts' );
 `
 
-=== Remove `like` query ===
+=== Allow Accents Letters ===
+
+To allow accents letters, please add below-mentioned line in your theme `functions.php`:
+
+`
+function yasglobal_permalink_allow_accents() {
+  return true;
+}
+add_filter( 'custom_permalinks_allow_accents', 'yasglobal_permalink_allow_accents' );
+`
+
+=== Allow Uppercase Letters ===
+
+To allow uppercase letters/words, please add below-mentioned line in your theme `functions.php`:
+
+`
+function yasglobal_allow_uppercaps() {
+  return true;
+}
+add_filter( 'custom_permalinks_allow_caps', 'yasglobal_allow_uppercaps' );
+`
+
+=== Manipulate Permalink Before Saving ===
+
+To make changes in permalink before saving, please use `custom_permalink_before_saving` filter. Here is an example to see how it works.
+
+`
+function yasglobal_permalink_before_saving( $permalink, $post_id ) {
+  // Check trialing slash in the permalink.
+  if ( substr( $permalink, -1 ) !== '/' ) {
+    // If permalink doesn't contain trialing slash then add one.
+    $permalink .= '/';
+  }
+
+  return $permalink;
+}
+add_filter( 'custom_permalink_before_saving', 'yasglobal_permalink_before_saving', 10, 2 );
+`
+
+=== Remove `like` Query ===
 
 To remove `like` query to being work, add below-mentioned line in your theme `functions.php`:
 `
@@ -149,8 +165,7 @@ Note: Use `custom_permalinks_like_query` filter if the URLs doesn't works for yo
 
 === Thanks for the Support ===
 
-I do not always provide active support for the Custom Permalinks plugin on the WordPress.org forums, as I have prioritized the email support.
-One-on-one email support is available to people who bought [Custom Permalinks Premium](https://www.custompermalinks.com/#pricing-section) only.
+I do not always provide active support for the Custom Permalinks plugin on the WordPress.org forums, as I have prioritized the email support. One-on-one email support is available to people who bought [Custom Permalinks Premium](https://www.custompermalinks.com/#pricing-section) only.
 
 === Bug reports ===
 
@@ -173,50 +188,37 @@ This process defines you the steps to follow either you are installing through W
 
 == Changelog ==
 
-= 1.7.1 - Aug 30, 2020 =
+= 2.1.0 - Aug 09, 2021 =
 
-  * Bugs
-    * Fix PHP notice (start reporting with WordPress 5.5)
+* Bugs
+  * [Plugin not save persian alphabet](https://wordpress.org/support/topic/plugin-not-save-persian-alphabet/)
+  * Fix PHP Error on Deactivating the plugin
+* Enhancements
+  * Exclude processing for sitemap URLs
 
-= 1.7.0 - Aug 20, 2020 =
+= 2.0.1 - Aug 02, 2021 =
 
-  * Bugs
-    * [Paged NextGen Galleries Broken with Custom Permalinks 1.62](https://github.com/samiahmedsiddiqui/custom-permalinks/issues/38)
-    * [custom permalink issue with weglot](https://wordpress.org/support/topic/custom-permalink-issue-with-weglot/)
-    * [Permalinks reverting back to old ones](https://wordpress.org/support/topic/permalinks-reverting-back-to-old-ones/)
-    * [A problem with wrongly deleted permalinks](https://wordpress.org/support/topic/a-problem-with-wrongly-deleted-permalinks/)
-  * Enhancements
-    * [Enhanced security through characters restriction](https://github.com/samiahmedsiddiqui/custom-permalinks#unsupported-characters)
-    * Introduce filter to disable specific redirect(s) or complete functionality
-    * Automatic replacement of upper case letters to lower case
+* Bugs
+  * [404 error when post/page custom permalink is part of category custom permalink](https://github.com/samiahmedsiddiqui/custom-permalinks/issues/49)
 
-= 1.6.2 - Aug 10, 2020 =
+= 2.0.0 - Jul 30, 2021 =
 
-  * Bugs
-    * Forgot to update the version in CSS and JS files in `v1.6.1`
-
-= 1.6.1 - Aug 10, 2020 =
-
-  * Bugs
-    * Avoid caching issue by adding version as suffix in CSS and JS files
-
-= 1.6.0 - Aug 08, 2020 =
-
-  * Bugs
-    * [Undefined index and undefined variable error](https://github.com/samiahmedsiddiqui/custom-permalinks/issues/28)
-    * [count(): Parameter must be an array or an object](https://github.com/samiahmedsiddiqui/custom-permalinks/issues/27)
-    * Fix double slash from the permalink form
-    * [use 'view_item' label for previewing custom post types](https://github.com/samiahmedsiddiqui/custom-permalinks/issues/31)
-    * [Fix PHP 7.4 issues](https://github.com/samiahmedsiddiqui/custom-permalinks/issues/32)
-    * Fix Yoast Canonical double slash issue
-    * [Replacing category_link with term_link](https://github.com/samiahmedsiddiqui/custom-permalinks/issues/34)
-    * [Bug with WPML and Use directory for default language](https://github.com/samiahmedsiddiqui/custom-permalinks/issues/36)
-    * Fix Static Homepage redirect issue
-  * Enhancements
-    * Improved Gutenberg Support
-    * Added compatibility for WPML language switcher
-    * Add filter to exclude Custom Permalinks for certain posts (based on Post IDs, template, etc)
-    * Optimized Code
+* Bugs
+  * [Bug with AMP plugin](https://wordpress.org/support/topic/bug-with-amp-plugin/)
+  * [Oembed links not working](https://wordpress.org/support/topic/oembed-links-not-working/)
+  * [Uncaught (in promise) TypeError: getHomeURL is null](https://wordpress.org/support/topic/uncaught-in-promise-typeerror-gethomeurl-is-null/)
+  * [Plugin stop saving uppercase slugs](https://wordpress.org/support/topic/plugin-stop-saving-upppercase-slugs/)
+  * [template_redirect](https://wordpress.org/support/topic/make-redirect/)
+  * conflict with WooCommerce Paid courses
+  * Fix creating duplicated permalink while creating multiple `Categories` and/or `Tags`
+* Enhancements
+  * Added Query caching to improve performance
+  * Changed Permalink sanitization method (Similar way as WP does)
+  * Added Nonce verification to make forms secure
+  * [Permalink Filter before saving](https://wordpress.org/support/topic/permalink-filter/)
+  * Show/Hide column and Pagination features added on Post Type Permalinks and Taxonomies Permalinks page
+  * Removed deprecated functions
+  * Applied WPCS Standards
 
 = Earlier versions =
 
