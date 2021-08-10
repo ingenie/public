@@ -25,6 +25,3 @@
     </div>
 
 </header>
-
-<? // <?php get_template_part('templates/partials/navbar', 'main'); 
-?>
