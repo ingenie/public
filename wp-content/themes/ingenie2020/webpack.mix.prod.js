@@ -76,7 +76,13 @@ mix.purgeCss({
     /gap-2/,
     /pl-3/,
     /text-5xl/,
-    /scale-100/
+    /scale-100/,
+    /lg:text-center/,
+    /md:text-sm/,
+    /lg:text-xl/,
+    /lg:max-w-lg/,
+    /top-44/,
+    /md:pt-36/
   ]
 
 });

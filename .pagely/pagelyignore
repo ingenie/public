@@ -1,10 +1,2 @@
-/wp-content/plugins/all-in-one-wp-migration/***
-/wp-content/plugins/classic-editor/***
-/wp-content/plugins/custom-permalinks/***
-/wp-content/plugins/debug-bar/***
-/wp-content/plugins/duplicate-menu/***
-/wp-content/plugins/duplicate-post/***
-/wp-content/plugins/html-editor-syntax-highlighter/***
-/wp-content/plugins/pages-with-category-and-tag/***
-/wp-content/plugins/regenerate-thumbnails/***
-/wp-content/plugins/wpsitesynccontent/***
+/wp-content/plugins/***
+!/wp-content/plugins/ingenie-stats
