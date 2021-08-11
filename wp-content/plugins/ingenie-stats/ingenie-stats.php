@@ -153,8 +153,16 @@ return $obd_trakm8_email;
 // ------------------------
 function ig_main_yd_number($atts)
 {
-$ig_main_yd_number = "<a href='tel:0330 303 0021' class='primary-link-sm inline-flex MAIN-TEL'>0330 303 0021</a>";
+$ig_main_yd_number = "<a href='tel:0330 303 0021' class='primary-link-sm tel inline-flex MAIN-TEL MAKE-CLAIM-BB'>0330
+    303 0021</a>";
 return $ig_main_yd_number;
+}
+
+function ig_windscreen_yd_number($atts)
+{
+$ig_windscreen_yd_number = "<a href='tel:0330 303 0024' class='primary-link-sm tel inline-flex MAKE-CLAIM-WS'>0330 303
+    0024</a>";
+return $ig_windscreen_yd_number;
 }
 
 
@@ -240,6 +248,7 @@ add_shortcode('obd_help_number', 'obd_help_number');
 add_shortcode('obd_trakm8_email', 'obd_trakm8_email');
 
 add_shortcode('ig_main_yd_number', 'ig_main_yd_number');
+add_shortcode('ig_windscreen_yd_number', 'ig_windscreen_yd_number');
 
 add_shortcode('ig_facebook_account', 'ig_facebook_account');
 add_shortcode('ig_twitter_account', 'ig_twitter_account');

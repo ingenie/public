@@ -82,7 +82,9 @@ mix.purgeCss({
     /lg:text-xl/,
     /lg:max-w-lg/,
     /top-44/,
-    /md:pt-36/
+    /md:pt-36/,
+    /h-96/,
+    /top-60/
   ]
 
 });
